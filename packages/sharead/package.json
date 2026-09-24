@@ -11,6 +11,6 @@
         "typescript": "^5.5.0"
     },
     "dependencies": {
-        "typeorm": "^1.1.1"
+        "typeorm": "0.3.31"
     }
 }
