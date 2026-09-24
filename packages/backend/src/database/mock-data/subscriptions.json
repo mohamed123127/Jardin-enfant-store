@@ -1,0 +1,72 @@
+[
+    {
+        "tenantId": 1,
+        "planId": 1,
+        "status": "active",
+        "startDate": "2026-01-01T00:00:00.000Z",
+        "endDate": "2026-12-31T23:59:59.000Z"
+    },
+    {
+        "tenantId": 2,
+        "planId": 2,
+        "status": "active",
+        "startDate": "2026-01-01T00:00:00.000Z",
+        "endDate": "2026-12-31T23:59:59.000Z"
+    },
+    {
+        "tenantId": 3,
+        "planId": 3,
+        "status": "active",
+        "startDate": "2026-01-01T00:00:00.000Z",
+        "endDate": "2026-12-31T23:59:59.000Z"
+    },
+    {
+        "tenantId": 4,
+        "planId": 4,
+        "status": "active",
+        "startDate": "2026-01-01T00:00:00.000Z",
+        "endDate": "2026-12-31T23:59:59.000Z"
+    },
+    {
+        "tenantId": 5,
+        "planId": 2,
+        "status": "active",
+        "startDate": "2026-01-01T00:00:00.000Z",
+        "endDate": "2026-12-31T23:59:59.000Z"
+    },
+    {
+        "tenantId": 6,
+        "planId": 3,
+        "status": "active",
+        "startDate": "2026-01-01T00:00:00.000Z",
+        "endDate": "2026-12-31T23:59:59.000Z"
+    },
+    {
+        "tenantId": 7,
+        "planId": 1,
+        "status": "active",
+        "startDate": "2026-01-01T00:00:00.000Z",
+        "endDate": "2026-12-31T23:59:59.000Z"
+    },
+    {
+        "tenantId": 8,
+        "planId": 2,
+        "status": "active",
+        "startDate": "2026-01-01T00:00:00.000Z",
+        "endDate": "2026-12-31T23:59:59.000Z"
+    },
+    {
+        "tenantId": 9,
+        "planId": 3,
+        "status": "active",
+        "startDate": "2026-01-01T00:00:00.000Z",
+        "endDate": "2026-12-31T23:59:59.000Z"
+    },
+    {
+        "tenantId": 10,
+        "planId": 4,
+        "status": "active",
+        "startDate": "2026-01-01T00:00:00.000Z",
+        "endDate": "2026-12-31T23:59:59.000Z"
+    }
+]

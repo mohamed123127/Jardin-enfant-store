@@ -1,0 +1,62 @@
+[
+    {
+        "planId": 1,
+        "resource": "users",
+        "limitValue": 2
+    },
+    {
+        "planId": 1,
+        "resource": "products",
+        "limitValue": 100
+    },
+    {
+        "planId": 1,
+        "resource": "warehouses",
+        "limitValue": 1
+    },
+    {
+        "planId": 2,
+        "resource": "users",
+        "limitValue": 10
+    },
+    {
+        "planId": 2,
+        "resource": "products",
+        "limitValue": 1000
+    },
+    {
+        "planId": 2,
+        "resource": "warehouses",
+        "limitValue": 3
+    },
+    {
+        "planId": 3,
+        "resource": "users",
+        "limitValue": 50
+    },
+    {
+        "planId": 3,
+        "resource": "products",
+        "limitValue": 10000
+    },
+    {
+        "planId": 3,
+        "resource": "warehouses",
+        "limitValue": 10
+    },
+    {
+        "planId": 4,
+        "resource": "users",
+        "limitValue": 999999
+    },
+    {
+        "planId": 4,
+        "resource": "products",
+        "limitValue": 999999
+    },
+    {
+        "planId": 4,
+        "resource": "warehouses",
+        "limitValue": 999999
+    }
+]

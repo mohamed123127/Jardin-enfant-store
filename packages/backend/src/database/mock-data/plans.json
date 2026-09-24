@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Free",
+        "description": "Free plan for small businesses",
+        "price": 0,
+        "billingCycle": "monthly",
+        "isActive": true
+    },
+    {
+        "name": "Basic",
+        "description": "Basic plan",
+        "price": 1990,
+        "billingCycle": "monthly",
+        "isActive": true
+    },
+    {
+        "name": "Pro",
+        "description": "Professional plan",
+        "price": 4990,
+        "billingCycle": "monthly",
+        "isActive": true
+    },
+    {
+        "name": "Enterprise",
+        "description": "Enterprise plan",
+        "price": 9990,
+        "billingCycle": "monthly",
+        "isActive": true
+    }
+]

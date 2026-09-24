@@ -1,0 +1,182 @@
+[
+    {
+        "firstName": "Mohamed",
+        "lastName": "Benali",
+        "email": "mohamed.benali@example.com",
+        "password": "Password123!",
+        "phone": "0550000001",
+        "role": "ADMIN",
+        "tenantId": 1
+    },
+    {
+        "firstName": "Ahmed",
+        "lastName": "Brahimi",
+        "email": "ahmed.brahimi@example.com",
+        "password": "Password123!",
+        "phone": "0550000002",
+        "role": "ADMIN",
+        "tenantId": 2
+    },
+    {
+        "firstName": "Yacine",
+        "lastName": "Mansouri",
+        "email": "yacine.mansouri@example.com",
+        "password": "Password123!",
+        "phone": "0550000003",
+        "role": "ADMIN",
+        "tenantId": 3
+    },
+    {
+        "firstName": "Amine",
+        "lastName": "Saidi",
+        "email": "amine.saidi@example.com",
+        "password": "Password123!",
+        "phone": "0550000004",
+        "role": "ADMIN",
+        "tenantId": 4
+    },
+    {
+        "firstName": "Sofiane",
+        "lastName": "Khelifi",
+        "email": "sofiane.khelifi@example.com",
+        "password": "Password123!",
+        "phone": "0550000005",
+        "role": "ADMIN",
+        "tenantId": 5
+    },
+    {
+        "firstName": "Karim",
+        "lastName": "Bouzid",
+        "email": "karim.bouzid@example.com",
+        "password": "Password123!",
+        "phone": "0550000006",
+        "role": "ADMIN",
+        "tenantId": 6
+    },
+    {
+        "firstName": "Nabil",
+        "lastName": "Hamdi",
+        "email": "nabil.hamdi@example.com",
+        "password": "Password123!",
+        "phone": "0550000007",
+        "role": "ADMIN",
+        "tenantId": 7
+    },
+    {
+        "firstName": "Adel",
+        "lastName": "Meziane",
+        "email": "adel.meziane@example.com",
+        "password": "Password123!",
+        "phone": "0550000008",
+        "role": "ADMIN",
+        "tenantId": 8
+    },
+    {
+        "firstName": "Samir",
+        "lastName": "Cherif",
+        "email": "samir.cherif@example.com",
+        "password": "Password123!",
+        "phone": "0550000009",
+        "role": "ADMIN",
+        "tenantId": 9
+    },
+    {
+        "firstName": "Walid",
+        "lastName": "Ait Ali",
+        "email": "walid.aitali@example.com",
+        "password": "Password123!",
+        "phone": "0550000010",
+        "role": "ADMIN",
+        "tenantId": 10
+    },
+    {
+        "firstName": "Omar",
+        "lastName": "Bensaid",
+        "email": "omar.bensaid@example.com",
+        "password": "Password123!",
+        "phone": "0550000011",
+        "role": "USER",
+        "tenantId": 1
+    },
+    {
+        "firstName": "Bilal",
+        "lastName": "Rahmani",
+        "email": "bilal.rahmani@example.com",
+        "password": "Password123!",
+        "phone": "0550000012",
+        "role": "USER",
+        "tenantId": 2
+    },
+    {
+        "firstName": "Riad",
+        "lastName": "Touati",
+        "email": "riad.touati@example.com",
+        "password": "Password123!",
+        "phone": "0550000013",
+        "role": "USER",
+        "tenantId": 3
+    },
+    {
+        "firstName": "Hakim",
+        "lastName": "Ferhat",
+        "email": "hakim.ferhat@example.com",
+        "password": "Password123!",
+        "phone": "0550000014",
+        "role": "USER",
+        "tenantId": 4
+    },
+    {
+        "firstName": "Youcef",
+        "lastName": "Lounis",
+        "email": "youcef.lounis@example.com",
+        "password": "Password123!",
+        "phone": "0550000015",
+        "role": "USER",
+        "tenantId": 5
+    },
+    {
+        "firstName": "Anis",
+        "lastName": "Guerfi",
+        "email": "anis.guerfi@example.com",
+        "password": "Password123!",
+        "phone": "0550000016",
+        "role": "USER",
+        "tenantId": 6
+    },
+    {
+        "firstName": "Reda",
+        "lastName": "Boukhalfa",
+        "email": "reda.boukhalfa@example.com",
+        "password": "Password123!",
+        "phone": "0550000017",
+        "role": "USER",
+        "tenantId": 7
+    },
+    {
+        "firstName": "Farid",
+        "lastName": "Zerouki",
+        "email": "farid.zerouki@example.com",
+        "password": "Password123!",
+        "phone": "0550000018",
+        "role": "USER",
+        "tenantId": 8
+    },
+    {
+        "firstName": "Kamel",
+        "lastName": "Mokhtar",
+        "email": "kamel.mokhtar@example.com",
+        "password": "Password123!",
+        "phone": "0550000019",
+        "role": "USER",
+        "tenantId": 9
+    },
+    {
+        "firstName": "Ilyes",
+        "lastName": "Belkacem",
+        "email": "ilyes.belkacem@example.com",
+        "password": "Password123!",
+        "phone": "0550000020",
+        "role": "USER",
+        "tenantId": 10
+    }
+]

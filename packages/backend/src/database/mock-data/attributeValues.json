@@ -1,0 +1,653 @@
+{
+    "Color": [
+        "Black",
+        "White",
+        "Red",
+        "Blue",
+        "Green",
+        "Yellow",
+        "Silver",
+        "Gray",
+        "Brown",
+        "Pink"
+    ],
+    "Size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+    ],
+    "Weight": [
+        "100 g",
+        "250 g",
+        "500 g",
+        "1 kg",
+        "2 kg",
+        "5 kg"
+    ],
+    "Length": [
+        "10 cm",
+        "20 cm",
+        "30 cm",
+        "50 cm",
+        "100 cm"
+    ],
+    "Width": [
+        "5 cm",
+        "10 cm",
+        "20 cm",
+        "30 cm"
+    ],
+    "Height": [
+        "5 cm",
+        "10 cm",
+        "20 cm",
+        "50 cm"
+    ],
+    "Material": [
+        "Plastic",
+        "Metal",
+        "Steel",
+        "Aluminum",
+        "Wood",
+        "Glass",
+        "Cotton",
+        "Leather",
+        "Rubber"
+    ],
+    "Brand": [
+        "Apple",
+        "Samsung",
+        "Sony",
+        "Dell",
+        "HP",
+        "Nike",
+        "Adidas",
+        "Puma"
+    ],
+    "Model": [
+        "Basic",
+        "Standard",
+        "Pro",
+        "Ultra",
+        "Plus"
+    ],
+    "Capacity": [
+        "8 GB",
+        "16 GB",
+        "32 GB",
+        "64 GB",
+        "128 GB",
+        "256 GB",
+        "512 GB",
+        "1 TB"
+    ],
+    "Storage": [
+        "128 GB",
+        "256 GB",
+        "512 GB",
+        "1 TB",
+        "2 TB"
+    ],
+    "RAM": [
+        "2 GB",
+        "4 GB",
+        "8 GB",
+        "16 GB",
+        "32 GB",
+        "64 GB"
+    ],
+    "Processor": [
+        "Intel i3",
+        "Intel i5",
+        "Intel i7",
+        "Intel i9",
+        "AMD Ryzen 5",
+        "AMD Ryzen 7",
+        "Apple M1",
+        "Apple M2"
+    ],
+    "Screen Size": [
+        "5.5\"",
+        "6.1\"",
+        "6.7\"",
+        "13\"",
+        "15.6\"",
+        "17\""
+    ],
+    "Resolution": [
+        "HD",
+        "Full HD",
+        "2K",
+        "4K",
+        "8K"
+    ],
+    "Battery Capacity": [
+        "2000 mAh",
+        "3000 mAh",
+        "4000 mAh",
+        "5000 mAh",
+        "6000 mAh"
+    ],
+    "Battery Life": [
+        "4 h",
+        "6 h",
+        "8 h",
+        "10 h",
+        "12 h"
+    ],
+    "Voltage": [
+        "110 V",
+        "220 V",
+        "12 V",
+        "24 V"
+    ],
+    "Power": [
+        "10 W",
+        "20 W",
+        "50 W",
+        "100 W",
+        "500 W"
+    ],
+    "Frequency": [
+        "50 Hz",
+        "60 Hz"
+    ],
+    "Connectivity": [
+        "USB",
+        "Bluetooth",
+        "Wi-Fi",
+        "Ethernet",
+        "NFC"
+    ],
+    "Operating System": [
+        "Windows",
+        "Linux",
+        "Android",
+        "iOS",
+        "macOS"
+    ],
+    "Network": [
+        "2G",
+        "3G",
+        "4G",
+        "5G"
+    ],
+    "Camera Resolution": [
+        "8 MP",
+        "12 MP",
+        "24 MP",
+        "48 MP",
+        "108 MP"
+    ],
+    "Refresh Rate": [
+        "60 Hz",
+        "90 Hz",
+        "120 Hz",
+        "144 Hz"
+    ],
+    "Brightness": [
+        "250 nits",
+        "400 nits",
+        "600 nits",
+        "1000 nits"
+    ],
+    "Contrast Ratio": [
+        "1000:1",
+        "3000:1",
+        "5000:1"
+    ],
+    "Waterproof Rating": [
+        "IPX4",
+        "IPX5",
+        "IPX7",
+        "IPX8"
+    ],
+    "Bluetooth Version": [
+        "4.2",
+        "5.0",
+        "5.1",
+        "5.2",
+        "5.3"
+    ],
+    "Wi-Fi Standard": [
+        "Wi-Fi 4",
+        "Wi-Fi 5",
+        "Wi-Fi 6",
+        "Wi-Fi 6E",
+        "Wi-Fi 7"
+    ],
+    "USB Type": [
+        "USB-A",
+        "USB-B",
+        "USB-C",
+        "Micro USB"
+    ],
+    "HDMI Version": [
+        "1.4",
+        "2.0",
+        "2.1"
+    ],
+    "Warranty": [
+        "6 Months",
+        "1 Year",
+        "2 Years",
+        "3 Years"
+    ],
+    "Country of Origin": [
+        "USA",
+        "China",
+        "Germany",
+        "Japan",
+        "South Korea",
+        "France",
+        "Italy"
+    ],
+    "Manufacturer": [
+        "Samsung",
+        "Apple",
+        "Dell",
+        "HP",
+        "Lenovo",
+        "Sony"
+    ],
+    "Production Date": [
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+    ],
+    "Expiration Date": [
+        "2026",
+        "2027",
+        "2028",
+        "2029"
+    ],
+    "Gender": [
+        "Men",
+        "Women",
+        "Unisex"
+    ],
+    "Age Group": [
+        "Kids",
+        "Teens",
+        "Adults"
+    ],
+    "Style": [
+        "Casual",
+        "Formal",
+        "Sport",
+        "Classic",
+        "Modern"
+    ],
+    "Pattern": [
+        "Solid",
+        "Striped",
+        "Checked",
+        "Printed"
+    ],
+    "Fit": [
+        "Slim",
+        "Regular",
+        "Loose",
+        "Oversized"
+    ],
+    "Sleeve Length": [
+        "Sleeveless",
+        "Short",
+        "Long"
+    ],
+    "Collar Type": [
+        "Round",
+        "Polo",
+        "Shirt",
+        "V-Neck"
+    ],
+    "Neck Style": [
+        "Round",
+        "V-Neck",
+        "Boat",
+        "Square"
+    ],
+    "Waist Size": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+    ],
+    "Inseam": [
+        "28",
+        "30",
+        "32",
+        "34"
+    ],
+    "Shoe Size": [
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+    ],
+    "Heel Height": [
+        "Flat",
+        "2 cm",
+        "5 cm",
+        "8 cm",
+        "10 cm"
+    ],
+    "Closure Type": [
+        "Zipper",
+        "Buttons",
+        "Velcro",
+        "Slip-On",
+        "Lace-Up"
+    ],
+    "Fabric Type": [
+        "Cotton",
+        "Polyester",
+        "Denim",
+        "Linen",
+        "Silk"
+    ],
+    "Texture": [
+        "Smooth",
+        "Rough",
+        "Soft",
+        "Matte",
+        "Glossy"
+    ],
+    "Finish": [
+        "Matte",
+        "Glossy",
+        "Polished",
+        "Brushed"
+    ],
+    "Shape": [
+        "Round",
+        "Square",
+        "Rectangle",
+        "Oval"
+    ],
+    "Volume": [
+        "250 ml",
+        "500 ml",
+        "1 L",
+        "2 L"
+    ],
+    "Flavor": [
+        "Vanilla",
+        "Chocolate",
+        "Strawberry",
+        "Mint"
+    ],
+    "Scent": [
+        "Lavender",
+        "Rose",
+        "Lemon",
+        "Vanilla",
+        "Ocean"
+    ],
+    "Ingredients": [
+        "Sugar",
+        "Salt",
+        "Milk",
+        "Wheat",
+        "Cocoa"
+    ],
+    "Calories": [
+        "50",
+        "100",
+        "200",
+        "300"
+    ],
+    "Protein": [
+        "5 g",
+        "10 g",
+        "20 g"
+    ],
+    "Fat Content": [
+        "0 g",
+        "5 g",
+        "10 g",
+        "20 g"
+    ],
+    "Sugar Content": [
+        "0 g",
+        "5 g",
+        "10 g",
+        "20 g"
+    ],
+    "Sodium Content": [
+        "50 mg",
+        "100 mg",
+        "200 mg"
+    ],
+    "Fiber Content": [
+        "2 g",
+        "5 g",
+        "10 g"
+    ],
+    "Caffeine Content": [
+        "0 mg",
+        "50 mg",
+        "100 mg",
+        "200 mg"
+    ],
+    "Alcohol Content": [
+        "0%",
+        "5%",
+        "12%",
+        "40%"
+    ],
+    "Packaging Type": [
+        "Box",
+        "Bottle",
+        "Can",
+        "Bag",
+        "Tube"
+    ],
+    "Quantity": [
+        "1",
+        "2",
+        "5",
+        "10",
+        "20"
+    ],
+    "Unit": [
+        "Piece",
+        "Pack",
+        "Box",
+        "Bottle",
+        "Kg",
+        "Liter",
+        "Meter"
+    ],
+    "Compatibility": [
+        "Universal",
+        "Windows",
+        "Mac",
+        "Android",
+        "iPhone"
+    ],
+    "Mount Type": [
+        "Wall",
+        "Desk",
+        "Ceiling",
+        "Floor"
+    ],
+    "Installation Type": [
+        "Built-in",
+        "Freestanding",
+        "Portable"
+    ],
+    "Energy Rating": [
+        "A+++",
+        "A++",
+        "A+",
+        "A",
+        "B"
+    ],
+    "Noise Level": [
+        "20 dB",
+        "30 dB",
+        "40 dB",
+        "50 dB"
+    ],
+    "Fuel Type": [
+        "Petrol",
+        "Diesel",
+        "Electric",
+        "Hybrid"
+    ],
+    "Engine Capacity": [
+        "1000 cc",
+        "1500 cc",
+        "2000 cc",
+        "3000 cc"
+    ],
+    "Horsepower": [
+        "100 HP",
+        "150 HP",
+        "200 HP",
+        "300 HP"
+    ],
+    "Torque": [
+        "150 Nm",
+        "250 Nm",
+        "350 Nm",
+        "500 Nm"
+    ],
+    "Transmission": [
+        "Manual",
+        "Automatic",
+        "CVT"
+    ],
+    "Drive Type": [
+        "FWD",
+        "RWD",
+        "AWD",
+        "4WD"
+    ],
+    "Tire Size": [
+        "195/65R15",
+        "205/55R16",
+        "225/45R17"
+    ],
+    "Rim Size": [
+        "15\"",
+        "16\"",
+        "17\"",
+        "18\"",
+        "19\"",
+        "20\""
+    ],
+    "Suspension Type": [
+        "Hydraulic",
+        "Air",
+        "Coil Spring"
+    ],
+    "Max Load": [
+        "50 kg",
+        "100 kg",
+        "200 kg",
+        "500 kg"
+    ],
+    "Max Speed": [
+        "50 km/h",
+        "100 km/h",
+        "150 km/h",
+        "250 km/h"
+    ],
+    "Temperature Range": [
+        "-20°C to 50°C",
+        "0°C to 100°C"
+    ],
+    "Pressure Rating": [
+        "1 bar",
+        "2 bar",
+        "5 bar",
+        "10 bar"
+    ],
+    "Water Resistance": [
+        "None",
+        "Splash Proof",
+        "IP67",
+        "IP68"
+    ],
+    "Dust Resistance": [
+        "None",
+        "IP5X",
+        "IP6X"
+    ],
+    "UV Protection": [
+        "UPF 15",
+        "UPF 30",
+        "UPF 50+"
+    ],
+    "Recyclable": [
+        "Yes",
+        "No"
+    ],
+    "Eco Certification": [
+        "Energy Star",
+        "FSC",
+        "RoHS",
+        "CE"
+    ],
+    "Fire Resistance": [
+        "Class A",
+        "Class B",
+        "Class C"
+    ],
+    "Security Level": [
+        "Low",
+        "Medium",
+        "High"
+    ],
+    "Language": [
+        "English",
+        "French",
+        "Arabic",
+        "Spanish",
+        "German"
+    ],
+    "Region": [
+        "North America",
+        "Europe",
+        "Asia",
+        "Middle East",
+        "Africa"
+    ],
+    "Edition": [
+        "Standard",
+        "Limited",
+        "Collector's",
+        "Premium"
+    ],
+    "License Type": [
+        "Personal",
+        "Business",
+        "Enterprise"
+    ],
+    "Theme": [
+        "Light",
+        "Dark",
+        "Blue",
+        "Green"
+    ],
+    "Collection": [
+        "Spring",
+        "Summer",
+        "Autumn",
+        "Winter"
+    ]
+}

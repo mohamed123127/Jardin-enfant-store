@@ -1,0 +1,16 @@
+{
+    "name": "jardin-enfant-store",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "build": "npm run build --workspaces --if-present",
+        "dev:shared": "npm run dev -w @aio/shared",
+        "typecheck": "tsc -b"
+    },
+    "dependencies": {
+        "@tanstack/react-table": "^9.1.2",
+        "table": "github:tanstack/react-table"
+    }
+}

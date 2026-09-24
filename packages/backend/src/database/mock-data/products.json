@@ -1,0 +1,7202 @@
+[
+  {
+    "name": "Shorts Model 1",
+    "barcode": "100001",
+    "sku": "CLT-000001",
+    "ref": "REF-000001",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 3486.0,
+    "sellingPrice": 6839.0
+  },
+  {
+    "name": "Sandal Model 2",
+    "barcode": "100002",
+    "sku": "CLT-000002",
+    "ref": "REF-000002",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 2949.0,
+    "sellingPrice": 4862.0
+  },
+  {
+    "name": "Glove Model 3",
+    "barcode": "100003",
+    "sku": "CLT-000003",
+    "ref": "REF-000003",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 2883.0,
+    "sellingPrice": 5753.0
+  },
+  {
+    "name": "Glove Model 4",
+    "barcode": "100004",
+    "sku": "CLT-000004",
+    "ref": "REF-000004",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 1476.0,
+    "sellingPrice": 2635.0
+  },
+  {
+    "name": "Hoodie Model 5",
+    "barcode": "100005",
+    "sku": "CLT-000005",
+    "ref": "REF-000005",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 843.0,
+    "sellingPrice": 1510.0
+  },
+  {
+    "name": "Shorts Model 6",
+    "barcode": "100006",
+    "sku": "CLT-000006",
+    "ref": "REF-000006",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 3057.0,
+    "sellingPrice": 5196.0
+  },
+  {
+    "name": "Cardigan Model 7",
+    "barcode": "100007",
+    "sku": "CLT-000007",
+    "ref": "REF-000007",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 3168.0,
+    "sellingPrice": 5437.0
+  },
+  {
+    "name": "Wallet Model 8",
+    "barcode": "100008",
+    "sku": "CLT-000008",
+    "ref": "REF-000008",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 3319.0,
+    "sellingPrice": 5827.0
+  },
+  {
+    "name": "Jogger Model 9",
+    "barcode": "100009",
+    "sku": "CLT-000009",
+    "ref": "REF-000009",
+    "description": "Excellent value for money.",
+    "costPrice": 3345.0,
+    "sellingPrice": 6460.0
+  },
+  {
+    "name": "Vest Model 10",
+    "barcode": "100010",
+    "sku": "CLT-000010",
+    "ref": "REF-000010",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 3044.0,
+    "sellingPrice": 5335.0
+  },
+  {
+    "name": "Underwear Model 11",
+    "barcode": "100011",
+    "sku": "CLT-000011",
+    "ref": "REF-000011",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 2789.0,
+    "sellingPrice": 5684.0
+  },
+  {
+    "name": "Dress Model 12",
+    "barcode": "100012",
+    "sku": "CLT-000012",
+    "ref": "REF-000012",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 1881.0,
+    "sellingPrice": 2716.0
+  },
+  {
+    "name": "Jacket Model 13",
+    "barcode": "100013",
+    "sku": "CLT-000013",
+    "ref": "REF-000013",
+    "description": "Modern design with premium finish.",
+    "costPrice": 809.0,
+    "sellingPrice": 1275.0
+  },
+  {
+    "name": "Sandal Model 14",
+    "barcode": "100014",
+    "sku": "CLT-000014",
+    "ref": "REF-000014",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 1381.0,
+    "sellingPrice": 1875.0
+  },
+  {
+    "name": "Jogger Model 15",
+    "barcode": "100015",
+    "sku": "CLT-000015",
+    "ref": "REF-000015",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 2425.0,
+    "sellingPrice": 4302.0
+  },
+  {
+    "name": "Running Shoe Model 16",
+    "barcode": "100016",
+    "sku": "CLT-000016",
+    "ref": "REF-000016",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 772.0,
+    "sellingPrice": 1371.0
+  },
+  {
+    "name": "Running Shoe Model 17",
+    "barcode": "100017",
+    "sku": "CLT-000017",
+    "ref": "REF-000017",
+    "description": "Excellent value for money.",
+    "costPrice": 1123.0,
+    "sellingPrice": 1569.0
+  },
+  {
+    "name": "Polo Shirt Model 18",
+    "barcode": "100018",
+    "sku": "CLT-000018",
+    "ref": "REF-000018",
+    "description": "Modern design with premium finish.",
+    "costPrice": 2709.0,
+    "sellingPrice": 4768.0
+  },
+  {
+    "name": "Wallet Model 19",
+    "barcode": "100019",
+    "sku": "CLT-000019",
+    "ref": "REF-000019",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 1140.0,
+    "sellingPrice": 1586.0
+  },
+  {
+    "name": "Boot Model 20",
+    "barcode": "100020",
+    "sku": "CLT-000020",
+    "ref": "REF-000020",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 1659.0,
+    "sellingPrice": 2408.0
+  },
+  {
+    "name": "Handbag Model 21",
+    "barcode": "100021",
+    "sku": "CLT-000021",
+    "ref": "REF-000021",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 3409.0,
+    "sellingPrice": 5067.0
+  },
+  {
+    "name": "Cargo Pants Model 22",
+    "barcode": "100022",
+    "sku": "CLT-000022",
+    "ref": "REF-000022",
+    "description": "Modern design with premium finish.",
+    "costPrice": 3279.0,
+    "sellingPrice": 5118.0
+  },
+  {
+    "name": "Running Shoe Model 23",
+    "barcode": "100023",
+    "sku": "CLT-000023",
+    "ref": "REF-000023",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 3395.0,
+    "sellingPrice": 6386.0
+  },
+  {
+    "name": "Jacket Model 24",
+    "barcode": "100024",
+    "sku": "CLT-000024",
+    "ref": "REF-000024",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 2567.0,
+    "sellingPrice": 4459.0
+  },
+  {
+    "name": "Jogger Model 25",
+    "barcode": "100025",
+    "sku": "CLT-000025",
+    "ref": "REF-000025",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 692.0,
+    "sellingPrice": 1389.0
+  },
+  {
+    "name": "Blazer Model 26",
+    "barcode": "100026",
+    "sku": "CLT-000026",
+    "ref": "REF-000026",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 1290.0,
+    "sellingPrice": 2235.0
+  },
+  {
+    "name": "Running Shoe Model 27",
+    "barcode": "100027",
+    "sku": "CLT-000027",
+    "ref": "REF-000027",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 2043.0,
+    "sellingPrice": 3679.0
+  },
+  {
+    "name": "Suit Model 28",
+    "barcode": "100028",
+    "sku": "CLT-000028",
+    "ref": "REF-000028",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 1484.0,
+    "sellingPrice": 2960.0
+  },
+  {
+    "name": "Backpack Model 29",
+    "barcode": "100029",
+    "sku": "CLT-000029",
+    "ref": "REF-000029",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 2730.0,
+    "sellingPrice": 5960.0
+  },
+  {
+    "name": "Shirt Model 30",
+    "barcode": "100030",
+    "sku": "CLT-000030",
+    "ref": "REF-000030",
+    "description": "Excellent value for money.",
+    "costPrice": 1727.0,
+    "sellingPrice": 2948.0
+  },
+  {
+    "name": "Vest Model 31",
+    "barcode": "100031",
+    "sku": "CLT-000031",
+    "ref": "REF-000031",
+    "description": "Modern design with premium finish.",
+    "costPrice": 2702.0,
+    "sellingPrice": 4316.0
+  },
+  {
+    "name": "Cap Model 32",
+    "barcode": "100032",
+    "sku": "CLT-000032",
+    "ref": "REF-000032",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 1490.0,
+    "sellingPrice": 2984.0
+  },
+  {
+    "name": "Coat Model 33",
+    "barcode": "100033",
+    "sku": "CLT-000033",
+    "ref": "REF-000033",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 3042.0,
+    "sellingPrice": 5742.0
+  },
+  {
+    "name": "Blazer Model 34",
+    "barcode": "100034",
+    "sku": "CLT-000034",
+    "ref": "REF-000034",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 2962.0,
+    "sellingPrice": 5386.0
+  },
+  {
+    "name": "Shorts Model 35",
+    "barcode": "100035",
+    "sku": "CLT-000035",
+    "ref": "REF-000035",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 1361.0,
+    "sellingPrice": 2560.0
+  },
+  {
+    "name": "Cargo Pants Model 36",
+    "barcode": "100036",
+    "sku": "CLT-000036",
+    "ref": "REF-000036",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 1999.0,
+    "sellingPrice": 3017.0
+  },
+  {
+    "name": "Jacket Model 37",
+    "barcode": "100037",
+    "sku": "CLT-000037",
+    "ref": "REF-000037",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 2608.0,
+    "sellingPrice": 4158.0
+  },
+  {
+    "name": "T-Shirt Model 38",
+    "barcode": "100038",
+    "sku": "CLT-000038",
+    "ref": "REF-000038",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 2890.0,
+    "sellingPrice": 5120.0
+  },
+  {
+    "name": "Sweater Model 39",
+    "barcode": "100039",
+    "sku": "CLT-000039",
+    "ref": "REF-000039",
+    "description": "Excellent value for money.",
+    "costPrice": 1213.0,
+    "sellingPrice": 2375.0
+  },
+  {
+    "name": "Chino Pants Model 40",
+    "barcode": "100040",
+    "sku": "CLT-000040",
+    "ref": "REF-000040",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 2550.0,
+    "sellingPrice": 3990.0
+  },
+  {
+    "name": "T-Shirt Model 41",
+    "barcode": "100041",
+    "sku": "CLT-000041",
+    "ref": "REF-000041",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 892.0,
+    "sellingPrice": 1191.0
+  },
+  {
+    "name": "Coat Model 42",
+    "barcode": "100042",
+    "sku": "CLT-000042",
+    "ref": "REF-000042",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 2978.0,
+    "sellingPrice": 6237.0
+  },
+  {
+    "name": "Leggings Model 43",
+    "barcode": "100043",
+    "sku": "CLT-000043",
+    "ref": "REF-000043",
+    "description": "Modern design with premium finish.",
+    "costPrice": 899.0,
+    "sellingPrice": 1550.0
+  },
+  {
+    "name": "Cap Model 44",
+    "barcode": "100044",
+    "sku": "CLT-000044",
+    "ref": "REF-000044",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 1737.0,
+    "sellingPrice": 2575.0
+  },
+  {
+    "name": "Glove Model 45",
+    "barcode": "100045",
+    "sku": "CLT-000045",
+    "ref": "REF-000045",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 2893.0,
+    "sellingPrice": 3979.0
+  },
+  {
+    "name": "Sweater Model 46",
+    "barcode": "100046",
+    "sku": "CLT-000046",
+    "ref": "REF-000046",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 1719.0,
+    "sellingPrice": 2926.0
+  },
+  {
+    "name": "Shorts Model 47",
+    "barcode": "100047",
+    "sku": "CLT-000047",
+    "ref": "REF-000047",
+    "description": "Excellent value for money.",
+    "costPrice": 1366.0,
+    "sellingPrice": 1893.0
+  },
+  {
+    "name": "Hoodie Model 48",
+    "barcode": "100048",
+    "sku": "CLT-000048",
+    "ref": "REF-000048",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 1994.0,
+    "sellingPrice": 2990.0
+  },
+  {
+    "name": "Polo Shirt Model 49",
+    "barcode": "100049",
+    "sku": "CLT-000049",
+    "ref": "REF-000049",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 2186.0,
+    "sellingPrice": 3908.0
+  },
+  {
+    "name": "Polo Shirt Model 50",
+    "barcode": "100050",
+    "sku": "CLT-000050",
+    "ref": "REF-000050",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 3336.0,
+    "sellingPrice": 4450.0
+  },
+  {
+    "name": "Sock Model 51",
+    "barcode": "100051",
+    "sku": "CLT-000051",
+    "ref": "REF-000051",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 3404.0,
+    "sellingPrice": 4805.0
+  },
+  {
+    "name": "Hat Model 52",
+    "barcode": "100052",
+    "sku": "CLT-000052",
+    "ref": "REF-000052",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 834.0,
+    "sellingPrice": 1527.0
+  },
+  {
+    "name": "Handbag Model 53",
+    "barcode": "100053",
+    "sku": "CLT-000053",
+    "ref": "REF-000053",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 1502.0,
+    "sellingPrice": 2706.0
+  },
+  {
+    "name": "T-Shirt Model 54",
+    "barcode": "100054",
+    "sku": "CLT-000054",
+    "ref": "REF-000054",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 839.0,
+    "sellingPrice": 1223.0
+  },
+  {
+    "name": "Chino Pants Model 55",
+    "barcode": "100055",
+    "sku": "CLT-000055",
+    "ref": "REF-000055",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 1280.0,
+    "sellingPrice": 1812.0
+  },
+  {
+    "name": "Skirt Model 56",
+    "barcode": "100056",
+    "sku": "CLT-000056",
+    "ref": "REF-000056",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 2059.0,
+    "sellingPrice": 4128.0
+  },
+  {
+    "name": "Leggings Model 57",
+    "barcode": "100057",
+    "sku": "CLT-000057",
+    "ref": "REF-000057",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 3207.0,
+    "sellingPrice": 4536.0
+  },
+  {
+    "name": "Running Shoe Model 58",
+    "barcode": "100058",
+    "sku": "CLT-000058",
+    "ref": "REF-000058",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 1271.0,
+    "sellingPrice": 1976.0
+  },
+  {
+    "name": "Sneaker Model 59",
+    "barcode": "100059",
+    "sku": "CLT-000059",
+    "ref": "REF-000059",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 1990.0,
+    "sellingPrice": 2832.0
+  },
+  {
+    "name": "Backpack Model 60",
+    "barcode": "100060",
+    "sku": "CLT-000060",
+    "ref": "REF-000060",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 854.0,
+    "sellingPrice": 1778.0
+  },
+  {
+    "name": "Belt Model 61",
+    "barcode": "100061",
+    "sku": "CLT-000061",
+    "ref": "REF-000061",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 1040.0,
+    "sellingPrice": 1392.0
+  },
+  {
+    "name": "T-Shirt Model 62",
+    "barcode": "100062",
+    "sku": "CLT-000062",
+    "ref": "REF-000062",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 958.0,
+    "sellingPrice": 1389.0
+  },
+  {
+    "name": "Skirt Model 63",
+    "barcode": "100063",
+    "sku": "CLT-000063",
+    "ref": "REF-000063",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 1953.0,
+    "sellingPrice": 2706.0
+  },
+  {
+    "name": "Sweatshirt Model 64",
+    "barcode": "100064",
+    "sku": "CLT-000064",
+    "ref": "REF-000064",
+    "description": "Excellent value for money.",
+    "costPrice": 1292.0,
+    "sellingPrice": 2411.0
+  },
+  {
+    "name": "Suit Model 65",
+    "barcode": "100065",
+    "sku": "CLT-000065",
+    "ref": "REF-000065",
+    "description": "Excellent value for money.",
+    "costPrice": 1498.0,
+    "sellingPrice": 2512.0
+  },
+  {
+    "name": "Handbag Model 66",
+    "barcode": "100066",
+    "sku": "CLT-000066",
+    "ref": "REF-000066",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 2913.0,
+    "sellingPrice": 5723.0
+  },
+  {
+    "name": "Belt Model 67",
+    "barcode": "100067",
+    "sku": "CLT-000067",
+    "ref": "REF-000067",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 1886.0,
+    "sellingPrice": 2594.0
+  },
+  {
+    "name": "Jogger Model 68",
+    "barcode": "100068",
+    "sku": "CLT-000068",
+    "ref": "REF-000068",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 3388.0,
+    "sellingPrice": 4935.0
+  },
+  {
+    "name": "Suit Model 69",
+    "barcode": "100069",
+    "sku": "CLT-000069",
+    "ref": "REF-000069",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 3325.0,
+    "sellingPrice": 6263.0
+  },
+  {
+    "name": "Underwear Model 70",
+    "barcode": "100070",
+    "sku": "CLT-000070",
+    "ref": "REF-000070",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 1630.0,
+    "sellingPrice": 2339.0
+  },
+  {
+    "name": "Cardigan Model 71",
+    "barcode": "100071",
+    "sku": "CLT-000071",
+    "ref": "REF-000071",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 1412.0,
+    "sellingPrice": 2346.0
+  },
+  {
+    "name": "Cargo Pants Model 72",
+    "barcode": "100072",
+    "sku": "CLT-000072",
+    "ref": "REF-000072",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 1527.0,
+    "sellingPrice": 3131.0
+  },
+  {
+    "name": "Backpack Model 73",
+    "barcode": "100073",
+    "sku": "CLT-000073",
+    "ref": "REF-000073",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 2238.0,
+    "sellingPrice": 4293.0
+  },
+  {
+    "name": "Boot Model 74",
+    "barcode": "100074",
+    "sku": "CLT-000074",
+    "ref": "REF-000074",
+    "description": "Excellent value for money.",
+    "costPrice": 3301.0,
+    "sellingPrice": 6430.0
+  },
+  {
+    "name": "Handbag Model 75",
+    "barcode": "100075",
+    "sku": "CLT-000075",
+    "ref": "REF-000075",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 701.0,
+    "sellingPrice": 1471.0
+  },
+  {
+    "name": "Glove Model 76",
+    "barcode": "100076",
+    "sku": "CLT-000076",
+    "ref": "REF-000076",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 1949.0,
+    "sellingPrice": 4183.0
+  },
+  {
+    "name": "Handbag Model 77",
+    "barcode": "100077",
+    "sku": "CLT-000077",
+    "ref": "REF-000077",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 731.0,
+    "sellingPrice": 1366.0
+  },
+  {
+    "name": "Polo Shirt Model 78",
+    "barcode": "100078",
+    "sku": "CLT-000078",
+    "ref": "REF-000078",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 2913.0,
+    "sellingPrice": 5972.0
+  },
+  {
+    "name": "Shorts Model 79",
+    "barcode": "100079",
+    "sku": "CLT-000079",
+    "ref": "REF-000079",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 2182.0,
+    "sellingPrice": 3928.0
+  },
+  {
+    "name": "Hat Model 80",
+    "barcode": "100080",
+    "sku": "CLT-000080",
+    "ref": "REF-000080",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 2552.0,
+    "sellingPrice": 4918.0
+  },
+  {
+    "name": "Wallet Model 81",
+    "barcode": "100081",
+    "sku": "CLT-000081",
+    "ref": "REF-000081",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 3500.0,
+    "sellingPrice": 6421.0
+  },
+  {
+    "name": "Leggings Model 82",
+    "barcode": "100082",
+    "sku": "CLT-000082",
+    "ref": "REF-000082",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 2143.0,
+    "sellingPrice": 3890.0
+  },
+  {
+    "name": "Suit Model 83",
+    "barcode": "100083",
+    "sku": "CLT-000083",
+    "ref": "REF-000083",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 2114.0,
+    "sellingPrice": 3992.0
+  },
+  {
+    "name": "Jeans Model 84",
+    "barcode": "100084",
+    "sku": "CLT-000084",
+    "ref": "REF-000084",
+    "description": "Modern design with premium finish.",
+    "costPrice": 2491.0,
+    "sellingPrice": 3760.0
+  },
+  {
+    "name": "T-Shirt Model 85",
+    "barcode": "100085",
+    "sku": "CLT-000085",
+    "ref": "REF-000085",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 2994.0,
+    "sellingPrice": 5193.0
+  },
+  {
+    "name": "Suit Model 86",
+    "barcode": "100086",
+    "sku": "CLT-000086",
+    "ref": "REF-000086",
+    "description": "Excellent value for money.",
+    "costPrice": 724.0,
+    "sellingPrice": 1322.0
+  },
+  {
+    "name": "Scarf Model 87",
+    "barcode": "100087",
+    "sku": "CLT-000087",
+    "ref": "REF-000087",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 1140.0,
+    "sellingPrice": 2286.0
+  },
+  {
+    "name": "Jacket Model 88",
+    "barcode": "100088",
+    "sku": "CLT-000088",
+    "ref": "REF-000088",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 1102.0,
+    "sellingPrice": 2138.0
+  },
+  {
+    "name": "Boot Model 89",
+    "barcode": "100089",
+    "sku": "CLT-000089",
+    "ref": "REF-000089",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 2597.0,
+    "sellingPrice": 3808.0
+  },
+  {
+    "name": "Backpack Model 90",
+    "barcode": "100090",
+    "sku": "CLT-000090",
+    "ref": "REF-000090",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 1401.0,
+    "sellingPrice": 2041.0
+  },
+  {
+    "name": "Sock Model 91",
+    "barcode": "100091",
+    "sku": "CLT-000091",
+    "ref": "REF-000091",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 2322.0,
+    "sellingPrice": 4278.0
+  },
+  {
+    "name": "Jacket Model 92",
+    "barcode": "100092",
+    "sku": "CLT-000092",
+    "ref": "REF-000092",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 2388.0,
+    "sellingPrice": 4457.0
+  },
+  {
+    "name": "Sandal Model 93",
+    "barcode": "100093",
+    "sku": "CLT-000093",
+    "ref": "REF-000093",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 938.0,
+    "sellingPrice": 1455.0
+  },
+  {
+    "name": "Vest Model 94",
+    "barcode": "100094",
+    "sku": "CLT-000094",
+    "ref": "REF-000094",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 1472.0,
+    "sellingPrice": 2479.0
+  },
+  {
+    "name": "Hoodie Model 95",
+    "barcode": "100095",
+    "sku": "CLT-000095",
+    "ref": "REF-000095",
+    "description": "Excellent value for money.",
+    "costPrice": 1528.0,
+    "sellingPrice": 3082.0
+  },
+  {
+    "name": "Dress Model 96",
+    "barcode": "100096",
+    "sku": "CLT-000096",
+    "ref": "REF-000096",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 3481.0,
+    "sellingPrice": 5532.0
+  },
+  {
+    "name": "Skirt Model 97",
+    "barcode": "100097",
+    "sku": "CLT-000097",
+    "ref": "REF-000097",
+    "description": "Modern design with premium finish.",
+    "costPrice": 2334.0,
+    "sellingPrice": 3054.0
+  },
+  {
+    "name": "Belt Model 98",
+    "barcode": "100098",
+    "sku": "CLT-000098",
+    "ref": "REF-000098",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 2920.0,
+    "sellingPrice": 5129.0
+  },
+  {
+    "name": "Coat Model 99",
+    "barcode": "100099",
+    "sku": "CLT-000099",
+    "ref": "REF-000099",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 3006.0,
+    "sellingPrice": 5600.0
+  },
+  {
+    "name": "Blazer Model 100",
+    "barcode": "100100",
+    "sku": "CLT-000100",
+    "ref": "REF-000100",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 2480.0,
+    "sellingPrice": 4849.0
+  },
+  {
+    "name": "Handbag Model 101",
+    "barcode": "100101",
+    "sku": "CLT-000101",
+    "ref": "REF-000101",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 1348.0,
+    "sellingPrice": 2521.0
+  },
+  {
+    "name": "Sock Model 102",
+    "barcode": "100102",
+    "sku": "CLT-000102",
+    "ref": "REF-000102",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 1910.0,
+    "sellingPrice": 2552.0
+  },
+  {
+    "name": "Vest Model 103",
+    "barcode": "100103",
+    "sku": "CLT-000103",
+    "ref": "REF-000103",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 2821.0,
+    "sellingPrice": 4579.0
+  },
+  {
+    "name": "Belt Model 104",
+    "barcode": "100104",
+    "sku": "CLT-000104",
+    "ref": "REF-000104",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 1098.0,
+    "sellingPrice": 1482.0
+  },
+  {
+    "name": "Handbag Model 105",
+    "barcode": "100105",
+    "sku": "CLT-000105",
+    "ref": "REF-000105",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 1568.0,
+    "sellingPrice": 2374.0
+  },
+  {
+    "name": "Cardigan Model 106",
+    "barcode": "100106",
+    "sku": "CLT-000106",
+    "ref": "REF-000106",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 941.0,
+    "sellingPrice": 1237.0
+  },
+  {
+    "name": "Skirt Model 107",
+    "barcode": "100107",
+    "sku": "CLT-000107",
+    "ref": "REF-000107",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 1658.0,
+    "sellingPrice": 2494.0
+  },
+  {
+    "name": "Sock Model 108",
+    "barcode": "100108",
+    "sku": "CLT-000108",
+    "ref": "REF-000108",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 3135.0,
+    "sellingPrice": 4444.0
+  },
+  {
+    "name": "Dress Model 109",
+    "barcode": "100109",
+    "sku": "CLT-000109",
+    "ref": "REF-000109",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 2327.0,
+    "sellingPrice": 4427.0
+  },
+  {
+    "name": "Chino Pants Model 110",
+    "barcode": "100110",
+    "sku": "CLT-000110",
+    "ref": "REF-000110",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 2825.0,
+    "sellingPrice": 5933.0
+  },
+  {
+    "name": "Boot Model 111",
+    "barcode": "100111",
+    "sku": "CLT-000111",
+    "ref": "REF-000111",
+    "description": "Excellent value for money.",
+    "costPrice": 2217.0,
+    "sellingPrice": 2921.0
+  },
+  {
+    "name": "Shirt Model 112",
+    "barcode": "100112",
+    "sku": "CLT-000112",
+    "ref": "REF-000112",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 1994.0,
+    "sellingPrice": 2831.0
+  },
+  {
+    "name": "Polo Shirt Model 113",
+    "barcode": "100113",
+    "sku": "CLT-000113",
+    "ref": "REF-000113",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 742.0,
+    "sellingPrice": 1448.0
+  },
+  {
+    "name": "Leggings Model 114",
+    "barcode": "100114",
+    "sku": "CLT-000114",
+    "ref": "REF-000114",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 3316.0,
+    "sellingPrice": 4698.0
+  },
+  {
+    "name": "Hoodie Model 115",
+    "barcode": "100115",
+    "sku": "CLT-000115",
+    "ref": "REF-000115",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 2390.0,
+    "sellingPrice": 3892.0
+  },
+  {
+    "name": "Belt Model 116",
+    "barcode": "100116",
+    "sku": "CLT-000116",
+    "ref": "REF-000116",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 1132.0,
+    "sellingPrice": 2269.0
+  },
+  {
+    "name": "Polo Shirt Model 117",
+    "barcode": "100117",
+    "sku": "CLT-000117",
+    "ref": "REF-000117",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 2868.0,
+    "sellingPrice": 4399.0
+  },
+  {
+    "name": "Scarf Model 118",
+    "barcode": "100118",
+    "sku": "CLT-000118",
+    "ref": "REF-000118",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 2826.0,
+    "sellingPrice": 3695.0
+  },
+  {
+    "name": "Backpack Model 119",
+    "barcode": "100119",
+    "sku": "CLT-000119",
+    "ref": "REF-000119",
+    "description": "Modern design with premium finish.",
+    "costPrice": 3337.0,
+    "sellingPrice": 6638.0
+  },
+  {
+    "name": "Jeans Model 120",
+    "barcode": "100120",
+    "sku": "CLT-000120",
+    "ref": "REF-000120",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 2874.0,
+    "sellingPrice": 6011.0
+  },
+  {
+    "name": "Shorts Model 121",
+    "barcode": "100121",
+    "sku": "CLT-000121",
+    "ref": "REF-000121",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 2727.0,
+    "sellingPrice": 5534.0
+  },
+  {
+    "name": "Vest Model 122",
+    "barcode": "100122",
+    "sku": "CLT-000122",
+    "ref": "REF-000122",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 3020.0,
+    "sellingPrice": 5347.0
+  },
+  {
+    "name": "Jeans Model 123",
+    "barcode": "100123",
+    "sku": "CLT-000123",
+    "ref": "REF-000123",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 1793.0,
+    "sellingPrice": 3021.0
+  },
+  {
+    "name": "Shorts Model 124",
+    "barcode": "100124",
+    "sku": "CLT-000124",
+    "ref": "REF-000124",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 924.0,
+    "sellingPrice": 1268.0
+  },
+  {
+    "name": "Shirt Model 125",
+    "barcode": "100125",
+    "sku": "CLT-000125",
+    "ref": "REF-000125",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 1438.0,
+    "sellingPrice": 2510.0
+  },
+  {
+    "name": "T-Shirt Model 126",
+    "barcode": "100126",
+    "sku": "CLT-000126",
+    "ref": "REF-000126",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 756.0,
+    "sellingPrice": 1442.0
+  },
+  {
+    "name": "Sneaker Model 127",
+    "barcode": "100127",
+    "sku": "CLT-000127",
+    "ref": "REF-000127",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 985.0,
+    "sellingPrice": 1769.0
+  },
+  {
+    "name": "Sandal Model 128",
+    "barcode": "100128",
+    "sku": "CLT-000128",
+    "ref": "REF-000128",
+    "description": "Excellent value for money.",
+    "costPrice": 2044.0,
+    "sellingPrice": 4354.0
+  },
+  {
+    "name": "Blazer Model 129",
+    "barcode": "100129",
+    "sku": "CLT-000129",
+    "ref": "REF-000129",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 686.0,
+    "sellingPrice": 1028.0
+  },
+  {
+    "name": "Blazer Model 130",
+    "barcode": "100130",
+    "sku": "CLT-000130",
+    "ref": "REF-000130",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 841.0,
+    "sellingPrice": 1323.0
+  },
+  {
+    "name": "Underwear Model 131",
+    "barcode": "100131",
+    "sku": "CLT-000131",
+    "ref": "REF-000131",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 3084.0,
+    "sellingPrice": 5806.0
+  },
+  {
+    "name": "Polo Shirt Model 132",
+    "barcode": "100132",
+    "sku": "CLT-000132",
+    "ref": "REF-000132",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 931.0,
+    "sellingPrice": 1392.0
+  },
+  {
+    "name": "Suit Model 133",
+    "barcode": "100133",
+    "sku": "CLT-000133",
+    "ref": "REF-000133",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 2168.0,
+    "sellingPrice": 4738.0
+  },
+  {
+    "name": "Sandal Model 134",
+    "barcode": "100134",
+    "sku": "CLT-000134",
+    "ref": "REF-000134",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 3190.0,
+    "sellingPrice": 6719.0
+  },
+  {
+    "name": "Running Shoe Model 135",
+    "barcode": "100135",
+    "sku": "CLT-000135",
+    "ref": "REF-000135",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 2495.0,
+    "sellingPrice": 4832.0
+  },
+  {
+    "name": "Belt Model 136",
+    "barcode": "100136",
+    "sku": "CLT-000136",
+    "ref": "REF-000136",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 881.0,
+    "sellingPrice": 1791.0
+  },
+  {
+    "name": "Cargo Pants Model 137",
+    "barcode": "100137",
+    "sku": "CLT-000137",
+    "ref": "REF-000137",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 1558.0,
+    "sellingPrice": 2901.0
+  },
+  {
+    "name": "Skirt Model 138",
+    "barcode": "100138",
+    "sku": "CLT-000138",
+    "ref": "REF-000138",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 3437.0,
+    "sellingPrice": 6829.0
+  },
+  {
+    "name": "Coat Model 139",
+    "barcode": "100139",
+    "sku": "CLT-000139",
+    "ref": "REF-000139",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 3184.0,
+    "sellingPrice": 5546.0
+  },
+  {
+    "name": "Jogger Model 140",
+    "barcode": "100140",
+    "sku": "CLT-000140",
+    "ref": "REF-000140",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 2983.0,
+    "sellingPrice": 5575.0
+  },
+  {
+    "name": "Polo Shirt Model 141",
+    "barcode": "100141",
+    "sku": "CLT-000141",
+    "ref": "REF-000141",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 738.0,
+    "sellingPrice": 1486.0
+  },
+  {
+    "name": "Jacket Model 142",
+    "barcode": "100142",
+    "sku": "CLT-000142",
+    "ref": "REF-000142",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 2749.0,
+    "sellingPrice": 4982.0
+  },
+  {
+    "name": "Underwear Model 143",
+    "barcode": "100143",
+    "sku": "CLT-000143",
+    "ref": "REF-000143",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 2207.0,
+    "sellingPrice": 3721.0
+  },
+  {
+    "name": "Leggings Model 144",
+    "barcode": "100144",
+    "sku": "CLT-000144",
+    "ref": "REF-000144",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 1905.0,
+    "sellingPrice": 2773.0
+  },
+  {
+    "name": "Vest Model 145",
+    "barcode": "100145",
+    "sku": "CLT-000145",
+    "ref": "REF-000145",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 878.0,
+    "sellingPrice": 1460.0
+  },
+  {
+    "name": "Belt Model 146",
+    "barcode": "100146",
+    "sku": "CLT-000146",
+    "ref": "REF-000146",
+    "description": "Modern design with premium finish.",
+    "costPrice": 3185.0,
+    "sellingPrice": 6775.0
+  },
+  {
+    "name": "Blazer Model 147",
+    "barcode": "100147",
+    "sku": "CLT-000147",
+    "ref": "REF-000147",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 2668.0,
+    "sellingPrice": 5104.0
+  },
+  {
+    "name": "Hat Model 148",
+    "barcode": "100148",
+    "sku": "CLT-000148",
+    "ref": "REF-000148",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 2012.0,
+    "sellingPrice": 4000.0
+  },
+  {
+    "name": "Underwear Model 149",
+    "barcode": "100149",
+    "sku": "CLT-000149",
+    "ref": "REF-000149",
+    "description": "Excellent value for money.",
+    "costPrice": 3178.0,
+    "sellingPrice": 4763.0
+  },
+  {
+    "name": "Cargo Pants Model 150",
+    "barcode": "100150",
+    "sku": "CLT-000150",
+    "ref": "REF-000150",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 2585.0,
+    "sellingPrice": 5656.0
+  },
+  {
+    "name": "Shorts Model 151",
+    "barcode": "100151",
+    "sku": "CLT-000151",
+    "ref": "REF-000151",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 2843.0,
+    "sellingPrice": 5418.0
+  },
+  {
+    "name": "Coat Model 152",
+    "barcode": "100152",
+    "sku": "CLT-000152",
+    "ref": "REF-000152",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 2674.0,
+    "sellingPrice": 5042.0
+  },
+  {
+    "name": "Belt Model 153",
+    "barcode": "100153",
+    "sku": "CLT-000153",
+    "ref": "REF-000153",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 1230.0,
+    "sellingPrice": 2615.0
+  },
+  {
+    "name": "Skirt Model 154",
+    "barcode": "100154",
+    "sku": "CLT-000154",
+    "ref": "REF-000154",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 3023.0,
+    "sellingPrice": 4710.0
+  },
+  {
+    "name": "Blazer Model 155",
+    "barcode": "100155",
+    "sku": "CLT-000155",
+    "ref": "REF-000155",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 2260.0,
+    "sellingPrice": 4920.0
+  },
+  {
+    "name": "Cap Model 156",
+    "barcode": "100156",
+    "sku": "CLT-000156",
+    "ref": "REF-000156",
+    "description": "Modern design with premium finish.",
+    "costPrice": 1906.0,
+    "sellingPrice": 2982.0
+  },
+  {
+    "name": "Sneaker Model 157",
+    "barcode": "100157",
+    "sku": "CLT-000157",
+    "ref": "REF-000157",
+    "description": "Modern design with premium finish.",
+    "costPrice": 3486.0,
+    "sellingPrice": 5682.0
+  },
+  {
+    "name": "Suit Model 158",
+    "barcode": "100158",
+    "sku": "CLT-000158",
+    "ref": "REF-000158",
+    "description": "Modern design with premium finish.",
+    "costPrice": 1089.0,
+    "sellingPrice": 2383.0
+  },
+  {
+    "name": "Sneaker Model 159",
+    "barcode": "100159",
+    "sku": "CLT-000159",
+    "ref": "REF-000159",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 2154.0,
+    "sellingPrice": 4338.0
+  },
+  {
+    "name": "Vest Model 160",
+    "barcode": "100160",
+    "sku": "CLT-000160",
+    "ref": "REF-000160",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 1341.0,
+    "sellingPrice": 2392.0
+  },
+  {
+    "name": "Handbag Model 161",
+    "barcode": "100161",
+    "sku": "CLT-000161",
+    "ref": "REF-000161",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 3270.0,
+    "sellingPrice": 6613.0
+  },
+  {
+    "name": "Jogger Model 162",
+    "barcode": "100162",
+    "sku": "CLT-000162",
+    "ref": "REF-000162",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 1124.0,
+    "sellingPrice": 2246.0
+  },
+  {
+    "name": "Cardigan Model 163",
+    "barcode": "100163",
+    "sku": "CLT-000163",
+    "ref": "REF-000163",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 2967.0,
+    "sellingPrice": 5280.0
+  },
+  {
+    "name": "Polo Shirt Model 164",
+    "barcode": "100164",
+    "sku": "CLT-000164",
+    "ref": "REF-000164",
+    "description": "Excellent value for money.",
+    "costPrice": 1857.0,
+    "sellingPrice": 4003.0
+  },
+  {
+    "name": "Handbag Model 165",
+    "barcode": "100165",
+    "sku": "CLT-000165",
+    "ref": "REF-000165",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 2616.0,
+    "sellingPrice": 3480.0
+  },
+  {
+    "name": "Coat Model 166",
+    "barcode": "100166",
+    "sku": "CLT-000166",
+    "ref": "REF-000166",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 2203.0,
+    "sellingPrice": 2932.0
+  },
+  {
+    "name": "Cardigan Model 167",
+    "barcode": "100167",
+    "sku": "CLT-000167",
+    "ref": "REF-000167",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 3041.0,
+    "sellingPrice": 5003.0
+  },
+  {
+    "name": "Wallet Model 168",
+    "barcode": "100168",
+    "sku": "CLT-000168",
+    "ref": "REF-000168",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 694.0,
+    "sellingPrice": 1406.0
+  },
+  {
+    "name": "Hat Model 169",
+    "barcode": "100169",
+    "sku": "CLT-000169",
+    "ref": "REF-000169",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 1190.0,
+    "sellingPrice": 2419.0
+  },
+  {
+    "name": "Sandal Model 170",
+    "barcode": "100170",
+    "sku": "CLT-000170",
+    "ref": "REF-000170",
+    "description": "Modern design with premium finish.",
+    "costPrice": 1837.0,
+    "sellingPrice": 3989.0
+  },
+  {
+    "name": "Chino Pants Model 171",
+    "barcode": "100171",
+    "sku": "CLT-000171",
+    "ref": "REF-000171",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 2917.0,
+    "sellingPrice": 4964.0
+  },
+  {
+    "name": "Vest Model 172",
+    "barcode": "100172",
+    "sku": "CLT-000172",
+    "ref": "REF-000172",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 1422.0,
+    "sellingPrice": 2470.0
+  },
+  {
+    "name": "Handbag Model 173",
+    "barcode": "100173",
+    "sku": "CLT-000173",
+    "ref": "REF-000173",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 961.0,
+    "sellingPrice": 1710.0
+  },
+  {
+    "name": "Sweater Model 174",
+    "barcode": "100174",
+    "sku": "CLT-000174",
+    "ref": "REF-000174",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 1616.0,
+    "sellingPrice": 2922.0
+  },
+  {
+    "name": "Backpack Model 175",
+    "barcode": "100175",
+    "sku": "CLT-000175",
+    "ref": "REF-000175",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 1728.0,
+    "sellingPrice": 3493.0
+  },
+  {
+    "name": "T-Shirt Model 176",
+    "barcode": "100176",
+    "sku": "CLT-000176",
+    "ref": "REF-000176",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 2046.0,
+    "sellingPrice": 3296.0
+  },
+  {
+    "name": "Sweatshirt Model 177",
+    "barcode": "100177",
+    "sku": "CLT-000177",
+    "ref": "REF-000177",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 3267.0,
+    "sellingPrice": 7146.0
+  },
+  {
+    "name": "Belt Model 178",
+    "barcode": "100178",
+    "sku": "CLT-000178",
+    "ref": "REF-000178",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 2089.0,
+    "sellingPrice": 4443.0
+  },
+  {
+    "name": "T-Shirt Model 179",
+    "barcode": "100179",
+    "sku": "CLT-000179",
+    "ref": "REF-000179",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 3149.0,
+    "sellingPrice": 6763.0
+  },
+  {
+    "name": "Cardigan Model 180",
+    "barcode": "100180",
+    "sku": "CLT-000180",
+    "ref": "REF-000180",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 2636.0,
+    "sellingPrice": 5049.0
+  },
+  {
+    "name": "Cardigan Model 181",
+    "barcode": "100181",
+    "sku": "CLT-000181",
+    "ref": "REF-000181",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 1916.0,
+    "sellingPrice": 3067.0
+  },
+  {
+    "name": "Jeans Model 182",
+    "barcode": "100182",
+    "sku": "CLT-000182",
+    "ref": "REF-000182",
+    "description": "Excellent value for money.",
+    "costPrice": 2105.0,
+    "sellingPrice": 3055.0
+  },
+  {
+    "name": "Belt Model 183",
+    "barcode": "100183",
+    "sku": "CLT-000183",
+    "ref": "REF-000183",
+    "description": "Excellent value for money.",
+    "costPrice": 2276.0,
+    "sellingPrice": 3201.0
+  },
+  {
+    "name": "Cargo Pants Model 184",
+    "barcode": "100184",
+    "sku": "CLT-000184",
+    "ref": "REF-000184",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 1586.0,
+    "sellingPrice": 3352.0
+  },
+  {
+    "name": "Handbag Model 185",
+    "barcode": "100185",
+    "sku": "CLT-000185",
+    "ref": "REF-000185",
+    "description": "Excellent value for money.",
+    "costPrice": 925.0,
+    "sellingPrice": 1917.0
+  },
+  {
+    "name": "Cargo Pants Model 186",
+    "barcode": "100186",
+    "sku": "CLT-000186",
+    "ref": "REF-000186",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 1831.0,
+    "sellingPrice": 2739.0
+  },
+  {
+    "name": "Coat Model 187",
+    "barcode": "100187",
+    "sku": "CLT-000187",
+    "ref": "REF-000187",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 1725.0,
+    "sellingPrice": 3543.0
+  },
+  {
+    "name": "Sneaker Model 188",
+    "barcode": "100188",
+    "sku": "CLT-000188",
+    "ref": "REF-000188",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 1159.0,
+    "sellingPrice": 1522.0
+  },
+  {
+    "name": "Shirt Model 189",
+    "barcode": "100189",
+    "sku": "CLT-000189",
+    "ref": "REF-000189",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 2385.0,
+    "sellingPrice": 5040.0
+  },
+  {
+    "name": "Cardigan Model 190",
+    "barcode": "100190",
+    "sku": "CLT-000190",
+    "ref": "REF-000190",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 2192.0,
+    "sellingPrice": 3155.0
+  },
+  {
+    "name": "Coat Model 191",
+    "barcode": "100191",
+    "sku": "CLT-000191",
+    "ref": "REF-000191",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 2184.0,
+    "sellingPrice": 4216.0
+  },
+  {
+    "name": "Shirt Model 192",
+    "barcode": "100192",
+    "sku": "CLT-000192",
+    "ref": "REF-000192",
+    "description": "Modern design with premium finish.",
+    "costPrice": 789.0,
+    "sellingPrice": 1398.0
+  },
+  {
+    "name": "Cap Model 193",
+    "barcode": "100193",
+    "sku": "CLT-000193",
+    "ref": "REF-000193",
+    "description": "Excellent value for money.",
+    "costPrice": 2952.0,
+    "sellingPrice": 6087.0
+  },
+  {
+    "name": "Blazer Model 194",
+    "barcode": "100194",
+    "sku": "CLT-000194",
+    "ref": "REF-000194",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 2175.0,
+    "sellingPrice": 3249.0
+  },
+  {
+    "name": "Cap Model 195",
+    "barcode": "100195",
+    "sku": "CLT-000195",
+    "ref": "REF-000195",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 850.0,
+    "sellingPrice": 1775.0
+  },
+  {
+    "name": "Backpack Model 196",
+    "barcode": "100196",
+    "sku": "CLT-000196",
+    "ref": "REF-000196",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 2274.0,
+    "sellingPrice": 3790.0
+  },
+  {
+    "name": "Blazer Model 197",
+    "barcode": "100197",
+    "sku": "CLT-000197",
+    "ref": "REF-000197",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 3451.0,
+    "sellingPrice": 6570.0
+  },
+  {
+    "name": "Hat Model 198",
+    "barcode": "100198",
+    "sku": "CLT-000198",
+    "ref": "REF-000198",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 1697.0,
+    "sellingPrice": 3113.0
+  },
+  {
+    "name": "Suit Model 199",
+    "barcode": "100199",
+    "sku": "CLT-000199",
+    "ref": "REF-000199",
+    "description": "Modern design with premium finish.",
+    "costPrice": 2062.0,
+    "sellingPrice": 4123.0
+  },
+  {
+    "name": "Shirt Model 200",
+    "barcode": "100200",
+    "sku": "CLT-000200",
+    "ref": "REF-000200",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 3172.0,
+    "sellingPrice": 6378.0
+  },
+  {
+    "name": "Skirt Model 201",
+    "barcode": "100201",
+    "sku": "CLT-000201",
+    "ref": "REF-000201",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 1068.0,
+    "sellingPrice": 1805.0
+  },
+  {
+    "name": "Sweater Model 202",
+    "barcode": "100202",
+    "sku": "CLT-000202",
+    "ref": "REF-000202",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 2820.0,
+    "sellingPrice": 4178.0
+  },
+  {
+    "name": "Blazer Model 203",
+    "barcode": "100203",
+    "sku": "CLT-000203",
+    "ref": "REF-000203",
+    "description": "Modern design with premium finish.",
+    "costPrice": 3305.0,
+    "sellingPrice": 6468.0
+  },
+  {
+    "name": "Glove Model 204",
+    "barcode": "100204",
+    "sku": "CLT-000204",
+    "ref": "REF-000204",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 1610.0,
+    "sellingPrice": 2308.0
+  },
+  {
+    "name": "Underwear Model 205",
+    "barcode": "100205",
+    "sku": "CLT-000205",
+    "ref": "REF-000205",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 1391.0,
+    "sellingPrice": 2684.0
+  },
+  {
+    "name": "Chino Pants Model 206",
+    "barcode": "100206",
+    "sku": "CLT-000206",
+    "ref": "REF-000206",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 2527.0,
+    "sellingPrice": 3320.0
+  },
+  {
+    "name": "Skirt Model 207",
+    "barcode": "100207",
+    "sku": "CLT-000207",
+    "ref": "REF-000207",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 2412.0,
+    "sellingPrice": 3885.0
+  },
+  {
+    "name": "Shirt Model 208",
+    "barcode": "100208",
+    "sku": "CLT-000208",
+    "ref": "REF-000208",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 3187.0,
+    "sellingPrice": 5674.0
+  },
+  {
+    "name": "Coat Model 209",
+    "barcode": "100209",
+    "sku": "CLT-000209",
+    "ref": "REF-000209",
+    "description": "Excellent value for money.",
+    "costPrice": 2586.0,
+    "sellingPrice": 5315.0
+  },
+  {
+    "name": "Vest Model 210",
+    "barcode": "100210",
+    "sku": "CLT-000210",
+    "ref": "REF-000210",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 3077.0,
+    "sellingPrice": 6361.0
+  },
+  {
+    "name": "Cap Model 211",
+    "barcode": "100211",
+    "sku": "CLT-000211",
+    "ref": "REF-000211",
+    "description": "Modern design with premium finish.",
+    "costPrice": 1571.0,
+    "sellingPrice": 2392.0
+  },
+  {
+    "name": "Sock Model 212",
+    "barcode": "100212",
+    "sku": "CLT-000212",
+    "ref": "REF-000212",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 1619.0,
+    "sellingPrice": 3474.0
+  },
+  {
+    "name": "Handbag Model 213",
+    "barcode": "100213",
+    "sku": "CLT-000213",
+    "ref": "REF-000213",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 2158.0,
+    "sellingPrice": 4129.0
+  },
+  {
+    "name": "Sweatshirt Model 214",
+    "barcode": "100214",
+    "sku": "CLT-000214",
+    "ref": "REF-000214",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 1251.0,
+    "sellingPrice": 1735.0
+  },
+  {
+    "name": "Vest Model 215",
+    "barcode": "100215",
+    "sku": "CLT-000215",
+    "ref": "REF-000215",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 869.0,
+    "sellingPrice": 1679.0
+  },
+  {
+    "name": "Running Shoe Model 216",
+    "barcode": "100216",
+    "sku": "CLT-000216",
+    "ref": "REF-000216",
+    "description": "Excellent value for money.",
+    "costPrice": 957.0,
+    "sellingPrice": 1957.0
+  },
+  {
+    "name": "Running Shoe Model 217",
+    "barcode": "100217",
+    "sku": "CLT-000217",
+    "ref": "REF-000217",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 2942.0,
+    "sellingPrice": 5178.0
+  },
+  {
+    "name": "Wallet Model 218",
+    "barcode": "100218",
+    "sku": "CLT-000218",
+    "ref": "REF-000218",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 2774.0,
+    "sellingPrice": 4793.0
+  },
+  {
+    "name": "Suit Model 219",
+    "barcode": "100219",
+    "sku": "CLT-000219",
+    "ref": "REF-000219",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 806.0,
+    "sellingPrice": 1076.0
+  },
+  {
+    "name": "Leggings Model 220",
+    "barcode": "100220",
+    "sku": "CLT-000220",
+    "ref": "REF-000220",
+    "description": "Modern design with premium finish.",
+    "costPrice": 961.0,
+    "sellingPrice": 1823.0
+  },
+  {
+    "name": "Boot Model 221",
+    "barcode": "100221",
+    "sku": "CLT-000221",
+    "ref": "REF-000221",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 1271.0,
+    "sellingPrice": 2417.0
+  },
+  {
+    "name": "Boot Model 222",
+    "barcode": "100222",
+    "sku": "CLT-000222",
+    "ref": "REF-000222",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 648.0,
+    "sellingPrice": 1164.0
+  },
+  {
+    "name": "Shorts Model 223",
+    "barcode": "100223",
+    "sku": "CLT-000223",
+    "ref": "REF-000223",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 2268.0,
+    "sellingPrice": 4893.0
+  },
+  {
+    "name": "Wallet Model 224",
+    "barcode": "100224",
+    "sku": "CLT-000224",
+    "ref": "REF-000224",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 2318.0,
+    "sellingPrice": 4004.0
+  },
+  {
+    "name": "Coat Model 225",
+    "barcode": "100225",
+    "sku": "CLT-000225",
+    "ref": "REF-000225",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 1851.0,
+    "sellingPrice": 3812.0
+  },
+  {
+    "name": "Chino Pants Model 226",
+    "barcode": "100226",
+    "sku": "CLT-000226",
+    "ref": "REF-000226",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 2974.0,
+    "sellingPrice": 6363.0
+  },
+  {
+    "name": "Jeans Model 227",
+    "barcode": "100227",
+    "sku": "CLT-000227",
+    "ref": "REF-000227",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 1497.0,
+    "sellingPrice": 2332.0
+  },
+  {
+    "name": "Scarf Model 228",
+    "barcode": "100228",
+    "sku": "CLT-000228",
+    "ref": "REF-000228",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 2510.0,
+    "sellingPrice": 3782.0
+  },
+  {
+    "name": "Cardigan Model 229",
+    "barcode": "100229",
+    "sku": "CLT-000229",
+    "ref": "REF-000229",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 2619.0,
+    "sellingPrice": 5307.0
+  },
+  {
+    "name": "Hat Model 230",
+    "barcode": "100230",
+    "sku": "CLT-000230",
+    "ref": "REF-000230",
+    "description": "Excellent value for money.",
+    "costPrice": 604.0,
+    "sellingPrice": 982.0
+  },
+  {
+    "name": "Shirt Model 231",
+    "barcode": "100231",
+    "sku": "CLT-000231",
+    "ref": "REF-000231",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 2306.0,
+    "sellingPrice": 3229.0
+  },
+  {
+    "name": "Shorts Model 232",
+    "barcode": "100232",
+    "sku": "CLT-000232",
+    "ref": "REF-000232",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 1759.0,
+    "sellingPrice": 2315.0
+  },
+  {
+    "name": "Chino Pants Model 233",
+    "barcode": "100233",
+    "sku": "CLT-000233",
+    "ref": "REF-000233",
+    "description": "Modern design with premium finish.",
+    "costPrice": 1220.0,
+    "sellingPrice": 2005.0
+  },
+  {
+    "name": "Suit Model 234",
+    "barcode": "100234",
+    "sku": "CLT-000234",
+    "ref": "REF-000234",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 974.0,
+    "sellingPrice": 1327.0
+  },
+  {
+    "name": "Backpack Model 235",
+    "barcode": "100235",
+    "sku": "CLT-000235",
+    "ref": "REF-000235",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 3145.0,
+    "sellingPrice": 6153.0
+  },
+  {
+    "name": "T-Shirt Model 236",
+    "barcode": "100236",
+    "sku": "CLT-000236",
+    "ref": "REF-000236",
+    "description": "Modern design with premium finish.",
+    "costPrice": 2608.0,
+    "sellingPrice": 3719.0
+  },
+  {
+    "name": "Wallet Model 237",
+    "barcode": "100237",
+    "sku": "CLT-000237",
+    "ref": "REF-000237",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 3008.0,
+    "sellingPrice": 4812.0
+  },
+  {
+    "name": "Dress Model 238",
+    "barcode": "100238",
+    "sku": "CLT-000238",
+    "ref": "REF-000238",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 1615.0,
+    "sellingPrice": 2661.0
+  },
+  {
+    "name": "Suit Model 239",
+    "barcode": "100239",
+    "sku": "CLT-000239",
+    "ref": "REF-000239",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 2665.0,
+    "sellingPrice": 4262.0
+  },
+  {
+    "name": "Polo Shirt Model 240",
+    "barcode": "100240",
+    "sku": "CLT-000240",
+    "ref": "REF-000240",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 2857.0,
+    "sellingPrice": 4271.0
+  },
+  {
+    "name": "Handbag Model 241",
+    "barcode": "100241",
+    "sku": "CLT-000241",
+    "ref": "REF-000241",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 3237.0,
+    "sellingPrice": 4623.0
+  },
+  {
+    "name": "Hat Model 242",
+    "barcode": "100242",
+    "sku": "CLT-000242",
+    "ref": "REF-000242",
+    "description": "Modern design with premium finish.",
+    "costPrice": 2105.0,
+    "sellingPrice": 4304.0
+  },
+  {
+    "name": "Blazer Model 243",
+    "barcode": "100243",
+    "sku": "CLT-000243",
+    "ref": "REF-000243",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 1741.0,
+    "sellingPrice": 2427.0
+  },
+  {
+    "name": "Skirt Model 244",
+    "barcode": "100244",
+    "sku": "CLT-000244",
+    "ref": "REF-000244",
+    "description": "Modern design with premium finish.",
+    "costPrice": 2067.0,
+    "sellingPrice": 4265.0
+  },
+  {
+    "name": "Coat Model 245",
+    "barcode": "100245",
+    "sku": "CLT-000245",
+    "ref": "REF-000245",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 2914.0,
+    "sellingPrice": 4424.0
+  },
+  {
+    "name": "Boot Model 246",
+    "barcode": "100246",
+    "sku": "CLT-000246",
+    "ref": "REF-000246",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 3105.0,
+    "sellingPrice": 4687.0
+  },
+  {
+    "name": "Running Shoe Model 247",
+    "barcode": "100247",
+    "sku": "CLT-000247",
+    "ref": "REF-000247",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 1362.0,
+    "sellingPrice": 2595.0
+  },
+  {
+    "name": "Cargo Pants Model 248",
+    "barcode": "100248",
+    "sku": "CLT-000248",
+    "ref": "REF-000248",
+    "description": "Modern design with premium finish.",
+    "costPrice": 2408.0,
+    "sellingPrice": 4719.0
+  },
+  {
+    "name": "Hoodie Model 249",
+    "barcode": "100249",
+    "sku": "CLT-000249",
+    "ref": "REF-000249",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 2810.0,
+    "sellingPrice": 5663.0
+  },
+  {
+    "name": "Jeans Model 250",
+    "barcode": "100250",
+    "sku": "CLT-000250",
+    "ref": "REF-000250",
+    "description": "Modern design with premium finish.",
+    "costPrice": 944.0,
+    "sellingPrice": 1328.0
+  },
+  {
+    "name": "Glove Model 251",
+    "barcode": "100251",
+    "sku": "CLT-000251",
+    "ref": "REF-000251",
+    "description": "Modern design with premium finish.",
+    "costPrice": 2857.0,
+    "sellingPrice": 6241.0
+  },
+  {
+    "name": "Running Shoe Model 252",
+    "barcode": "100252",
+    "sku": "CLT-000252",
+    "ref": "REF-000252",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 3320.0,
+    "sellingPrice": 6398.0
+  },
+  {
+    "name": "Skirt Model 253",
+    "barcode": "100253",
+    "sku": "CLT-000253",
+    "ref": "REF-000253",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 1484.0,
+    "sellingPrice": 2784.0
+  },
+  {
+    "name": "Sock Model 254",
+    "barcode": "100254",
+    "sku": "CLT-000254",
+    "ref": "REF-000254",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 2427.0,
+    "sellingPrice": 4499.0
+  },
+  {
+    "name": "Hat Model 255",
+    "barcode": "100255",
+    "sku": "CLT-000255",
+    "ref": "REF-000255",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 3264.0,
+    "sellingPrice": 4534.0
+  },
+  {
+    "name": "Scarf Model 256",
+    "barcode": "100256",
+    "sku": "CLT-000256",
+    "ref": "REF-000256",
+    "description": "Excellent value for money.",
+    "costPrice": 819.0,
+    "sellingPrice": 1123.0
+  },
+  {
+    "name": "Sweatshirt Model 257",
+    "barcode": "100257",
+    "sku": "CLT-000257",
+    "ref": "REF-000257",
+    "description": "Modern design with premium finish.",
+    "costPrice": 1924.0,
+    "sellingPrice": 2708.0
+  },
+  {
+    "name": "Hoodie Model 258",
+    "barcode": "100258",
+    "sku": "CLT-000258",
+    "ref": "REF-000258",
+    "description": "Excellent value for money.",
+    "costPrice": 1662.0,
+    "sellingPrice": 2641.0
+  },
+  {
+    "name": "Cap Model 259",
+    "barcode": "100259",
+    "sku": "CLT-000259",
+    "ref": "REF-000259",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 3312.0,
+    "sellingPrice": 4590.0
+  },
+  {
+    "name": "Handbag Model 260",
+    "barcode": "100260",
+    "sku": "CLT-000260",
+    "ref": "REF-000260",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 2892.0,
+    "sellingPrice": 3932.0
+  },
+  {
+    "name": "Hat Model 261",
+    "barcode": "100261",
+    "sku": "CLT-000261",
+    "ref": "REF-000261",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 787.0,
+    "sellingPrice": 1412.0
+  },
+  {
+    "name": "Hoodie Model 262",
+    "barcode": "100262",
+    "sku": "CLT-000262",
+    "ref": "REF-000262",
+    "description": "Modern design with premium finish.",
+    "costPrice": 3048.0,
+    "sellingPrice": 5474.0
+  },
+  {
+    "name": "Jacket Model 263",
+    "barcode": "100263",
+    "sku": "CLT-000263",
+    "ref": "REF-000263",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 2633.0,
+    "sellingPrice": 4744.0
+  },
+  {
+    "name": "Backpack Model 264",
+    "barcode": "100264",
+    "sku": "CLT-000264",
+    "ref": "REF-000264",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 1387.0,
+    "sellingPrice": 2985.0
+  },
+  {
+    "name": "Sweater Model 265",
+    "barcode": "100265",
+    "sku": "CLT-000265",
+    "ref": "REF-000265",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 1205.0,
+    "sellingPrice": 1577.0
+  },
+  {
+    "name": "Jeans Model 266",
+    "barcode": "100266",
+    "sku": "CLT-000266",
+    "ref": "REF-000266",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 3320.0,
+    "sellingPrice": 6982.0
+  },
+  {
+    "name": "Sweatshirt Model 267",
+    "barcode": "100267",
+    "sku": "CLT-000267",
+    "ref": "REF-000267",
+    "description": "Modern design with premium finish.",
+    "costPrice": 3348.0,
+    "sellingPrice": 7066.0
+  },
+  {
+    "name": "Suit Model 268",
+    "barcode": "100268",
+    "sku": "CLT-000268",
+    "ref": "REF-000268",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 2539.0,
+    "sellingPrice": 3716.0
+  },
+  {
+    "name": "Underwear Model 269",
+    "barcode": "100269",
+    "sku": "CLT-000269",
+    "ref": "REF-000269",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 942.0,
+    "sellingPrice": 1747.0
+  },
+  {
+    "name": "Running Shoe Model 270",
+    "barcode": "100270",
+    "sku": "CLT-000270",
+    "ref": "REF-000270",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 721.0,
+    "sellingPrice": 1022.0
+  },
+  {
+    "name": "Chino Pants Model 271",
+    "barcode": "100271",
+    "sku": "CLT-000271",
+    "ref": "REF-000271",
+    "description": "Modern design with premium finish.",
+    "costPrice": 2475.0,
+    "sellingPrice": 3429.0
+  },
+  {
+    "name": "Suit Model 272",
+    "barcode": "100272",
+    "sku": "CLT-000272",
+    "ref": "REF-000272",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 712.0,
+    "sellingPrice": 1002.0
+  },
+  {
+    "name": "Wallet Model 273",
+    "barcode": "100273",
+    "sku": "CLT-000273",
+    "ref": "REF-000273",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 2802.0,
+    "sellingPrice": 4182.0
+  },
+  {
+    "name": "Jacket Model 274",
+    "barcode": "100274",
+    "sku": "CLT-000274",
+    "ref": "REF-000274",
+    "description": "Modern design with premium finish.",
+    "costPrice": 2737.0,
+    "sellingPrice": 5345.0
+  },
+  {
+    "name": "Belt Model 275",
+    "barcode": "100275",
+    "sku": "CLT-000275",
+    "ref": "REF-000275",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 1052.0,
+    "sellingPrice": 2217.0
+  },
+  {
+    "name": "Leggings Model 276",
+    "barcode": "100276",
+    "sku": "CLT-000276",
+    "ref": "REF-000276",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 1062.0,
+    "sellingPrice": 2158.0
+  },
+  {
+    "name": "Sweater Model 277",
+    "barcode": "100277",
+    "sku": "CLT-000277",
+    "ref": "REF-000277",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 2630.0,
+    "sellingPrice": 4380.0
+  },
+  {
+    "name": "Sock Model 278",
+    "barcode": "100278",
+    "sku": "CLT-000278",
+    "ref": "REF-000278",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 1416.0,
+    "sellingPrice": 2292.0
+  },
+  {
+    "name": "Backpack Model 279",
+    "barcode": "100279",
+    "sku": "CLT-000279",
+    "ref": "REF-000279",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 2275.0,
+    "sellingPrice": 3840.0
+  },
+  {
+    "name": "Chino Pants Model 280",
+    "barcode": "100280",
+    "sku": "CLT-000280",
+    "ref": "REF-000280",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 1504.0,
+    "sellingPrice": 2125.0
+  },
+  {
+    "name": "Blazer Model 281",
+    "barcode": "100281",
+    "sku": "CLT-000281",
+    "ref": "REF-000281",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 836.0,
+    "sellingPrice": 1467.0
+  },
+  {
+    "name": "Skirt Model 282",
+    "barcode": "100282",
+    "sku": "CLT-000282",
+    "ref": "REF-000282",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 3286.0,
+    "sellingPrice": 6002.0
+  },
+  {
+    "name": "Handbag Model 283",
+    "barcode": "100283",
+    "sku": "CLT-000283",
+    "ref": "REF-000283",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 1319.0,
+    "sellingPrice": 1985.0
+  },
+  {
+    "name": "Underwear Model 284",
+    "barcode": "100284",
+    "sku": "CLT-000284",
+    "ref": "REF-000284",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 2368.0,
+    "sellingPrice": 5176.0
+  },
+  {
+    "name": "T-Shirt Model 285",
+    "barcode": "100285",
+    "sku": "CLT-000285",
+    "ref": "REF-000285",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 3007.0,
+    "sellingPrice": 4838.0
+  },
+  {
+    "name": "Cargo Pants Model 286",
+    "barcode": "100286",
+    "sku": "CLT-000286",
+    "ref": "REF-000286",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 2757.0,
+    "sellingPrice": 3826.0
+  },
+  {
+    "name": "Jogger Model 287",
+    "barcode": "100287",
+    "sku": "CLT-000287",
+    "ref": "REF-000287",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 1118.0,
+    "sellingPrice": 1960.0
+  },
+  {
+    "name": "T-Shirt Model 288",
+    "barcode": "100288",
+    "sku": "CLT-000288",
+    "ref": "REF-000288",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 1726.0,
+    "sellingPrice": 2555.0
+  },
+  {
+    "name": "Coat Model 289",
+    "barcode": "100289",
+    "sku": "CLT-000289",
+    "ref": "REF-000289",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 1350.0,
+    "sellingPrice": 1816.0
+  },
+  {
+    "name": "Hoodie Model 290",
+    "barcode": "100290",
+    "sku": "CLT-000290",
+    "ref": "REF-000290",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 3171.0,
+    "sellingPrice": 5953.0
+  },
+  {
+    "name": "Shorts Model 291",
+    "barcode": "100291",
+    "sku": "CLT-000291",
+    "ref": "REF-000291",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 3456.0,
+    "sellingPrice": 5840.0
+  },
+  {
+    "name": "Running Shoe Model 292",
+    "barcode": "100292",
+    "sku": "CLT-000292",
+    "ref": "REF-000292",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 3268.0,
+    "sellingPrice": 6774.0
+  },
+  {
+    "name": "Sweatshirt Model 293",
+    "barcode": "100293",
+    "sku": "CLT-000293",
+    "ref": "REF-000293",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 1648.0,
+    "sellingPrice": 3451.0
+  },
+  {
+    "name": "Sandal Model 294",
+    "barcode": "100294",
+    "sku": "CLT-000294",
+    "ref": "REF-000294",
+    "description": "Excellent value for money.",
+    "costPrice": 689.0,
+    "sellingPrice": 1248.0
+  },
+  {
+    "name": "Jogger Model 295",
+    "barcode": "100295",
+    "sku": "CLT-000295",
+    "ref": "REF-000295",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 2194.0,
+    "sellingPrice": 3891.0
+  },
+  {
+    "name": "Skirt Model 296",
+    "barcode": "100296",
+    "sku": "CLT-000296",
+    "ref": "REF-000296",
+    "description": "Excellent value for money.",
+    "costPrice": 806.0,
+    "sellingPrice": 1203.0
+  },
+  {
+    "name": "Cargo Pants Model 297",
+    "barcode": "100297",
+    "sku": "CLT-000297",
+    "ref": "REF-000297",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 1901.0,
+    "sellingPrice": 3702.0
+  },
+  {
+    "name": "Coat Model 298",
+    "barcode": "100298",
+    "sku": "CLT-000298",
+    "ref": "REF-000298",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 2395.0,
+    "sellingPrice": 3813.0
+  },
+  {
+    "name": "Glove Model 299",
+    "barcode": "100299",
+    "sku": "CLT-000299",
+    "ref": "REF-000299",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 3475.0,
+    "sellingPrice": 7486.0
+  },
+  {
+    "name": "Scarf Model 300",
+    "barcode": "100300",
+    "sku": "CLT-000300",
+    "ref": "REF-000300",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 975.0,
+    "sellingPrice": 2086.0
+  },
+  {
+    "name": "Hoodie Model 301",
+    "barcode": "100301",
+    "sku": "CLT-000301",
+    "ref": "REF-000301",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 1538.0,
+    "sellingPrice": 2597.0
+  },
+  {
+    "name": "Suit Model 302",
+    "barcode": "100302",
+    "sku": "CLT-000302",
+    "ref": "REF-000302",
+    "description": "Modern design with premium finish.",
+    "costPrice": 2288.0,
+    "sellingPrice": 4184.0
+  },
+  {
+    "name": "Shorts Model 303",
+    "barcode": "100303",
+    "sku": "CLT-000303",
+    "ref": "REF-000303",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 2098.0,
+    "sellingPrice": 3559.0
+  },
+  {
+    "name": "Sock Model 304",
+    "barcode": "100304",
+    "sku": "CLT-000304",
+    "ref": "REF-000304",
+    "description": "Excellent value for money.",
+    "costPrice": 937.0,
+    "sellingPrice": 1565.0
+  },
+  {
+    "name": "Coat Model 305",
+    "barcode": "100305",
+    "sku": "CLT-000305",
+    "ref": "REF-000305",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 2059.0,
+    "sellingPrice": 4400.0
+  },
+  {
+    "name": "Shirt Model 306",
+    "barcode": "100306",
+    "sku": "CLT-000306",
+    "ref": "REF-000306",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 1061.0,
+    "sellingPrice": 1665.0
+  },
+  {
+    "name": "Scarf Model 307",
+    "barcode": "100307",
+    "sku": "CLT-000307",
+    "ref": "REF-000307",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 790.0,
+    "sellingPrice": 1029.0
+  },
+  {
+    "name": "Shorts Model 308",
+    "barcode": "100308",
+    "sku": "CLT-000308",
+    "ref": "REF-000308",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 684.0,
+    "sellingPrice": 1060.0
+  },
+  {
+    "name": "Leggings Model 309",
+    "barcode": "100309",
+    "sku": "CLT-000309",
+    "ref": "REF-000309",
+    "description": "Modern design with premium finish.",
+    "costPrice": 1426.0,
+    "sellingPrice": 1878.0
+  },
+  {
+    "name": "Belt Model 310",
+    "barcode": "100310",
+    "sku": "CLT-000310",
+    "ref": "REF-000310",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 2743.0,
+    "sellingPrice": 3949.0
+  },
+  {
+    "name": "Jacket Model 311",
+    "barcode": "100311",
+    "sku": "CLT-000311",
+    "ref": "REF-000311",
+    "description": "Excellent value for money.",
+    "costPrice": 1815.0,
+    "sellingPrice": 3962.0
+  },
+  {
+    "name": "Sock Model 312",
+    "barcode": "100312",
+    "sku": "CLT-000312",
+    "ref": "REF-000312",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 2936.0,
+    "sellingPrice": 4779.0
+  },
+  {
+    "name": "Jacket Model 313",
+    "barcode": "100313",
+    "sku": "CLT-000313",
+    "ref": "REF-000313",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 1440.0,
+    "sellingPrice": 2034.0
+  },
+  {
+    "name": "Sweater Model 314",
+    "barcode": "100314",
+    "sku": "CLT-000314",
+    "ref": "REF-000314",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 675.0,
+    "sellingPrice": 1347.0
+  },
+  {
+    "name": "Scarf Model 315",
+    "barcode": "100315",
+    "sku": "CLT-000315",
+    "ref": "REF-000315",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 950.0,
+    "sellingPrice": 1964.0
+  },
+  {
+    "name": "Sweatshirt Model 316",
+    "barcode": "100316",
+    "sku": "CLT-000316",
+    "ref": "REF-000316",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 2794.0,
+    "sellingPrice": 4862.0
+  },
+  {
+    "name": "Polo Shirt Model 317",
+    "barcode": "100317",
+    "sku": "CLT-000317",
+    "ref": "REF-000317",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 2048.0,
+    "sellingPrice": 4280.0
+  },
+  {
+    "name": "Boot Model 318",
+    "barcode": "100318",
+    "sku": "CLT-000318",
+    "ref": "REF-000318",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 1524.0,
+    "sellingPrice": 3093.0
+  },
+  {
+    "name": "Skirt Model 319",
+    "barcode": "100319",
+    "sku": "CLT-000319",
+    "ref": "REF-000319",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 2418.0,
+    "sellingPrice": 3459.0
+  },
+  {
+    "name": "Sneaker Model 320",
+    "barcode": "100320",
+    "sku": "CLT-000320",
+    "ref": "REF-000320",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 1063.0,
+    "sellingPrice": 1687.0
+  },
+  {
+    "name": "Scarf Model 321",
+    "barcode": "100321",
+    "sku": "CLT-000321",
+    "ref": "REF-000321",
+    "description": "Modern design with premium finish.",
+    "costPrice": 1712.0,
+    "sellingPrice": 3569.0
+  },
+  {
+    "name": "Suit Model 322",
+    "barcode": "100322",
+    "sku": "CLT-000322",
+    "ref": "REF-000322",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 2845.0,
+    "sellingPrice": 5408.0
+  },
+  {
+    "name": "Cap Model 323",
+    "barcode": "100323",
+    "sku": "CLT-000323",
+    "ref": "REF-000323",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 657.0,
+    "sellingPrice": 1246.0
+  },
+  {
+    "name": "Sneaker Model 324",
+    "barcode": "100324",
+    "sku": "CLT-000324",
+    "ref": "REF-000324",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 1054.0,
+    "sellingPrice": 1757.0
+  },
+  {
+    "name": "Shorts Model 325",
+    "barcode": "100325",
+    "sku": "CLT-000325",
+    "ref": "REF-000325",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 1425.0,
+    "sellingPrice": 2283.0
+  },
+  {
+    "name": "Jeans Model 326",
+    "barcode": "100326",
+    "sku": "CLT-000326",
+    "ref": "REF-000326",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 1537.0,
+    "sellingPrice": 2163.0
+  },
+  {
+    "name": "Shorts Model 327",
+    "barcode": "100327",
+    "sku": "CLT-000327",
+    "ref": "REF-000327",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 2725.0,
+    "sellingPrice": 4009.0
+  },
+  {
+    "name": "Cap Model 328",
+    "barcode": "100328",
+    "sku": "CLT-000328",
+    "ref": "REF-000328",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 2934.0,
+    "sellingPrice": 5906.0
+  },
+  {
+    "name": "Glove Model 329",
+    "barcode": "100329",
+    "sku": "CLT-000329",
+    "ref": "REF-000329",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 728.0,
+    "sellingPrice": 1016.0
+  },
+  {
+    "name": "Dress Model 330",
+    "barcode": "100330",
+    "sku": "CLT-000330",
+    "ref": "REF-000330",
+    "description": "Modern design with premium finish.",
+    "costPrice": 1848.0,
+    "sellingPrice": 3318.0
+  },
+  {
+    "name": "Cardigan Model 331",
+    "barcode": "100331",
+    "sku": "CLT-000331",
+    "ref": "REF-000331",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 1298.0,
+    "sellingPrice": 1966.0
+  },
+  {
+    "name": "Backpack Model 332",
+    "barcode": "100332",
+    "sku": "CLT-000332",
+    "ref": "REF-000332",
+    "description": "Modern design with premium finish.",
+    "costPrice": 2178.0,
+    "sellingPrice": 4583.0
+  },
+  {
+    "name": "Cargo Pants Model 333",
+    "barcode": "100333",
+    "sku": "CLT-000333",
+    "ref": "REF-000333",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 3334.0,
+    "sellingPrice": 7048.0
+  },
+  {
+    "name": "Wallet Model 334",
+    "barcode": "100334",
+    "sku": "CLT-000334",
+    "ref": "REF-000334",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 1083.0,
+    "sellingPrice": 1738.0
+  },
+  {
+    "name": "Belt Model 335",
+    "barcode": "100335",
+    "sku": "CLT-000335",
+    "ref": "REF-000335",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 2830.0,
+    "sellingPrice": 4377.0
+  },
+  {
+    "name": "Suit Model 336",
+    "barcode": "100336",
+    "sku": "CLT-000336",
+    "ref": "REF-000336",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 663.0,
+    "sellingPrice": 1218.0
+  },
+  {
+    "name": "Belt Model 337",
+    "barcode": "100337",
+    "sku": "CLT-000337",
+    "ref": "REF-000337",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 2347.0,
+    "sellingPrice": 4615.0
+  },
+  {
+    "name": "Shorts Model 338",
+    "barcode": "100338",
+    "sku": "CLT-000338",
+    "ref": "REF-000338",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 2285.0,
+    "sellingPrice": 3471.0
+  },
+  {
+    "name": "Running Shoe Model 339",
+    "barcode": "100339",
+    "sku": "CLT-000339",
+    "ref": "REF-000339",
+    "description": "Excellent value for money.",
+    "costPrice": 2979.0,
+    "sellingPrice": 4276.0
+  },
+  {
+    "name": "Hat Model 340",
+    "barcode": "100340",
+    "sku": "CLT-000340",
+    "ref": "REF-000340",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 2260.0,
+    "sellingPrice": 3929.0
+  },
+  {
+    "name": "Underwear Model 341",
+    "barcode": "100341",
+    "sku": "CLT-000341",
+    "ref": "REF-000341",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 1434.0,
+    "sellingPrice": 1892.0
+  },
+  {
+    "name": "T-Shirt Model 342",
+    "barcode": "100342",
+    "sku": "CLT-000342",
+    "ref": "REF-000342",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 1483.0,
+    "sellingPrice": 2670.0
+  },
+  {
+    "name": "Cap Model 343",
+    "barcode": "100343",
+    "sku": "CLT-000343",
+    "ref": "REF-000343",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 1915.0,
+    "sellingPrice": 3937.0
+  },
+  {
+    "name": "Suit Model 344",
+    "barcode": "100344",
+    "sku": "CLT-000344",
+    "ref": "REF-000344",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 997.0,
+    "sellingPrice": 1660.0
+  },
+  {
+    "name": "Polo Shirt Model 345",
+    "barcode": "100345",
+    "sku": "CLT-000345",
+    "ref": "REF-000345",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 3276.0,
+    "sellingPrice": 6205.0
+  },
+  {
+    "name": "Vest Model 346",
+    "barcode": "100346",
+    "sku": "CLT-000346",
+    "ref": "REF-000346",
+    "description": "Modern design with premium finish.",
+    "costPrice": 1618.0,
+    "sellingPrice": 3517.0
+  },
+  {
+    "name": "Hoodie Model 347",
+    "barcode": "100347",
+    "sku": "CLT-000347",
+    "ref": "REF-000347",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 1397.0,
+    "sellingPrice": 2246.0
+  },
+  {
+    "name": "Glove Model 348",
+    "barcode": "100348",
+    "sku": "CLT-000348",
+    "ref": "REF-000348",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 2154.0,
+    "sellingPrice": 3001.0
+  },
+  {
+    "name": "Leggings Model 349",
+    "barcode": "100349",
+    "sku": "CLT-000349",
+    "ref": "REF-000349",
+    "description": "Modern design with premium finish.",
+    "costPrice": 994.0,
+    "sellingPrice": 1619.0
+  },
+  {
+    "name": "Jogger Model 350",
+    "barcode": "100350",
+    "sku": "CLT-000350",
+    "ref": "REF-000350",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 3317.0,
+    "sellingPrice": 4585.0
+  },
+  {
+    "name": "Polo Shirt Model 351",
+    "barcode": "100351",
+    "sku": "CLT-000351",
+    "ref": "REF-000351",
+    "description": "Modern design with premium finish.",
+    "costPrice": 1764.0,
+    "sellingPrice": 3428.0
+  },
+  {
+    "name": "Scarf Model 352",
+    "barcode": "100352",
+    "sku": "CLT-000352",
+    "ref": "REF-000352",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 1663.0,
+    "sellingPrice": 2632.0
+  },
+  {
+    "name": "Handbag Model 353",
+    "barcode": "100353",
+    "sku": "CLT-000353",
+    "ref": "REF-000353",
+    "description": "Modern design with premium finish.",
+    "costPrice": 1646.0,
+    "sellingPrice": 2682.0
+  },
+  {
+    "name": "Shirt Model 354",
+    "barcode": "100354",
+    "sku": "CLT-000354",
+    "ref": "REF-000354",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 2160.0,
+    "sellingPrice": 4046.0
+  },
+  {
+    "name": "Sweater Model 355",
+    "barcode": "100355",
+    "sku": "CLT-000355",
+    "ref": "REF-000355",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 3332.0,
+    "sellingPrice": 7191.0
+  },
+  {
+    "name": "Hoodie Model 356",
+    "barcode": "100356",
+    "sku": "CLT-000356",
+    "ref": "REF-000356",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 2353.0,
+    "sellingPrice": 3755.0
+  },
+  {
+    "name": "Dress Model 357",
+    "barcode": "100357",
+    "sku": "CLT-000357",
+    "ref": "REF-000357",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 1870.0,
+    "sellingPrice": 4073.0
+  },
+  {
+    "name": "Vest Model 358",
+    "barcode": "100358",
+    "sku": "CLT-000358",
+    "ref": "REF-000358",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 1787.0,
+    "sellingPrice": 3143.0
+  },
+  {
+    "name": "Hoodie Model 359",
+    "barcode": "100359",
+    "sku": "CLT-000359",
+    "ref": "REF-000359",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 977.0,
+    "sellingPrice": 1427.0
+  },
+  {
+    "name": "Coat Model 360",
+    "barcode": "100360",
+    "sku": "CLT-000360",
+    "ref": "REF-000360",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 2576.0,
+    "sellingPrice": 4610.0
+  },
+  {
+    "name": "Hoodie Model 361",
+    "barcode": "100361",
+    "sku": "CLT-000361",
+    "ref": "REF-000361",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 1719.0,
+    "sellingPrice": 3243.0
+  },
+  {
+    "name": "Handbag Model 362",
+    "barcode": "100362",
+    "sku": "CLT-000362",
+    "ref": "REF-000362",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 2326.0,
+    "sellingPrice": 4632.0
+  },
+  {
+    "name": "Belt Model 363",
+    "barcode": "100363",
+    "sku": "CLT-000363",
+    "ref": "REF-000363",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 1241.0,
+    "sellingPrice": 2074.0
+  },
+  {
+    "name": "Sneaker Model 364",
+    "barcode": "100364",
+    "sku": "CLT-000364",
+    "ref": "REF-000364",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 1064.0,
+    "sellingPrice": 1500.0
+  },
+  {
+    "name": "Jogger Model 365",
+    "barcode": "100365",
+    "sku": "CLT-000365",
+    "ref": "REF-000365",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 2046.0,
+    "sellingPrice": 2928.0
+  },
+  {
+    "name": "Coat Model 366",
+    "barcode": "100366",
+    "sku": "CLT-000366",
+    "ref": "REF-000366",
+    "description": "Excellent value for money.",
+    "costPrice": 1475.0,
+    "sellingPrice": 2135.0
+  },
+  {
+    "name": "Wallet Model 367",
+    "barcode": "100367",
+    "sku": "CLT-000367",
+    "ref": "REF-000367",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 765.0,
+    "sellingPrice": 1186.0
+  },
+  {
+    "name": "Shirt Model 368",
+    "barcode": "100368",
+    "sku": "CLT-000368",
+    "ref": "REF-000368",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 3212.0,
+    "sellingPrice": 5003.0
+  },
+  {
+    "name": "Sandal Model 369",
+    "barcode": "100369",
+    "sku": "CLT-000369",
+    "ref": "REF-000369",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 2810.0,
+    "sellingPrice": 6161.0
+  },
+  {
+    "name": "Belt Model 370",
+    "barcode": "100370",
+    "sku": "CLT-000370",
+    "ref": "REF-000370",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 1252.0,
+    "sellingPrice": 1972.0
+  },
+  {
+    "name": "Dress Model 371",
+    "barcode": "100371",
+    "sku": "CLT-000371",
+    "ref": "REF-000371",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 2113.0,
+    "sellingPrice": 4384.0
+  },
+  {
+    "name": "Jogger Model 372",
+    "barcode": "100372",
+    "sku": "CLT-000372",
+    "ref": "REF-000372",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 982.0,
+    "sellingPrice": 1969.0
+  },
+  {
+    "name": "Blazer Model 373",
+    "barcode": "100373",
+    "sku": "CLT-000373",
+    "ref": "REF-000373",
+    "description": "Excellent value for money.",
+    "costPrice": 1816.0,
+    "sellingPrice": 3296.0
+  },
+  {
+    "name": "Leggings Model 374",
+    "barcode": "100374",
+    "sku": "CLT-000374",
+    "ref": "REF-000374",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 1367.0,
+    "sellingPrice": 2922.0
+  },
+  {
+    "name": "Sweater Model 375",
+    "barcode": "100375",
+    "sku": "CLT-000375",
+    "ref": "REF-000375",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 1447.0,
+    "sellingPrice": 1895.0
+  },
+  {
+    "name": "Jacket Model 376",
+    "barcode": "100376",
+    "sku": "CLT-000376",
+    "ref": "REF-000376",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 2290.0,
+    "sellingPrice": 3648.0
+  },
+  {
+    "name": "Backpack Model 377",
+    "barcode": "100377",
+    "sku": "CLT-000377",
+    "ref": "REF-000377",
+    "description": "Modern design with premium finish.",
+    "costPrice": 1735.0,
+    "sellingPrice": 3791.0
+  },
+  {
+    "name": "Polo Shirt Model 378",
+    "barcode": "100378",
+    "sku": "CLT-000378",
+    "ref": "REF-000378",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 1322.0,
+    "sellingPrice": 2025.0
+  },
+  {
+    "name": "Chino Pants Model 379",
+    "barcode": "100379",
+    "sku": "CLT-000379",
+    "ref": "REF-000379",
+    "description": "Modern design with premium finish.",
+    "costPrice": 2647.0,
+    "sellingPrice": 3797.0
+  },
+  {
+    "name": "Scarf Model 380",
+    "barcode": "100380",
+    "sku": "CLT-000380",
+    "ref": "REF-000380",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 1127.0,
+    "sellingPrice": 2256.0
+  },
+  {
+    "name": "Jeans Model 381",
+    "barcode": "100381",
+    "sku": "CLT-000381",
+    "ref": "REF-000381",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 2249.0,
+    "sellingPrice": 3434.0
+  },
+  {
+    "name": "Sweater Model 382",
+    "barcode": "100382",
+    "sku": "CLT-000382",
+    "ref": "REF-000382",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 2428.0,
+    "sellingPrice": 4382.0
+  },
+  {
+    "name": "Vest Model 383",
+    "barcode": "100383",
+    "sku": "CLT-000383",
+    "ref": "REF-000383",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 3086.0,
+    "sellingPrice": 4208.0
+  },
+  {
+    "name": "Dress Model 384",
+    "barcode": "100384",
+    "sku": "CLT-000384",
+    "ref": "REF-000384",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 2921.0,
+    "sellingPrice": 4145.0
+  },
+  {
+    "name": "Cargo Pants Model 385",
+    "barcode": "100385",
+    "sku": "CLT-000385",
+    "ref": "REF-000385",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 2123.0,
+    "sellingPrice": 3530.0
+  },
+  {
+    "name": "Jeans Model 386",
+    "barcode": "100386",
+    "sku": "CLT-000386",
+    "ref": "REF-000386",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 2386.0,
+    "sellingPrice": 3830.0
+  },
+  {
+    "name": "Shorts Model 387",
+    "barcode": "100387",
+    "sku": "CLT-000387",
+    "ref": "REF-000387",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 1619.0,
+    "sellingPrice": 2286.0
+  },
+  {
+    "name": "Sweater Model 388",
+    "barcode": "100388",
+    "sku": "CLT-000388",
+    "ref": "REF-000388",
+    "description": "Modern design with premium finish.",
+    "costPrice": 1612.0,
+    "sellingPrice": 2353.0
+  },
+  {
+    "name": "Belt Model 389",
+    "barcode": "100389",
+    "sku": "CLT-000389",
+    "ref": "REF-000389",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 1912.0,
+    "sellingPrice": 3073.0
+  },
+  {
+    "name": "Shirt Model 390",
+    "barcode": "100390",
+    "sku": "CLT-000390",
+    "ref": "REF-000390",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 1735.0,
+    "sellingPrice": 3191.0
+  },
+  {
+    "name": "Sweatshirt Model 391",
+    "barcode": "100391",
+    "sku": "CLT-000391",
+    "ref": "REF-000391",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 3137.0,
+    "sellingPrice": 5796.0
+  },
+  {
+    "name": "Jacket Model 392",
+    "barcode": "100392",
+    "sku": "CLT-000392",
+    "ref": "REF-000392",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 1553.0,
+    "sellingPrice": 3080.0
+  },
+  {
+    "name": "Dress Model 393",
+    "barcode": "100393",
+    "sku": "CLT-000393",
+    "ref": "REF-000393",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 2801.0,
+    "sellingPrice": 3941.0
+  },
+  {
+    "name": "Wallet Model 394",
+    "barcode": "100394",
+    "sku": "CLT-000394",
+    "ref": "REF-000394",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 2466.0,
+    "sellingPrice": 3900.0
+  },
+  {
+    "name": "Jeans Model 395",
+    "barcode": "100395",
+    "sku": "CLT-000395",
+    "ref": "REF-000395",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 3223.0,
+    "sellingPrice": 5045.0
+  },
+  {
+    "name": "Sweater Model 396",
+    "barcode": "100396",
+    "sku": "CLT-000396",
+    "ref": "REF-000396",
+    "description": "Modern design with premium finish.",
+    "costPrice": 1706.0,
+    "sellingPrice": 2993.0
+  },
+  {
+    "name": "Sneaker Model 397",
+    "barcode": "100397",
+    "sku": "CLT-000397",
+    "ref": "REF-000397",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 2431.0,
+    "sellingPrice": 4872.0
+  },
+  {
+    "name": "Wallet Model 398",
+    "barcode": "100398",
+    "sku": "CLT-000398",
+    "ref": "REF-000398",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 1358.0,
+    "sellingPrice": 2584.0
+  },
+  {
+    "name": "Cardigan Model 399",
+    "barcode": "100399",
+    "sku": "CLT-000399",
+    "ref": "REF-000399",
+    "description": "Excellent value for money.",
+    "costPrice": 676.0,
+    "sellingPrice": 1384.0
+  },
+  {
+    "name": "Blazer Model 400",
+    "barcode": "100400",
+    "sku": "CLT-000400",
+    "ref": "REF-000400",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 2452.0,
+    "sellingPrice": 4531.0
+  },
+  {
+    "name": "Glove Model 401",
+    "barcode": "100401",
+    "sku": "CLT-000401",
+    "ref": "REF-000401",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 2739.0,
+    "sellingPrice": 5052.0
+  },
+  {
+    "name": "Scarf Model 402",
+    "barcode": "100402",
+    "sku": "CLT-000402",
+    "ref": "REF-000402",
+    "description": "Modern design with premium finish.",
+    "costPrice": 2747.0,
+    "sellingPrice": 5977.0
+  },
+  {
+    "name": "Vest Model 403",
+    "barcode": "100403",
+    "sku": "CLT-000403",
+    "ref": "REF-000403",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 2046.0,
+    "sellingPrice": 3530.0
+  },
+  {
+    "name": "Sneaker Model 404",
+    "barcode": "100404",
+    "sku": "CLT-000404",
+    "ref": "REF-000404",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 3219.0,
+    "sellingPrice": 5653.0
+  },
+  {
+    "name": "Sweatshirt Model 405",
+    "barcode": "100405",
+    "sku": "CLT-000405",
+    "ref": "REF-000405",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 2097.0,
+    "sellingPrice": 3168.0
+  },
+  {
+    "name": "Wallet Model 406",
+    "barcode": "100406",
+    "sku": "CLT-000406",
+    "ref": "REF-000406",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 1661.0,
+    "sellingPrice": 3121.0
+  },
+  {
+    "name": "Jogger Model 407",
+    "barcode": "100407",
+    "sku": "CLT-000407",
+    "ref": "REF-000407",
+    "description": "Excellent value for money.",
+    "costPrice": 1889.0,
+    "sellingPrice": 3371.0
+  },
+  {
+    "name": "Chino Pants Model 408",
+    "barcode": "100408",
+    "sku": "CLT-000408",
+    "ref": "REF-000408",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 1789.0,
+    "sellingPrice": 2335.0
+  },
+  {
+    "name": "Cap Model 409",
+    "barcode": "100409",
+    "sku": "CLT-000409",
+    "ref": "REF-000409",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 3131.0,
+    "sellingPrice": 4731.0
+  },
+  {
+    "name": "Jogger Model 410",
+    "barcode": "100410",
+    "sku": "CLT-000410",
+    "ref": "REF-000410",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 2239.0,
+    "sellingPrice": 3593.0
+  },
+  {
+    "name": "Scarf Model 411",
+    "barcode": "100411",
+    "sku": "CLT-000411",
+    "ref": "REF-000411",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 1571.0,
+    "sellingPrice": 2247.0
+  },
+  {
+    "name": "Running Shoe Model 412",
+    "barcode": "100412",
+    "sku": "CLT-000412",
+    "ref": "REF-000412",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 2713.0,
+    "sellingPrice": 3970.0
+  },
+  {
+    "name": "Dress Model 413",
+    "barcode": "100413",
+    "sku": "CLT-000413",
+    "ref": "REF-000413",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 3214.0,
+    "sellingPrice": 6197.0
+  },
+  {
+    "name": "Sweatshirt Model 414",
+    "barcode": "100414",
+    "sku": "CLT-000414",
+    "ref": "REF-000414",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 2625.0,
+    "sellingPrice": 4907.0
+  },
+  {
+    "name": "Shirt Model 415",
+    "barcode": "100415",
+    "sku": "CLT-000415",
+    "ref": "REF-000415",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 1628.0,
+    "sellingPrice": 2490.0
+  },
+  {
+    "name": "Polo Shirt Model 416",
+    "barcode": "100416",
+    "sku": "CLT-000416",
+    "ref": "REF-000416",
+    "description": "Modern design with premium finish.",
+    "costPrice": 1943.0,
+    "sellingPrice": 2641.0
+  },
+  {
+    "name": "Vest Model 417",
+    "barcode": "100417",
+    "sku": "CLT-000417",
+    "ref": "REF-000417",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 2852.0,
+    "sellingPrice": 4193.0
+  },
+  {
+    "name": "Leggings Model 418",
+    "barcode": "100418",
+    "sku": "CLT-000418",
+    "ref": "REF-000418",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 950.0,
+    "sellingPrice": 1381.0
+  },
+  {
+    "name": "Cardigan Model 419",
+    "barcode": "100419",
+    "sku": "CLT-000419",
+    "ref": "REF-000419",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 1203.0,
+    "sellingPrice": 2037.0
+  },
+  {
+    "name": "Glove Model 420",
+    "barcode": "100420",
+    "sku": "CLT-000420",
+    "ref": "REF-000420",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 2759.0,
+    "sellingPrice": 5801.0
+  },
+  {
+    "name": "Wallet Model 421",
+    "barcode": "100421",
+    "sku": "CLT-000421",
+    "ref": "REF-000421",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 2802.0,
+    "sellingPrice": 4937.0
+  },
+  {
+    "name": "Wallet Model 422",
+    "barcode": "100422",
+    "sku": "CLT-000422",
+    "ref": "REF-000422",
+    "description": "Modern design with premium finish.",
+    "costPrice": 2018.0,
+    "sellingPrice": 2816.0
+  },
+  {
+    "name": "Leggings Model 423",
+    "barcode": "100423",
+    "sku": "CLT-000423",
+    "ref": "REF-000423",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 3387.0,
+    "sellingPrice": 4766.0
+  },
+  {
+    "name": "Sneaker Model 424",
+    "barcode": "100424",
+    "sku": "CLT-000424",
+    "ref": "REF-000424",
+    "description": "Excellent value for money.",
+    "costPrice": 1012.0,
+    "sellingPrice": 1808.0
+  },
+  {
+    "name": "Skirt Model 425",
+    "barcode": "100425",
+    "sku": "CLT-000425",
+    "ref": "REF-000425",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 3112.0,
+    "sellingPrice": 6222.0
+  },
+  {
+    "name": "Suit Model 426",
+    "barcode": "100426",
+    "sku": "CLT-000426",
+    "ref": "REF-000426",
+    "description": "Excellent value for money.",
+    "costPrice": 1078.0,
+    "sellingPrice": 1656.0
+  },
+  {
+    "name": "Glove Model 427",
+    "barcode": "100427",
+    "sku": "CLT-000427",
+    "ref": "REF-000427",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 1832.0,
+    "sellingPrice": 3205.0
+  },
+  {
+    "name": "Running Shoe Model 428",
+    "barcode": "100428",
+    "sku": "CLT-000428",
+    "ref": "REF-000428",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 1866.0,
+    "sellingPrice": 4030.0
+  },
+  {
+    "name": "Boot Model 429",
+    "barcode": "100429",
+    "sku": "CLT-000429",
+    "ref": "REF-000429",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 1290.0,
+    "sellingPrice": 2649.0
+  },
+  {
+    "name": "Running Shoe Model 430",
+    "barcode": "100430",
+    "sku": "CLT-000430",
+    "ref": "REF-000430",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 3489.0,
+    "sellingPrice": 7368.0
+  },
+  {
+    "name": "Polo Shirt Model 431",
+    "barcode": "100431",
+    "sku": "CLT-000431",
+    "ref": "REF-000431",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 719.0,
+    "sellingPrice": 1514.0
+  },
+  {
+    "name": "Cargo Pants Model 432",
+    "barcode": "100432",
+    "sku": "CLT-000432",
+    "ref": "REF-000432",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 738.0,
+    "sellingPrice": 1307.0
+  },
+  {
+    "name": "Sweatshirt Model 433",
+    "barcode": "100433",
+    "sku": "CLT-000433",
+    "ref": "REF-000433",
+    "description": "Excellent value for money.",
+    "costPrice": 1358.0,
+    "sellingPrice": 2071.0
+  },
+  {
+    "name": "Cardigan Model 434",
+    "barcode": "100434",
+    "sku": "CLT-000434",
+    "ref": "REF-000434",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 3388.0,
+    "sellingPrice": 5160.0
+  },
+  {
+    "name": "Jeans Model 435",
+    "barcode": "100435",
+    "sku": "CLT-000435",
+    "ref": "REF-000435",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 1107.0,
+    "sellingPrice": 1538.0
+  },
+  {
+    "name": "Boot Model 436",
+    "barcode": "100436",
+    "sku": "CLT-000436",
+    "ref": "REF-000436",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 2120.0,
+    "sellingPrice": 4047.0
+  },
+  {
+    "name": "Jogger Model 437",
+    "barcode": "100437",
+    "sku": "CLT-000437",
+    "ref": "REF-000437",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 982.0,
+    "sellingPrice": 2045.0
+  },
+  {
+    "name": "Shorts Model 438",
+    "barcode": "100438",
+    "sku": "CLT-000438",
+    "ref": "REF-000438",
+    "description": "Excellent value for money.",
+    "costPrice": 1701.0,
+    "sellingPrice": 2771.0
+  },
+  {
+    "name": "Backpack Model 439",
+    "barcode": "100439",
+    "sku": "CLT-000439",
+    "ref": "REF-000439",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 1733.0,
+    "sellingPrice": 3384.0
+  },
+  {
+    "name": "Dress Model 440",
+    "barcode": "100440",
+    "sku": "CLT-000440",
+    "ref": "REF-000440",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 733.0,
+    "sellingPrice": 985.0
+  },
+  {
+    "name": "Cap Model 441",
+    "barcode": "100441",
+    "sku": "CLT-000441",
+    "ref": "REF-000441",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 1682.0,
+    "sellingPrice": 2757.0
+  },
+  {
+    "name": "Shirt Model 442",
+    "barcode": "100442",
+    "sku": "CLT-000442",
+    "ref": "REF-000442",
+    "description": "Modern design with premium finish.",
+    "costPrice": 1981.0,
+    "sellingPrice": 2857.0
+  },
+  {
+    "name": "Skirt Model 443",
+    "barcode": "100443",
+    "sku": "CLT-000443",
+    "ref": "REF-000443",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 3149.0,
+    "sellingPrice": 4786.0
+  },
+  {
+    "name": "Leggings Model 444",
+    "barcode": "100444",
+    "sku": "CLT-000444",
+    "ref": "REF-000444",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 1542.0,
+    "sellingPrice": 2656.0
+  },
+  {
+    "name": "Cargo Pants Model 445",
+    "barcode": "100445",
+    "sku": "CLT-000445",
+    "ref": "REF-000445",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 2171.0,
+    "sellingPrice": 3349.0
+  },
+  {
+    "name": "Leggings Model 446",
+    "barcode": "100446",
+    "sku": "CLT-000446",
+    "ref": "REF-000446",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 2448.0,
+    "sellingPrice": 4746.0
+  },
+  {
+    "name": "Cap Model 447",
+    "barcode": "100447",
+    "sku": "CLT-000447",
+    "ref": "REF-000447",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 1584.0,
+    "sellingPrice": 2108.0
+  },
+  {
+    "name": "Glove Model 448",
+    "barcode": "100448",
+    "sku": "CLT-000448",
+    "ref": "REF-000448",
+    "description": "Excellent value for money.",
+    "costPrice": 3469.0,
+    "sellingPrice": 5138.0
+  },
+  {
+    "name": "Blazer Model 449",
+    "barcode": "100449",
+    "sku": "CLT-000449",
+    "ref": "REF-000449",
+    "description": "Modern design with premium finish.",
+    "costPrice": 1577.0,
+    "sellingPrice": 2719.0
+  },
+  {
+    "name": "Coat Model 450",
+    "barcode": "100450",
+    "sku": "CLT-000450",
+    "ref": "REF-000450",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 3273.0,
+    "sellingPrice": 4632.0
+  },
+  {
+    "name": "Hoodie Model 451",
+    "barcode": "100451",
+    "sku": "CLT-000451",
+    "ref": "REF-000451",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 1442.0,
+    "sellingPrice": 2421.0
+  },
+  {
+    "name": "Coat Model 452",
+    "barcode": "100452",
+    "sku": "CLT-000452",
+    "ref": "REF-000452",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 3159.0,
+    "sellingPrice": 6507.0
+  },
+  {
+    "name": "Coat Model 453",
+    "barcode": "100453",
+    "sku": "CLT-000453",
+    "ref": "REF-000453",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 1175.0,
+    "sellingPrice": 1560.0
+  },
+  {
+    "name": "Vest Model 454",
+    "barcode": "100454",
+    "sku": "CLT-000454",
+    "ref": "REF-000454",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 2344.0,
+    "sellingPrice": 4845.0
+  },
+  {
+    "name": "Suit Model 455",
+    "barcode": "100455",
+    "sku": "CLT-000455",
+    "ref": "REF-000455",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 3435.0,
+    "sellingPrice": 7135.0
+  },
+  {
+    "name": "Sneaker Model 456",
+    "barcode": "100456",
+    "sku": "CLT-000456",
+    "ref": "REF-000456",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 2719.0,
+    "sellingPrice": 4578.0
+  },
+  {
+    "name": "Sandal Model 457",
+    "barcode": "100457",
+    "sku": "CLT-000457",
+    "ref": "REF-000457",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 2560.0,
+    "sellingPrice": 3589.0
+  },
+  {
+    "name": "Polo Shirt Model 458",
+    "barcode": "100458",
+    "sku": "CLT-000458",
+    "ref": "REF-000458",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 2442.0,
+    "sellingPrice": 4133.0
+  },
+  {
+    "name": "Glove Model 459",
+    "barcode": "100459",
+    "sku": "CLT-000459",
+    "ref": "REF-000459",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 800.0,
+    "sellingPrice": 1383.0
+  },
+  {
+    "name": "Jogger Model 460",
+    "barcode": "100460",
+    "sku": "CLT-000460",
+    "ref": "REF-000460",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 1957.0,
+    "sellingPrice": 2602.0
+  },
+  {
+    "name": "Jacket Model 461",
+    "barcode": "100461",
+    "sku": "CLT-000461",
+    "ref": "REF-000461",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 2618.0,
+    "sellingPrice": 3672.0
+  },
+  {
+    "name": "Scarf Model 462",
+    "barcode": "100462",
+    "sku": "CLT-000462",
+    "ref": "REF-000462",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 1780.0,
+    "sellingPrice": 3412.0
+  },
+  {
+    "name": "Shorts Model 463",
+    "barcode": "100463",
+    "sku": "CLT-000463",
+    "ref": "REF-000463",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 3080.0,
+    "sellingPrice": 5549.0
+  },
+  {
+    "name": "Sweater Model 464",
+    "barcode": "100464",
+    "sku": "CLT-000464",
+    "ref": "REF-000464",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 3282.0,
+    "sellingPrice": 5661.0
+  },
+  {
+    "name": "Skirt Model 465",
+    "barcode": "100465",
+    "sku": "CLT-000465",
+    "ref": "REF-000465",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 2384.0,
+    "sellingPrice": 4929.0
+  },
+  {
+    "name": "Wallet Model 466",
+    "barcode": "100466",
+    "sku": "CLT-000466",
+    "ref": "REF-000466",
+    "description": "Excellent value for money.",
+    "costPrice": 3188.0,
+    "sellingPrice": 6041.0
+  },
+  {
+    "name": "Hoodie Model 467",
+    "barcode": "100467",
+    "sku": "CLT-000467",
+    "ref": "REF-000467",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 2040.0,
+    "sellingPrice": 3360.0
+  },
+  {
+    "name": "Backpack Model 468",
+    "barcode": "100468",
+    "sku": "CLT-000468",
+    "ref": "REF-000468",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 2715.0,
+    "sellingPrice": 4071.0
+  },
+  {
+    "name": "Suit Model 469",
+    "barcode": "100469",
+    "sku": "CLT-000469",
+    "ref": "REF-000469",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 2737.0,
+    "sellingPrice": 4409.0
+  },
+  {
+    "name": "Backpack Model 470",
+    "barcode": "100470",
+    "sku": "CLT-000470",
+    "ref": "REF-000470",
+    "description": "Excellent value for money.",
+    "costPrice": 2173.0,
+    "sellingPrice": 4707.0
+  },
+  {
+    "name": "Handbag Model 471",
+    "barcode": "100471",
+    "sku": "CLT-000471",
+    "ref": "REF-000471",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 1851.0,
+    "sellingPrice": 2584.0
+  },
+  {
+    "name": "Blazer Model 472",
+    "barcode": "100472",
+    "sku": "CLT-000472",
+    "ref": "REF-000472",
+    "description": "Modern design with premium finish.",
+    "costPrice": 1121.0,
+    "sellingPrice": 2140.0
+  },
+  {
+    "name": "Cardigan Model 473",
+    "barcode": "100473",
+    "sku": "CLT-000473",
+    "ref": "REF-000473",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 3453.0,
+    "sellingPrice": 5030.0
+  },
+  {
+    "name": "Scarf Model 474",
+    "barcode": "100474",
+    "sku": "CLT-000474",
+    "ref": "REF-000474",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 1197.0,
+    "sellingPrice": 2598.0
+  },
+  {
+    "name": "Vest Model 475",
+    "barcode": "100475",
+    "sku": "CLT-000475",
+    "ref": "REF-000475",
+    "description": "Modern design with premium finish.",
+    "costPrice": 2640.0,
+    "sellingPrice": 5769.0
+  },
+  {
+    "name": "Jeans Model 476",
+    "barcode": "100476",
+    "sku": "CLT-000476",
+    "ref": "REF-000476",
+    "description": "Excellent value for money.",
+    "costPrice": 2651.0,
+    "sellingPrice": 5577.0
+  },
+  {
+    "name": "Leggings Model 477",
+    "barcode": "100477",
+    "sku": "CLT-000477",
+    "ref": "REF-000477",
+    "description": "Excellent value for money.",
+    "costPrice": 1644.0,
+    "sellingPrice": 3291.0
+  },
+  {
+    "name": "Jacket Model 478",
+    "barcode": "100478",
+    "sku": "CLT-000478",
+    "ref": "REF-000478",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 1357.0,
+    "sellingPrice": 2700.0
+  },
+  {
+    "name": "Wallet Model 479",
+    "barcode": "100479",
+    "sku": "CLT-000479",
+    "ref": "REF-000479",
+    "description": "Excellent value for money.",
+    "costPrice": 1829.0,
+    "sellingPrice": 2952.0
+  },
+  {
+    "name": "Underwear Model 480",
+    "barcode": "100480",
+    "sku": "CLT-000480",
+    "ref": "REF-000480",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 1466.0,
+    "sellingPrice": 2569.0
+  },
+  {
+    "name": "Scarf Model 481",
+    "barcode": "100481",
+    "sku": "CLT-000481",
+    "ref": "REF-000481",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 994.0,
+    "sellingPrice": 1916.0
+  },
+  {
+    "name": "T-Shirt Model 482",
+    "barcode": "100482",
+    "sku": "CLT-000482",
+    "ref": "REF-000482",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 2515.0,
+    "sellingPrice": 4559.0
+  },
+  {
+    "name": "Cap Model 483",
+    "barcode": "100483",
+    "sku": "CLT-000483",
+    "ref": "REF-000483",
+    "description": "Modern design with premium finish.",
+    "costPrice": 1464.0,
+    "sellingPrice": 2502.0
+  },
+  {
+    "name": "Underwear Model 484",
+    "barcode": "100484",
+    "sku": "CLT-000484",
+    "ref": "REF-000484",
+    "description": "Modern design with premium finish.",
+    "costPrice": 3114.0,
+    "sellingPrice": 5371.0
+  },
+  {
+    "name": "Chino Pants Model 485",
+    "barcode": "100485",
+    "sku": "CLT-000485",
+    "ref": "REF-000485",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 2645.0,
+    "sellingPrice": 4428.0
+  },
+  {
+    "name": "Blazer Model 486",
+    "barcode": "100486",
+    "sku": "CLT-000486",
+    "ref": "REF-000486",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 1063.0,
+    "sellingPrice": 2231.0
+  },
+  {
+    "name": "Wallet Model 487",
+    "barcode": "100487",
+    "sku": "CLT-000487",
+    "ref": "REF-000487",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 1547.0,
+    "sellingPrice": 3031.0
+  },
+  {
+    "name": "Jacket Model 488",
+    "barcode": "100488",
+    "sku": "CLT-000488",
+    "ref": "REF-000488",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 1927.0,
+    "sellingPrice": 3923.0
+  },
+  {
+    "name": "Hoodie Model 489",
+    "barcode": "100489",
+    "sku": "CLT-000489",
+    "ref": "REF-000489",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 2436.0,
+    "sellingPrice": 4403.0
+  },
+  {
+    "name": "Jeans Model 490",
+    "barcode": "100490",
+    "sku": "CLT-000490",
+    "ref": "REF-000490",
+    "description": "Modern design with premium finish.",
+    "costPrice": 1911.0,
+    "sellingPrice": 2662.0
+  },
+  {
+    "name": "Shorts Model 491",
+    "barcode": "100491",
+    "sku": "CLT-000491",
+    "ref": "REF-000491",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 1567.0,
+    "sellingPrice": 2817.0
+  },
+  {
+    "name": "Cap Model 492",
+    "barcode": "100492",
+    "sku": "CLT-000492",
+    "ref": "REF-000492",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 2685.0,
+    "sellingPrice": 3611.0
+  },
+  {
+    "name": "Hoodie Model 493",
+    "barcode": "100493",
+    "sku": "CLT-000493",
+    "ref": "REF-000493",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 1518.0,
+    "sellingPrice": 3266.0
+  },
+  {
+    "name": "Sweatshirt Model 494",
+    "barcode": "100494",
+    "sku": "CLT-000494",
+    "ref": "REF-000494",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 2725.0,
+    "sellingPrice": 4444.0
+  },
+  {
+    "name": "Polo Shirt Model 495",
+    "barcode": "100495",
+    "sku": "CLT-000495",
+    "ref": "REF-000495",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 1137.0,
+    "sellingPrice": 1740.0
+  },
+  {
+    "name": "Shorts Model 496",
+    "barcode": "100496",
+    "sku": "CLT-000496",
+    "ref": "REF-000496",
+    "description": "Excellent value for money.",
+    "costPrice": 631.0,
+    "sellingPrice": 822.0
+  },
+  {
+    "name": "Shorts Model 497",
+    "barcode": "100497",
+    "sku": "CLT-000497",
+    "ref": "REF-000497",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 1810.0,
+    "sellingPrice": 2355.0
+  },
+  {
+    "name": "Cardigan Model 498",
+    "barcode": "100498",
+    "sku": "CLT-000498",
+    "ref": "REF-000498",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 2536.0,
+    "sellingPrice": 5312.0
+  },
+  {
+    "name": "Jogger Model 499",
+    "barcode": "100499",
+    "sku": "CLT-000499",
+    "ref": "REF-000499",
+    "description": "Modern design with premium finish.",
+    "costPrice": 2702.0,
+    "sellingPrice": 5741.0
+  },
+  {
+    "name": "Shirt Model 500",
+    "barcode": "100500",
+    "sku": "CLT-000500",
+    "ref": "REF-000500",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 2777.0,
+    "sellingPrice": 4598.0
+  },
+  {
+    "name": "Apple iPhone Model 501",
+    "barcode": "100501",
+    "sku": "PHN-000501",
+    "ref": "REF-000501",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 44766.0,
+    "sellingPrice": 55496.0
+  },
+  {
+    "name": "Nokia Smartphone Model 502",
+    "barcode": "100502",
+    "sku": "PHN-000502",
+    "ref": "REF-000502",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 161393.0,
+    "sellingPrice": 198769.0
+  },
+  {
+    "name": "Nokia Smartphone Model 503",
+    "barcode": "100503",
+    "sku": "PHN-000503",
+    "ref": "REF-000503",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 163429.0,
+    "sellingPrice": 199604.0
+  },
+  {
+    "name": "Honor Magic Model 504",
+    "barcode": "100504",
+    "sku": "PHN-000504",
+    "ref": "REF-000504",
+    "description": "Excellent value for money.",
+    "costPrice": 172947.0,
+    "sellingPrice": 195447.0
+  },
+  {
+    "name": "Honor Magic Model 505",
+    "barcode": "100505",
+    "sku": "PHN-000505",
+    "ref": "REF-000505",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 180833.0,
+    "sellingPrice": 212343.0
+  },
+  {
+    "name": "Realme GT Model 506",
+    "barcode": "100506",
+    "sku": "PHN-000506",
+    "ref": "REF-000506",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 46200.0,
+    "sellingPrice": 52468.0
+  },
+  {
+    "name": "Apple iPhone Model 507",
+    "barcode": "100507",
+    "sku": "PHN-000507",
+    "ref": "REF-000507",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 83610.0,
+    "sellingPrice": 95719.0
+  },
+  {
+    "name": "Xiaomi Redmi Model 508",
+    "barcode": "100508",
+    "sku": "PHN-000508",
+    "ref": "REF-000508",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 151535.0,
+    "sellingPrice": 193022.0
+  },
+  {
+    "name": "Honor Magic Model 509",
+    "barcode": "100509",
+    "sku": "PHN-000509",
+    "ref": "REF-000509",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 199313.0,
+    "sellingPrice": 227710.0
+  },
+  {
+    "name": "Apple iPhone Model 510",
+    "barcode": "100510",
+    "sku": "PHN-000510",
+    "ref": "REF-000510",
+    "description": "Excellent value for money.",
+    "costPrice": 73910.0,
+    "sellingPrice": 95943.0
+  },
+  {
+    "name": "Motorola Edge Model 511",
+    "barcode": "100511",
+    "sku": "PHN-000511",
+    "ref": "REF-000511",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 197544.0,
+    "sellingPrice": 237198.0
+  },
+  {
+    "name": "Nokia Smartphone Model 512",
+    "barcode": "100512",
+    "sku": "PHN-000512",
+    "ref": "REF-000512",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 152795.0,
+    "sellingPrice": 174664.0
+  },
+  {
+    "name": "Huawei Mate Model 513",
+    "barcode": "100513",
+    "sku": "PHN-000513",
+    "ref": "REF-000513",
+    "description": "Modern design with premium finish.",
+    "costPrice": 179567.0,
+    "sellingPrice": 211592.0
+  },
+  {
+    "name": "Samsung Galaxy Model 514",
+    "barcode": "100514",
+    "sku": "PHN-000514",
+    "ref": "REF-000514",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 77374.0,
+    "sellingPrice": 90613.0
+  },
+  {
+    "name": "Oppo Reno Model 515",
+    "barcode": "100515",
+    "sku": "PHN-000515",
+    "ref": "REF-000515",
+    "description": "Modern design with premium finish.",
+    "costPrice": 97049.0,
+    "sellingPrice": 123013.0
+  },
+  {
+    "name": "Motorola Edge Model 516",
+    "barcode": "100516",
+    "sku": "PHN-000516",
+    "ref": "REF-000516",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 147538.0,
+    "sellingPrice": 190353.0
+  },
+  {
+    "name": "Oppo Reno Model 517",
+    "barcode": "100517",
+    "sku": "PHN-000517",
+    "ref": "REF-000517",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 160528.0,
+    "sellingPrice": 193185.0
+  },
+  {
+    "name": "Motorola Edge Model 518",
+    "barcode": "100518",
+    "sku": "PHN-000518",
+    "ref": "REF-000518",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 154152.0,
+    "sellingPrice": 178667.0
+  },
+  {
+    "name": "Poco Phone Model 519",
+    "barcode": "100519",
+    "sku": "PHN-000519",
+    "ref": "REF-000519",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 52425.0,
+    "sellingPrice": 63434.0
+  },
+  {
+    "name": "Oppo Reno Model 520",
+    "barcode": "100520",
+    "sku": "PHN-000520",
+    "ref": "REF-000520",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 187796.0,
+    "sellingPrice": 209265.0
+  },
+  {
+    "name": "Poco Phone Model 521",
+    "barcode": "100521",
+    "sku": "PHN-000521",
+    "ref": "REF-000521",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 118230.0,
+    "sellingPrice": 145965.0
+  },
+  {
+    "name": "Realme GT Model 522",
+    "barcode": "100522",
+    "sku": "PHN-000522",
+    "ref": "REF-000522",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 112961.0,
+    "sellingPrice": 129689.0
+  },
+  {
+    "name": "Poco Phone Model 523",
+    "barcode": "100523",
+    "sku": "PHN-000523",
+    "ref": "REF-000523",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 141003.0,
+    "sellingPrice": 162146.0
+  },
+  {
+    "name": "Nokia Smartphone Model 524",
+    "barcode": "100524",
+    "sku": "PHN-000524",
+    "ref": "REF-000524",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 172147.0,
+    "sellingPrice": 203268.0
+  },
+  {
+    "name": "Poco Phone Model 525",
+    "barcode": "100525",
+    "sku": "PHN-000525",
+    "ref": "REF-000525",
+    "description": "Excellent value for money.",
+    "costPrice": 39021.0,
+    "sellingPrice": 43060.0
+  },
+  {
+    "name": "Samsung Galaxy Model 526",
+    "barcode": "100526",
+    "sku": "PHN-000526",
+    "ref": "REF-000526",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 89106.0,
+    "sellingPrice": 108929.0
+  },
+  {
+    "name": "Xiaomi Redmi Model 527",
+    "barcode": "100527",
+    "sku": "PHN-000527",
+    "ref": "REF-000527",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 64667.0,
+    "sellingPrice": 80717.0
+  },
+  {
+    "name": "Samsung Galaxy Model 528",
+    "barcode": "100528",
+    "sku": "PHN-000528",
+    "ref": "REF-000528",
+    "description": "Modern design with premium finish.",
+    "costPrice": 127446.0,
+    "sellingPrice": 150736.0
+  },
+  {
+    "name": "Apple iPhone Model 529",
+    "barcode": "100529",
+    "sku": "PHN-000529",
+    "ref": "REF-000529",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 94991.0,
+    "sellingPrice": 111818.0
+  },
+  {
+    "name": "Samsung Galaxy Model 530",
+    "barcode": "100530",
+    "sku": "PHN-000530",
+    "ref": "REF-000530",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 177386.0,
+    "sellingPrice": 220298.0
+  },
+  {
+    "name": "Honor Magic Model 531",
+    "barcode": "100531",
+    "sku": "PHN-000531",
+    "ref": "REF-000531",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 172338.0,
+    "sellingPrice": 214627.0
+  },
+  {
+    "name": "Oppo Reno Model 532",
+    "barcode": "100532",
+    "sku": "PHN-000532",
+    "ref": "REF-000532",
+    "description": "Modern design with premium finish.",
+    "costPrice": 191593.0,
+    "sellingPrice": 245502.0
+  },
+  {
+    "name": "Motorola Edge Model 533",
+    "barcode": "100533",
+    "sku": "PHN-000533",
+    "ref": "REF-000533",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 190338.0,
+    "sellingPrice": 232526.0
+  },
+  {
+    "name": "Motorola Edge Model 534",
+    "barcode": "100534",
+    "sku": "PHN-000534",
+    "ref": "REF-000534",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 115928.0,
+    "sellingPrice": 132814.0
+  },
+  {
+    "name": "Realme GT Model 535",
+    "barcode": "100535",
+    "sku": "PHN-000535",
+    "ref": "REF-000535",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 89885.0,
+    "sellingPrice": 101841.0
+  },
+  {
+    "name": "Apple iPhone Model 536",
+    "barcode": "100536",
+    "sku": "PHN-000536",
+    "ref": "REF-000536",
+    "description": "Excellent value for money.",
+    "costPrice": 117484.0,
+    "sellingPrice": 144253.0
+  },
+  {
+    "name": "Poco Phone Model 537",
+    "barcode": "100537",
+    "sku": "PHN-000537",
+    "ref": "REF-000537",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 158194.0,
+    "sellingPrice": 185129.0
+  },
+  {
+    "name": "Realme GT Model 538",
+    "barcode": "100538",
+    "sku": "PHN-000538",
+    "ref": "REF-000538",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 118735.0,
+    "sellingPrice": 142551.0
+  },
+  {
+    "name": "Huawei Mate Model 539",
+    "barcode": "100539",
+    "sku": "PHN-000539",
+    "ref": "REF-000539",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 44293.0,
+    "sellingPrice": 56001.0
+  },
+  {
+    "name": "Apple iPhone Model 540",
+    "barcode": "100540",
+    "sku": "PHN-000540",
+    "ref": "REF-000540",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 103936.0,
+    "sellingPrice": 125706.0
+  },
+  {
+    "name": "Oppo Reno Model 541",
+    "barcode": "100541",
+    "sku": "PHN-000541",
+    "ref": "REF-000541",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 171824.0,
+    "sellingPrice": 207801.0
+  },
+  {
+    "name": "Apple iPhone Model 542",
+    "barcode": "100542",
+    "sku": "PHN-000542",
+    "ref": "REF-000542",
+    "description": "Excellent value for money.",
+    "costPrice": 197874.0,
+    "sellingPrice": 240370.0
+  },
+  {
+    "name": "Huawei Mate Model 543",
+    "barcode": "100543",
+    "sku": "PHN-000543",
+    "ref": "REF-000543",
+    "description": "Excellent value for money.",
+    "costPrice": 69597.0,
+    "sellingPrice": 86532.0
+  },
+  {
+    "name": "Nokia Smartphone Model 544",
+    "barcode": "100544",
+    "sku": "PHN-000544",
+    "ref": "REF-000544",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 155793.0,
+    "sellingPrice": 172394.0
+  },
+  {
+    "name": "Honor Magic Model 545",
+    "barcode": "100545",
+    "sku": "PHN-000545",
+    "ref": "REF-000545",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 95926.0,
+    "sellingPrice": 112975.0
+  },
+  {
+    "name": "Apple iPhone Model 546",
+    "barcode": "100546",
+    "sku": "PHN-000546",
+    "ref": "REF-000546",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 88427.0,
+    "sellingPrice": 104501.0
+  },
+  {
+    "name": "Motorola Edge Model 547",
+    "barcode": "100547",
+    "sku": "PHN-000547",
+    "ref": "REF-000547",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 98545.0,
+    "sellingPrice": 112596.0
+  },
+  {
+    "name": "Apple iPhone Model 548",
+    "barcode": "100548",
+    "sku": "PHN-000548",
+    "ref": "REF-000548",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 178305.0,
+    "sellingPrice": 215381.0
+  },
+  {
+    "name": "Poco Phone Model 549",
+    "barcode": "100549",
+    "sku": "PHN-000549",
+    "ref": "REF-000549",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 171458.0,
+    "sellingPrice": 193742.0
+  },
+  {
+    "name": "Oppo Reno Model 550",
+    "barcode": "100550",
+    "sku": "PHN-000550",
+    "ref": "REF-000550",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 199675.0,
+    "sellingPrice": 230392.0
+  },
+  {
+    "name": "Poco Phone Model 551",
+    "barcode": "100551",
+    "sku": "PHN-000551",
+    "ref": "REF-000551",
+    "description": "Excellent value for money.",
+    "costPrice": 171292.0,
+    "sellingPrice": 190892.0
+  },
+  {
+    "name": "Apple iPhone Model 552",
+    "barcode": "100552",
+    "sku": "PHN-000552",
+    "ref": "REF-000552",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 158721.0,
+    "sellingPrice": 187401.0
+  },
+  {
+    "name": "Honor Magic Model 553",
+    "barcode": "100553",
+    "sku": "PHN-000553",
+    "ref": "REF-000553",
+    "description": "Modern design with premium finish.",
+    "costPrice": 33229.0,
+    "sellingPrice": 40473.0
+  },
+  {
+    "name": "Honor Magic Model 554",
+    "barcode": "100554",
+    "sku": "PHN-000554",
+    "ref": "REF-000554",
+    "description": "Excellent value for money.",
+    "costPrice": 26503.0,
+    "sellingPrice": 31567.0
+  },
+  {
+    "name": "Huawei Mate Model 555",
+    "barcode": "100555",
+    "sku": "PHN-000555",
+    "ref": "REF-000555",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 36026.0,
+    "sellingPrice": 44884.0
+  },
+  {
+    "name": "Apple iPhone Model 556",
+    "barcode": "100556",
+    "sku": "PHN-000556",
+    "ref": "REF-000556",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 100766.0,
+    "sellingPrice": 117449.0
+  },
+  {
+    "name": "Motorola Edge Model 557",
+    "barcode": "100557",
+    "sku": "PHN-000557",
+    "ref": "REF-000557",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 109791.0,
+    "sellingPrice": 137445.0
+  },
+  {
+    "name": "Oppo Reno Model 558",
+    "barcode": "100558",
+    "sku": "PHN-000558",
+    "ref": "REF-000558",
+    "description": "Modern design with premium finish.",
+    "costPrice": 61817.0,
+    "sellingPrice": 73145.0
+  },
+  {
+    "name": "Huawei Mate Model 559",
+    "barcode": "100559",
+    "sku": "PHN-000559",
+    "ref": "REF-000559",
+    "description": "Excellent value for money.",
+    "costPrice": 182511.0,
+    "sellingPrice": 226648.0
+  },
+  {
+    "name": "Realme GT Model 560",
+    "barcode": "100560",
+    "sku": "PHN-000560",
+    "ref": "REF-000560",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 197113.0,
+    "sellingPrice": 226634.0
+  },
+  {
+    "name": "Samsung Galaxy Model 561",
+    "barcode": "100561",
+    "sku": "PHN-000561",
+    "ref": "REF-000561",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 161769.0,
+    "sellingPrice": 195392.0
+  },
+  {
+    "name": "Apple iPhone Model 562",
+    "barcode": "100562",
+    "sku": "PHN-000562",
+    "ref": "REF-000562",
+    "description": "Excellent value for money.",
+    "costPrice": 38167.0,
+    "sellingPrice": 44051.0
+  },
+  {
+    "name": "Samsung Galaxy Model 563",
+    "barcode": "100563",
+    "sku": "PHN-000563",
+    "ref": "REF-000563",
+    "description": "Modern design with premium finish.",
+    "costPrice": 173088.0,
+    "sellingPrice": 207450.0
+  },
+  {
+    "name": "Motorola Edge Model 564",
+    "barcode": "100564",
+    "sku": "PHN-000564",
+    "ref": "REF-000564",
+    "description": "Modern design with premium finish.",
+    "costPrice": 130631.0,
+    "sellingPrice": 153590.0
+  },
+  {
+    "name": "Samsung Galaxy Model 565",
+    "barcode": "100565",
+    "sku": "PHN-000565",
+    "ref": "REF-000565",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 75194.0,
+    "sellingPrice": 83642.0
+  },
+  {
+    "name": "Oppo Reno Model 566",
+    "barcode": "100566",
+    "sku": "PHN-000566",
+    "ref": "REF-000566",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 71538.0,
+    "sellingPrice": 91308.0
+  },
+  {
+    "name": "Realme GT Model 567",
+    "barcode": "100567",
+    "sku": "PHN-000567",
+    "ref": "REF-000567",
+    "description": "Modern design with premium finish.",
+    "costPrice": 88970.0,
+    "sellingPrice": 112232.0
+  },
+  {
+    "name": "Oppo Reno Model 568",
+    "barcode": "100568",
+    "sku": "PHN-000568",
+    "ref": "REF-000568",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 138394.0,
+    "sellingPrice": 161157.0
+  },
+  {
+    "name": "Honor Magic Model 569",
+    "barcode": "100569",
+    "sku": "PHN-000569",
+    "ref": "REF-000569",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 118386.0,
+    "sellingPrice": 143316.0
+  },
+  {
+    "name": "Huawei Mate Model 570",
+    "barcode": "100570",
+    "sku": "PHN-000570",
+    "ref": "REF-000570",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 150924.0,
+    "sellingPrice": 195711.0
+  },
+  {
+    "name": "Poco Phone Model 571",
+    "barcode": "100571",
+    "sku": "PHN-000571",
+    "ref": "REF-000571",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 96346.0,
+    "sellingPrice": 114138.0
+  },
+  {
+    "name": "Apple iPhone Model 572",
+    "barcode": "100572",
+    "sku": "PHN-000572",
+    "ref": "REF-000572",
+    "description": "Modern design with premium finish.",
+    "costPrice": 39589.0,
+    "sellingPrice": 50878.0
+  },
+  {
+    "name": "Nokia Smartphone Model 573",
+    "barcode": "100573",
+    "sku": "PHN-000573",
+    "ref": "REF-000573",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 171230.0,
+    "sellingPrice": 189324.0
+  },
+  {
+    "name": "Honor Magic Model 574",
+    "barcode": "100574",
+    "sku": "PHN-000574",
+    "ref": "REF-000574",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 167000.0,
+    "sellingPrice": 207667.0
+  },
+  {
+    "name": "Huawei Mate Model 575",
+    "barcode": "100575",
+    "sku": "PHN-000575",
+    "ref": "REF-000575",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 192015.0,
+    "sellingPrice": 240174.0
+  },
+  {
+    "name": "Wireless Earbuds Model 576",
+    "barcode": "100576",
+    "sku": "PAC-000576",
+    "ref": "REF-000576",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 4448.0,
+    "sellingPrice": 6356.0
+  },
+  {
+    "name": "Power Bank Model 577",
+    "barcode": "100577",
+    "sku": "PAC-000577",
+    "ref": "REF-000577",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 1604.0,
+    "sellingPrice": 2038.0
+  },
+  {
+    "name": "Lightning Cable Model 578",
+    "barcode": "100578",
+    "sku": "PAC-000578",
+    "ref": "REF-000578",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 5133.0,
+    "sellingPrice": 7386.0
+  },
+  {
+    "name": "Smart Watch Model 579",
+    "barcode": "100579",
+    "sku": "PAC-000579",
+    "ref": "REF-000579",
+    "description": "Excellent value for money.",
+    "costPrice": 3251.0,
+    "sellingPrice": 4562.0
+  },
+  {
+    "name": "Smart Watch Model 580",
+    "barcode": "100580",
+    "sku": "PAC-000580",
+    "ref": "REF-000580",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 4490.0,
+    "sellingPrice": 7480.0
+  },
+  {
+    "name": "Wireless Charger Model 581",
+    "barcode": "100581",
+    "sku": "PAC-000581",
+    "ref": "REF-000581",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 3236.0,
+    "sellingPrice": 5175.0
+  },
+  {
+    "name": "Smart Watch Model 582",
+    "barcode": "100582",
+    "sku": "PAC-000582",
+    "ref": "REF-000582",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 7056.0,
+    "sellingPrice": 11615.0
+  },
+  {
+    "name": "Wireless Charger Model 583",
+    "barcode": "100583",
+    "sku": "PAC-000583",
+    "ref": "REF-000583",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 3891.0,
+    "sellingPrice": 6708.0
+  },
+  {
+    "name": "Bluetooth Headphones Model 584",
+    "barcode": "100584",
+    "sku": "PAC-000584",
+    "ref": "REF-000584",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 6104.0,
+    "sellingPrice": 9263.0
+  },
+  {
+    "name": "Bluetooth Speaker Model 585",
+    "barcode": "100585",
+    "sku": "PAC-000585",
+    "ref": "REF-000585",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 1547.0,
+    "sellingPrice": 2308.0
+  },
+  {
+    "name": "USB-C Cable Model 586",
+    "barcode": "100586",
+    "sku": "PAC-000586",
+    "ref": "REF-000586",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 2379.0,
+    "sellingPrice": 3370.0
+  },
+  {
+    "name": "Power Bank Model 587",
+    "barcode": "100587",
+    "sku": "PAC-000587",
+    "ref": "REF-000587",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 1309.0,
+    "sellingPrice": 2005.0
+  },
+  {
+    "name": "USB-C Cable Model 588",
+    "barcode": "100588",
+    "sku": "PAC-000588",
+    "ref": "REF-000588",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 7886.0,
+    "sellingPrice": 12442.0
+  },
+  {
+    "name": "Lightning Cable Model 589",
+    "barcode": "100589",
+    "sku": "PAC-000589",
+    "ref": "REF-000589",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 1957.0,
+    "sellingPrice": 3244.0
+  },
+  {
+    "name": "USB-C Charger Model 590",
+    "barcode": "100590",
+    "sku": "PAC-000590",
+    "ref": "REF-000590",
+    "description": "Modern design with premium finish.",
+    "costPrice": 7537.0,
+    "sellingPrice": 13103.0
+  },
+  {
+    "name": "Phone Case Model 591",
+    "barcode": "100591",
+    "sku": "PAC-000591",
+    "ref": "REF-000591",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 5669.0,
+    "sellingPrice": 8234.0
+  },
+  {
+    "name": "Bluetooth Speaker Model 592",
+    "barcode": "100592",
+    "sku": "PAC-000592",
+    "ref": "REF-000592",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 2121.0,
+    "sellingPrice": 2963.0
+  },
+  {
+    "name": "Smart Watch Model 593",
+    "barcode": "100593",
+    "sku": "PAC-000593",
+    "ref": "REF-000593",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 960.0,
+    "sellingPrice": 1224.0
+  },
+  {
+    "name": "Memory Card Model 594",
+    "barcode": "100594",
+    "sku": "PAC-000594",
+    "ref": "REF-000594",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 4579.0,
+    "sellingPrice": 7459.0
+  },
+  {
+    "name": "USB-C Cable Model 595",
+    "barcode": "100595",
+    "sku": "PAC-000595",
+    "ref": "REF-000595",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 3858.0,
+    "sellingPrice": 6019.0
+  },
+  {
+    "name": "Car Charger Model 596",
+    "barcode": "100596",
+    "sku": "PAC-000596",
+    "ref": "REF-000596",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 818.0,
+    "sellingPrice": 1368.0
+  },
+  {
+    "name": "Car Charger Model 597",
+    "barcode": "100597",
+    "sku": "PAC-000597",
+    "ref": "REF-000597",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 6507.0,
+    "sellingPrice": 11551.0
+  },
+  {
+    "name": "Phone Case Model 598",
+    "barcode": "100598",
+    "sku": "PAC-000598",
+    "ref": "REF-000598",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 4273.0,
+    "sellingPrice": 6354.0
+  },
+  {
+    "name": "Screen Protector Model 599",
+    "barcode": "100599",
+    "sku": "PAC-000599",
+    "ref": "REF-000599",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 2444.0,
+    "sellingPrice": 2995.0
+  },
+  {
+    "name": "USB-C Charger Model 600",
+    "barcode": "100600",
+    "sku": "PAC-000600",
+    "ref": "REF-000600",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 1896.0,
+    "sellingPrice": 2990.0
+  },
+  {
+    "name": "Phone Case Model 601",
+    "barcode": "100601",
+    "sku": "PAC-000601",
+    "ref": "REF-000601",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 6152.0,
+    "sellingPrice": 8745.0
+  },
+  {
+    "name": "Bluetooth Headphones Model 602",
+    "barcode": "100602",
+    "sku": "PAC-000602",
+    "ref": "REF-000602",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 3708.0,
+    "sellingPrice": 4934.0
+  },
+  {
+    "name": "USB-C Cable Model 603",
+    "barcode": "100603",
+    "sku": "PAC-000603",
+    "ref": "REF-000603",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 1759.0,
+    "sellingPrice": 3084.0
+  },
+  {
+    "name": "Smart Watch Model 604",
+    "barcode": "100604",
+    "sku": "PAC-000604",
+    "ref": "REF-000604",
+    "description": "Excellent value for money.",
+    "costPrice": 5809.0,
+    "sellingPrice": 9834.0
+  },
+  {
+    "name": "Lightning Cable Model 605",
+    "barcode": "100605",
+    "sku": "PAC-000605",
+    "ref": "REF-000605",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 4635.0,
+    "sellingPrice": 8031.0
+  },
+  {
+    "name": "Phone Holder Model 606",
+    "barcode": "100606",
+    "sku": "PAC-000606",
+    "ref": "REF-000606",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 6792.0,
+    "sellingPrice": 9439.0
+  },
+  {
+    "name": "Smart Watch Model 607",
+    "barcode": "100607",
+    "sku": "PAC-000607",
+    "ref": "REF-000607",
+    "description": "Modern design with premium finish.",
+    "costPrice": 6740.0,
+    "sellingPrice": 9434.0
+  },
+  {
+    "name": "Lightning Cable Model 608",
+    "barcode": "100608",
+    "sku": "PAC-000608",
+    "ref": "REF-000608",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 5097.0,
+    "sellingPrice": 7526.0
+  },
+  {
+    "name": "Screen Protector Model 609",
+    "barcode": "100609",
+    "sku": "PAC-000609",
+    "ref": "REF-000609",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 1032.0,
+    "sellingPrice": 1454.0
+  },
+  {
+    "name": "Memory Card Model 610",
+    "barcode": "100610",
+    "sku": "PAC-000610",
+    "ref": "REF-000610",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 3315.0,
+    "sellingPrice": 5591.0
+  },
+  {
+    "name": "Bluetooth Tracker Model 611",
+    "barcode": "100611",
+    "sku": "PAC-000611",
+    "ref": "REF-000611",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 2731.0,
+    "sellingPrice": 4191.0
+  },
+  {
+    "name": "Screen Protector Model 612",
+    "barcode": "100612",
+    "sku": "PAC-000612",
+    "ref": "REF-000612",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 6455.0,
+    "sellingPrice": 8575.0
+  },
+  {
+    "name": "Lightning Cable Model 613",
+    "barcode": "100613",
+    "sku": "PAC-000613",
+    "ref": "REF-000613",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 309.0,
+    "sellingPrice": 553.0
+  },
+  {
+    "name": "Wireless Charger Model 614",
+    "barcode": "100614",
+    "sku": "PAC-000614",
+    "ref": "REF-000614",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 2439.0,
+    "sellingPrice": 4382.0
+  },
+  {
+    "name": "Phone Case Model 615",
+    "barcode": "100615",
+    "sku": "PAC-000615",
+    "ref": "REF-000615",
+    "description": "Modern design with premium finish.",
+    "costPrice": 7696.0,
+    "sellingPrice": 10946.0
+  },
+  {
+    "name": "Memory Card Model 616",
+    "barcode": "100616",
+    "sku": "PAC-000616",
+    "ref": "REF-000616",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 3751.0,
+    "sellingPrice": 4846.0
+  },
+  {
+    "name": "Car Charger Model 617",
+    "barcode": "100617",
+    "sku": "PAC-000617",
+    "ref": "REF-000617",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 2564.0,
+    "sellingPrice": 3505.0
+  },
+  {
+    "name": "USB-C Cable Model 618",
+    "barcode": "100618",
+    "sku": "PAC-000618",
+    "ref": "REF-000618",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 2025.0,
+    "sellingPrice": 2907.0
+  },
+  {
+    "name": "USB-C Cable Model 619",
+    "barcode": "100619",
+    "sku": "PAC-000619",
+    "ref": "REF-000619",
+    "description": "Modern design with premium finish.",
+    "costPrice": 6581.0,
+    "sellingPrice": 10671.0
+  },
+  {
+    "name": "Wireless Earbuds Model 620",
+    "barcode": "100620",
+    "sku": "PAC-000620",
+    "ref": "REF-000620",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 502.0,
+    "sellingPrice": 682.0
+  },
+  {
+    "name": "Power Bank Model 621",
+    "barcode": "100621",
+    "sku": "PAC-000621",
+    "ref": "REF-000621",
+    "description": "Modern design with premium finish.",
+    "costPrice": 2789.0,
+    "sellingPrice": 3978.0
+  },
+  {
+    "name": "Wireless Charger Model 622",
+    "barcode": "100622",
+    "sku": "PAC-000622",
+    "ref": "REF-000622",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 7765.0,
+    "sellingPrice": 12525.0
+  },
+  {
+    "name": "Power Bank Model 623",
+    "barcode": "100623",
+    "sku": "PAC-000623",
+    "ref": "REF-000623",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 861.0,
+    "sellingPrice": 1196.0
+  },
+  {
+    "name": "Screen Protector Model 624",
+    "barcode": "100624",
+    "sku": "PAC-000624",
+    "ref": "REF-000624",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 3397.0,
+    "sellingPrice": 4159.0
+  },
+  {
+    "name": "Screen Protector Model 625",
+    "barcode": "100625",
+    "sku": "PAC-000625",
+    "ref": "REF-000625",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 2597.0,
+    "sellingPrice": 3774.0
+  },
+  {
+    "name": "Wireless Earbuds Model 626",
+    "barcode": "100626",
+    "sku": "PAC-000626",
+    "ref": "REF-000626",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 5678.0,
+    "sellingPrice": 7518.0
+  },
+  {
+    "name": "Smart Watch Model 627",
+    "barcode": "100627",
+    "sku": "PAC-000627",
+    "ref": "REF-000627",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 1546.0,
+    "sellingPrice": 2649.0
+  },
+  {
+    "name": "Phone Holder Model 628",
+    "barcode": "100628",
+    "sku": "PAC-000628",
+    "ref": "REF-000628",
+    "description": "Modern design with premium finish.",
+    "costPrice": 6303.0,
+    "sellingPrice": 8390.0
+  },
+  {
+    "name": "Power Bank Model 629",
+    "barcode": "100629",
+    "sku": "PAC-000629",
+    "ref": "REF-000629",
+    "description": "Excellent value for money.",
+    "costPrice": 6155.0,
+    "sellingPrice": 8991.0
+  },
+  {
+    "name": "Car Charger Model 630",
+    "barcode": "100630",
+    "sku": "PAC-000630",
+    "ref": "REF-000630",
+    "description": "Excellent value for money.",
+    "costPrice": 6351.0,
+    "sellingPrice": 9423.0
+  },
+  {
+    "name": "Power Bank Model 631",
+    "barcode": "100631",
+    "sku": "PAC-000631",
+    "ref": "REF-000631",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 3342.0,
+    "sellingPrice": 5099.0
+  },
+  {
+    "name": "Bluetooth Tracker Model 632",
+    "barcode": "100632",
+    "sku": "PAC-000632",
+    "ref": "REF-000632",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 3481.0,
+    "sellingPrice": 4451.0
+  },
+  {
+    "name": "Lightning Cable Model 633",
+    "barcode": "100633",
+    "sku": "PAC-000633",
+    "ref": "REF-000633",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 7072.0,
+    "sellingPrice": 10008.0
+  },
+  {
+    "name": "Screen Protector Model 634",
+    "barcode": "100634",
+    "sku": "PAC-000634",
+    "ref": "REF-000634",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 2462.0,
+    "sellingPrice": 3260.0
+  },
+  {
+    "name": "Bluetooth Headphones Model 635",
+    "barcode": "100635",
+    "sku": "PAC-000635",
+    "ref": "REF-000635",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 6091.0,
+    "sellingPrice": 9609.0
+  },
+  {
+    "name": "Lightning Cable Model 636",
+    "barcode": "100636",
+    "sku": "PAC-000636",
+    "ref": "REF-000636",
+    "description": "Excellent value for money.",
+    "costPrice": 3182.0,
+    "sellingPrice": 4735.0
+  },
+  {
+    "name": "Bluetooth Tracker Model 637",
+    "barcode": "100637",
+    "sku": "PAC-000637",
+    "ref": "REF-000637",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 7031.0,
+    "sellingPrice": 11512.0
+  },
+  {
+    "name": "Memory Card Model 638",
+    "barcode": "100638",
+    "sku": "PAC-000638",
+    "ref": "REF-000638",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 6383.0,
+    "sellingPrice": 10129.0
+  },
+  {
+    "name": "Wireless Charger Model 639",
+    "barcode": "100639",
+    "sku": "PAC-000639",
+    "ref": "REF-000639",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 7227.0,
+    "sellingPrice": 10804.0
+  },
+  {
+    "name": "Lightning Cable Model 640",
+    "barcode": "100640",
+    "sku": "PAC-000640",
+    "ref": "REF-000640",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 1166.0,
+    "sellingPrice": 1953.0
+  },
+  {
+    "name": "USB-C Cable Model 641",
+    "barcode": "100641",
+    "sku": "PAC-000641",
+    "ref": "REF-000641",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 6962.0,
+    "sellingPrice": 10137.0
+  },
+  {
+    "name": "Smart Watch Model 642",
+    "barcode": "100642",
+    "sku": "PAC-000642",
+    "ref": "REF-000642",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 7196.0,
+    "sellingPrice": 12354.0
+  },
+  {
+    "name": "USB-C Cable Model 643",
+    "barcode": "100643",
+    "sku": "PAC-000643",
+    "ref": "REF-000643",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 1038.0,
+    "sellingPrice": 1366.0
+  },
+  {
+    "name": "Phone Case Model 644",
+    "barcode": "100644",
+    "sku": "PAC-000644",
+    "ref": "REF-000644",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 5937.0,
+    "sellingPrice": 8319.0
+  },
+  {
+    "name": "USB-C Cable Model 645",
+    "barcode": "100645",
+    "sku": "PAC-000645",
+    "ref": "REF-000645",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 1577.0,
+    "sellingPrice": 2405.0
+  },
+  {
+    "name": "Phone Case Model 646",
+    "barcode": "100646",
+    "sku": "PAC-000646",
+    "ref": "REF-000646",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 7574.0,
+    "sellingPrice": 13460.0
+  },
+  {
+    "name": "Wireless Earbuds Model 647",
+    "barcode": "100647",
+    "sku": "PAC-000647",
+    "ref": "REF-000647",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 7914.0,
+    "sellingPrice": 10843.0
+  },
+  {
+    "name": "Bluetooth Tracker Model 648",
+    "barcode": "100648",
+    "sku": "PAC-000648",
+    "ref": "REF-000648",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 1908.0,
+    "sellingPrice": 3299.0
+  },
+  {
+    "name": "Phone Case Model 649",
+    "barcode": "100649",
+    "sku": "PAC-000649",
+    "ref": "REF-000649",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 7763.0,
+    "sellingPrice": 12586.0
+  },
+  {
+    "name": "Phone Holder Model 650",
+    "barcode": "100650",
+    "sku": "PAC-000650",
+    "ref": "REF-000650",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 7082.0,
+    "sellingPrice": 12240.0
+  },
+  {
+    "name": "Apple MacBook Model 651",
+    "barcode": "100651",
+    "sku": "LAP-000651",
+    "ref": "REF-000651",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 268525.0,
+    "sellingPrice": 305955.0
+  },
+  {
+    "name": "Acer Aspire Model 652",
+    "barcode": "100652",
+    "sku": "LAP-000652",
+    "ref": "REF-000652",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 145521.0,
+    "sellingPrice": 154133.0
+  },
+  {
+    "name": "Huawei MateBook Model 653",
+    "barcode": "100653",
+    "sku": "LAP-000653",
+    "ref": "REF-000653",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 277225.0,
+    "sellingPrice": 295669.0
+  },
+  {
+    "name": "Lenovo ThinkPad Model 654",
+    "barcode": "100654",
+    "sku": "LAP-000654",
+    "ref": "REF-000654",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 75016.0,
+    "sellingPrice": 91936.0
+  },
+  {
+    "name": "Lenovo ThinkPad Model 655",
+    "barcode": "100655",
+    "sku": "LAP-000655",
+    "ref": "REF-000655",
+    "description": "Modern design with premium finish.",
+    "costPrice": 326738.0,
+    "sellingPrice": 370003.0
+  },
+  {
+    "name": "MSI Gaming Laptop Model 656",
+    "barcode": "100656",
+    "sku": "LAP-000656",
+    "ref": "REF-000656",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 163757.0,
+    "sellingPrice": 184037.0
+  },
+  {
+    "name": "Apple MacBook Model 657",
+    "barcode": "100657",
+    "sku": "LAP-000657",
+    "ref": "REF-000657",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 269442.0,
+    "sellingPrice": 293802.0
+  },
+  {
+    "name": "Honor MagicBook Model 658",
+    "barcode": "100658",
+    "sku": "LAP-000658",
+    "ref": "REF-000658",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 191104.0,
+    "sellingPrice": 217746.0
+  },
+  {
+    "name": "Apple MacBook Model 659",
+    "barcode": "100659",
+    "sku": "LAP-000659",
+    "ref": "REF-000659",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 329805.0,
+    "sellingPrice": 352418.0
+  },
+  {
+    "name": "Apple MacBook Model 660",
+    "barcode": "100660",
+    "sku": "LAP-000660",
+    "ref": "REF-000660",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 308153.0,
+    "sellingPrice": 349131.0
+  },
+  {
+    "name": "Lenovo ThinkPad Model 661",
+    "barcode": "100661",
+    "sku": "LAP-000661",
+    "ref": "REF-000661",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 211759.0,
+    "sellingPrice": 251642.0
+  },
+  {
+    "name": "Huawei MateBook Model 662",
+    "barcode": "100662",
+    "sku": "LAP-000662",
+    "ref": "REF-000662",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 166084.0,
+    "sellingPrice": 188609.0
+  },
+  {
+    "name": "Lenovo ThinkPad Model 663",
+    "barcode": "100663",
+    "sku": "LAP-000663",
+    "ref": "REF-000663",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 154967.0,
+    "sellingPrice": 180421.0
+  },
+  {
+    "name": "MSI Gaming Laptop Model 664",
+    "barcode": "100664",
+    "sku": "LAP-000664",
+    "ref": "REF-000664",
+    "description": "Excellent value for money.",
+    "costPrice": 109089.0,
+    "sellingPrice": 125354.0
+  },
+  {
+    "name": "ASUS Vivobook Model 665",
+    "barcode": "100665",
+    "sku": "LAP-000665",
+    "ref": "REF-000665",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 261894.0,
+    "sellingPrice": 324072.0
+  },
+  {
+    "name": "HP Pavilion Model 666",
+    "barcode": "100666",
+    "sku": "LAP-000666",
+    "ref": "REF-000666",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 348996.0,
+    "sellingPrice": 407530.0
+  },
+  {
+    "name": "Dell Inspiron Model 667",
+    "barcode": "100667",
+    "sku": "LAP-000667",
+    "ref": "REF-000667",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 200305.0,
+    "sellingPrice": 241499.0
+  },
+  {
+    "name": "Apple MacBook Model 668",
+    "barcode": "100668",
+    "sku": "LAP-000668",
+    "ref": "REF-000668",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 164936.0,
+    "sellingPrice": 193490.0
+  },
+  {
+    "name": "MSI Gaming Laptop Model 669",
+    "barcode": "100669",
+    "sku": "LAP-000669",
+    "ref": "REF-000669",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 158231.0,
+    "sellingPrice": 182518.0
+  },
+  {
+    "name": "Dell Inspiron Model 670",
+    "barcode": "100670",
+    "sku": "LAP-000670",
+    "ref": "REF-000670",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 217732.0,
+    "sellingPrice": 258488.0
+  },
+  {
+    "name": "Lenovo ThinkPad Model 671",
+    "barcode": "100671",
+    "sku": "LAP-000671",
+    "ref": "REF-000671",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 314111.0,
+    "sellingPrice": 372964.0
+  },
+  {
+    "name": "Apple MacBook Model 672",
+    "barcode": "100672",
+    "sku": "LAP-000672",
+    "ref": "REF-000672",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 329032.0,
+    "sellingPrice": 395471.0
+  },
+  {
+    "name": "Honor MagicBook Model 673",
+    "barcode": "100673",
+    "sku": "LAP-000673",
+    "ref": "REF-000673",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 248995.0,
+    "sellingPrice": 310920.0
+  },
+  {
+    "name": "Apple MacBook Model 674",
+    "barcode": "100674",
+    "sku": "LAP-000674",
+    "ref": "REF-000674",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 332198.0,
+    "sellingPrice": 413624.0
+  },
+  {
+    "name": "Huawei MateBook Model 675",
+    "barcode": "100675",
+    "sku": "LAP-000675",
+    "ref": "REF-000675",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 77231.0,
+    "sellingPrice": 94063.0
+  },
+  {
+    "name": "Honor MagicBook Model 676",
+    "barcode": "100676",
+    "sku": "LAP-000676",
+    "ref": "REF-000676",
+    "description": "Excellent value for money.",
+    "costPrice": 127450.0,
+    "sellingPrice": 145703.0
+  },
+  {
+    "name": "Dell Inspiron Model 677",
+    "barcode": "100677",
+    "sku": "LAP-000677",
+    "ref": "REF-000677",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 310476.0,
+    "sellingPrice": 331819.0
+  },
+  {
+    "name": "Dell Inspiron Model 678",
+    "barcode": "100678",
+    "sku": "LAP-000678",
+    "ref": "REF-000678",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 237647.0,
+    "sellingPrice": 278030.0
+  },
+  {
+    "name": "Huawei MateBook Model 679",
+    "barcode": "100679",
+    "sku": "LAP-000679",
+    "ref": "REF-000679",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 64051.0,
+    "sellingPrice": 78551.0
+  },
+  {
+    "name": "ASUS Vivobook Model 680",
+    "barcode": "100680",
+    "sku": "LAP-000680",
+    "ref": "REF-000680",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 122694.0,
+    "sellingPrice": 149534.0
+  },
+  {
+    "name": "ASUS Vivobook Model 681",
+    "barcode": "100681",
+    "sku": "LAP-000681",
+    "ref": "REF-000681",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 268661.0,
+    "sellingPrice": 287222.0
+  },
+  {
+    "name": "MSI Gaming Laptop Model 682",
+    "barcode": "100682",
+    "sku": "LAP-000682",
+    "ref": "REF-000682",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 211521.0,
+    "sellingPrice": 232469.0
+  },
+  {
+    "name": "Apple MacBook Model 683",
+    "barcode": "100683",
+    "sku": "LAP-000683",
+    "ref": "REF-000683",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 158131.0,
+    "sellingPrice": 185679.0
+  },
+  {
+    "name": "MSI Gaming Laptop Model 684",
+    "barcode": "100684",
+    "sku": "LAP-000684",
+    "ref": "REF-000684",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 158342.0,
+    "sellingPrice": 175667.0
+  },
+  {
+    "name": "HP Pavilion Model 685",
+    "barcode": "100685",
+    "sku": "LAP-000685",
+    "ref": "REF-000685",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 260415.0,
+    "sellingPrice": 295567.0
+  },
+  {
+    "name": "Dell Inspiron Model 686",
+    "barcode": "100686",
+    "sku": "LAP-000686",
+    "ref": "REF-000686",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 58324.0,
+    "sellingPrice": 67941.0
+  },
+  {
+    "name": "Acer Aspire Model 687",
+    "barcode": "100687",
+    "sku": "LAP-000687",
+    "ref": "REF-000687",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 234496.0,
+    "sellingPrice": 254781.0
+  },
+  {
+    "name": "Dell Inspiron Model 688",
+    "barcode": "100688",
+    "sku": "LAP-000688",
+    "ref": "REF-000688",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 103784.0,
+    "sellingPrice": 127986.0
+  },
+  {
+    "name": "MSI Gaming Laptop Model 689",
+    "barcode": "100689",
+    "sku": "LAP-000689",
+    "ref": "REF-000689",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 238997.0,
+    "sellingPrice": 253661.0
+  },
+  {
+    "name": "Apple MacBook Model 690",
+    "barcode": "100690",
+    "sku": "LAP-000690",
+    "ref": "REF-000690",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 59766.0,
+    "sellingPrice": 63176.0
+  },
+  {
+    "name": "ASUS Vivobook Model 691",
+    "barcode": "100691",
+    "sku": "LAP-000691",
+    "ref": "REF-000691",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 117709.0,
+    "sellingPrice": 126659.0
+  },
+  {
+    "name": "MSI Gaming Laptop Model 692",
+    "barcode": "100692",
+    "sku": "LAP-000692",
+    "ref": "REF-000692",
+    "description": "Modern design with premium finish.",
+    "costPrice": 139192.0,
+    "sellingPrice": 159125.0
+  },
+  {
+    "name": "Apple MacBook Model 693",
+    "barcode": "100693",
+    "sku": "LAP-000693",
+    "ref": "REF-000693",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 338420.0,
+    "sellingPrice": 359688.0
+  },
+  {
+    "name": "HP Pavilion Model 694",
+    "barcode": "100694",
+    "sku": "LAP-000694",
+    "ref": "REF-000694",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 301319.0,
+    "sellingPrice": 352401.0
+  },
+  {
+    "name": "ASUS Vivobook Model 695",
+    "barcode": "100695",
+    "sku": "LAP-000695",
+    "ref": "REF-000695",
+    "description": "Excellent value for money.",
+    "costPrice": 294499.0,
+    "sellingPrice": 333026.0
+  },
+  {
+    "name": "ASUS Vivobook Model 696",
+    "barcode": "100696",
+    "sku": "LAP-000696",
+    "ref": "REF-000696",
+    "description": "Excellent value for money.",
+    "costPrice": 174010.0,
+    "sellingPrice": 198933.0
+  },
+  {
+    "name": "ASUS Vivobook Model 697",
+    "barcode": "100697",
+    "sku": "LAP-000697",
+    "ref": "REF-000697",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 197830.0,
+    "sellingPrice": 244914.0
+  },
+  {
+    "name": "HP Pavilion Model 698",
+    "barcode": "100698",
+    "sku": "LAP-000698",
+    "ref": "REF-000698",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 59354.0,
+    "sellingPrice": 66401.0
+  },
+  {
+    "name": "Lenovo ThinkPad Model 699",
+    "barcode": "100699",
+    "sku": "LAP-000699",
+    "ref": "REF-000699",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 320812.0,
+    "sellingPrice": 384191.0
+  },
+  {
+    "name": "ASUS Vivobook Model 700",
+    "barcode": "100700",
+    "sku": "LAP-000700",
+    "ref": "REF-000700",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 256503.0,
+    "sellingPrice": 304458.0
+  },
+  {
+    "name": "Acer Aspire Model 701",
+    "barcode": "100701",
+    "sku": "LAP-000701",
+    "ref": "REF-000701",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 258415.0,
+    "sellingPrice": 275285.0
+  },
+  {
+    "name": "MSI Gaming Laptop Model 702",
+    "barcode": "100702",
+    "sku": "LAP-000702",
+    "ref": "REF-000702",
+    "description": "Modern design with premium finish.",
+    "costPrice": 248452.0,
+    "sellingPrice": 305581.0
+  },
+  {
+    "name": "Huawei MateBook Model 703",
+    "barcode": "100703",
+    "sku": "LAP-000703",
+    "ref": "REF-000703",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 306257.0,
+    "sellingPrice": 366179.0
+  },
+  {
+    "name": "Lenovo ThinkPad Model 704",
+    "barcode": "100704",
+    "sku": "LAP-000704",
+    "ref": "REF-000704",
+    "description": "Modern design with premium finish.",
+    "costPrice": 62188.0,
+    "sellingPrice": 75791.0
+  },
+  {
+    "name": "Apple MacBook Model 705",
+    "barcode": "100705",
+    "sku": "LAP-000705",
+    "ref": "REF-000705",
+    "description": "Modern design with premium finish.",
+    "costPrice": 148416.0,
+    "sellingPrice": 162078.0
+  },
+  {
+    "name": "Dell Inspiron Model 706",
+    "barcode": "100706",
+    "sku": "LAP-000706",
+    "ref": "REF-000706",
+    "description": "Excellent value for money.",
+    "costPrice": 340605.0,
+    "sellingPrice": 409265.0
+  },
+  {
+    "name": "HP Pavilion Model 707",
+    "barcode": "100707",
+    "sku": "LAP-000707",
+    "ref": "REF-000707",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 327394.0,
+    "sellingPrice": 364553.0
+  },
+  {
+    "name": "HP Pavilion Model 708",
+    "barcode": "100708",
+    "sku": "LAP-000708",
+    "ref": "REF-000708",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 312581.0,
+    "sellingPrice": 388619.0
+  },
+  {
+    "name": "Dell Inspiron Model 709",
+    "barcode": "100709",
+    "sku": "LAP-000709",
+    "ref": "REF-000709",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 143706.0,
+    "sellingPrice": 159361.0
+  },
+  {
+    "name": "Acer Aspire Model 710",
+    "barcode": "100710",
+    "sku": "LAP-000710",
+    "ref": "REF-000710",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 342659.0,
+    "sellingPrice": 412736.0
+  },
+  {
+    "name": "ASUS Vivobook Model 711",
+    "barcode": "100711",
+    "sku": "LAP-000711",
+    "ref": "REF-000711",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 59424.0,
+    "sellingPrice": 64767.0
+  },
+  {
+    "name": "HP Pavilion Model 712",
+    "barcode": "100712",
+    "sku": "LAP-000712",
+    "ref": "REF-000712",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 234365.0,
+    "sellingPrice": 251813.0
+  },
+  {
+    "name": "Honor MagicBook Model 713",
+    "barcode": "100713",
+    "sku": "LAP-000713",
+    "ref": "REF-000713",
+    "description": "Excellent value for money.",
+    "costPrice": 278978.0,
+    "sellingPrice": 302786.0
+  },
+  {
+    "name": "ASUS Vivobook Model 714",
+    "barcode": "100714",
+    "sku": "LAP-000714",
+    "ref": "REF-000714",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 151259.0,
+    "sellingPrice": 171386.0
+  },
+  {
+    "name": "Honor MagicBook Model 715",
+    "barcode": "100715",
+    "sku": "LAP-000715",
+    "ref": "REF-000715",
+    "description": "Modern design with premium finish.",
+    "costPrice": 196903.0,
+    "sellingPrice": 222512.0
+  },
+  {
+    "name": "ASUS Vivobook Model 716",
+    "barcode": "100716",
+    "sku": "LAP-000716",
+    "ref": "REF-000716",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 308133.0,
+    "sellingPrice": 327194.0
+  },
+  {
+    "name": "Dell Inspiron Model 717",
+    "barcode": "100717",
+    "sku": "LAP-000717",
+    "ref": "REF-000717",
+    "description": "Modern design with premium finish.",
+    "costPrice": 320742.0,
+    "sellingPrice": 373711.0
+  },
+  {
+    "name": "Apple MacBook Model 718",
+    "barcode": "100718",
+    "sku": "LAP-000718",
+    "ref": "REF-000718",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 203759.0,
+    "sellingPrice": 243832.0
+  },
+  {
+    "name": "HP Pavilion Model 719",
+    "barcode": "100719",
+    "sku": "LAP-000719",
+    "ref": "REF-000719",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 125877.0,
+    "sellingPrice": 152353.0
+  },
+  {
+    "name": "Dell Inspiron Model 720",
+    "barcode": "100720",
+    "sku": "LAP-000720",
+    "ref": "REF-000720",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 279909.0,
+    "sellingPrice": 336109.0
+  },
+  {
+    "name": "Acer Aspire Model 721",
+    "barcode": "100721",
+    "sku": "LAP-000721",
+    "ref": "REF-000721",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 325204.0,
+    "sellingPrice": 396508.0
+  },
+  {
+    "name": "Honor MagicBook Model 722",
+    "barcode": "100722",
+    "sku": "LAP-000722",
+    "ref": "REF-000722",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 265787.0,
+    "sellingPrice": 316268.0
+  },
+  {
+    "name": "Acer Aspire Model 723",
+    "barcode": "100723",
+    "sku": "LAP-000723",
+    "ref": "REF-000723",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 277402.0,
+    "sellingPrice": 343114.0
+  },
+  {
+    "name": "Lenovo ThinkPad Model 724",
+    "barcode": "100724",
+    "sku": "LAP-000724",
+    "ref": "REF-000724",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 85041.0,
+    "sellingPrice": 97970.0
+  },
+  {
+    "name": "Dell Inspiron Model 725",
+    "barcode": "100725",
+    "sku": "LAP-000725",
+    "ref": "REF-000725",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 102407.0,
+    "sellingPrice": 112907.0
+  },
+  {
+    "name": "Laptop Bag Model 726",
+    "barcode": "100726",
+    "sku": "LAC-000726",
+    "ref": "REF-000726",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 5572.0,
+    "sellingPrice": 9212.0
+  },
+  {
+    "name": "Microphone Model 727",
+    "barcode": "100727",
+    "sku": "LAC-000727",
+    "ref": "REF-000727",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 8419.0,
+    "sellingPrice": 12506.0
+  },
+  {
+    "name": "Mouse Pad Model 728",
+    "barcode": "100728",
+    "sku": "LAC-000728",
+    "ref": "REF-000728",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 1705.0,
+    "sellingPrice": 2323.0
+  },
+  {
+    "name": "Laptop Bag Model 729",
+    "barcode": "100729",
+    "sku": "LAC-000729",
+    "ref": "REF-000729",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 4099.0,
+    "sellingPrice": 5078.0
+  },
+  {
+    "name": "Docking Station Model 730",
+    "barcode": "100730",
+    "sku": "LAC-000730",
+    "ref": "REF-000730",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 9283.0,
+    "sellingPrice": 15033.0
+  },
+  {
+    "name": "USB Hub Model 731",
+    "barcode": "100731",
+    "sku": "LAC-000731",
+    "ref": "REF-000731",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 1591.0,
+    "sellingPrice": 2564.0
+  },
+  {
+    "name": "Gaming Mouse Model 732",
+    "barcode": "100732",
+    "sku": "LAC-000732",
+    "ref": "REF-000732",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 9984.0,
+    "sellingPrice": 15874.0
+  },
+  {
+    "name": "External SSD Model 733",
+    "barcode": "100733",
+    "sku": "LAC-000733",
+    "ref": "REF-000733",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 2625.0,
+    "sellingPrice": 4279.0
+  },
+  {
+    "name": "Laptop Bag Model 734",
+    "barcode": "100734",
+    "sku": "LAC-000734",
+    "ref": "REF-000734",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 1519.0,
+    "sellingPrice": 2051.0
+  },
+  {
+    "name": "External SSD Model 735",
+    "barcode": "100735",
+    "sku": "LAC-000735",
+    "ref": "REF-000735",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 7907.0,
+    "sellingPrice": 12014.0
+  },
+  {
+    "name": "Wireless Mouse Model 736",
+    "barcode": "100736",
+    "sku": "LAC-000736",
+    "ref": "REF-000736",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 7565.0,
+    "sellingPrice": 12573.0
+  },
+  {
+    "name": "Microphone Model 737",
+    "barcode": "100737",
+    "sku": "LAC-000737",
+    "ref": "REF-000737",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 7250.0,
+    "sellingPrice": 11605.0
+  },
+  {
+    "name": "Laptop Bag Model 738",
+    "barcode": "100738",
+    "sku": "LAC-000738",
+    "ref": "REF-000738",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 3152.0,
+    "sellingPrice": 4025.0
+  },
+  {
+    "name": "Mouse Pad Model 739",
+    "barcode": "100739",
+    "sku": "LAC-000739",
+    "ref": "REF-000739",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 5706.0,
+    "sellingPrice": 7838.0
+  },
+  {
+    "name": "Webcam Model 740",
+    "barcode": "100740",
+    "sku": "LAC-000740",
+    "ref": "REF-000740",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 3384.0,
+    "sellingPrice": 5437.0
+  },
+  {
+    "name": "Wireless Keyboard Model 741",
+    "barcode": "100741",
+    "sku": "LAC-000741",
+    "ref": "REF-000741",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 6633.0,
+    "sellingPrice": 10174.0
+  },
+  {
+    "name": "Wireless Keyboard Model 742",
+    "barcode": "100742",
+    "sku": "LAC-000742",
+    "ref": "REF-000742",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 1571.0,
+    "sellingPrice": 2367.0
+  },
+  {
+    "name": "Cooling Pad Model 743",
+    "barcode": "100743",
+    "sku": "LAC-000743",
+    "ref": "REF-000743",
+    "description": "Excellent value for money.",
+    "costPrice": 3743.0,
+    "sellingPrice": 5610.0
+  },
+  {
+    "name": "Monitor Model 744",
+    "barcode": "100744",
+    "sku": "LAC-000744",
+    "ref": "REF-000744",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 2538.0,
+    "sellingPrice": 3614.0
+  },
+  {
+    "name": "Laptop Sleeve Model 745",
+    "barcode": "100745",
+    "sku": "LAC-000745",
+    "ref": "REF-000745",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 2316.0,
+    "sellingPrice": 3096.0
+  },
+  {
+    "name": "Docking Station Model 746",
+    "barcode": "100746",
+    "sku": "LAC-000746",
+    "ref": "REF-000746",
+    "description": "Modern design with premium finish.",
+    "costPrice": 3448.0,
+    "sellingPrice": 5417.0
+  },
+  {
+    "name": "USB Hub Model 747",
+    "barcode": "100747",
+    "sku": "LAC-000747",
+    "ref": "REF-000747",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 4956.0,
+    "sellingPrice": 5958.0
+  },
+  {
+    "name": "Laptop Stand Model 748",
+    "barcode": "100748",
+    "sku": "LAC-000748",
+    "ref": "REF-000748",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 2053.0,
+    "sellingPrice": 3095.0
+  },
+  {
+    "name": "Monitor Model 749",
+    "barcode": "100749",
+    "sku": "LAC-000749",
+    "ref": "REF-000749",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 3620.0,
+    "sellingPrice": 5194.0
+  },
+  {
+    "name": "Wireless Mouse Model 750",
+    "barcode": "100750",
+    "sku": "LAC-000750",
+    "ref": "REF-000750",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 4057.0,
+    "sellingPrice": 6780.0
+  },
+  {
+    "name": "External SSD Model 751",
+    "barcode": "100751",
+    "sku": "LAC-000751",
+    "ref": "REF-000751",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 9900.0,
+    "sellingPrice": 15943.0
+  },
+  {
+    "name": "External SSD Model 752",
+    "barcode": "100752",
+    "sku": "LAC-000752",
+    "ref": "REF-000752",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 5468.0,
+    "sellingPrice": 8263.0
+  },
+  {
+    "name": "Monitor Model 753",
+    "barcode": "100753",
+    "sku": "LAC-000753",
+    "ref": "REF-000753",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 7886.0,
+    "sellingPrice": 9785.0
+  },
+  {
+    "name": "Monitor Model 754",
+    "barcode": "100754",
+    "sku": "LAC-000754",
+    "ref": "REF-000754",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 1911.0,
+    "sellingPrice": 3128.0
+  },
+  {
+    "name": "Docking Station Model 755",
+    "barcode": "100755",
+    "sku": "LAC-000755",
+    "ref": "REF-000755",
+    "description": "Modern design with premium finish.",
+    "costPrice": 4597.0,
+    "sellingPrice": 6570.0
+  },
+  {
+    "name": "Laptop Stand Model 756",
+    "barcode": "100756",
+    "sku": "LAC-000756",
+    "ref": "REF-000756",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 4721.0,
+    "sellingPrice": 7745.0
+  },
+  {
+    "name": "Mouse Pad Model 757",
+    "barcode": "100757",
+    "sku": "LAC-000757",
+    "ref": "REF-000757",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 9475.0,
+    "sellingPrice": 12327.0
+  },
+  {
+    "name": "Gaming Mouse Model 758",
+    "barcode": "100758",
+    "sku": "LAC-000758",
+    "ref": "REF-000758",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 8565.0,
+    "sellingPrice": 11994.0
+  },
+  {
+    "name": "Mouse Pad Model 759",
+    "barcode": "100759",
+    "sku": "LAC-000759",
+    "ref": "REF-000759",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 1255.0,
+    "sellingPrice": 2102.0
+  },
+  {
+    "name": "External SSD Model 760",
+    "barcode": "100760",
+    "sku": "LAC-000760",
+    "ref": "REF-000760",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 9546.0,
+    "sellingPrice": 12440.0
+  },
+  {
+    "name": "External SSD Model 761",
+    "barcode": "100761",
+    "sku": "LAC-000761",
+    "ref": "REF-000761",
+    "description": "Excellent value for money.",
+    "costPrice": 5200.0,
+    "sellingPrice": 8765.0
+  },
+  {
+    "name": "Docking Station Model 762",
+    "barcode": "100762",
+    "sku": "LAC-000762",
+    "ref": "REF-000762",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 1368.0,
+    "sellingPrice": 1889.0
+  },
+  {
+    "name": "Mouse Pad Model 763",
+    "barcode": "100763",
+    "sku": "LAC-000763",
+    "ref": "REF-000763",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 1158.0,
+    "sellingPrice": 1398.0
+  },
+  {
+    "name": "External SSD Model 764",
+    "barcode": "100764",
+    "sku": "LAC-000764",
+    "ref": "REF-000764",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 8856.0,
+    "sellingPrice": 11530.0
+  },
+  {
+    "name": "Mouse Pad Model 765",
+    "barcode": "100765",
+    "sku": "LAC-000765",
+    "ref": "REF-000765",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 7317.0,
+    "sellingPrice": 12429.0
+  },
+  {
+    "name": "External SSD Model 766",
+    "barcode": "100766",
+    "sku": "LAC-000766",
+    "ref": "REF-000766",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 4743.0,
+    "sellingPrice": 6200.0
+  },
+  {
+    "name": "External HDD Model 767",
+    "barcode": "100767",
+    "sku": "LAC-000767",
+    "ref": "REF-000767",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 1436.0,
+    "sellingPrice": 2031.0
+  },
+  {
+    "name": "Laptop Sleeve Model 768",
+    "barcode": "100768",
+    "sku": "LAC-000768",
+    "ref": "REF-000768",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 7220.0,
+    "sellingPrice": 11931.0
+  },
+  {
+    "name": "Laptop Bag Model 769",
+    "barcode": "100769",
+    "sku": "LAC-000769",
+    "ref": "REF-000769",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 8548.0,
+    "sellingPrice": 11529.0
+  },
+  {
+    "name": "External SSD Model 770",
+    "barcode": "100770",
+    "sku": "LAC-000770",
+    "ref": "REF-000770",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 6018.0,
+    "sellingPrice": 9104.0
+  },
+  {
+    "name": "Laptop Bag Model 771",
+    "barcode": "100771",
+    "sku": "LAC-000771",
+    "ref": "REF-000771",
+    "description": "Modern design with premium finish.",
+    "costPrice": 9919.0,
+    "sellingPrice": 16784.0
+  },
+  {
+    "name": "Laptop Bag Model 772",
+    "barcode": "100772",
+    "sku": "LAC-000772",
+    "ref": "REF-000772",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 2726.0,
+    "sellingPrice": 4548.0
+  },
+  {
+    "name": "Mechanical Keyboard Model 773",
+    "barcode": "100773",
+    "sku": "LAC-000773",
+    "ref": "REF-000773",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 5112.0,
+    "sellingPrice": 8184.0
+  },
+  {
+    "name": "External SSD Model 774",
+    "barcode": "100774",
+    "sku": "LAC-000774",
+    "ref": "REF-000774",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 5187.0,
+    "sellingPrice": 8346.0
+  },
+  {
+    "name": "Gaming Mouse Model 775",
+    "barcode": "100775",
+    "sku": "LAC-000775",
+    "ref": "REF-000775",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 7070.0,
+    "sellingPrice": 10335.0
+  },
+  {
+    "name": "Wireless Mouse Model 776",
+    "barcode": "100776",
+    "sku": "LAC-000776",
+    "ref": "REF-000776",
+    "description": "Ergonomic build for maximum comfort.",
+    "costPrice": 5632.0,
+    "sellingPrice": 7866.0
+  },
+  {
+    "name": "External HDD Model 777",
+    "barcode": "100777",
+    "sku": "LAC-000777",
+    "ref": "REF-000777",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 9720.0,
+    "sellingPrice": 15036.0
+  },
+  {
+    "name": "Gaming Mouse Model 778",
+    "barcode": "100778",
+    "sku": "LAC-000778",
+    "ref": "REF-000778",
+    "description": "Modern design with premium finish.",
+    "costPrice": 3156.0,
+    "sellingPrice": 4385.0
+  },
+  {
+    "name": "USB Hub Model 779",
+    "barcode": "100779",
+    "sku": "LAC-000779",
+    "ref": "REF-000779",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 1689.0,
+    "sellingPrice": 2104.0
+  },
+  {
+    "name": "External SSD Model 780",
+    "barcode": "100780",
+    "sku": "LAC-000780",
+    "ref": "REF-000780",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 7150.0,
+    "sellingPrice": 10074.0
+  },
+  {
+    "name": "Monitor Model 781",
+    "barcode": "100781",
+    "sku": "LAC-000781",
+    "ref": "REF-000781",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 4649.0,
+    "sellingPrice": 7242.0
+  },
+  {
+    "name": "Docking Station Model 782",
+    "barcode": "100782",
+    "sku": "LAC-000782",
+    "ref": "REF-000782",
+    "description": "Excellent value for money.",
+    "costPrice": 6506.0,
+    "sellingPrice": 8622.0
+  },
+  {
+    "name": "Mouse Pad Model 783",
+    "barcode": "100783",
+    "sku": "LAC-000783",
+    "ref": "REF-000783",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 7442.0,
+    "sellingPrice": 9403.0
+  },
+  {
+    "name": "Wireless Mouse Model 784",
+    "barcode": "100784",
+    "sku": "LAC-000784",
+    "ref": "REF-000784",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 3152.0,
+    "sellingPrice": 5156.0
+  },
+  {
+    "name": "Microphone Model 785",
+    "barcode": "100785",
+    "sku": "LAC-000785",
+    "ref": "REF-000785",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 1656.0,
+    "sellingPrice": 2031.0
+  },
+  {
+    "name": "Mouse Pad Model 786",
+    "barcode": "100786",
+    "sku": "LAC-000786",
+    "ref": "REF-000786",
+    "description": "Excellent value for money.",
+    "costPrice": 7918.0,
+    "sellingPrice": 12511.0
+  },
+  {
+    "name": "Mechanical Keyboard Model 787",
+    "barcode": "100787",
+    "sku": "LAC-000787",
+    "ref": "REF-000787",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 6573.0,
+    "sellingPrice": 10973.0
+  },
+  {
+    "name": "Cooling Pad Model 788",
+    "barcode": "100788",
+    "sku": "LAC-000788",
+    "ref": "REF-000788",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 2289.0,
+    "sellingPrice": 2869.0
+  },
+  {
+    "name": "Laptop Bag Model 789",
+    "barcode": "100789",
+    "sku": "LAC-000789",
+    "ref": "REF-000789",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 1972.0,
+    "sellingPrice": 3263.0
+  },
+  {
+    "name": "Monitor Model 790",
+    "barcode": "100790",
+    "sku": "LAC-000790",
+    "ref": "REF-000790",
+    "description": "Enhanced efficiency and productivity.",
+    "costPrice": 2258.0,
+    "sellingPrice": 2868.0
+  },
+  {
+    "name": "Mechanical Keyboard Model 791",
+    "barcode": "100791",
+    "sku": "LAC-000791",
+    "ref": "REF-000791",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 8486.0,
+    "sellingPrice": 10291.0
+  },
+  {
+    "name": "External HDD Model 792",
+    "barcode": "100792",
+    "sku": "LAC-000792",
+    "ref": "REF-000792",
+    "description": "Designed for comfort and durability.",
+    "costPrice": 3030.0,
+    "sellingPrice": 4584.0
+  },
+  {
+    "name": "Cooling Pad Model 793",
+    "barcode": "100793",
+    "sku": "LAC-000793",
+    "ref": "REF-000793",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 5446.0,
+    "sellingPrice": 7364.0
+  },
+  {
+    "name": "Mechanical Keyboard Model 794",
+    "barcode": "100794",
+    "sku": "LAC-000794",
+    "ref": "REF-000794",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 7136.0,
+    "sellingPrice": 9033.0
+  },
+  {
+    "name": "Laptop Sleeve Model 795",
+    "barcode": "100795",
+    "sku": "LAC-000795",
+    "ref": "REF-000795",
+    "description": "High quality product suitable for everyday use.",
+    "costPrice": 2286.0,
+    "sellingPrice": 3719.0
+  },
+  {
+    "name": "Gaming Mouse Model 796",
+    "barcode": "100796",
+    "sku": "LAC-000796",
+    "ref": "REF-000796",
+    "description": "Premium materials for long-lasting life.",
+    "costPrice": 825.0,
+    "sellingPrice": 1066.0
+  },
+  {
+    "name": "Docking Station Model 797",
+    "barcode": "100797",
+    "sku": "LAC-000797",
+    "ref": "REF-000797",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 2540.0,
+    "sellingPrice": 3158.0
+  },
+  {
+    "name": "Laptop Sleeve Model 798",
+    "barcode": "100798",
+    "sku": "LAC-000798",
+    "ref": "REF-000798",
+    "description": "Compact design, perfect for on-the-go.",
+    "costPrice": 1536.0,
+    "sellingPrice": 2580.0
+  },
+  {
+    "name": "External HDD Model 799",
+    "barcode": "100799",
+    "sku": "LAC-000799",
+    "ref": "REF-000799",
+    "description": "Suitable for personal and professional use.",
+    "costPrice": 5382.0,
+    "sellingPrice": 6553.0
+  },
+  {
+    "name": "USB Hub Model 800",
+    "barcode": "100800",
+    "sku": "LAC-000800",
+    "ref": "REF-000800",
+    "description": "Reliable performance for daily tasks.",
+    "costPrice": 2102.0,
+    "sellingPrice": 3453.0
+  }
+]
