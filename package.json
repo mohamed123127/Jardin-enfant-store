@@ -11,6 +11,7 @@
     },
     "dependencies": {
         "@tanstack/react-table": "^9.1.2",
-        "table": "github:tanstack/react-table"
+        "table": "github:tanstack/react-table",
+        "typeorm": "^1.1.1"
     }
 }
