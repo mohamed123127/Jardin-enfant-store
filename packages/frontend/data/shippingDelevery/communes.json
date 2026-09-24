@@ -1,0 +1,10789 @@
+[
+  {
+    "id": 101,
+    "name": "Adrar",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 1
+  },
+  {
+    "id": 102,
+    "name": "Tamest",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 1
+  },
+  {
+    "id": 104,
+    "name": "Reggane",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 1
+  },
+  {
+    "id": 105,
+    "name": "In Zghmir",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 1
+  },
+  {
+    "id": 106,
+    "name": "Tit",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 1
+  },
+  {
+    "id": 108,
+    "name": "Tsabit",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 1
+  },
+  {
+    "id": 111,
+    "name": "Zaouiet Kounta",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 1
+  },
+  {
+    "id": 112,
+    "name": "Aoulef",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 1
+  },
+  {
+    "id": 113,
+    "name": "Tamekten",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 1
+  },
+  {
+    "id": 114,
+    "name": "Tamantit",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 1
+  },
+  {
+    "id": 115,
+    "name": "Fenoughil",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 1
+  },
+  {
+    "id": 118,
+    "name": "Sali",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 1
+  },
+  {
+    "id": 119,
+    "name": "Akabli",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 1
+  },
+  {
+    "id": 121,
+    "name": "Ouled Ahmed Tammi",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 1
+  },
+  {
+    "id": 122,
+    "name": "Bouda",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 1
+  },
+  {
+    "id": 126,
+    "name": "Sebaa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 1
+  },
+  {
+    "id": 201,
+    "name": "Abou El Hassan",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 2
+  },
+  {
+    "id": 202,
+    "name": "Aïn Merane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 2
+  },
+  {
+    "id": 203,
+    "name": "Bénairia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 2
+  },
+  {
+    "id": 204,
+    "name": "Beni Bouateb",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 2
+  },
+  {
+    "id": 205,
+    "name": "Beni Haoua",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 2
+  },
+  {
+    "id": 206,
+    "name": "Beni Rached",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 2
+  },
+  {
+    "id": 207,
+    "name": "Boukadir",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 2
+  },
+  {
+    "id": 208,
+    "name": "Bouzeghaia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 2
+  },
+  {
+    "id": 209,
+    "name": "Breira",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 2
+  },
+  {
+    "id": 210,
+    "name": "Chettia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 2
+  },
+  {
+    "id": 211,
+    "name": "Chlef",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 2
+  },
+  {
+    "id": 212,
+    "name": "Dahra",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 2
+  },
+  {
+    "id": 213,
+    "name": "El Hadjadj",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 2
+  },
+  {
+    "id": 214,
+    "name": "El Karimia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 2
+  },
+  {
+    "id": 215,
+    "name": "El Marsa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 2
+  },
+  {
+    "id": 216,
+    "name": "Harchoun",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 2
+  },
+  {
+    "id": 217,
+    "name": "Harenfa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 2
+  },
+  {
+    "id": 218,
+    "name": "Labiod Medjadja",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 2
+  },
+  {
+    "id": 219,
+    "name": "Moussadek",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 2
+  },
+  {
+    "id": 220,
+    "name": "Oued Fodda",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 2
+  },
+  {
+    "id": 221,
+    "name": "Oued Goussine",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 2
+  },
+  {
+    "id": 222,
+    "name": "Oued Sly",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 2
+  },
+  {
+    "id": 223,
+    "name": "Ouled Abbes",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 2
+  },
+  {
+    "id": 224,
+    "name": "Ouled Ben Abdelkader",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 2
+  },
+  {
+    "id": 225,
+    "name": "Ouled Fares",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 2
+  },
+  {
+    "id": 226,
+    "name": "Oum Drou",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 2
+  },
+  {
+    "id": 227,
+    "name": "Sendjas",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 2
+  },
+  {
+    "id": 228,
+    "name": "Sidi Abderrahmane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 2
+  },
+  {
+    "id": 229,
+    "name": "Sidi Akkacha",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 2
+  },
+  {
+    "id": 230,
+    "name": "Sobha",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 2
+  },
+  {
+    "id": 231,
+    "name": "Tadjena",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 2
+  },
+  {
+    "id": 232,
+    "name": "Talassa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 2
+  },
+  {
+    "id": 233,
+    "name": "Taougrite",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 2
+  },
+  {
+    "id": 234,
+    "name": "Ténès",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 2
+  },
+  {
+    "id": 235,
+    "name": "Zeboudja",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 2
+  },
+  {
+    "id": 301,
+    "name": "Laghouat",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 3
+  },
+  {
+    "id": 302,
+    "name": "Ksar El Hirane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 3
+  },
+  {
+    "id": 303,
+    "name": "Bennasser Benchohra",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 3
+  },
+  {
+    "id": 304,
+    "name": "Sidi Makhlouf",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 3
+  },
+  {
+    "id": 305,
+    "name": "Hassi Delaa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 3
+  },
+  {
+    "id": 306,
+    "name": "Hassi R'Mel",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 3
+  },
+  {
+    "id": 307,
+    "name": "Aïn Madhi",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 3
+  },
+  {
+    "id": 308,
+    "name": "Tadjemout",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 3
+  },
+  {
+    "id": 309,
+    "name": "Kheneg",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 3
+  },
+  {
+    "id": 310,
+    "name": "Gueltat Sidi Saad",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 3
+  },
+  {
+    "id": 311,
+    "name": "Aïn Sidi Ali",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 3
+  },
+  {
+    "id": 312,
+    "name": "Beidha",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 3
+  },
+  {
+    "id": 313,
+    "name": "Brida",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 3
+  },
+  {
+    "id": 314,
+    "name": "El Ghicha",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 3
+  },
+  {
+    "id": 315,
+    "name": "Hadj Mechri",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 3
+  },
+  {
+    "id": 316,
+    "name": "Sebgag",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 3
+  },
+  {
+    "id": 317,
+    "name": "Taouiala",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 3
+  },
+  {
+    "id": 318,
+    "name": "Tadjrouna",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 3
+  },
+  {
+    "id": 319,
+    "name": "Aflou",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 3
+  },
+  {
+    "id": 320,
+    "name": "El Assafia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 3
+  },
+  {
+    "id": 321,
+    "name": "Oued Morra",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 3
+  },
+  {
+    "id": 322,
+    "name": "Oued M'Zi",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 3
+  },
+  {
+    "id": 323,
+    "name": "El Houaita",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 3
+  },
+  {
+    "id": 324,
+    "name": "Sidi Bouzid",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 3
+  },
+  {
+    "id": 401,
+    "name": "Oum el Bouaghi",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 4
+  },
+  {
+    "id": 402,
+    "name": "Aïn Beïda",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 4
+  },
+  {
+    "id": 403,
+    "name": "Aïn M'lila",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 4
+  },
+  {
+    "id": 404,
+    "name": "Behir Chergui",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 4
+  },
+  {
+    "id": 405,
+    "name": "El Amiria",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 4
+  },
+  {
+    "id": 406,
+    "name": "Sigus",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 4
+  },
+  {
+    "id": 407,
+    "name": "El Belala",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 4
+  },
+  {
+    "id": 408,
+    "name": "Aïn Babouche",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 4
+  },
+  {
+    "id": 409,
+    "name": "Berriche",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 4
+  },
+  {
+    "id": 410,
+    "name": "Ouled Hamla",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 4
+  },
+  {
+    "id": 411,
+    "name": "Dhalaa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 4
+  },
+  {
+    "id": 412,
+    "name": "Aïn Kercha",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 4
+  },
+  {
+    "id": 413,
+    "name": "Hanchir Toumghani",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 4
+  },
+  {
+    "id": 414,
+    "name": "El Djazia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 4
+  },
+  {
+    "id": 415,
+    "name": "Aïn Diss",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 4
+  },
+  {
+    "id": 416,
+    "name": "Fkirina",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 4
+  },
+  {
+    "id": 417,
+    "name": "Souk Naamane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 4
+  },
+  {
+    "id": 418,
+    "name": "Zorg",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 4
+  },
+  {
+    "id": 419,
+    "name": "El Fedjoudj Boughrara Saoudi",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 4
+  },
+  {
+    "id": 420,
+    "name": "Ouled Zouaï",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 4
+  },
+  {
+    "id": 421,
+    "name": "Bir Chouhada",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 4
+  },
+  {
+    "id": 422,
+    "name": "Ksar Sbahi",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 4
+  },
+  {
+    "id": 423,
+    "name": "Oued Nini",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 4
+  },
+  {
+    "id": 424,
+    "name": "Meskiana",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 4
+  },
+  {
+    "id": 425,
+    "name": "Aïn Fakroun",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 4
+  },
+  {
+    "id": 426,
+    "name": "Rahia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 4
+  },
+  {
+    "id": 427,
+    "name": "Aïn Zitoun",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 4
+  },
+  {
+    "id": 428,
+    "name": "Ouled Gacem",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 4
+  },
+  {
+    "id": 429,
+    "name": "El Harmilia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 4
+  },
+  {
+    "id": 501,
+    "name": "Batna",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 5
+  },
+  {
+    "id": 502,
+    "name": "Ghassira",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 503,
+    "name": "Maafa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 504,
+    "name": "Merouana",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 5
+  },
+  {
+    "id": 505,
+    "name": "Seriana",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 506,
+    "name": "Menaa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 507,
+    "name": "El Madher",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 508,
+    "name": "Tazoult",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 509,
+    "name": "N'Gaous",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 510,
+    "name": "Guigba",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 511,
+    "name": "Inoughissen",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 512,
+    "name": "Ouyoun El Assafir",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 513,
+    "name": "Djerma",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 514,
+    "name": "Bitam",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 515,
+    "name": "Abdelkader Azil",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 516,
+    "name": "Arris",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 517,
+    "name": "Kimmel",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 518,
+    "name": "Tilatou",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 519,
+    "name": "Aïn Djasser",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 520,
+    "name": "Ouled Sellam",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 521,
+    "name": "Tigherghar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 522,
+    "name": "Aïn Yagout",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 523,
+    "name": "Fesdis",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 524,
+    "name": "Sefiane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 525,
+    "name": "Rahbat",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 526,
+    "name": "Tighanimine",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 527,
+    "name": "Lemsane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 528,
+    "name": "Ksar Bellezma",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 529,
+    "name": "Seggana",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 530,
+    "name": "Ichmoul",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 531,
+    "name": "Foum Toub",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 532,
+    "name": "Ben Foudhala El Hakania",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 533,
+    "name": "Oued El Ma",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 534,
+    "name": "Talkhamt",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 535,
+    "name": "Bouzina",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 536,
+    "name": "Chemora",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 537,
+    "name": "Oued Chaaba",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 538,
+    "name": "Taxlent",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 539,
+    "name": "Gosbat",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 540,
+    "name": "Ouled Aouf",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 541,
+    "name": "Boumagueur",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 542,
+    "name": "Barika",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 5
+  },
+  {
+    "id": 543,
+    "name": "Djezar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 544,
+    "name": "T'Kout",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 545,
+    "name": "Aïn Touta",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 546,
+    "name": "Hidoussa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 547,
+    "name": "Teniet El Abed",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 548,
+    "name": "Oued Taga",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 549,
+    "name": "Ouled Fadel",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 550,
+    "name": "Timgad",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 551,
+    "name": "Ras El Aioun",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 552,
+    "name": "Chir",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 553,
+    "name": "Ouled Si Slimane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 554,
+    "name": "Zanat El Beida",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 555,
+    "name": "M'doukel",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 556,
+    "name": "Ouled Ammar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 557,
+    "name": "El Hassi",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 558,
+    "name": "Lazrou",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 559,
+    "name": "Boumia (Batna)",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 560,
+    "name": "Boulhilat",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 561,
+    "name": "Larbaâ",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 5
+  },
+  {
+    "id": 601,
+    "name": "Béjaïa",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 6
+  },
+  {
+    "id": 602,
+    "name": "Amizour",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 603,
+    "name": "Ferraoun",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 604,
+    "name": "Taourirt Ighil",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 605,
+    "name": "Chellata",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 606,
+    "name": "Tamokra",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 607,
+    "name": "Timezrit",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 608,
+    "name": "Souk El Ténine",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 609,
+    "name": "M'cisna",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 610,
+    "name": "Tinabdher",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 611,
+    "name": "Tichy",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 612,
+    "name": "Semaoun",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 613,
+    "name": "Kendira",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 614,
+    "name": "Tifra",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 615,
+    "name": "Ighram",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 616,
+    "name": "Amalou",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 617,
+    "name": "Ighil Ali",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 618,
+    "name": "Fenaïa Ilmaten",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 619,
+    "name": "Toudja",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 620,
+    "name": "Darguina",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 621,
+    "name": "Sidi Ayad",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 622,
+    "name": "Aokas",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 623,
+    "name": "Ait Djellil",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 624,
+    "name": "Adekar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 625,
+    "name": "Akbou",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 6
+  },
+  {
+    "id": 626,
+    "name": "Seddouk",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 627,
+    "name": "Tazmalt",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 628,
+    "name": "Aït R'zine",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 629,
+    "name": "Chemini",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 630,
+    "name": "Souk Oufella",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 631,
+    "name": "Tibane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 632,
+    "name": "Tala Hamza",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 633,
+    "name": "Barbacha",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 634,
+    "name": "Aït Ksila",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 635,
+    "name": "Ouzellaguen",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 636,
+    "name": "Bouhamza",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 637,
+    "name": "Taskriout",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 638,
+    "name": "Aït Mellikeche",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 639,
+    "name": "Sidi Aïch",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 640,
+    "name": "El Kseur",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 6
+  },
+  {
+    "id": 641,
+    "name": "Melbou",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 642,
+    "name": "Akfadou",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 643,
+    "name": "Leflaye",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 644,
+    "name": "Kherrata",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 645,
+    "name": "Draâ El Kaïd",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 646,
+    "name": "Tamridjet",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 647,
+    "name": "Aït Smail",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 648,
+    "name": "Boukhelifa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 649,
+    "name": "Tizi N'Berber",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 650,
+    "name": "Aït Maouche",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 651,
+    "name": "Oued Ghir",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 652,
+    "name": "Boudjellil",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 6
+  },
+  {
+    "id": 701,
+    "name": "Aïn Naga",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 7
+  },
+  {
+    "id": 702,
+    "name": "Aïn Zaatout",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 7
+  },
+  {
+    "id": 704,
+    "name": "Biskra",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 7
+  },
+  {
+    "id": 705,
+    "name": "Bordj Ben Azzouz",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 7
+  },
+  {
+    "id": 706,
+    "name": "Bouchagroune",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 7
+  },
+  {
+    "id": 707,
+    "name": "Branis",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 7
+  },
+  {
+    "id": 708,
+    "name": "Chetma",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 7
+  },
+  {
+    "id": 709,
+    "name": "Djemorah",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 7
+  },
+  {
+    "id": 712,
+    "name": "El Feidh",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 7
+  },
+  {
+    "id": 713,
+    "name": "El Ghrous",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 7
+  },
+  {
+    "id": 714,
+    "name": "El Hadjeb",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 7
+  },
+  {
+    "id": 715,
+    "name": "El Haouch",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 7
+  },
+  {
+    "id": 716,
+    "name": "El Kantara",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 7
+  },
+  {
+    "id": 717,
+    "name": "El Mizaraa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 7
+  },
+  {
+    "id": 718,
+    "name": "El Outaya",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 7
+  },
+  {
+    "id": 719,
+    "name": "Foughala",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 7
+  },
+  {
+    "id": 720,
+    "name": "Khenguet Sidi Nadji",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 7
+  },
+  {
+    "id": 721,
+    "name": "Lichana",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 7
+  },
+  {
+    "id": 722,
+    "name": "Lioua",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 7
+  },
+  {
+    "id": 723,
+    "name": "M'Chouneche",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 7
+  },
+  {
+    "id": 724,
+    "name": "Mekhadma",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 7
+  },
+  {
+    "id": 725,
+    "name": "M'Lili",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 7
+  },
+  {
+    "id": 727,
+    "name": "Oumache",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 7
+  },
+  {
+    "id": 728,
+    "name": "Ourlal",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 7
+  },
+  {
+    "id": 731,
+    "name": "Sidi Okba",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 7
+  },
+  {
+    "id": 732,
+    "name": "Tolga",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 7
+  },
+  {
+    "id": 733,
+    "name": "Zeribet El Oued",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 7
+  },
+  {
+    "id": 801,
+    "name": "Béchar",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 8
+  },
+  {
+    "id": 802,
+    "name": "Erg Ferradj",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 8
+  },
+  {
+    "id": 804,
+    "name": "Meridja",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 8
+  },
+  {
+    "id": 806,
+    "name": "Lahmar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 8
+  },
+  {
+    "id": 809,
+    "name": "Mechraa Houari Boumedienne",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 8
+  },
+  {
+    "id": 810,
+    "name": "Kenadsa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 8
+  },
+  {
+    "id": 813,
+    "name": "Taghit",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 8
+  },
+  {
+    "id": 815,
+    "name": "Boukais",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 8
+  },
+  {
+    "id": 816,
+    "name": "Mougheul",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 8
+  },
+  {
+    "id": 817,
+    "name": "Abadla",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 8
+  },
+  {
+    "id": 821,
+    "name": "Beni Ounif",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 8
+  },
+  {
+    "id": 901,
+    "name": "Blida",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 9
+  },
+  {
+    "id": 902,
+    "name": "Chebli",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 9
+  },
+  {
+    "id": 903,
+    "name": "Bouinan",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 9
+  },
+  {
+    "id": 904,
+    "name": "Oued Alleug",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 9
+  },
+  {
+    "id": 907,
+    "name": "Ouled Yaïch",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 9
+  },
+  {
+    "id": 908,
+    "name": "Chréa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 9
+  },
+  {
+    "id": 910,
+    "name": "El Affroun",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 9
+  },
+  {
+    "id": 911,
+    "name": "Chiffa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 9
+  },
+  {
+    "id": 912,
+    "name": "Hammam Melouane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 9
+  },
+  {
+    "id": 913,
+    "name": "Benkhelil",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 9
+  },
+  {
+    "id": 914,
+    "name": "Soumaa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 9
+  },
+  {
+    "id": 916,
+    "name": "Mouzaia",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 9
+  },
+  {
+    "id": 917,
+    "name": "Souhane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 9
+  },
+  {
+    "id": 918,
+    "name": "Meftah",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 9
+  },
+  {
+    "id": 919,
+    "name": "Ouled Slama",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 9
+  },
+  {
+    "id": 920,
+    "name": "Boufarik",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 9
+  },
+  {
+    "id": 921,
+    "name": "Larbaa",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 9
+  },
+  {
+    "id": 922,
+    "name": "Oued Djer",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 9
+  },
+  {
+    "id": 923,
+    "name": "Beni Tamou",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 9
+  },
+  {
+    "id": 924,
+    "name": "Bouarfa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 9
+  },
+  {
+    "id": 925,
+    "name": "Beni Mered",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 9
+  },
+  {
+    "id": 926,
+    "name": "Bougara",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 9
+  },
+  {
+    "id": 927,
+    "name": "Guerouaou",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 9
+  },
+  {
+    "id": 928,
+    "name": "Aïn Romana",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 9
+  },
+  {
+    "id": 929,
+    "name": "Djebabra",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 9
+  },
+  {
+    "id": 1001,
+    "name": "Aïn Bessem",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1002,
+    "name": "Hanif",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1003,
+    "name": "Aghbalou",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1004,
+    "name": "Aïn El Hadjar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1005,
+    "name": "Ahl El Ksar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1006,
+    "name": "Aïn Laloui",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1007,
+    "name": "Ath Mansour",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1008,
+    "name": "Aomar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1009,
+    "name": "Aïn El Turc",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1010,
+    "name": "Aït Laziz",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1011,
+    "name": "Bouderbala",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1012,
+    "name": "Bechloul",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1013,
+    "name": "Bir Ghbalou",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1014,
+    "name": "Boukram",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1015,
+    "name": "Bordj Okhriss",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1016,
+    "name": "Bouira",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1017,
+    "name": "Chorfa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1018,
+    "name": "Dechmia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1019,
+    "name": "Dirrah",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1020,
+    "name": "Djebahia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1021,
+    "name": "El Hakimia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1022,
+    "name": "El Hachimia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1023,
+    "name": "El Adjiba",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1024,
+    "name": "El Khabouzia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1025,
+    "name": "El Mokrani",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1026,
+    "name": "El Asnam",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1027,
+    "name": "Guerrouma",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1028,
+    "name": "Haizer",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1029,
+    "name": "Hadjera Zerga",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1030,
+    "name": "Kadiria",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1031,
+    "name": "Lakhdaria",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1032,
+    "name": "M'Chedallah",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1033,
+    "name": "Mezdour",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1034,
+    "name": "Maala",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1035,
+    "name": "Maamora",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1036,
+    "name": "Oued El Berdi",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1037,
+    "name": "Ouled Rached",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1038,
+    "name": "Raouraoua",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1039,
+    "name": "Ridane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1040,
+    "name": "Saharidj",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1041,
+    "name": "Sour El Ghouzlane",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1042,
+    "name": "Souk El Khemis",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1043,
+    "name": "Taguedit",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1044,
+    "name": "Taghzout",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1045,
+    "name": "Zbarbar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 10
+  },
+  {
+    "id": 1101,
+    "name": "Tamanrasset",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 11
+  },
+  {
+    "id": 1102,
+    "name": "Abalessa",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 11
+  },
+  {
+    "id": 1105,
+    "name": "Idles",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 11
+  },
+  {
+    "id": 1106,
+    "name": "Tazrouk",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 11
+  },
+  {
+    "id": 1109,
+    "name": "In Amguel",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 11
+  },
+  {
+    "id": 1201,
+    "name": "Tébessa",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 12
+  },
+  {
+    "id": 1202,
+    "name": "Bir el Ater",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 12
+  },
+  {
+    "id": 1203,
+    "name": "Cheria",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 12
+  },
+  {
+    "id": 1204,
+    "name": "Stah Guentis",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 12
+  },
+  {
+    "id": 1205,
+    "name": "El Aouinet",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 12
+  },
+  {
+    "id": 1206,
+    "name": "El Houidjbet",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 12
+  },
+  {
+    "id": 1207,
+    "name": "Safsaf El Ouesra",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 12
+  },
+  {
+    "id": 1208,
+    "name": "Hammamet",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 12
+  },
+  {
+    "id": 1209,
+    "name": "Negrine",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 12
+  },
+  {
+    "id": 1210,
+    "name": "Bir Mokkadem",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 12
+  },
+  {
+    "id": 1211,
+    "name": "El Kouif",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 12
+  },
+  {
+    "id": 1212,
+    "name": "Morsott",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 12
+  },
+  {
+    "id": 1213,
+    "name": "El Ogla",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 12
+  },
+  {
+    "id": 1214,
+    "name": "Bir Dheb",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 12
+  },
+  {
+    "id": 1215,
+    "name": "Ogla Melha",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 12
+  },
+  {
+    "id": 1216,
+    "name": "Guorriguer",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 12
+  },
+  {
+    "id": 1217,
+    "name": "Bekkaria",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 12
+  },
+  {
+    "id": 1218,
+    "name": "Boukhadra",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 12
+  },
+  {
+    "id": 1219,
+    "name": "Ouenza",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 12
+  },
+  {
+    "id": 1220,
+    "name": "El Ma Labiodh",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 12
+  },
+  {
+    "id": 1221,
+    "name": "Oum Ali",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 12
+  },
+  {
+    "id": 1222,
+    "name": "Tlidjene",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 12
+  },
+  {
+    "id": 1223,
+    "name": "Aïn Zerga",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 12
+  },
+  {
+    "id": 1224,
+    "name": "El Meridj",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 12
+  },
+  {
+    "id": 1225,
+    "name": "Boulhaf Dir",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 12
+  },
+  {
+    "id": 1226,
+    "name": "Bedjene",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 12
+  },
+  {
+    "id": 1227,
+    "name": "El Mezeraa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 12
+  },
+  {
+    "id": 1228,
+    "name": "Ferkane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 12
+  },
+  {
+    "id": 1301,
+    "name": "Tlemcen",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1302,
+    "name": "Beni Mester",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1303,
+    "name": "Aïn Tallout",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1304,
+    "name": "Remchi",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1305,
+    "name": "El Fehoul",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1306,
+    "name": "Sabra",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1307,
+    "name": "Ghazaouet",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1308,
+    "name": "Souani",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1309,
+    "name": "Djebala",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1310,
+    "name": "El Gor",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1311,
+    "name": "Oued Lakhdar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1312,
+    "name": "Aïn Fezza",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1313,
+    "name": "Ouled Mimoun",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1314,
+    "name": "Amieur",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1315,
+    "name": "Aïn Youcef",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1316,
+    "name": "Zenata",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1317,
+    "name": "Beni Snous",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1318,
+    "name": "Bab El Assa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1319,
+    "name": "Dar Yaghmouracene",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1320,
+    "name": "Fellaoucene",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1321,
+    "name": "Azails",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1322,
+    "name": "Sebaa Chioukh",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1323,
+    "name": "Terny Beni Hdiel",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1324,
+    "name": "Bensekrane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1325,
+    "name": "Aïn Nehala",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1326,
+    "name": "Hennaya",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1327,
+    "name": "Maghnia",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1328,
+    "name": "Hammam Boughrara",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1329,
+    "name": "Souahlia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1330,
+    "name": "MSirda Fouaga",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1331,
+    "name": "Aïn Fetah",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1332,
+    "name": "El Aricha",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1333,
+    "name": "Souk Tlata",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1334,
+    "name": "Sidi Abdelli",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1335,
+    "name": "Sebdou",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1336,
+    "name": "Beni Ouarsous",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1337,
+    "name": "Sidi Medjahed",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1338,
+    "name": "Beni Boussaid",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1339,
+    "name": "Marsa Ben M'Hidi",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1340,
+    "name": "Nedroma",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1341,
+    "name": "Sidi Djillali",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1342,
+    "name": "Beni Bahdel",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1343,
+    "name": "El Bouihi",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1344,
+    "name": "Honaïne",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1345,
+    "name": "Tienet",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1346,
+    "name": "Ouled Riyah",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1347,
+    "name": "Bouhlou",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1348,
+    "name": "Beni Khellad",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1349,
+    "name": "Aïn Ghoraba",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1350,
+    "name": "Chetouane",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1351,
+    "name": "Mansourah",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1352,
+    "name": "Beni Semiel",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1353,
+    "name": "Aïn Kebira",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 13
+  },
+  {
+    "id": 1401,
+    "name": "Aïn Bouchekif",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1402,
+    "name": "Aïn Deheb",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1403,
+    "name": "Aïn El Hadid",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1404,
+    "name": "Aïn Kermes",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1405,
+    "name": "Aïn Dzarit",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1406,
+    "name": "Bougara",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1407,
+    "name": "Chehaima",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1408,
+    "name": "Dahmouni",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1409,
+    "name": "Djebilet Rosfa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1410,
+    "name": "Djillali Ben Amar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1411,
+    "name": "Faidja",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1412,
+    "name": "Frenda",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1413,
+    "name": "Guertoufa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1414,
+    "name": "Hamadia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1415,
+    "name": "Ksar Chellala",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1416,
+    "name": "Madna",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1417,
+    "name": "Mahdia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1418,
+    "name": "Mechraa Safa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1419,
+    "name": "Medrissa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1420,
+    "name": "Medroussa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1421,
+    "name": "Meghila",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1422,
+    "name": "Mellakou",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1423,
+    "name": "Nadorah",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1424,
+    "name": "Naima",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1425,
+    "name": "Oued Lilli",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1426,
+    "name": "Rahouia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1427,
+    "name": "Rechaiga",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1428,
+    "name": "Sebaine",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1429,
+    "name": "Sebt",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1430,
+    "name": "Serghine",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1431,
+    "name": "Si Abdelghani",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1432,
+    "name": "Sidi Abderahmane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1433,
+    "name": "Sidi Ali Mellal",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1434,
+    "name": "Sidi Bakhti",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1435,
+    "name": "Sidi Hosni",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1436,
+    "name": "Sougueur",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1437,
+    "name": "Tagdemt",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1438,
+    "name": "Takhemaret",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1439,
+    "name": "Tiaret",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1440,
+    "name": "Tidda",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1441,
+    "name": "Tousnina",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1442,
+    "name": "Zmalet El Emir Abdelkader",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 14
+  },
+  {
+    "id": 1501,
+    "name": "Tizi Ouzou",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1502,
+    "name": "Ain El Hammam",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1503,
+    "name": "Akbil",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1504,
+    "name": "Freha",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1505,
+    "name": "Souamaâ",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1506,
+    "name": "Mechtras",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1507,
+    "name": "Irdjen",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1508,
+    "name": "Timizart",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1509,
+    "name": "Makouda",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1510,
+    "name": "Draâ El Mizan",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1511,
+    "name": "Tizi Gheniff",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1512,
+    "name": "Bounouh",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1513,
+    "name": "Aït Chafâa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1514,
+    "name": "Frikat",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1515,
+    "name": "Beni Aïssi",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1516,
+    "name": "Beni Zmenzer",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1517,
+    "name": "Iferhounène",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1518,
+    "name": "Azazga",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1519,
+    "name": "Illoula Oumalou",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1520,
+    "name": "Yakouren",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1521,
+    "name": "Larbaâ Nath Irathen",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1522,
+    "name": "Tizi Rached",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1523,
+    "name": "Zekri",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1524,
+    "name": "Ouaguenoun",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1525,
+    "name": "Aïn Zaouia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1526,
+    "name": "M'Kira",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1527,
+    "name": "Aït Yahia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1528,
+    "name": "Aït Mahmoud",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1529,
+    "name": "Mâatkas",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1530,
+    "name": "Aït Boumahdi",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1531,
+    "name": "Abi Youcef",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1532,
+    "name": "Beni Douala",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1533,
+    "name": "Illilten",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1534,
+    "name": "Bouzguen",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1535,
+    "name": "Aït Aggouacha",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1536,
+    "name": "Ouadhia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1537,
+    "name": "Azeffoun",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1538,
+    "name": "Tigzirt",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1539,
+    "name": "Aït Aïssa Mimoun",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1540,
+    "name": "Boghni",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1541,
+    "name": "Ifigha",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1542,
+    "name": "Aït Oumalou",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1543,
+    "name": "Tirmitine",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1544,
+    "name": "Akerrou",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1545,
+    "name": "Yatafen",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1546,
+    "name": "Ath Zikki",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1547,
+    "name": "Draâ Ben Khedda",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1548,
+    "name": "Ouacif",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1549,
+    "name": "Idjeur",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1550,
+    "name": "Mekla",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1551,
+    "name": "Tizi N'Tleta",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1552,
+    "name": "Aït Yenni",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1553,
+    "name": "Aghribs",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1554,
+    "name": "Iflissen",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1555,
+    "name": "Boudjima",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1556,
+    "name": "Aït Yahia Moussa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1557,
+    "name": "Souk El Thenine",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1558,
+    "name": "Aït Khellili",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1559,
+    "name": "Sidi Namane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1560,
+    "name": "Iboudraren",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1561,
+    "name": "Agouni Gueghrane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1562,
+    "name": "Mizrana",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1563,
+    "name": "Imsouhel",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1564,
+    "name": "Tadmaït",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1565,
+    "name": "Aït Bouadou",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1566,
+    "name": "Assi Youcef",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1567,
+    "name": "Aït Toudert",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 15
+  },
+  {
+    "id": 1601,
+    "name": "Alger Centre",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1602,
+    "name": "Sidi M'Hamed",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1603,
+    "name": "El Madania",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1604,
+    "name": "Belouizdad",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1605,
+    "name": "Bab El Oued",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1606,
+    "name": "Bologhine",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1607,
+    "name": "Casbah",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1608,
+    "name": "Oued Koriche",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1609,
+    "name": "Bir Mourad Raïs",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1610,
+    "name": "El Biar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1611,
+    "name": "Bouzareah",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1612,
+    "name": "Birkhadem",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1613,
+    "name": "El Harrach",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1614,
+    "name": "Baraki",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1615,
+    "name": "Oued Smar",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1616,
+    "name": "Bachdjerrah",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1617,
+    "name": "Hussein Dey",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1618,
+    "name": "Kouba",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1619,
+    "name": "Bourouba",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1620,
+    "name": "Dar El Beïda",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1621,
+    "name": "Bab Ezzouar",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1622,
+    "name": "Ben Aknoun",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1623,
+    "name": "Dely Ibrahim",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1624,
+    "name": "El Hammamet",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1625,
+    "name": "Raïs Hamidou",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1626,
+    "name": "Djasr Kasentina",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1627,
+    "name": "El Mouradia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1628,
+    "name": "Hydra",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1629,
+    "name": "Mohammadia",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1630,
+    "name": "Bordj El Kiffan",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1631,
+    "name": "El Magharia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1632,
+    "name": "Beni Messous",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1633,
+    "name": "Les Eucalyptus",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1634,
+    "name": "Birtouta",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1635,
+    "name": "Tessala El Merdja",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1636,
+    "name": "Ouled Chebel",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1637,
+    "name": "Sidi Moussa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1638,
+    "name": "Aïn Taya",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1639,
+    "name": "Bordj El Bahri",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1640,
+    "name": "El Marsa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1641,
+    "name": "H'raoua",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1642,
+    "name": "Rouïba",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1643,
+    "name": "Reghaïa",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1644,
+    "name": "Aïn Benian",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1645,
+    "name": "Staoueli",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1646,
+    "name": "Zeralda",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1647,
+    "name": "Mahelma",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1648,
+    "name": "Rahmania",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1649,
+    "name": "Souidania",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1650,
+    "name": "Cheraga",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1651,
+    "name": "Ouled Fayet",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1652,
+    "name": "El Achour",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1653,
+    "name": "Draria",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1654,
+    "name": "Douera",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1655,
+    "name": "Baba Hassen",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1656,
+    "name": "Khraicia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1657,
+    "name": "Saoula",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 16
+  },
+  {
+    "id": 1701,
+    "name": "Aïn Chouhada",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 17
+  },
+  {
+    "id": 1702,
+    "name": "Aïn El Ibel",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 17
+  },
+  {
+    "id": 1703,
+    "name": "Aïn Feka",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 17
+  },
+  {
+    "id": 1704,
+    "name": "Aïn Maabed",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 17
+  },
+  {
+    "id": 1705,
+    "name": "Aïn Oussara",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 17
+  },
+  {
+    "id": 1706,
+    "name": "Amourah",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 17
+  },
+  {
+    "id": 1707,
+    "name": "Benhar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 17
+  },
+  {
+    "id": 1708,
+    "name": "Beni Yagoub",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 17
+  },
+  {
+    "id": 1709,
+    "name": "Birine",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 17
+  },
+  {
+    "id": 1710,
+    "name": "Bouira Lahdab",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 17
+  },
+  {
+    "id": 1711,
+    "name": "Charef",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 17
+  },
+  {
+    "id": 1712,
+    "name": "Dar Chioukh",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 17
+  },
+  {
+    "id": 1713,
+    "name": "Deldoul",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 17
+  },
+  {
+    "id": 1714,
+    "name": "Djelfa",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 17
+  },
+  {
+    "id": 1715,
+    "name": "Douis",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 17
+  },
+  {
+    "id": 1716,
+    "name": "El Guedid",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 17
+  },
+  {
+    "id": 1717,
+    "name": "El Idrissia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 17
+  },
+  {
+    "id": 1718,
+    "name": "El Khemis",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 17
+  },
+  {
+    "id": 1719,
+    "name": "Faidh El Botma",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 17
+  },
+  {
+    "id": 1720,
+    "name": "Guernini",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 17
+  },
+  {
+    "id": 1721,
+    "name": "Guettara",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 17
+  },
+  {
+    "id": 1722,
+    "name": "Had Sahary",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 17
+  },
+  {
+    "id": 1723,
+    "name": "Hassi Bahbah",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 17
+  },
+  {
+    "id": 1724,
+    "name": "Hassi El Euch",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 17
+  },
+  {
+    "id": 1725,
+    "name": "Hassi Fedoul",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 17
+  },
+  {
+    "id": 1726,
+    "name": "Messaad",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 17
+  },
+  {
+    "id": 1727,
+    "name": "M'Liliha",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 17
+  },
+  {
+    "id": 1728,
+    "name": "Moudjebara",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 17
+  },
+  {
+    "id": 1729,
+    "name": "Oum Laadham",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 17
+  },
+  {
+    "id": 1730,
+    "name": "Sed Rahal",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 17
+  },
+  {
+    "id": 1731,
+    "name": "Selmana",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 17
+  },
+  {
+    "id": 1732,
+    "name": "Sidi Baizid",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 17
+  },
+  {
+    "id": 1733,
+    "name": "Sidi Ladjel",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 17
+  },
+  {
+    "id": 1734,
+    "name": "Tadmit",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 17
+  },
+  {
+    "id": 1735,
+    "name": "Zaafrane",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 17
+  },
+  {
+    "id": 1736,
+    "name": "Zaccar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 17
+  },
+  {
+    "id": 1801,
+    "name": "Jijel",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 18
+  },
+  {
+    "id": 1802,
+    "name": "Eraguene",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 18
+  },
+  {
+    "id": 1803,
+    "name": "El Aouana",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 18
+  },
+  {
+    "id": 1804,
+    "name": "Ziama Mansouriah",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 18
+  },
+  {
+    "id": 1805,
+    "name": "Taher",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 18
+  },
+  {
+    "id": 1806,
+    "name": "Emir Abdelkader",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 18
+  },
+  {
+    "id": 1807,
+    "name": "Chekfa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 18
+  },
+  {
+    "id": 1808,
+    "name": "Chahna",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 18
+  },
+  {
+    "id": 1809,
+    "name": "El Milia",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 18
+  },
+  {
+    "id": 1810,
+    "name": "Sidi Maarouf",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 18
+  },
+  {
+    "id": 1811,
+    "name": "Settara",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 18
+  },
+  {
+    "id": 1812,
+    "name": "El Ancer",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 18
+  },
+  {
+    "id": 1813,
+    "name": "Sidi Abdelaziz",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 18
+  },
+  {
+    "id": 1814,
+    "name": "Kaous",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 18
+  },
+  {
+    "id": 1815,
+    "name": "Ghebala",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 18
+  },
+  {
+    "id": 1816,
+    "name": "Bouraoui Belhadef",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 18
+  },
+  {
+    "id": 1817,
+    "name": "Djimla",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 18
+  },
+  {
+    "id": 1818,
+    "name": "Selma Benziada",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 18
+  },
+  {
+    "id": 1819,
+    "name": "Boucif Ouled Askeur",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 18
+  },
+  {
+    "id": 1820,
+    "name": "El Kennar Nouchfi",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 18
+  },
+  {
+    "id": 1821,
+    "name": "Ouled Yahia Khedrouche",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 18
+  },
+  {
+    "id": 1822,
+    "name": "Boudriaa Ben Yadjis",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 18
+  },
+  {
+    "id": 1823,
+    "name": "Kheïri Oued Adjoul",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 18
+  },
+  {
+    "id": 1824,
+    "name": "Texenna",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 18
+  },
+  {
+    "id": 1825,
+    "name": "Djemaa Beni Habibi",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 18
+  },
+  {
+    "id": 1826,
+    "name": "Bordj Tahar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 18
+  },
+  {
+    "id": 1827,
+    "name": "Ouled Rabah",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 18
+  },
+  {
+    "id": 1828,
+    "name": "Ouadjana",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 18
+  },
+  {
+    "id": 1901,
+    "name": "Aïn Abessa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1902,
+    "name": "Aïn Arnat",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1903,
+    "name": "Aïn Azel",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1904,
+    "name": "Aïn El Kebira",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1905,
+    "name": "Aïn Lahdjar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1906,
+    "name": "Aïn Legradj",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1907,
+    "name": "Aïn Oulmene",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1908,
+    "name": "Aïn Roua",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1909,
+    "name": "Aïn Sebt",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1910,
+    "name": "Aït Naoual Mezada",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1911,
+    "name": "Aït Tizi",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1912,
+    "name": "Aït Wertilan",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1913,
+    "name": "Amoucha",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1914,
+    "name": "Babor",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1915,
+    "name": "Bazer Sakhra",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1916,
+    "name": "Beidha Bordj",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1917,
+    "name": "Belaa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1918,
+    "name": "Beni Aziz",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1919,
+    "name": "Beni Chebana",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1920,
+    "name": "Beni Fouda",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1921,
+    "name": "Beni Hocine",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1922,
+    "name": "Beni Mouhli",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1923,
+    "name": "Bir El Arch",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1924,
+    "name": "Bir Haddada",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1925,
+    "name": "Bouandas",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1926,
+    "name": "Bougaa",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1927,
+    "name": "Bousselam",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1928,
+    "name": "Boutaleb",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1929,
+    "name": "Dehamcha",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1930,
+    "name": "Djemila",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1931,
+    "name": "Draa Kebila",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1932,
+    "name": "El Eulma",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1933,
+    "name": "El Ouldja",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1934,
+    "name": "El Ouricia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1935,
+    "name": "Guellal",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1936,
+    "name": "Guelta Zerka",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1937,
+    "name": "Guenzet",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1938,
+    "name": "Guidjel",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1939,
+    "name": "Hamma",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1940,
+    "name": "Hammam Guergour",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1941,
+    "name": "Hammam Soukhna",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1942,
+    "name": "Harbil",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1943,
+    "name": "Ksar El Abtal",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1944,
+    "name": "Maaouia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1945,
+    "name": "Maoklane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1946,
+    "name": "Mezloug",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1947,
+    "name": "Oued El Barad",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1948,
+    "name": "Ouled Addouane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1949,
+    "name": "Ouled Sabor",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1950,
+    "name": "Ouled Si Ahmed",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1951,
+    "name": "Ouled Tebben",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1952,
+    "name": "Rasfa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1953,
+    "name": "Salah Bey",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1954,
+    "name": "Serdj El Ghoul",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1955,
+    "name": "Sétif",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1956,
+    "name": "Tachouda",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1957,
+    "name": "Talaifacene",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1958,
+    "name": "Taya",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1959,
+    "name": "Tella",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 1960,
+    "name": "Tizi N'Bechar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 19
+  },
+  {
+    "id": 2001,
+    "name": "Aïn El Hadjar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 20
+  },
+  {
+    "id": 2002,
+    "name": "Aïn Sekhouna",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 20
+  },
+  {
+    "id": 2003,
+    "name": "Aïn Soltane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 20
+  },
+  {
+    "id": 2004,
+    "name": "Doui Thabet",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 20
+  },
+  {
+    "id": 2005,
+    "name": "El Hassasna",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 20
+  },
+  {
+    "id": 2006,
+    "name": "Hounet",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 20
+  },
+  {
+    "id": 2007,
+    "name": "Maamora",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 20
+  },
+  {
+    "id": 2008,
+    "name": "Moulay Larbi",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 20
+  },
+  {
+    "id": 2009,
+    "name": "Ouled Brahim",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 20
+  },
+  {
+    "id": 2010,
+    "name": "Ouled Khaled",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 20
+  },
+  {
+    "id": 2011,
+    "name": "Saïda",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 20
+  },
+  {
+    "id": 2012,
+    "name": "Sidi Ahmed",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 20
+  },
+  {
+    "id": 2013,
+    "name": "Sidi Amar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 20
+  },
+  {
+    "id": 2014,
+    "name": "Sidi Boubekeur",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 20
+  },
+  {
+    "id": 2015,
+    "name": "Tircine",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 20
+  },
+  {
+    "id": 2016,
+    "name": "Youb",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 20
+  },
+  {
+    "id": 2101,
+    "name": "Aïn Bouziane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2102,
+    "name": "Aïn Charchar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2103,
+    "name": "Aïn Kechra",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2104,
+    "name": "Aïn Zouit",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2105,
+    "name": "Azzaba",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2106,
+    "name": "Bekkouche Lakhdar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2107,
+    "name": "Bin El Ouiden",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2108,
+    "name": "Ben Azzouz",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2109,
+    "name": "Beni Bechir",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2110,
+    "name": "Beni Oulbane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2111,
+    "name": "Beni Zid",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2112,
+    "name": "Bouchtata",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2113,
+    "name": "Cheraia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2114,
+    "name": "Collo",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2115,
+    "name": "Djendel Saadi Mohamed",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2116,
+    "name": "El Ghedir",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2117,
+    "name": "El Hadaiek",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2118,
+    "name": "El Harrouch",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2119,
+    "name": "El Marsa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2120,
+    "name": "Emdjez Edchich",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2121,
+    "name": "Es Sebt",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2122,
+    "name": "Filfila",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2123,
+    "name": "Hamadi Krouma",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2124,
+    "name": "Kanoua",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2125,
+    "name": "Kerkera",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2126,
+    "name": "Kheneg Mayoum",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2127,
+    "name": "Oued Zehour",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2128,
+    "name": "Ouldja Boulballout",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2129,
+    "name": "Ouled Attia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2130,
+    "name": "Ouled Hbaba",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2131,
+    "name": "Oum Toub",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2132,
+    "name": "Ramdane Djamel",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2133,
+    "name": "Salah Bouchaour",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2134,
+    "name": "Sidi Mezghiche",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2135,
+    "name": "Skikda",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2136,
+    "name": "Tamalous",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2137,
+    "name": "Zerdaza",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2138,
+    "name": "Zitouna",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 21
+  },
+  {
+    "id": 2201,
+    "name": "Aïn Adden",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2202,
+    "name": "Aïn El Berd",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2203,
+    "name": "Aïn Kada",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2204,
+    "name": "Aïn Thrid",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2205,
+    "name": "Aïn Tindamine",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2206,
+    "name": "Amarnas",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2207,
+    "name": "Badredine El Mokrani",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2208,
+    "name": "Belarbi",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2209,
+    "name": "Ben Badis",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2210,
+    "name": "Benachiba Chelia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2211,
+    "name": "Bir El Hammam",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2212,
+    "name": "Boudjebaa El Bordj",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2213,
+    "name": "Boukhanafis",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2214,
+    "name": "Chettouane Belaila",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2215,
+    "name": "Dhaya",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2216,
+    "name": "El Haçaiba",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2217,
+    "name": "Hassi Dahou",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2218,
+    "name": "Hassi Zehana",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2219,
+    "name": "Lamtar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2220,
+    "name": "Makedra",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2221,
+    "name": "Marhoum",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2222,
+    "name": "M'Cid",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2223,
+    "name": "Merine",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2224,
+    "name": "Mezaourou",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2225,
+    "name": "Mostefa Ben Brahim",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2226,
+    "name": "Moulay Slissen",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2227,
+    "name": "Oued Sebaa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2228,
+    "name": "Oued Sefioun",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2229,
+    "name": "Oued Taourira",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2230,
+    "name": "Ras El Ma",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2231,
+    "name": "Redjem Demouche",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2232,
+    "name": "Sehala Thaoura",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2233,
+    "name": "Sfisef",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2234,
+    "name": "Sidi Ali Benyoub",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2235,
+    "name": "Sidi Ali Boussidi",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2236,
+    "name": "Sidi Bel Abbes",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2237,
+    "name": "Sidi Brahim",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2238,
+    "name": "Sidi Chaib",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2239,
+    "name": "Sidi Daho des Zairs",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2240,
+    "name": "Sidi Hamadouche",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2241,
+    "name": "Sidi Khaled",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2242,
+    "name": "Sidi Lahcene",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2243,
+    "name": "Sidi Yacoub",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2244,
+    "name": "Tabia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2245,
+    "name": "Tafissour",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2246,
+    "name": "Taoudmout",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2247,
+    "name": "Teghalimet",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2248,
+    "name": "Telagh",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2249,
+    "name": "Tenira",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2250,
+    "name": "Tessala",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2251,
+    "name": "Tilmouni",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2252,
+    "name": "Zerouala",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 22
+  },
+  {
+    "id": 2301,
+    "name": "Annaba",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 23
+  },
+  {
+    "id": 2302,
+    "name": "Berrahal",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 23
+  },
+  {
+    "id": 2303,
+    "name": "El Hadjar",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 23
+  },
+  {
+    "id": 2304,
+    "name": "Eulma",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 23
+  },
+  {
+    "id": 2305,
+    "name": "El Bouni",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 23
+  },
+  {
+    "id": 2306,
+    "name": "Oued El Aneb",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 23
+  },
+  {
+    "id": 2307,
+    "name": "Cheurfa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 23
+  },
+  {
+    "id": 2308,
+    "name": "Seraïdi",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 23
+  },
+  {
+    "id": 2309,
+    "name": "Aïn Berda",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 23
+  },
+  {
+    "id": 2310,
+    "name": "Chetaïbi",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 23
+  },
+  {
+    "id": 2311,
+    "name": "Sidi Amar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 23
+  },
+  {
+    "id": 2312,
+    "name": "Treat",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 23
+  },
+  {
+    "id": 2401,
+    "name": "Aïn Ben Beida",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 24
+  },
+  {
+    "id": 2402,
+    "name": "Aïn Larbi",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 24
+  },
+  {
+    "id": 2403,
+    "name": "Aïn Makhlouf",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 24
+  },
+  {
+    "id": 2404,
+    "name": "Aïn Reggada",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 24
+  },
+  {
+    "id": 2405,
+    "name": "Aïn Sandel",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 24
+  },
+  {
+    "id": 2406,
+    "name": "Belkheir",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 24
+  },
+  {
+    "id": 2407,
+    "name": "Ben Djerrah",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 24
+  },
+  {
+    "id": 2408,
+    "name": "Beni Mezline",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 24
+  },
+  {
+    "id": 2409,
+    "name": "Bordj Sabath",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 24
+  },
+  {
+    "id": 2410,
+    "name": "Bouhachana",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 24
+  },
+  {
+    "id": 2411,
+    "name": "Bouhamdane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 24
+  },
+  {
+    "id": 2412,
+    "name": "Bouati Mahmoud",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 24
+  },
+  {
+    "id": 2413,
+    "name": "Bouchegouf",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 24
+  },
+  {
+    "id": 2414,
+    "name": "Boumahra Ahmed",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 24
+  },
+  {
+    "id": 2415,
+    "name": "Dahouara",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 24
+  },
+  {
+    "id": 2416,
+    "name": "Djeballah Khemissi",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 24
+  },
+  {
+    "id": 2417,
+    "name": "El Fedjoudj",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 24
+  },
+  {
+    "id": 2418,
+    "name": "Guellat Bou Sbaa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 24
+  },
+  {
+    "id": 2419,
+    "name": "Guelma",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 24
+  },
+  {
+    "id": 2420,
+    "name": "Hammam Debagh",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 24
+  },
+  {
+    "id": 2421,
+    "name": "Hammam N'Bail",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 24
+  },
+  {
+    "id": 2422,
+    "name": "Héliopolis",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 24
+  },
+  {
+    "id": 2423,
+    "name": "Houari Boumédiène",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 24
+  },
+  {
+    "id": 2424,
+    "name": "Khezarra",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 24
+  },
+  {
+    "id": 2425,
+    "name": "Medjez Amar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 24
+  },
+  {
+    "id": 2426,
+    "name": "Medjez Sfa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 24
+  },
+  {
+    "id": 2427,
+    "name": "Nechmaya",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 24
+  },
+  {
+    "id": 2428,
+    "name": "Oued Cheham",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 24
+  },
+  {
+    "id": 2429,
+    "name": "Oued Fragha",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 24
+  },
+  {
+    "id": 2430,
+    "name": "Oued Zenati",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 24
+  },
+  {
+    "id": 2431,
+    "name": "Ras El Agba",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 24
+  },
+  {
+    "id": 2432,
+    "name": "Roknia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 24
+  },
+  {
+    "id": 2433,
+    "name": "Sellaoua Announa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 24
+  },
+  {
+    "id": 2434,
+    "name": "Tamlouka",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 24
+  },
+  {
+    "id": 2501,
+    "name": "Aïn Abid",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 25
+  },
+  {
+    "id": 2502,
+    "name": "Aïn Smara",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 25
+  },
+  {
+    "id": 2503,
+    "name": "Beni Hamiden",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 25
+  },
+  {
+    "id": 2504,
+    "name": "Constantine",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 25
+  },
+  {
+    "id": 2505,
+    "name": "Didouche Mourad",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 25
+  },
+  {
+    "id": 2506,
+    "name": "El Khroub",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 25
+  },
+  {
+    "id": 2507,
+    "name": "Hamma Bouziane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 25
+  },
+  {
+    "id": 2508,
+    "name": "Ibn Badis",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 25
+  },
+  {
+    "id": 2509,
+    "name": "Ibn Ziad",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 25
+  },
+  {
+    "id": 2510,
+    "name": "Messaoud Boudjriou",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 25
+  },
+  {
+    "id": 2511,
+    "name": "Ouled Rahmoune",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 25
+  },
+  {
+    "id": 2512,
+    "name": "Zighoud Youcef",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 25
+  },
+  {
+    "id": 2601,
+    "name": "Aïn Boucif",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2602,
+    "name": "Aïn Ouksir",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2603,
+    "name": "Aissaouia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2604,
+    "name": "Aziz",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2605,
+    "name": "Baata",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2606,
+    "name": "Benchicao",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2607,
+    "name": "Beni Slimane",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2608,
+    "name": "Berrouaghia",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2609,
+    "name": "Bir Ben Laabed",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2610,
+    "name": "Boghar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2611,
+    "name": "Bou Aiche",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2612,
+    "name": "Bouaichoune",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2613,
+    "name": "Bouchrahil",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2614,
+    "name": "Boughezoul",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2615,
+    "name": "Bouskene",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2616,
+    "name": "Chahbounia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2617,
+    "name": "Chellalet El Adhaoura",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2618,
+    "name": "Cheniguel",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2619,
+    "name": "Derrag",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2620,
+    "name": "Deux Bassins",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2621,
+    "name": "Djouab",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2622,
+    "name": "Draa Essamar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2623,
+    "name": "El Azizia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2624,
+    "name": "El Guelb El Kebir",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2625,
+    "name": "El Hamdania",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2626,
+    "name": "El Omaria",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2627,
+    "name": "El Ouinet",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2628,
+    "name": "Hannacha",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2629,
+    "name": "Kef Lakhdar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2630,
+    "name": "Khams Djouamaa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2631,
+    "name": "Ksar Boukhari",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2632,
+    "name": "Meghraoua",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2633,
+    "name": "Médéa",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2634,
+    "name": "Moudjbar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2635,
+    "name": "Meftaha",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2636,
+    "name": "Mezerana",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2637,
+    "name": "Mihoub",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2638,
+    "name": "Ouamri",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2639,
+    "name": "Oued Harbil",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2640,
+    "name": "Ouled Antar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2641,
+    "name": "Ouled Bouachra",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2642,
+    "name": "Ouled Brahim",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2643,
+    "name": "Ouled Deide",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2644,
+    "name": "Ouled Hellal",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2645,
+    "name": "Ouled Maaref",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2646,
+    "name": "Oum El Djalil",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2647,
+    "name": "Ouzera",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2648,
+    "name": "Rebaia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2649,
+    "name": "Saneg",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2650,
+    "name": "Sedraia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2651,
+    "name": "Seghouane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2652,
+    "name": "Si Mahdjoub",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2653,
+    "name": "Sidi Damed",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2654,
+    "name": "Sidi Errabia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2655,
+    "name": "Sidi Naamanez",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2656,
+    "name": "Sidi Zahar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2657,
+    "name": "Sidi Ziane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2658,
+    "name": "Souagui",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2659,
+    "name": "Tablat",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2660,
+    "name": "Tafraout",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2661,
+    "name": "Tamesguida",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2662,
+    "name": "Tizi Mahdi",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2663,
+    "name": "Tlatet Eddouar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2664,
+    "name": "Zoubiria",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 26
+  },
+  {
+    "id": 2701,
+    "name": "Abdelmalek Ramdane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 27
+  },
+  {
+    "id": 2702,
+    "name": "Achaacha",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 27
+  },
+  {
+    "id": 2703,
+    "name": "Aïn Boudinar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 27
+  },
+  {
+    "id": 2704,
+    "name": "Aïn Nouissy",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 27
+  },
+  {
+    "id": 2705,
+    "name": "Aïn Sidi Cherif",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 27
+  },
+  {
+    "id": 2706,
+    "name": "Aïn Tedles",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 27
+  },
+  {
+    "id": 2707,
+    "name": "Blad Touahria",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 27
+  },
+  {
+    "id": 2708,
+    "name": "Bouguirat",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 27
+  },
+  {
+    "id": 2709,
+    "name": "El Hassaine",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 27
+  },
+  {
+    "id": 2710,
+    "name": "Fornaka",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 27
+  },
+  {
+    "id": 2711,
+    "name": "Hadjadj",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 27
+  },
+  {
+    "id": 2712,
+    "name": "Hassi Mameche",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 27
+  },
+  {
+    "id": 2713,
+    "name": "Khadra",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 27
+  },
+  {
+    "id": 2714,
+    "name": "Kheireddine",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 27
+  },
+  {
+    "id": 2715,
+    "name": "Mansourah",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 27
+  },
+  {
+    "id": 2716,
+    "name": "Mesra",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 27
+  },
+  {
+    "id": 2717,
+    "name": "Mazagran",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 27
+  },
+  {
+    "id": 2718,
+    "name": "Mostaganem",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 27
+  },
+  {
+    "id": 2719,
+    "name": "Nekmaria",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 27
+  },
+  {
+    "id": 2720,
+    "name": "Oued El Kheir",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 27
+  },
+  {
+    "id": 2721,
+    "name": "Ouled Boughalem",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 27
+  },
+  {
+    "id": 2722,
+    "name": "Ouled Maallah",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 27
+  },
+  {
+    "id": 2723,
+    "name": "Safsaf",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 27
+  },
+  {
+    "id": 2724,
+    "name": "Sayada",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 27
+  },
+  {
+    "id": 2725,
+    "name": "Sidi Ali",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 27
+  },
+  {
+    "id": 2726,
+    "name": "Sidi Belattar",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 27
+  },
+  {
+    "id": 2727,
+    "name": "Sidi Lakhdar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 27
+  },
+  {
+    "id": 2728,
+    "name": "Sirat",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 27
+  },
+  {
+    "id": 2729,
+    "name": "Souaflia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 27
+  },
+  {
+    "id": 2730,
+    "name": "Sour",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 27
+  },
+  {
+    "id": 2731,
+    "name": "Stidia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 27
+  },
+  {
+    "id": 2732,
+    "name": "Tazgait",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 27
+  },
+  {
+    "id": 2801,
+    "name": "Aïn El Hadjel",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2802,
+    "name": "Aïn El Melh",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2803,
+    "name": "Aïn Errich",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2804,
+    "name": "Aïn Fares",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2805,
+    "name": "Aïn Khadra",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2806,
+    "name": "Belaiba",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2807,
+    "name": "Ben Srour",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2808,
+    "name": "Beni Ilmane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2809,
+    "name": "Benzouh",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2810,
+    "name": "Berhoum",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2811,
+    "name": "Bir Foda",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2812,
+    "name": "Bou Saâda",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2813,
+    "name": "Bouti Sayah",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2814,
+    "name": "Chellal",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2815,
+    "name": "Dehahna",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2816,
+    "name": "Djebel Messaad",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2817,
+    "name": "El Hamel",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2818,
+    "name": "El Houamed",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2819,
+    "name": "Hammam Dhalaa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2820,
+    "name": "Khettouti Sed El Djir",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2821,
+    "name": "Khoubana",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2822,
+    "name": "Maadid",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2823,
+    "name": "Maarif",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2824,
+    "name": "Magra",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2825,
+    "name": "M'Cif",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2826,
+    "name": "Medjedel",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2827,
+    "name": "Mohammed Boudiaf",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2828,
+    "name": "M'Sila",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2829,
+    "name": "M'Tarfa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2830,
+    "name": "Ouanougha",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2831,
+    "name": "Ouled Addi Guebala",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2832,
+    "name": "Ouled Atia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2833,
+    "name": "Ouled Derradj",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2834,
+    "name": "Ouled Madhi",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2835,
+    "name": "Ouled Mansour",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2836,
+    "name": "Ouled Sidi Brahim",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2837,
+    "name": "Ouled Slimane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2838,
+    "name": "Oultem",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2839,
+    "name": "Sidi Aïssa",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2840,
+    "name": "Sidi Ameur",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2841,
+    "name": "Sidi Hadjeres",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2842,
+    "name": "Sidi M'Hamed",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2843,
+    "name": "Slim",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2844,
+    "name": "Souamaa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2845,
+    "name": "Tamsa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2846,
+    "name": "Tarmount",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2847,
+    "name": "Zarzour",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 28
+  },
+  {
+    "id": 2901,
+    "name": "Aïn Fares",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2902,
+    "name": "Aïn Fekan",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2903,
+    "name": "Aïn Ferah",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2904,
+    "name": "Aïn Fras",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2905,
+    "name": "Alaïmia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2906,
+    "name": "Aouf",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2907,
+    "name": "Beniane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2908,
+    "name": "Bou Hanifia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2909,
+    "name": "Bou Henni",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2910,
+    "name": "Chorfa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2911,
+    "name": "El Bordj",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2912,
+    "name": "El Gaada",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2913,
+    "name": "El Ghomri",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2914,
+    "name": "El Guettana",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2915,
+    "name": "El Keurt",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2916,
+    "name": "El Menaouer",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2917,
+    "name": "Ferraguig",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2918,
+    "name": "Froha",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2919,
+    "name": "Gharrous",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2920,
+    "name": "Guerdjoum",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2921,
+    "name": "Ghriss",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2922,
+    "name": "Hachem",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2923,
+    "name": "Hacine",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2924,
+    "name": "Khalouia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2925,
+    "name": "Makdha",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2926,
+    "name": "Mamounia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2927,
+    "name": "Maoussa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2928,
+    "name": "Mascara",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2929,
+    "name": "Matemore",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2930,
+    "name": "Mocta Douz",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2931,
+    "name": "Mohammadia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2932,
+    "name": "Nesmoth",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2933,
+    "name": "Oggaz",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2934,
+    "name": "Oued El Abtal",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2935,
+    "name": "Oued Taria",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2936,
+    "name": "Ras El Aïn Amirouche",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2937,
+    "name": "Sedjerara",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2938,
+    "name": "Sehailia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2939,
+    "name": "Sidi Abdeldjebar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2940,
+    "name": "Sidi Abdelmoumen",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2941,
+    "name": "Sidi Kada",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2942,
+    "name": "Sidi Boussaid",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2943,
+    "name": "Sig",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2944,
+    "name": "Tighennif",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2945,
+    "name": "Tizi",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2946,
+    "name": "Zahana",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 2947,
+    "name": "Zelmata",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 29
+  },
+  {
+    "id": 3001,
+    "name": "Aïn Beida",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 30
+  },
+  {
+    "id": 3007,
+    "name": "Hassi Ben Abdellah",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 30
+  },
+  {
+    "id": 3008,
+    "name": "Hassi Messaoud",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 30
+  },
+  {
+    "id": 3012,
+    "name": "N'Goussa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 30
+  },
+  {
+    "id": 3013,
+    "name": "Ouargla",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 30
+  },
+  {
+    "id": 3014,
+    "name": "Rouissat",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 30
+  },
+  {
+    "id": 3015,
+    "name": "Sidi Khouiled",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 30
+  },
+  {
+    "id": 3101,
+    "name": "Oran",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 31
+  },
+  {
+    "id": 3102,
+    "name": "Gdyel",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 31
+  },
+  {
+    "id": 3103,
+    "name": "Bir El Djir",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 31
+  },
+  {
+    "id": 3104,
+    "name": "Hassi Bounif",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 31
+  },
+  {
+    "id": 3105,
+    "name": "Es Senia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 31
+  },
+  {
+    "id": 3106,
+    "name": "Arzew",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 31
+  },
+  {
+    "id": 3107,
+    "name": "Bethioua",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 31
+  },
+  {
+    "id": 3108,
+    "name": "Marsat El Hadjadj",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 31
+  },
+  {
+    "id": 3109,
+    "name": "Aïn El Turk",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 31
+  },
+  {
+    "id": 3110,
+    "name": "El Ançor",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 31
+  },
+  {
+    "id": 3111,
+    "name": "Oued Tlelat",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 31
+  },
+  {
+    "id": 3112,
+    "name": "Tafraoui",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 31
+  },
+  {
+    "id": 3113,
+    "name": "Sidi Chami",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 31
+  },
+  {
+    "id": 3114,
+    "name": "Boufatis",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 31
+  },
+  {
+    "id": 3115,
+    "name": "Mers El Kébir",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 31
+  },
+  {
+    "id": 3116,
+    "name": "Bou Sfer",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 31
+  },
+  {
+    "id": 3117,
+    "name": "El Kerma",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 31
+  },
+  {
+    "id": 3118,
+    "name": "El Braya",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 31
+  },
+  {
+    "id": 3119,
+    "name": "Hassi Ben Okba",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 31
+  },
+  {
+    "id": 3120,
+    "name": "Ben Freha",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 31
+  },
+  {
+    "id": 3121,
+    "name": "Hassi Mefsoukh",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 31
+  },
+  {
+    "id": 3122,
+    "name": "Sidi Benyebka",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 31
+  },
+  {
+    "id": 3123,
+    "name": "Misserghin",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 31
+  },
+  {
+    "id": 3124,
+    "name": "Boutlelis",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 31
+  },
+  {
+    "id": 3125,
+    "name": "Aïn El Kerma",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 31
+  },
+  {
+    "id": 3126,
+    "name": "Aïn El Bia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 31
+  },
+  {
+    "id": 3201,
+    "name": "El Bayadh",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 32
+  },
+  {
+    "id": 3202,
+    "name": "Rogassa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 32
+  },
+  {
+    "id": 3203,
+    "name": "Stitten",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 32
+  },
+  {
+    "id": 3204,
+    "name": "Brezina",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 32
+  },
+  {
+    "id": 3205,
+    "name": "Ghassoul",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 32
+  },
+  {
+    "id": 3206,
+    "name": "Boualem",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 32
+  },
+  {
+    "id": 3207,
+    "name": "El Abiodh Sidi Cheikh",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 32
+  },
+  {
+    "id": 3208,
+    "name": "Aïn El Orak",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 32
+  },
+  {
+    "id": 3209,
+    "name": "Arbaouat",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 32
+  },
+  {
+    "id": 3210,
+    "name": "Bougtoub",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 32
+  },
+  {
+    "id": 3211,
+    "name": "El Kheiter",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 32
+  },
+  {
+    "id": 3212,
+    "name": "Kef El Ahmar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 32
+  },
+  {
+    "id": 3213,
+    "name": "Boussemghoun",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 32
+  },
+  {
+    "id": 3214,
+    "name": "Chellala",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 32
+  },
+  {
+    "id": 3215,
+    "name": "Kraakda",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 32
+  },
+  {
+    "id": 3216,
+    "name": "El Bnoud",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 32
+  },
+  {
+    "id": 3217,
+    "name": "Cheguig",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 32
+  },
+  {
+    "id": 3218,
+    "name": "Sidi Ameur",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 32
+  },
+  {
+    "id": 3219,
+    "name": "El Mehara",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 32
+  },
+  {
+    "id": 3220,
+    "name": "Tousmouline",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 32
+  },
+  {
+    "id": 3221,
+    "name": "Sidi Slimane",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 32
+  },
+  {
+    "id": 3222,
+    "name": "Sidi Tifour",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 32
+  },
+  {
+    "id": 3301,
+    "name": "Illizi",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 33
+  },
+  {
+    "id": 3303,
+    "name": "Debdeb",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 33
+  },
+  {
+    "id": 3304,
+    "name": "Bordj Omar Driss",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 33
+  },
+  {
+    "id": 3306,
+    "name": "In Amenas",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 33
+  },
+  {
+    "id": 3401,
+    "name": "Aïn Taghrout",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 34
+  },
+  {
+    "id": 3402,
+    "name": "Aïn Tesra",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 34
+  },
+  {
+    "id": 3403,
+    "name": "Belimour",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 34
+  },
+  {
+    "id": 3404,
+    "name": "Ben Daoud",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 34
+  },
+  {
+    "id": 3405,
+    "name": "Bir Kasdali",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 34
+  },
+  {
+    "id": 3406,
+    "name": "Bordj Bou Arreridj",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 34
+  },
+  {
+    "id": 3407,
+    "name": "Bordj Ghédir",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 34
+  },
+  {
+    "id": 3408,
+    "name": "Bordj Zemoura",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 34
+  },
+  {
+    "id": 3409,
+    "name": "Colla",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 34
+  },
+  {
+    "id": 3410,
+    "name": "Djaafra",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 34
+  },
+  {
+    "id": 3411,
+    "name": "El Ach",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 34
+  },
+  {
+    "id": 3412,
+    "name": "El Achir",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 34
+  },
+  {
+    "id": 3413,
+    "name": "El Anseur",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 34
+  },
+  {
+    "id": 3414,
+    "name": "El Hamadia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 34
+  },
+  {
+    "id": 3415,
+    "name": "El Main",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 34
+  },
+  {
+    "id": 3416,
+    "name": "El M'hir",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 34
+  },
+  {
+    "id": 3417,
+    "name": "Ghilassa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 34
+  },
+  {
+    "id": 3418,
+    "name": "Haraza",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 34
+  },
+  {
+    "id": 3419,
+    "name": "Hasnaoua",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 34
+  },
+  {
+    "id": 3420,
+    "name": "Khelil",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 34
+  },
+  {
+    "id": 3421,
+    "name": "Ksour",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 34
+  },
+  {
+    "id": 3422,
+    "name": "Mansoura",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 34
+  },
+  {
+    "id": 3423,
+    "name": "Medjana",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 34
+  },
+  {
+    "id": 3424,
+    "name": "Ouled Brahem",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 34
+  },
+  {
+    "id": 3425,
+    "name": "Ouled Dahmane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 34
+  },
+  {
+    "id": 3426,
+    "name": "Ouled Sidi Brahim",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 34
+  },
+  {
+    "id": 3427,
+    "name": "Rabta",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 34
+  },
+  {
+    "id": 3428,
+    "name": "Ras El Oued",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 34
+  },
+  {
+    "id": 3429,
+    "name": "Sidi Embarek",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 34
+  },
+  {
+    "id": 3430,
+    "name": "Tefreg",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 34
+  },
+  {
+    "id": 3431,
+    "name": "Taglait",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 34
+  },
+  {
+    "id": 3432,
+    "name": "Teniet En Nasr",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 34
+  },
+  {
+    "id": 3433,
+    "name": "Tassameurt",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 34
+  },
+  {
+    "id": 3434,
+    "name": "Tixter",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 34
+  },
+  {
+    "id": 3501,
+    "name": "Boumerdes",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 35
+  },
+  {
+    "id": 3502,
+    "name": "Boudouaou",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 35
+  },
+  {
+    "id": 3504,
+    "name": "Afir",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 35
+  },
+  {
+    "id": 3505,
+    "name": "Bordj Menaiel",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 35
+  },
+  {
+    "id": 3506,
+    "name": "Baghlia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 35
+  },
+  {
+    "id": 3507,
+    "name": "Sidi Daoud",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 35
+  },
+  {
+    "id": 3508,
+    "name": "Naciria",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 35
+  },
+  {
+    "id": 3509,
+    "name": "Djinet",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 35
+  },
+  {
+    "id": 3510,
+    "name": "Issers",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 35
+  },
+  {
+    "id": 3511,
+    "name": "Zemmouri",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 35
+  },
+  {
+    "id": 3512,
+    "name": "Si Mustapha",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 35
+  },
+  {
+    "id": 3513,
+    "name": "Tidjelabine",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 35
+  },
+  {
+    "id": 3514,
+    "name": "Chabet el Ameur",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 35
+  },
+  {
+    "id": 3515,
+    "name": "Thenia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 35
+  },
+  {
+    "id": 3518,
+    "name": "Timezrit",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 35
+  },
+  {
+    "id": 3519,
+    "name": "Corso",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 35
+  },
+  {
+    "id": 3520,
+    "name": "Ouled Moussa",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 35
+  },
+  {
+    "id": 3521,
+    "name": "Larbatache",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 35
+  },
+  {
+    "id": 3522,
+    "name": "Bouzegza Keddara",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 35
+  },
+  {
+    "id": 3525,
+    "name": "Taourga",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 35
+  },
+  {
+    "id": 3526,
+    "name": "Ouled Aissa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 35
+  },
+  {
+    "id": 3527,
+    "name": "Ben Choud",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 35
+  },
+  {
+    "id": 3528,
+    "name": "Dellys",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 35
+  },
+  {
+    "id": 3529,
+    "name": "Ammal",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 35
+  },
+  {
+    "id": 3530,
+    "name": "Beni Amrane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 35
+  },
+  {
+    "id": 3531,
+    "name": "Souk El Had",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 35
+  },
+  {
+    "id": 3532,
+    "name": "Boudouaou El Bahri",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 35
+  },
+  {
+    "id": 3533,
+    "name": "Ouled Hedadj",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 35
+  },
+  {
+    "id": 3535,
+    "name": "Leghata",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 35
+  },
+  {
+    "id": 3536,
+    "name": "Hammedi",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 35
+  },
+  {
+    "id": 3537,
+    "name": "Khemis El Khechna",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 35
+  },
+  {
+    "id": 3538,
+    "name": "El Kharrouba",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 35
+  },
+  {
+    "id": 3601,
+    "name": "Aïn El Assel",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 36
+  },
+  {
+    "id": 3602,
+    "name": "Aïn Kerma",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 36
+  },
+  {
+    "id": 3603,
+    "name": "Asfour",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 36
+  },
+  {
+    "id": 3604,
+    "name": "Ben Mehidi",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 36
+  },
+  {
+    "id": 3605,
+    "name": "Berrihane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 36
+  },
+  {
+    "id": 3606,
+    "name": "Besbes",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 36
+  },
+  {
+    "id": 3607,
+    "name": "Bougous",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 36
+  },
+  {
+    "id": 3608,
+    "name": "Bouhadjar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 36
+  },
+  {
+    "id": 3609,
+    "name": "Bouteldja",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 36
+  },
+  {
+    "id": 3610,
+    "name": "Chebaita Mokhtar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 36
+  },
+  {
+    "id": 3611,
+    "name": "Chefia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 36
+  },
+  {
+    "id": 3612,
+    "name": "Chihani",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 36
+  },
+  {
+    "id": 3613,
+    "name": "Dréan",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 36
+  },
+  {
+    "id": 3614,
+    "name": "Echatt",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 36
+  },
+  {
+    "id": 3615,
+    "name": "El Aioun",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 36
+  },
+  {
+    "id": 3616,
+    "name": "El Kala",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 36
+  },
+  {
+    "id": 3617,
+    "name": "El Tarf",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 36
+  },
+  {
+    "id": 3618,
+    "name": "Hammam Beni Salah",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 36
+  },
+  {
+    "id": 3619,
+    "name": "Lac des Oiseaux",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 36
+  },
+  {
+    "id": 3620,
+    "name": "Oued Zitoun",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 36
+  },
+  {
+    "id": 3621,
+    "name": "Raml Souk",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 36
+  },
+  {
+    "id": 3622,
+    "name": "Souarekh",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 36
+  },
+  {
+    "id": 3623,
+    "name": "Zerizer",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 36
+  },
+  {
+    "id": 3624,
+    "name": "Zitouna",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 36
+  },
+  {
+    "id": 3701,
+    "name": "Oum el Assel",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 37
+  },
+  {
+    "id": 3702,
+    "name": "Tindouf",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 37
+  },
+  {
+    "id": 3801,
+    "name": "Ammari",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 38
+  },
+  {
+    "id": 3802,
+    "name": "Beni Chaib",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 38
+  },
+  {
+    "id": 3803,
+    "name": "Beni Lahcene",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 38
+  },
+  {
+    "id": 3804,
+    "name": "Boucaid",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 38
+  },
+  {
+    "id": 3805,
+    "name": "Bordj Bou Naama",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 38
+  },
+  {
+    "id": 3806,
+    "name": "Bordj El Emir Abdelkader",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 38
+  },
+  {
+    "id": 3807,
+    "name": "Khemisti",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 38
+  },
+  {
+    "id": 3808,
+    "name": "Larbaa",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 38
+  },
+  {
+    "id": 3809,
+    "name": "Lardjem",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 38
+  },
+  {
+    "id": 3810,
+    "name": "Layoune",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 38
+  },
+  {
+    "id": 3811,
+    "name": "Lazharia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 38
+  },
+  {
+    "id": 3812,
+    "name": "Maacem",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 38
+  },
+  {
+    "id": 3813,
+    "name": "Melaab",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 38
+  },
+  {
+    "id": 3814,
+    "name": "Ouled Bessem",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 38
+  },
+  {
+    "id": 3815,
+    "name": "Sidi Abed",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 38
+  },
+  {
+    "id": 3816,
+    "name": "Sidi Boutouchent",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 38
+  },
+  {
+    "id": 3817,
+    "name": "Sidi Lantri",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 38
+  },
+  {
+    "id": 3818,
+    "name": "Sidi Slimane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 38
+  },
+  {
+    "id": 3819,
+    "name": "Tamalaht",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 38
+  },
+  {
+    "id": 3820,
+    "name": "Theniet El Had",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 38
+  },
+  {
+    "id": 3821,
+    "name": "Tissemsilt",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 38
+  },
+  {
+    "id": 3822,
+    "name": "Youssoufia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 38
+  },
+  {
+    "id": 3901,
+    "name": "El Oued",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 39
+  },
+  {
+    "id": 3902,
+    "name": "Robbah",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 39
+  },
+  {
+    "id": 3903,
+    "name": "Oued El Alenda",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 39
+  },
+  {
+    "id": 3904,
+    "name": "Bayadha",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 39
+  },
+  {
+    "id": 3905,
+    "name": "Nakhla",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 39
+  },
+  {
+    "id": 3906,
+    "name": "Guemar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 39
+  },
+  {
+    "id": 3907,
+    "name": "Kouinine",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 39
+  },
+  {
+    "id": 3908,
+    "name": "Reguiba",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 39
+  },
+  {
+    "id": 3909,
+    "name": "Hamraia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 39
+  },
+  {
+    "id": 3910,
+    "name": "Taghzout",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 39
+  },
+  {
+    "id": 3911,
+    "name": "Debila",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 39
+  },
+  {
+    "id": 3912,
+    "name": "Hassani Abdelkrim",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 39
+  },
+  {
+    "id": 3913,
+    "name": "Hassi Khalifa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 39
+  },
+  {
+    "id": 3914,
+    "name": "Taleb Larbi",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 39
+  },
+  {
+    "id": 3915,
+    "name": "Douar El Ma",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 39
+  },
+  {
+    "id": 3916,
+    "name": "Sidi Aoun",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 39
+  },
+  {
+    "id": 3917,
+    "name": "Trifaoui",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 39
+  },
+  {
+    "id": 3918,
+    "name": "Magrane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 39
+  },
+  {
+    "id": 3919,
+    "name": "Beni Guecha",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 39
+  },
+  {
+    "id": 3920,
+    "name": "Ourmas",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 39
+  },
+  {
+    "id": 3925,
+    "name": "El Ogla",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 39
+  },
+  {
+    "id": 3926,
+    "name": "Mih Ouansa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 39
+  },
+  {
+    "id": 4001,
+    "name": "Aïn Touila",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 40
+  },
+  {
+    "id": 4002,
+    "name": "Babar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 40
+  },
+  {
+    "id": 4003,
+    "name": "Baghai",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 40
+  },
+  {
+    "id": 4004,
+    "name": "Bouhmama",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 40
+  },
+  {
+    "id": 4005,
+    "name": "Chechar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 40
+  },
+  {
+    "id": 4006,
+    "name": "Chelia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 40
+  },
+  {
+    "id": 4007,
+    "name": "Djellal",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 40
+  },
+  {
+    "id": 4008,
+    "name": "El Hamma",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 40
+  },
+  {
+    "id": 4009,
+    "name": "El Mahmal",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 40
+  },
+  {
+    "id": 4010,
+    "name": "El Oueldja",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 40
+  },
+  {
+    "id": 4011,
+    "name": "Ensigha",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 40
+  },
+  {
+    "id": 4012,
+    "name": "Kais",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 40
+  },
+  {
+    "id": 4013,
+    "name": "Khenchela",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 40
+  },
+  {
+    "id": 4014,
+    "name": "Khirane",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 40
+  },
+  {
+    "id": 4015,
+    "name": "M'Sara",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 40
+  },
+  {
+    "id": 4016,
+    "name": "M'Toussa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 40
+  },
+  {
+    "id": 4017,
+    "name": "Ouled Rechache",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 40
+  },
+  {
+    "id": 4018,
+    "name": "Remila",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 40
+  },
+  {
+    "id": 4019,
+    "name": "Tamza",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 40
+  },
+  {
+    "id": 4020,
+    "name": "Taouzient",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 40
+  },
+  {
+    "id": 4021,
+    "name": "Yabous",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 40
+  },
+  {
+    "id": 4101,
+    "name": "Souk Ahras",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 41
+  },
+  {
+    "id": 4102,
+    "name": "Sedrata",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 41
+  },
+  {
+    "id": 4103,
+    "name": "Hanancha",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 41
+  },
+  {
+    "id": 4104,
+    "name": "Mechroha",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 41
+  },
+  {
+    "id": 4105,
+    "name": "Ouled Driss",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 41
+  },
+  {
+    "id": 4106,
+    "name": "Tiffech",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 41
+  },
+  {
+    "id": 4107,
+    "name": "Zaarouria",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 41
+  },
+  {
+    "id": 4108,
+    "name": "Taoura",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 41
+  },
+  {
+    "id": 4109,
+    "name": "Drea",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 41
+  },
+  {
+    "id": 4110,
+    "name": "Heddada",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 41
+  },
+  {
+    "id": 4111,
+    "name": "Khedara",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 41
+  },
+  {
+    "id": 4112,
+    "name": "Merahna",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 41
+  },
+  {
+    "id": 4113,
+    "name": "Ouled Moumene",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 41
+  },
+  {
+    "id": 4114,
+    "name": "Bir Bou Haouch",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 41
+  },
+  {
+    "id": 4115,
+    "name": "M'daourouch",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 41
+  },
+  {
+    "id": 4116,
+    "name": "Oum El Adhaim",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 41
+  },
+  {
+    "id": 4117,
+    "name": "Aïn Zana",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 41
+  },
+  {
+    "id": 4118,
+    "name": "Aïn Soltane",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 41
+  },
+  {
+    "id": 4119,
+    "name": "Ouillen",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 41
+  },
+  {
+    "id": 4120,
+    "name": "Sidi Fredj",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 41
+  },
+  {
+    "id": 4121,
+    "name": "Safel El Ouiden",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 41
+  },
+  {
+    "id": 4122,
+    "name": "Ragouba",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 41
+  },
+  {
+    "id": 4123,
+    "name": "Khemissa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 41
+  },
+  {
+    "id": 4124,
+    "name": "Oued Keberit",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 41
+  },
+  {
+    "id": 4125,
+    "name": "Terraguelt",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 41
+  },
+  {
+    "id": 4126,
+    "name": "Zouabi",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 41
+  },
+  {
+    "id": 4201,
+    "name": "Tipaza",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 42
+  },
+  {
+    "id": 4202,
+    "name": "Menaceur",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 42
+  },
+  {
+    "id": 4203,
+    "name": "Larhat",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 42
+  },
+  {
+    "id": 4204,
+    "name": "Douaouda",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 42
+  },
+  {
+    "id": 4205,
+    "name": "Bourkika",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 42
+  },
+  {
+    "id": 4206,
+    "name": "Khemisti",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 42
+  },
+  {
+    "id": 4210,
+    "name": "Aghbal",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 42
+  },
+  {
+    "id": 4212,
+    "name": "Hadjout",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 42
+  },
+  {
+    "id": 4213,
+    "name": "Sidi Amar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 42
+  },
+  {
+    "id": 4214,
+    "name": "Gouraya",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 42
+  },
+  {
+    "id": 4215,
+    "name": "Nador",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 42
+  },
+  {
+    "id": 4216,
+    "name": "Chaiba",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 42
+  },
+  {
+    "id": 4217,
+    "name": "Aïn Tagourait",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 42
+  },
+  {
+    "id": 4222,
+    "name": "Cherchell",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 42
+  },
+  {
+    "id": 4223,
+    "name": "Damous",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 42
+  },
+  {
+    "id": 4224,
+    "name": "Merad",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 42
+  },
+  {
+    "id": 4225,
+    "name": "Fouka",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 42
+  },
+  {
+    "id": 4226,
+    "name": "Bou Ismaïl",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 42
+  },
+  {
+    "id": 4227,
+    "name": "Ahmar El Aïn",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 42
+  },
+  {
+    "id": 4230,
+    "name": "Bouharoun",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 42
+  },
+  {
+    "id": 4232,
+    "name": "Sidi Ghiles",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 42
+  },
+  {
+    "id": 4233,
+    "name": "Messelmoun",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 42
+  },
+  {
+    "id": 4234,
+    "name": "Sidi Rached",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 42
+  },
+  {
+    "id": 4235,
+    "name": "Koléa",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 42
+  },
+  {
+    "id": 4236,
+    "name": "Attatba",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 42
+  },
+  {
+    "id": 4240,
+    "name": "Sidi Semiane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 42
+  },
+  {
+    "id": 4241,
+    "name": "Beni Milleuk",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 42
+  },
+  {
+    "id": 4242,
+    "name": "Hadjeret Ennous",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 42
+  },
+  {
+    "id": 4301,
+    "name": "Ahmed Rachedi",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 43
+  },
+  {
+    "id": 4302,
+    "name": "Aïn Beida Harriche",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 43
+  },
+  {
+    "id": 4303,
+    "name": "Aïn Mellouk",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 43
+  },
+  {
+    "id": 4304,
+    "name": "Aïn Tine",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 43
+  },
+  {
+    "id": 4305,
+    "name": "Amira Arrès",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 43
+  },
+  {
+    "id": 4306,
+    "name": "Benyahia Abderrahmane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 43
+  },
+  {
+    "id": 4307,
+    "name": "Bouhatem",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 43
+  },
+  {
+    "id": 4308,
+    "name": "Chelghoum Laid",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 43
+  },
+  {
+    "id": 4309,
+    "name": "Chigara",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 43
+  },
+  {
+    "id": 4310,
+    "name": "Derradji Bousselah",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 43
+  },
+  {
+    "id": 4311,
+    "name": "El Mechira",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 43
+  },
+  {
+    "id": 4312,
+    "name": "Elayadi Barbes",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 43
+  },
+  {
+    "id": 4313,
+    "name": "Ferdjioua",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 43
+  },
+  {
+    "id": 4314,
+    "name": "Grarem Gouga",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 43
+  },
+  {
+    "id": 4315,
+    "name": "Hamala",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 43
+  },
+  {
+    "id": 4316,
+    "name": "Mila",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 43
+  },
+  {
+    "id": 4317,
+    "name": "Minar Zarza",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 43
+  },
+  {
+    "id": 4318,
+    "name": "Oued Athmania",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 43
+  },
+  {
+    "id": 4319,
+    "name": "Oued Endja",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 43
+  },
+  {
+    "id": 4320,
+    "name": "Oued Seguen",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 43
+  },
+  {
+    "id": 4321,
+    "name": "Ouled Khalouf",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 43
+  },
+  {
+    "id": 4322,
+    "name": "Rouached",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 43
+  },
+  {
+    "id": 4323,
+    "name": "Sidi Khelifa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 43
+  },
+  {
+    "id": 4324,
+    "name": "Sidi Merouane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 43
+  },
+  {
+    "id": 4325,
+    "name": "Tadjenanet",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 43
+  },
+  {
+    "id": 4326,
+    "name": "Tassadane Haddada",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 43
+  },
+  {
+    "id": 4327,
+    "name": "Teleghma",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 43
+  },
+  {
+    "id": 4328,
+    "name": "Terrai Bainen",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 43
+  },
+  {
+    "id": 4329,
+    "name": "Tessala Lemtaï",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 43
+  },
+  {
+    "id": 4330,
+    "name": "Tiberguent",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 43
+  },
+  {
+    "id": 4331,
+    "name": "Yahia Beni Guecha",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 43
+  },
+  {
+    "id": 4332,
+    "name": "Zeghaia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 43
+  },
+  {
+    "id": 4401,
+    "name": "Aïn Defla",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 44
+  },
+  {
+    "id": 4402,
+    "name": "Aïn Bouyahia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 44
+  },
+  {
+    "id": 4403,
+    "name": "Aïn Benian",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 44
+  },
+  {
+    "id": 4404,
+    "name": "Aïn Lechiekh",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 44
+  },
+  {
+    "id": 4405,
+    "name": "Aïn Soltane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 44
+  },
+  {
+    "id": 4406,
+    "name": "Aïn Torki",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 44
+  },
+  {
+    "id": 4407,
+    "name": "Arib",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 44
+  },
+  {
+    "id": 4408,
+    "name": "Bathia",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 44
+  },
+  {
+    "id": 4409,
+    "name": "Belaas",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 44
+  },
+  {
+    "id": 4410,
+    "name": "Ben Allal",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 44
+  },
+  {
+    "id": 4411,
+    "name": "Birbouche",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 44
+  },
+  {
+    "id": 4412,
+    "name": "Bir Ould Khelifa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 44
+  },
+  {
+    "id": 4413,
+    "name": "Bordj Emir Khaled",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 44
+  },
+  {
+    "id": 4414,
+    "name": "Boumedfaa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 44
+  },
+  {
+    "id": 4415,
+    "name": "Bourached",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 44
+  },
+  {
+    "id": 4416,
+    "name": "Djelida",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 44
+  },
+  {
+    "id": 4417,
+    "name": "Djemaa Ouled Cheikh",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 44
+  },
+  {
+    "id": 4418,
+    "name": "Djendel",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 44
+  },
+  {
+    "id": 4419,
+    "name": "El Abadia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 44
+  },
+  {
+    "id": 4420,
+    "name": "El Amra",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 44
+  },
+  {
+    "id": 4421,
+    "name": "El Attaf",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 44
+  },
+  {
+    "id": 4422,
+    "name": "El Hassania",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 44
+  },
+  {
+    "id": 4423,
+    "name": "El Maine",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 44
+  },
+  {
+    "id": 4424,
+    "name": "Hammam Righa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 44
+  },
+  {
+    "id": 4425,
+    "name": "Hoceinia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 44
+  },
+  {
+    "id": 4426,
+    "name": "Khemis Miliana",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 44
+  },
+  {
+    "id": 4427,
+    "name": "Mekhatria",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 44
+  },
+  {
+    "id": 4428,
+    "name": "Miliana",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 44
+  },
+  {
+    "id": 4429,
+    "name": "Oued Chorfa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 44
+  },
+  {
+    "id": 4430,
+    "name": "Oued Djemaa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 44
+  },
+  {
+    "id": 4431,
+    "name": "Rouina",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 44
+  },
+  {
+    "id": 4432,
+    "name": "Sidi Lakhdar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 44
+  },
+  {
+    "id": 4433,
+    "name": "Tacheta Zougagha",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 44
+  },
+  {
+    "id": 4434,
+    "name": "Tarik Ibn Ziad",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 44
+  },
+  {
+    "id": 4435,
+    "name": "Tiberkanine",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 44
+  },
+  {
+    "id": 4436,
+    "name": "Zeddine",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 44
+  },
+  {
+    "id": 4501,
+    "name": "Naâma",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 45
+  },
+  {
+    "id": 4502,
+    "name": "Mecheria",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 45
+  },
+  {
+    "id": 4503,
+    "name": "Aïn Sefra",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 45
+  },
+  {
+    "id": 4504,
+    "name": "Tiout",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 45
+  },
+  {
+    "id": 4505,
+    "name": "Sfissifa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 45
+  },
+  {
+    "id": 4506,
+    "name": "Moghrar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 45
+  },
+  {
+    "id": 4507,
+    "name": "Assela",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 45
+  },
+  {
+    "id": 4508,
+    "name": "Djeniene Bourezg",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 45
+  },
+  {
+    "id": 4509,
+    "name": "Aïn Ben Khelil",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 45
+  },
+  {
+    "id": 4510,
+    "name": "Makman Ben Amer",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 45
+  },
+  {
+    "id": 4511,
+    "name": "Kasdir",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 45
+  },
+  {
+    "id": 4512,
+    "name": "El Biod",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 45
+  },
+  {
+    "id": 4601,
+    "name": "Aghlal",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 46
+  },
+  {
+    "id": 4602,
+    "name": "Aïn El Arbaa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 46
+  },
+  {
+    "id": 4603,
+    "name": "Aïn Kihal",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 46
+  },
+  {
+    "id": 4604,
+    "name": "Aïn Témouchent",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 46
+  },
+  {
+    "id": 4605,
+    "name": "Aïn Tolba",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 46
+  },
+  {
+    "id": 4606,
+    "name": "Aoubellil",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 46
+  },
+  {
+    "id": 4607,
+    "name": "Beni Saf",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 46
+  },
+  {
+    "id": 4608,
+    "name": "Bouzedjar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 46
+  },
+  {
+    "id": 4609,
+    "name": "Chaabat El Leham",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 46
+  },
+  {
+    "id": 4610,
+    "name": "Chentouf",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 46
+  },
+  {
+    "id": 4611,
+    "name": "El Amria",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 46
+  },
+  {
+    "id": 4612,
+    "name": "El Emir Abdelkader",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 46
+  },
+  {
+    "id": 4613,
+    "name": "El Malah",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 46
+  },
+  {
+    "id": 4614,
+    "name": "El Messaid",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 46
+  },
+  {
+    "id": 4615,
+    "name": "Hammam Bouhadjar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 46
+  },
+  {
+    "id": 4616,
+    "name": "Hassasna",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 46
+  },
+  {
+    "id": 4617,
+    "name": "Hassi El Ghella",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 46
+  },
+  {
+    "id": 4618,
+    "name": "Oued Berkeche",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 46
+  },
+  {
+    "id": 4619,
+    "name": "Oued Sabah",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 46
+  },
+  {
+    "id": 4620,
+    "name": "Ouled Boudjemaa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 46
+  },
+  {
+    "id": 4621,
+    "name": "Ouled Kihal",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 46
+  },
+  {
+    "id": 4622,
+    "name": "Oulhaça El Gheraba",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 46
+  },
+  {
+    "id": 4623,
+    "name": "Sidi Ben Adda",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 46
+  },
+  {
+    "id": 4624,
+    "name": "Sidi Boumedienne",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 46
+  },
+  {
+    "id": 4625,
+    "name": "Sidi Ouriache",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 46
+  },
+  {
+    "id": 4626,
+    "name": "Sidi Safi",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 46
+  },
+  {
+    "id": 4627,
+    "name": "Tamzoura",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 46
+  },
+  {
+    "id": 4628,
+    "name": "Terga",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 46
+  },
+  {
+    "id": 4701,
+    "name": "Berriane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 47
+  },
+  {
+    "id": 4702,
+    "name": "Bounoura",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 47
+  },
+  {
+    "id": 4703,
+    "name": "Dhayet Bendhahoua",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 47
+  },
+  {
+    "id": 4704,
+    "name": "El Atteuf",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 47
+  },
+  {
+    "id": 4705,
+    "name": "El Guerrara",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 47
+  },
+  {
+    "id": 4707,
+    "name": "Ghardaïa",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 47
+  },
+  {
+    "id": 4710,
+    "name": "Mansoura",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 47
+  },
+  {
+    "id": 4711,
+    "name": "Metlili",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 47
+  },
+  {
+    "id": 4712,
+    "name": "Sebseb",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 47
+  },
+  {
+    "id": 4713,
+    "name": "Zelfana",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 47
+  },
+  {
+    "id": 4801,
+    "name": "Aïn Rahma",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4802,
+    "name": "Aïn Tarek",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4803,
+    "name": "Ammi Moussa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4804,
+    "name": "Belassel Bouzegza",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4805,
+    "name": "Bendaoud",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4806,
+    "name": "Beni Dergoun",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4807,
+    "name": "Beni Zentis",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4808,
+    "name": "Dar Ben Abdellah",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4809,
+    "name": "Djidioua",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4810,
+    "name": "El Guettar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4811,
+    "name": "El Hamadna",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4812,
+    "name": "El Hassi",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4813,
+    "name": "El Matmar",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4814,
+    "name": "El Ouldja",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4815,
+    "name": "Had Echkalla",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4816,
+    "name": "Hamri",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4817,
+    "name": "Kalaa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4818,
+    "name": "Lahlef",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4819,
+    "name": "Mazouna",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4820,
+    "name": "Mediouna",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4821,
+    "name": "Mendes",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4822,
+    "name": "Merdja Sidi Abed",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4823,
+    "name": "Ouarizane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4824,
+    "name": "Oued Essalem",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4825,
+    "name": "Oued Rhiou",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4826,
+    "name": "Ouled Aiche",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4827,
+    "name": "Oued El Djemaa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4828,
+    "name": "Ouled Sidi Mihoub",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4829,
+    "name": "Ramka",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4830,
+    "name": "Relizane",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4831,
+    "name": "Sidi Khettab",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4832,
+    "name": "Sidi Lazreg",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4833,
+    "name": "Sidi M'Hamed Ben Ali",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4834,
+    "name": "Sidi M'Hamed Benaouda",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4835,
+    "name": "Sidi Saada",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4836,
+    "name": "Souk El Had",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4837,
+    "name": "Yellel",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4838,
+    "name": "Zemmora",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 48
+  },
+  {
+    "id": 4903,
+    "name": "Charouine",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 49
+  },
+  {
+    "id": 4907,
+    "name": "Ksar Kaddour",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 49
+  },
+  {
+    "id": 4909,
+    "name": "Timimoun",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 49
+  },
+  {
+    "id": 4910,
+    "name": "Ouled Saïd",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 49
+  },
+  {
+    "id": 4916,
+    "name": "Tinerkouk",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 49
+  },
+  {
+    "id": 4917,
+    "name": "Deldoul",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 49
+  },
+  {
+    "id": 4920,
+    "name": "Metarfa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 49
+  },
+  {
+    "id": 4923,
+    "name": "Aougrout",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 49
+  },
+  {
+    "id": 4924,
+    "name": "Talmine",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 49
+  },
+  {
+    "id": 4927,
+    "name": "Ouled Aïssa",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 49
+  },
+  {
+    "id": 5025,
+    "name": "Bordj Badji Mokhtar",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 50
+  },
+  {
+    "id": 5028,
+    "name": "Timiaouine",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 50
+  },
+  {
+    "id": 5103,
+    "name": "Besbes",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 51
+  },
+  {
+    "id": 5110,
+    "name": "Doucen",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 51
+  },
+  {
+    "id": 5111,
+    "name": "Ech Chaïba",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 51
+  },
+  {
+    "id": 5126,
+    "name": "Ouled Djellal",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 51
+  },
+  {
+    "id": 5129,
+    "name": "Ras El Miaad",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 51
+  },
+  {
+    "id": 5130,
+    "name": "Sidi Khaled",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 51
+  },
+  {
+    "id": 5203,
+    "name": "Ouled Khoudir",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 52
+  },
+  {
+    "id": 5205,
+    "name": "Timoudi",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 52
+  },
+  {
+    "id": 5207,
+    "name": "Béni Abbès",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 52
+  },
+  {
+    "id": 5208,
+    "name": "Beni Ikhlef",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 52
+  },
+  {
+    "id": 5211,
+    "name": "Igli",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 52
+  },
+  {
+    "id": 5212,
+    "name": "Tabelbala",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 52
+  },
+  {
+    "id": 5214,
+    "name": "El Ouata",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 52
+  },
+  {
+    "id": 5218,
+    "name": "Kerzaz",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 52
+  },
+  {
+    "id": 5219,
+    "name": "Ksabi",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 52
+  },
+  {
+    "id": 5220,
+    "name": "Tamtert",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 52
+  },
+  {
+    "id": 5303,
+    "name": "In Ghar",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 53
+  },
+  {
+    "id": 5308,
+    "name": "In Salah",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 53
+  },
+  {
+    "id": 5310,
+    "name": "Foggaret Ezzaouia",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 53
+  },
+  {
+    "id": 5404,
+    "name": "In Guezzam",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 54
+  },
+  {
+    "id": 5407,
+    "name": "Tin Zaouatine",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 54
+  },
+  {
+    "id": 5502,
+    "name": "Benaceur",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 55
+  },
+  {
+    "id": 5503,
+    "name": "Blidet Amor",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 55
+  },
+  {
+    "id": 5504,
+    "name": "El Allia",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 55
+  },
+  {
+    "id": 5505,
+    "name": "El Borma",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 55
+  },
+  {
+    "id": 5506,
+    "name": "El Hadjira",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 55
+  },
+  {
+    "id": 5509,
+    "name": "Megarine",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 55
+  },
+  {
+    "id": 5510,
+    "name": "M'Naguer",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 55
+  },
+  {
+    "id": 5511,
+    "name": "Nezla",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 55
+  },
+  {
+    "id": 5516,
+    "name": "Sidi Slimane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 55
+  },
+  {
+    "id": 5517,
+    "name": "Taibet",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 55
+  },
+  {
+    "id": 5518,
+    "name": "Tamacine",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 55
+  },
+  {
+    "id": 5519,
+    "name": "Tebesbest",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 55
+  },
+  {
+    "id": 5520,
+    "name": "Touggourt",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 55
+  },
+  {
+    "id": 5521,
+    "name": "Zaouia El Abidia",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 55
+  },
+  {
+    "id": 5602,
+    "name": "Djanet",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 56
+  },
+  {
+    "id": 5605,
+    "name": "Bordj El Haouas",
+    "is_deliverable": 0,
+    "has_stop_desk": 0,
+    "wilaya_id": 56
+  },
+  {
+    "id": 5721,
+    "name": "Still",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 57
+  },
+  {
+    "id": 5722,
+    "name": "M'Rara",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 57
+  },
+  {
+    "id": 5723,
+    "name": "Sidi Khellil",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 57
+  },
+  {
+    "id": 5724,
+    "name": "Tendla",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 57
+  },
+  {
+    "id": 5727,
+    "name": "El M'Ghair",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 57
+  },
+  {
+    "id": 5728,
+    "name": "Djamaa",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 57
+  },
+  {
+    "id": 5729,
+    "name": "Oum Touyour",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 57
+  },
+  {
+    "id": 5730,
+    "name": "Sidi Amrane",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 57
+  },
+  {
+    "id": 5806,
+    "name": "El Menia",
+    "is_deliverable": 1,
+    "has_stop_desk": 1,
+    "wilaya_id": 58
+  },
+  {
+    "id": 5808,
+    "name": "Hassi Fehal",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 58
+  },
+  {
+    "id": 5809,
+    "name": "Hassi Gara",
+    "is_deliverable": 1,
+    "has_stop_desk": 0,
+    "wilaya_id": 58
+  }
+]
