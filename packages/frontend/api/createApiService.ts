@@ -30,8 +30,15 @@ export function createApiService<T, TCreate = Partial<T>, TUpdate = Partial<T>>(
         },
 
         getById: async (id: string | number): Promise<GetByIdApiResponse<T>> => {
-
-            const { data } = await apiClient.get<GetByIdApiResponse<T>>(`${baseUrl}/${id}`);
+            const { data } = await apiClient.get<GetByIdApiResponse<T>>(`${baseUrl}/${id}`, {
+                headers: {
+                    'Cache-Control': 'no-cache, no-store, must-revalidate',
+                    'Pragma': 'no-cache',
+                },
+                params: {
+                    _t: Date.now(),
+                },
+            });
             if (!data.success) {
                 throw new Error(data.message);
             }

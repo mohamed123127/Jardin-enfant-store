@@ -10,7 +10,6 @@ interface ProductDetailWrapperProps {
 
 export default function ProductDetailWrapper({ productId }: ProductDetailWrapperProps) {
   const { data: backendProduct, isLoading } = useProduct<any>(productId);
-
   return (
     <ProductDetailView
       productId={productId}

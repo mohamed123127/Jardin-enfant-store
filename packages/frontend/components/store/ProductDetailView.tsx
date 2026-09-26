@@ -30,6 +30,7 @@ import { ProductCard } from "@/components/store/ProductCard";
 import { SizeGuideModal } from "@/components/store/SizeGuideModal";
 import { useCart } from "@/context/CartContext";
 import { useTranslations } from "next-intl";
+import { addToCart, viewContent } from "@/lib/metaPixel";
 
 interface ProductDetailViewProps {
   productId: string;
@@ -237,6 +238,14 @@ export const ProductDetailView: React.FC<ProductDetailViewProps> = ({
     return fallbackProduct;
   }, [backendProduct, fallbackProduct]);
 
+  useEffect(() => {
+    viewContent({
+      id: product.id,
+      name: product.name,
+      price: Number(product.sellingPrice),
+    });
+  }, [product])
+
   // Gallery State
   const images = useMemo(() => {
     if (product.images && product.images.length > 0) {
@@ -438,6 +447,12 @@ export const ProductDetailView: React.FC<ProductDetailViewProps> = ({
     addItem(product, qtyToAdd, selectedColor, selectedSize);
     setIsAdded(true);
     showToast(`"${product.name}" (${qtyToAdd}x, ${selectedSize}, ${selectedColor}) ajouté au panier !`);
+    addToCart({
+      id: product.id,
+      name: product.name,
+      price: Number(product.sellingPrice),
+      quantity: quantity,
+    });
     setTimeout(() => {
       setIsAdded(false);
     }, 2000);
@@ -720,7 +735,7 @@ export const ProductDetailView: React.FC<ProductDetailViewProps> = ({
               </div>
 
               {/* Transparent measurements box with Guide des tailles in top right & larger font size */}
-              {selectedSize && (() => {
+              {/* {selectedSize && (() => {
                 const m = getMeasurementsForSize(selectedSize, product.variants);
                 if (!m) return null;
                 return (
@@ -755,7 +770,7 @@ export const ProductDetailView: React.FC<ProductDetailViewProps> = ({
                     </ul>
                   </div>
                 );
-              })()}
+              })()} */}
             </div>
 
             {/* Quantity & Actions */}

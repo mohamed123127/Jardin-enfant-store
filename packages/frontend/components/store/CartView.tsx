@@ -1,22 +1,28 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import {
   FiTrash2,
   FiCheckCircle,
   FiArrowLeft,
   FiArrowRight,
   FiShoppingCart,
-  FiHeart
+  FiHeart,
+  FiAlertTriangle,
+  FiAlertCircle,
+  FiRefreshCw
 } from "react-icons/fi";
 import { useCart } from "@/context/CartContext";
 import { FAKE_PRODUCTS } from "@/data/fakeProducts";
 import { useTranslations } from "next-intl";
+import { checkCartStock, StockItemStatus } from "@/lib/checkStock";
 
 export const CartView: React.FC = () => {
   const t = useTranslations("cart");
+  const router = useRouter();
   const {
     cartItems,
     removeItem,
@@ -28,11 +34,76 @@ export const CartView: React.FC = () => {
     addItem,
   } = useCart();
 
-  const [toast, setToast] = useState<string | null>(null);
+  const [toast, setToast] = useState<{ message: string; type: "success" | "error" } | null>(null);
+  const [isCheckingStock, setIsCheckingStock] = useState(false);
+  const [stockStatuses, setStockStatuses] = useState<Record<string, StockItemStatus>>({});
+  const [stockErrors, setStockErrors] = useState<StockItemStatus[]>([]);
 
-  const showToast = (msg: string) => {
-    setToast(msg);
-    setTimeout(() => setToast(null), 3000);
+  const showToast = (message: string, type: "success" | "error" = "success") => {
+    setToast({ message, type });
+    setTimeout(() => setToast(null), 4000);
+  };
+
+  // Check stock on load or when cart items change
+  const verifyStock = useCallback(async () => {
+    if (cartItems.length === 0) {
+      setStockStatuses({});
+      setStockErrors([]);
+      return;
+    }
+    try {
+      const result = await checkCartStock(cartItems);
+      setStockStatuses(result.itemStatuses);
+      setStockErrors(result.unavailableItems);
+    } catch (err) {
+      console.warn("Stock verification error:", err);
+    }
+  }, [cartItems]);
+
+  useEffect(() => {
+    verifyStock();
+  }, [verifyStock]);
+
+  // Handle Checkout Click
+  const handleProceedToCheckout = async (e: React.MouseEvent) => {
+    e.preventDefault();
+    if (cartItems.length === 0) return;
+
+    setIsCheckingStock(true);
+    try {
+      const result = await checkCartStock(cartItems);
+      setStockStatuses(result.itemStatuses);
+      setStockErrors(result.unavailableItems);
+
+      if (!result.isValid) {
+        setIsCheckingStock(false);
+        const firstError = result.errors[0] || "Certains articles de votre panier ne sont plus disponibles.";
+        showToast(firstError, "error");
+        return;
+      }
+
+      // If all valid, navigate to checkout
+      router.push("/checkout");
+    } catch (err) {
+      console.error("Error during checkout stock check:", err);
+      // Fallback navigation if network issue
+      router.push("/checkout");
+    } finally {
+      setIsCheckingStock(false);
+    }
+  };
+
+  // Auto-adjust quantities to available stock
+  const handleFixQuantities = () => {
+    stockErrors.forEach((itemStatus) => {
+      if (itemStatus.availableStock <= 0) {
+        removeItem(itemStatus.itemId);
+      } else {
+        updateQuantity(itemStatus.itemId, itemStatus.availableStock);
+      }
+    });
+    setStockErrors([]);
+    showToast("Votre panier a été mis à jour selon le stock disponible.", "success");
   };
 
   const recommendedProducts = FAKE_PRODUCTS.filter(
@@ -44,9 +115,19 @@ export const CartView: React.FC = () => {
 
       {/* Toast Notification */}
       {toast && (
-        <div className="fixed bottom-6 right-6 z-50 bg-zinc-900 text-white px-5 py-3 rounded-2xl shadow-xl flex items-center gap-3 text-xs sm:text-sm font-bold animate-in slide-in-from-bottom-3 duration-200">
-          <FiCheckCircle className="w-5 h-5 text-emerald-400" />
-          <span>{toast}</span>
+        <div
+          className={`fixed bottom-6 right-6 z-50 px-5 py-3.5 rounded-2xl shadow-2xl flex items-center gap-3 text-xs sm:text-sm font-bold animate-in slide-in-from-bottom-3 duration-200 ${
+            toast.type === "error"
+              ? "bg-rose-600 text-white border border-rose-500 shadow-rose-500/20"
+              : "bg-zinc-900 text-white border border-zinc-800"
+          }`}
+        >
+          {toast.type === "error" ? (
+            <FiAlertTriangle className="w-5 h-5 text-amber-300 shrink-0" />
+          ) : (
+            <FiCheckCircle className="w-5 h-5 text-emerald-400 shrink-0" />
+          )}
+          <span>{toast.message}</span>
         </div>
       )}
 
@@ -68,6 +149,42 @@ export const CartView: React.FC = () => {
             {t("itemsCount", { count: cartCount, plural: cartCount > 1 ? "s" : "" })}
           </p>
         </div>
+
+        {/* Stock Alert Banner if items are unavailable */}
+        {stockErrors.length > 0 && (
+          <div className="mb-6 p-4 sm:p-5 rounded-2xl bg-rose-50 dark:bg-rose-950/40 border border-rose-200 dark:border-rose-900/60 shadow-sm animate-in fade-in slide-in-from-top-2 duration-300 space-y-3">
+            <div className="flex items-start gap-3">
+              <div className="w-9 h-9 rounded-xl bg-rose-500/10 text-rose-600 dark:text-rose-400 flex items-center justify-center shrink-0 mt-0.5">
+                <FiAlertTriangle className="w-5 h-5 stroke-[2.5]" />
+              </div>
+              <div className="flex-1 min-w-0">
+                <h3 className="text-sm font-extrabold text-rose-900 dark:text-rose-200">
+                  Stock insuffisant ou épuisé
+                </h3>
+                <p className="text-xs text-rose-700 dark:text-rose-300 mt-1 leading-relaxed">
+                  Certains articles dans votre panier ne sont plus disponibles dans la quantité demandée. Veuillez ajuster les quantités avant de passer la commande.
+                </p>
+                <div className="mt-2.5 space-y-1">
+                  {stockErrors.map((err, idx) => (
+                    <div key={idx} className="flex items-center gap-1.5 text-xs font-semibold text-rose-800 dark:text-rose-300">
+                      <span className="w-1.5 h-1.5 rounded-full bg-rose-500 shrink-0" />
+                      <span>{err.errorMessage}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+            <div className="pt-2 border-t border-rose-200/60 dark:border-rose-900/40 flex justify-end">
+              <button
+                onClick={handleFixQuantities}
+                className="px-4 py-2 rounded-xl bg-rose-600 hover:bg-rose-700 text-white font-bold text-xs shadow-sm transition-all cursor-pointer flex items-center gap-1.5 active:scale-95"
+              >
+                <FiRefreshCw className="w-3.5 h-3.5" />
+                <span>Ajuster automatiquement le panier</span>
+              </button>
+            </div>
+          </div>
+        )}
 
         {cartItems.length === 0 ? (
           /* ─── Empty Cart ─── */
@@ -126,10 +243,31 @@ export const CartView: React.FC = () => {
                             {"  "}|{"  "}
                             {t("size")} <span className="text-zinc-600 dark:text-zinc-300">{item.selectedSize}</span>
                           </p>
-                          <div className="inline-flex items-center gap-1 text-emerald-600 dark:text-emerald-400 text-xs font-bold">
-                            <FiCheckCircle className="w-3.5 h-3.5 text-emerald-500 stroke-[2.5]" />
-                            <span>{t("inStock")}</span>
-                          </div>
+                          
+                          {/* Real-time Backend Stock Status */}
+                          {stockStatuses[item.id] ? (
+                            stockStatuses[item.id].availableStock <= 0 ? (
+                              <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-rose-50 dark:bg-rose-950/60 text-rose-600 dark:text-rose-400 text-xs font-extrabold border border-rose-200/60 dark:border-rose-900/50 animate-pulse">
+                                <FiAlertCircle className="w-3.5 h-3.5 shrink-0" />
+                                <span>Rupture de stock</span>
+                              </div>
+                            ) : item.quantity > stockStatuses[item.id].availableStock ? (
+                              <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-amber-50 dark:bg-amber-950/60 text-amber-700 dark:text-amber-400 text-xs font-bold border border-amber-200/60 dark:border-amber-900/50">
+                                <FiAlertTriangle className="w-3.5 h-3.5 shrink-0" />
+                                <span>Seulement {stockStatuses[item.id].availableStock} en stock (demandé: {item.quantity})</span>
+                              </div>
+                            ) : (
+                              <div className="inline-flex items-center gap-1 text-emerald-600 dark:text-emerald-400 text-xs font-bold">
+                                <FiCheckCircle className="w-3.5 h-3.5 text-emerald-500 stroke-[2.5]" />
+                                <span>{t("inStock")} ({stockStatuses[item.id].availableStock} disponibles)</span>
+                              </div>
+                            )
+                          ) : (
+                            <div className="inline-flex items-center gap-1 text-emerald-600 dark:text-emerald-400 text-xs font-bold">
+                              <FiCheckCircle className="w-3.5 h-3.5 text-emerald-500 stroke-[2.5]" />
+                              <span>{t("inStock")}</span>
+                            </div>
+                          )}
                         </div>
                       </div>
 
@@ -145,11 +283,22 @@ export const CartView: React.FC = () => {
                           >
                             −
                           </button>
-                          <span className="w-8 text-center font-bold text-sm text-zinc-900 dark:text-white">
+                          <span className={`w-8 text-center font-bold text-sm ${
+                            stockStatuses[item.id] && (stockStatuses[item.id].availableStock <= 0 || item.quantity > stockStatuses[item.id].availableStock)
+                              ? "text-rose-600 font-black"
+                              : "text-zinc-900 dark:text-white"
+                          }`}>
                             {item.quantity}
                           </span>
                           <button
-                            onClick={() => updateQuantity(item.id, item.quantity + 1)}
+                            onClick={() => {
+                              const maxStock = stockStatuses[item.id]?.availableStock;
+                              if (maxStock !== undefined && item.quantity >= maxStock) {
+                                showToast(`Stock maximum disponible atteint (${maxStock} pièces).`, "error");
+                                return;
+                              }
+                              updateQuantity(item.id, item.quantity + 1);
+                            }}
                             aria-label={t("increase")}
                             className="w-7 h-7 rounded-lg flex items-center justify-center text-zinc-600 dark:text-zinc-300 hover:bg-zinc-100 dark:hover:bg-zinc-700 font-bold transition-colors cursor-pointer"
                           >
@@ -206,14 +355,24 @@ export const CartView: React.FC = () => {
                     <span>{t("continueShopping")}</span>
                   </Link>
 
-                  <Link
-                    href="/checkout"
-                    className="w-full sm:w-auto px-8 py-3.5 rounded-2xl bg-gradient-to-r from-amber-500 via-orange-500 to-rose-500 hover:opacity-95 text-white font-extrabold text-sm sm:text-base flex items-center justify-center gap-3 shadow-lg shadow-orange-500/25 transition-all cursor-pointer active:scale-98"
+                  <button
+                    onClick={handleProceedToCheckout}
+                    disabled={isCheckingStock}
+                    className="w-full sm:w-auto px-8 py-3.5 rounded-2xl bg-gradient-to-r from-amber-500 via-orange-500 to-rose-500 hover:opacity-95 text-white font-extrabold text-sm sm:text-base flex items-center justify-center gap-3 shadow-lg shadow-orange-500/25 transition-all cursor-pointer active:scale-98 disabled:opacity-60"
                   >
-                    <FiShoppingCart className="w-5 h-5" />
-                    <span>{t("checkout")}</span>
-                    <FiArrowRight className="w-5 h-5 stroke-[2.5] rtl:rotate-180" />
-                  </Link>
+                    {isCheckingStock ? (
+                      <>
+                        <span className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin inline-block" />
+                        <span>Vérification du stock...</span>
+                      </>
+                    ) : (
+                      <>
+                        <FiShoppingCart className="w-5 h-5" />
+                        <span>{t("checkout")}</span>
+                        <FiArrowRight className="w-5 h-5 stroke-[2.5] rtl:rotate-180" />
+                      </>
+                    )}
+                  </button>
                 </div>
               </div>
             </div>

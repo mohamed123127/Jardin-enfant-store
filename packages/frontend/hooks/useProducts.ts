@@ -35,7 +35,17 @@ export function useProducts<T extends BaseEntityShape>
     };
 }
 
-export function useProduct<T extends BaseEntityShape>(id: string | number) {
+export function useProduct<T extends BaseEntityShape>(
+    id: string | number,
+    options?: Partial<any>
+) {
     const entityCrud = createCrudHooks<T>("products", "/products");
-    return entityCrud.useDetail(id);
+    return entityCrud.useDetail(id, {
+        staleTime: 0,
+        gcTime: 0,
+        refetchOnMount: "always",
+        refetchOnWindowFocus: true,
+        refetchOnReconnect: true,
+        ...options,
+    });
 }

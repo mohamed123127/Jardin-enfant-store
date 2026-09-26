@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   FiX,
   FiCheckCircle,
@@ -10,9 +10,12 @@ import {
   FiMapPin,
   FiShoppingBag,
   FiShield,
-  FiArrowRight
+  FiArrowRight,
+  FiAlertTriangle
 } from "react-icons/fi";
 import { useCart } from "@/context/CartContext";
+import { initiateCheckout, purchase } from "@/lib/metaPixel";
+import { checkCartStock } from "@/lib/checkStock";
 
 interface CheckoutModalProps {
   isOpen: boolean;
@@ -51,18 +54,105 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ isOpen, onClose })
 
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState<string | null>(null);
 
   if (!isOpen) return null;
 
-  const handleConfirmOrder = (e: React.FormEvent) => {
+
+  useEffect(() => {
+    if (cartItems.length > 0) {
+      initiateCheckout({
+        items: cartItems.map((item) => ({
+          id: item.product.id,
+          price: Number(item.product.sellingPrice || item.unitPrice || 0),
+          quantity: item.quantity,
+        })),
+
+        total: Number(totalPrice),
+      });
+
+    }
+  }, [cartItems]);
+
+  const handleConfirmOrder = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!fullName || !phone) return;
 
     setIsSubmitting(true);
+    setSubmitError(null);
+
+    // Verify stock availability
+    try {
+      const stockResult = await checkCartStock(cartItems);
+      if (!stockResult.isValid) {
+        setIsSubmitting(false);
+        setSubmitError(stockResult.errors[0] || "Stock insuffisant pour certains articles.");
+        return;
+      }
+    } catch (err) {
+      console.warn("Stock verification warning in modal:", err);
+    }
+
+    const orderId = `ORD-${Math.floor(100000 + Math.random() * 900000)}`;
+    const orderDate = new Date().toLocaleDateString("fr-FR", {
+      day: "numeric",
+      month: "long",
+      year: "numeric",
+    });
+
+    const orderDetails = {
+      orderId,
+      date: orderDate,
+      customer: {
+        fullName,
+        phone,
+        wilaya,
+        commune,
+        address,
+        deliveryType,
+        notes,
+      },
+      items: cartItems.map((item) => ({
+        id: item.product.id,
+        name: item.product.name,
+        color: item.selectedColor,
+        size: item.selectedSize,
+        quantity: item.quantity,
+        price: Number(item.unitPrice || item.product.sellingPrice || 0),
+        image: item.product.previewImage,
+      })),
+      subtotal,
+      shippingFee,
+      total: Number(totalPrice),
+      totalPrice: Number(totalPrice),
+    };
+
+    // Track purchase event with Meta Pixel
+    purchase({
+      orderId: orderId,
+      items: cartItems.map((item) => ({
+        id: item.product.id,
+        price: Number(item.unitPrice || item.product.sellingPrice || 0),
+        quantity: item.quantity,
+      })),
+      total: Number(totalPrice),
+    });
+
+    // Write order details to frontend orders.json
+    try {
+      await fetch("/api/orders", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(orderDetails),
+      });
+    } catch (err) {
+      console.error("Failed to save order to orders.json:", err);
+    }
+
     setTimeout(() => {
       setIsSubmitting(false);
       setIsSubmitted(true);
-    }, 1200);
+    }, 1000);
   };
 
   const handleFinish = () => {
@@ -229,8 +319,8 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ isOpen, onClose })
                     type="button"
                     onClick={() => setDeliveryType("home")}
                     className={`p-3.5 rounded-2xl border text-left flex items-start justify-between transition-all ${deliveryType === "home"
-                        ? "border-orange-500 bg-orange-50/40 dark:bg-orange-950/30 ring-2 ring-orange-500/20"
-                        : "border-zinc-200 dark:border-zinc-700 bg-white dark:bg-zinc-800"
+                      ? "border-orange-500 bg-orange-50/40 dark:bg-orange-950/30 ring-2 ring-orange-500/20"
+                      : "border-zinc-200 dark:border-zinc-700 bg-white dark:bg-zinc-800"
                       }`}
                   >
                     <div>
@@ -246,8 +336,8 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ isOpen, onClose })
                     type="button"
                     onClick={() => setDeliveryType("desk")}
                     className={`p-3.5 rounded-2xl border text-left flex items-start justify-between transition-all ${deliveryType === "desk"
-                        ? "border-orange-500 bg-orange-50/40 dark:bg-orange-950/30 ring-2 ring-orange-500/20"
-                        : "border-zinc-200 dark:border-zinc-700 bg-white dark:bg-zinc-800"
+                      ? "border-orange-500 bg-orange-50/40 dark:bg-orange-950/30 ring-2 ring-orange-500/20"
+                      : "border-zinc-200 dark:border-zinc-700 bg-white dark:bg-zinc-800"
                       }`}
                   >
                     <div>
@@ -260,6 +350,14 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ isOpen, onClose })
                   </button>
                 </div>
               </div>
+
+              {/* Error Message */}
+              {submitError && (
+                <div className="p-3.5 rounded-2xl bg-rose-50 dark:bg-rose-950/50 border border-rose-200 dark:border-rose-900 text-rose-600 dark:text-rose-400 text-xs font-bold flex items-center gap-2">
+                  <FiAlertTriangle className="w-4 h-4 shrink-0 text-rose-500" />
+                  <span>{submitError}</span>
+                </div>
+              )}
 
               {/* Summary */}
               <div className="p-4 rounded-2xl bg-zinc-50 dark:bg-zinc-800/60 border border-zinc-200/70 dark:border-zinc-700/60 space-y-2 text-xs">

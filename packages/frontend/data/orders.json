@@ -1,0 +1,58 @@
+[
+  {
+    "orderId": "ORD-947139",
+    "date": "26 septembre 2026",
+    "customer": {
+      "fullName": "Mohamed Louahchi",
+      "phone": "0775349115",
+      "wilaya": "16 - Alger",
+      "commune": "Aïn Benian",
+      "address": "Beb el oued, alger",
+      "agencyName": "Agence de Aïn Benian [Guepex]",
+      "agencyAddress": "19 Route Al-Jamilah, Division Kargon, Aïn Benian, Alger",
+      "deliveryType": "home",
+      "notes": ""
+    },
+    "items": [
+      {
+        "name": "Ensemble 3 pièces Podest",
+        "color": "Marron",
+        "size": "2 - 3 ans",
+        "quantity": 1,
+        "price": 4200,
+        "image": "https://res.cloudinary.com/dpmow9eng/image/upload/v1757537251/download_r76aqs.jpg"
+      }
+    ],
+    "subtotal": 4200,
+    "shippingFee": 500,
+    "totalPrice": 4700
+  },
+  {
+    "orderId": "ORD-223440",
+    "date": "26 septembre 2026",
+    "customer": {
+      "fullName": "Mohamed Louahchi",
+      "phone": "0775349115",
+      "wilaya": "16 - Alger",
+      "commune": "Aïn Benian",
+      "address": "Beb el oued, alger",
+      "agencyName": "Agence de Aïn Benian [Guepex]",
+      "agencyAddress": "19 Route Al-Jamilah, Division Kargon, Aïn Benian, Alger",
+      "deliveryType": "home",
+      "notes": ""
+    },
+    "items": [
+      {
+        "name": "Malek",
+        "color": "Blue",
+        "size": "4-5",
+        "quantity": 1,
+        "price": 3200,
+        "image": "https://res.cloudinary.com/dpmow9eng/image/upload/v1757448448/9315328d-7674-494c-a435-e2b46916dd7a_xoiezp.jpg"
+      }
+    ],
+    "subtotal": 3200,
+    "shippingFee": 500,
+    "totalPrice": 3700
+  }
+]

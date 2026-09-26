@@ -23,6 +23,8 @@ import {
 import emailjs from "@emailjs/browser";
 import { useCart } from "@/context/CartContext";
 import { apiClient } from "@/api/client";
+import { purchase } from "@/lib/metaPixel";
+import { checkCartStock } from "@/lib/checkStock";
 import { useTranslations } from "next-intl";
 import {
   WILAYAS,
@@ -293,6 +295,20 @@ export const CheckoutView: React.FC = () => {
     setIsSubmitting(true);
     setSubmitError(null);
 
+    // 0. Verify real-time stock availability in backend
+    try {
+      const stockResult = await checkCartStock(cartItems);
+      if (!stockResult.isValid) {
+        setIsSubmitting(false);
+        setSubmitError(
+          stockResult.errors[0] || "Certains articles de votre commande ne sont plus disponibles en quantité suffisante."
+        );
+        return;
+      }
+    } catch (stockErr) {
+      console.warn("Stock verification warning:", stockErr);
+    }
+
     const orderId = `ORD-${Math.floor(100000 + Math.random() * 900000)}`;
     const orderDate = new Date().toLocaleDateString("fr-FR", {
       day: "numeric",
@@ -407,6 +423,28 @@ Date de la commande : ${orderDate}
       sessionStorage.setItem("last_completed_order", JSON.stringify(orderSummary));
     } catch (err) {
       console.error("Failed to save order in sessionStorage", err);
+    }
+
+    // 5. Track purchase event with Meta Pixel
+    purchase({
+      orderId: orderId,
+      items: cartItems.map((item) => ({
+        id: item.product.id,
+        price: Number(item.unitPrice || item.product.sellingPrice || 0),
+        quantity: item.quantity,
+      })),
+      total: Number(totalPrice),
+    });
+
+    // 6. Write order details to frontend orders.json
+    try {
+      await fetch("/api/orders", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(orderSummary),
+      });
+    } catch (err) {
+      console.error("Failed to save order to orders.json:", err);
     }
 
     clearCart();
