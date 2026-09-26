@@ -14,7 +14,7 @@ export function createApiService<T, TCreate = Partial<T>, TUpdate = Partial<T>>(
     return {
         getAll: async (): Promise<GetAllApiResponse<T>> => {
             const { data } = await apiClient.get<GetAllApiResponse<T>>(baseUrl + "?limit=25");
-            console.log(data);
+            // console.log(data);
             if (!data.success) {
                 throw new Error(data.message);
             }

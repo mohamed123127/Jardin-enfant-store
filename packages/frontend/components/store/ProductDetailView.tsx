@@ -24,9 +24,8 @@ import {
   FiX
 } from "react-icons/fi";
 import { FaHeart, FaStar } from "react-icons/fa";
-import { FAKE_PRODUCTS, StoreProduct } from "@/data/fakeProducts";
+import { StoreProduct } from "@/data/fakeProducts";
 import { getColorHex } from "@/data/colors";
-import { ProductCard } from "@/components/store/ProductCard";
 import { SizeGuideModal } from "@/components/store/SizeGuideModal";
 import { useCart } from "@/context/CartContext";
 import { useTranslations } from "next-intl";
@@ -35,25 +34,17 @@ import { addToCart, viewContent } from "@/lib/metaPixel";
 interface ProductDetailViewProps {
   productId: string;
   backendProduct?: any | null;
+  isLoading?: boolean;
 }
 
 export const ProductDetailView: React.FC<ProductDetailViewProps> = ({
   productId,
   backendProduct,
+  isLoading,
 }) => {
   const router = useRouter();
   const { cartItems, addItem } = useCart();
   const t = useTranslations("product");
-
-  // Find fallback product from fake data or use backendProduct
-  const fallbackProduct = useMemo(() => {
-    const numId = Number(productId);
-    const found = FAKE_PRODUCTS.find((p) => p.id === numId);
-    if (found) return found;
-
-    // Default to the featured Affnane product if ID matches 13, 18, or non-numeric/custom
-    return FAKE_PRODUCTS[0]; // Affnane is first item
-  }, [productId]);
 
   // Helper to extract attribute values from specifications
   const getSpecValue = (specs: any[] | undefined, attrNames: string[]): string | null => {
@@ -146,7 +137,7 @@ export const ProductDetailView: React.FC<ProductDetailViewProps> = ({
     return { top: "42 cm", sleeves: "33 cm", pants: "54 cm" };
   };
 
-  // Merge backend data with fallback details
+  // Process backend data or provide default product structure
   const product: StoreProduct = useMemo(() => {
     if (backendProduct) {
       // Parse selling and discounted prices
@@ -204,62 +195,96 @@ export const ProductDetailView: React.FC<ProductDetailViewProps> = ({
 
       const mergedImages = backendProduct.images && backendProduct.images.length > 0
         ? backendProduct.images
-        : (backendProduct.previewImage ? [backendProduct.previewImage] : fallbackProduct.images || [fallbackProduct.previewImage]);
+        : (backendProduct.previewImage ? [backendProduct.previewImage] : ["/products/affnane-1.jpg"]);
 
       const computedQuantity = backendProduct.quantity !== undefined
         ? (typeof backendProduct.quantity === "number" ? backendProduct.quantity : Number(backendProduct.quantity))
-        : (totalQty > 0 ? totalQty : fallbackProduct.quantity);
+        : totalQty;
 
       return {
-        id: backendProduct.id,
-        name: backendProduct.name || fallbackProduct.name,
-        barcode: backendProduct.barcode || fallbackProduct.barcode,
-        sku: backendProduct.sku || fallbackProduct.sku,
-        ref: backendProduct.ref || fallbackProduct.ref,
-        description: backendProduct.description || fallbackProduct.description,
-        costPrice: backendProduct.costPrice || fallbackProduct.costPrice,
-        sellingPrice: sellingPriceNum > 0 ? sellingPriceNum : fallbackProduct.sellingPrice,
-        discountedPrice: discountedPriceNum && discountedPriceNum < sellingPriceNum ? discountedPriceNum : fallbackProduct.discountedPrice,
-        previewImage: backendProduct.previewImage || fallbackProduct.previewImage,
+        id: backendProduct.id || Number(productId) || 0,
+        name: backendProduct.name || "Produit",
+        barcode: backendProduct.barcode || "",
+        sku: backendProduct.sku || "",
+        ref: backendProduct.ref || "",
+        description: backendProduct.description || "",
+        costPrice: backendProduct.costPrice || 0,
+        sellingPrice: sellingPriceNum,
+        discountedPrice: discountedPriceNum && discountedPriceNum < sellingPriceNum ? discountedPriceNum : undefined,
+        previewImage: backendProduct.previewImage || mergedImages[0] || "/products/affnane-1.jpg",
         images: mergedImages,
-        category: fallbackProduct.category || "Ensembles",
-        ageGroup: fallbackProduct.ageGroup || "2 - 3 ans",
-        rating: fallbackProduct.rating || 4.8,
-        reviewsCount: fallbackProduct.reviewsCount || 24,
+        category: backendProduct.category?.name || backendProduct.category || "Vêtements",
+        ageGroup: backendProduct.ageGroup || "2 - 3 ans",
+        rating: 4.8,
+        reviewsCount: 24,
         quantity: computedQuantity,
-        status: "active",
-        badge: fallbackProduct.badge || "Promo",
-        features: fallbackProduct.features,
-        colors: extractedColors.length > 0 ? extractedColors : fallbackProduct.colors,
-        sizes: extractedSizes.length > 0 ? extractedSizes : fallbackProduct.sizes,
-        variants: backendProduct.variants || fallbackProduct.variants
+        status: backendProduct.status || "active",
+        badge: backendProduct.badge || "Promo",
+        features: backendProduct.features || [
+          "100% Coton premium doux et respirant",
+          "Finition soignée et coutures renforcées",
+          "Confortable au quotidien",
+        ],
+        colors: extractedColors,
+        sizes: extractedSizes,
+        variants: backendProduct.variants || []
       };
     }
-    return fallbackProduct;
-  }, [backendProduct, fallbackProduct]);
+
+    return {
+      id: Number(productId) || 0,
+      name: "Produit",
+      barcode: "",
+      sku: "",
+      ref: "",
+      description: "",
+      costPrice: 0,
+      sellingPrice: 0,
+      discountedPrice: undefined,
+      previewImage: "/products/affnane-1.jpg",
+      images: ["/products/affnane-1.jpg"],
+      category: "Vêtements",
+      ageGroup: "2 - 3 ans",
+      rating: 4.8,
+      reviewsCount: 24,
+      quantity: 0,
+      status: "active",
+      badge: "Promo",
+      features: [
+        "100% Coton premium doux et respirant",
+        "Finition soignée et coutures renforcées",
+        "Confortable au quotidien",
+      ],
+      colors: [],
+      sizes: [],
+      variants: []
+    };
+  }, [backendProduct, productId]);
 
   useEffect(() => {
+    if (isLoading) return;
+    console.log("view content");
     viewContent({
-      id: product.id,
-      name: product.name,
-      price: Number(product.sellingPrice),
+      id: product?.id,
+      name: product?.name,
+      price: Number(product?.sellingPrice),
     });
-  }, [product])
+  }, [isLoading])
 
   // Gallery State
   const images = useMemo(() => {
-    if (product.images && product.images.length > 0) {
-      return product.images;
+    if (product?.images && product?.images.length > 0) {
+      return product?.images;
     }
-    return [product.previewImage || "/products/affnane-1.jpg"];
+    return [product?.previewImage || "/products/affnane-1.jpg"];
   }, [product]);
 
   const [activeImageIndex, setActiveImageIndex] = useState(0);
 
   // Variant selections
   const availableColors = useMemo(() => {
-    if (product.colors && product.colors.length > 0) {
-      return product.colors;
+    if (product?.colors && product?.colors.length > 0) {
+      return product?.colors;
     }
     return [
       { name: "Lavande", hex: "#c4b5fd", inStock: true },
@@ -268,11 +293,11 @@ export const ProductDetailView: React.FC<ProductDetailViewProps> = ({
       { name: "Vert Sauge", hex: "#a7c4bc", inStock: true },
       { name: "Bleu Doux", hex: "#bfdbfe", inStock: true },
     ];
-  }, [product.colors]);
+  }, [product?.colors]);
 
   const availableSizes = useMemo(() => {
-    if (product.sizes && product.sizes.length > 0) {
-      return product.sizes;
+    if (product?.sizes && product?.sizes.length > 0) {
+      return product?.sizes;
     }
     return [
       { name: "1-2 ans", inStock: false },
@@ -281,7 +306,7 @@ export const ProductDetailView: React.FC<ProductDetailViewProps> = ({
       { name: "4-5 ans", inStock: true },
       { name: "5-6 ans", inStock: true },
     ];
-  }, [product.sizes]);
+  }, [product?.sizes]);
 
   const [selectedColor, setSelectedColor] = useState<string>("");
   const [selectedSize, setSelectedSize] = useState<string>("");
@@ -317,11 +342,11 @@ export const ProductDetailView: React.FC<ProductDetailViewProps> = ({
 
   // Find the exact variant corresponding to the selected color and size
   const selectedVariant = useMemo(() => {
-    if (!product.variants || !Array.isArray(product.variants) || product.variants.length === 0) {
+    if (!product?.variants || !Array.isArray(product?.variants) || product?.variants.length === 0) {
       return null;
     }
 
-    return product.variants.find((v: any) => {
+    return product?.variants.find((v: any) => {
       const colorVal = getSpecValue(v.specifications, ["color", "couleur"]);
       const sizeVal = getSpecValue(v.specifications, ["size", "taille"]);
 
@@ -330,11 +355,11 @@ export const ProductDetailView: React.FC<ProductDetailViewProps> = ({
 
       return matchesColor && matchesSize;
     }) || null;
-  }, [product.variants, selectedColor, selectedSize]);
+  }, [product?.variants, selectedColor, selectedSize]);
 
   // Current stock quantity for selected variant / product
   const currentStock = useMemo(() => {
-    if (product.variants && Array.isArray(product.variants) && product.variants.length > 0) {
+    if (product?.variants && Array.isArray(product?.variants) && product?.variants.length > 0) {
       if (selectedVariant) {
         return typeof selectedVariant.quantity === "number"
           ? selectedVariant.quantity
@@ -342,18 +367,18 @@ export const ProductDetailView: React.FC<ProductDetailViewProps> = ({
       }
       return 0;
     }
-    return typeof product.quantity === "number" ? product.quantity : Number(product.quantity || 0);
-  }, [product.variants, selectedVariant, product.quantity]);
+    return typeof product?.quantity === "number" ? product?.quantity : Number(product?.quantity || 0);
+  }, [product?.variants, selectedVariant, product?.quantity]);
 
   // Quantity of this variant already in the cart
   const existingCartItem = useMemo(() => {
     return cartItems.find((ci) => {
-      const isProdMatch = ci.productId === product.id;
+      const isProdMatch = ci.productId === product?.id;
       const isColMatch = !selectedColor || isColorMatch(ci.selectedColor, selectedColor);
       const isSzMatch = !selectedSize || isSizeMatch(ci.selectedSize, selectedSize);
       return isProdMatch && isColMatch && isSzMatch;
     });
-  }, [cartItems, product.id, selectedColor, selectedSize]);
+  }, [cartItems, product?.id, selectedColor, selectedSize]);
 
   const quantityInCart = existingCartItem ? existingCartItem.quantity : 0;
   const remainingStock = Math.max(0, currentStock - quantityInCart);
@@ -362,15 +387,15 @@ export const ProductDetailView: React.FC<ProductDetailViewProps> = ({
   // Handle color selection change with smart size fallback
   const handleSelectColor = (colorName: string) => {
     setSelectedColor(colorName);
-    if (product.variants && product.variants.length > 0) {
-      const currentSizeVariant = product.variants.find((v: any) => {
+    if (product?.variants && product?.variants.length > 0) {
+      const currentSizeVariant = product?.variants.find((v: any) => {
         const cVal = getSpecValue(v.specifications, ["color", "couleur"]);
         const sVal = getSpecValue(v.specifications, ["size", "taille"]);
         return isColorMatch(cVal, colorName) && isSizeMatch(sVal, selectedSize);
       });
 
       if (!currentSizeVariant || (currentSizeVariant.quantity ?? 0) <= 0) {
-        const firstInStockVariant = product.variants.find((v: any) => {
+        const firstInStockVariant = product?.variants.find((v: any) => {
           const cVal = getSpecValue(v.specifications, ["color", "couleur"]);
           return isColorMatch(cVal, colorName) && (v.quantity ?? 0) > 0;
         });
@@ -424,8 +449,8 @@ export const ProductDetailView: React.FC<ProductDetailViewProps> = ({
   };
 
   // Price calculations
-  const sellingPrice = Number(product.sellingPrice) || 4900;
-  const discountedPrice = product.discountedPrice ? Number(product.discountedPrice) : 3200;
+  const sellingPrice = Number(product?.sellingPrice) || 4900;
+  const discountedPrice = product?.discountedPrice ? Number(product?.discountedPrice) : 3200;
   const discountPercent = Math.round(((sellingPrice - discountedPrice) / sellingPrice) * 100);
 
   const currentPrice = discountedPrice || sellingPrice;
@@ -444,13 +469,13 @@ export const ProductDetailView: React.FC<ProductDetailViewProps> = ({
   const handleAddToCart = () => {
     if (remainingStock <= 0) return;
     const qtyToAdd = Math.min(quantity, remainingStock);
-    addItem(product, qtyToAdd, selectedColor, selectedSize);
+    addItem(product, qtyToAdd, selectedColor, selectedSize, selectedVariant?.id);
     setIsAdded(true);
-    showToast(`"${product.name}" (${qtyToAdd}x, ${selectedSize}, ${selectedColor}) ajouté au panier !`);
+    showToast(`"${product?.name}" (${qtyToAdd}x, ${selectedSize}, ${selectedColor}) ajouté au panier !`);
     addToCart({
-      id: product.id,
-      name: product.name,
-      price: Number(product.sellingPrice),
+      id: product?.id,
+      name: product?.name,
+      price: Number(product?.sellingPrice),
       quantity: quantity,
     });
     setTimeout(() => {
@@ -461,7 +486,7 @@ export const ProductDetailView: React.FC<ProductDetailViewProps> = ({
   const handleBuyNow = () => {
     if (remainingStock <= 0) return;
     const qtyToAdd = Math.min(quantity, remainingStock);
-    addItem(product, qtyToAdd, selectedColor, selectedSize);
+    addItem(product, qtyToAdd, selectedColor, selectedSize, selectedVariant?.id);
     setTimeout(() => {
       router.push("/cart");
     }, 300);
@@ -470,7 +495,7 @@ export const ProductDetailView: React.FC<ProductDetailViewProps> = ({
   const handleToggleWishlist = () => {
     const nextState = !isWishlisted;
     setIsWishlisted(nextState);
-    showToast(nextState ? `"${product.name}" ajouté à vos favoris ❤️` : `"${product.name}" retiré de vos favoris`);
+    showToast(nextState ? `"${product?.name}" ajouté à vos favoris ❤️` : `"${product?.name}" retiré de vos favoris`);
   };
 
   const showToast = (message: string) => {
@@ -480,10 +505,13 @@ export const ProductDetailView: React.FC<ProductDetailViewProps> = ({
     }, 3200);
   };
 
-  // Related products
-  const relatedProducts = useMemo(() => {
-    return FAKE_PRODUCTS.filter((p) => p.id !== product.id).slice(0, 4);
-  }, [product.id]);
+  if (isLoading) {
+    return (
+      <div className="min-h-[70vh] flex items-center justify-center">
+        <div className="animate-spin rounded-full h-12 w-12 border-4 border-zinc-200 dark:border-zinc-800 border-t-orange-500"></div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-[#fafafa] dark:bg-zinc-950 font-sans text-zinc-900 dark:text-zinc-100 selection:bg-orange-500 selection:text-white">
@@ -512,7 +540,7 @@ export const ProductDetailView: React.FC<ProductDetailViewProps> = ({
                   >
                     <Image
                       src={img}
-                      alt={`${product.name} miniature ${idx + 1}`}
+                      alt={`${product?.name} miniature ${idx + 1}`}
                       fill
                       sizes="88px"
                       className="object-cover"
@@ -526,7 +554,7 @@ export const ProductDetailView: React.FC<ProductDetailViewProps> = ({
             <div className="relative w-full aspect-square sm:aspect-[4/4] lg:aspect-[4/4] rounded-3xl overflow-hidden bg-white dark:bg-zinc-900 border border-zinc-100 dark:border-zinc-800 shadow-sm flex items-center justify-center">
               <Image
                 src={images[activeImageIndex] || images[0]}
-                alt={product.name}
+                alt={product?.name ? product.name : "Product image"}
                 fill
                 priority
                 sizes="(max-width: 1024px) 100vw, 55vw"
@@ -590,7 +618,7 @@ export const ProductDetailView: React.FC<ProductDetailViewProps> = ({
                 JARDIN D'ENFANTS
               </span>
               <h1 className="text-2xl sm:text-3xl lg:text-4xl font-black text-zinc-900 dark:text-white mt-1 leading-tight tracking-tight">
-                {product.name}
+                {product?.name}
               </h1>
             </div>
 
@@ -684,7 +712,7 @@ export const ProductDetailView: React.FC<ProductDetailViewProps> = ({
                   const isSelected = isSizeMatch(selectedSize, sz.name) || (sz.rawName && isSizeMatch(selectedSize, sz.rawName));
 
                   // Find stock for this size in currently selected color
-                  const matchedV = product.variants?.find((v: any) => {
+                  const matchedV = product?.variants?.find((v: any) => {
                     const cVal = getSpecValue(v.specifications, ["color", "couleur"]);
                     const sVal = getSpecValue(v.specifications, ["size", "taille"]);
                     return (!selectedColor || !cVal || isColorMatch(cVal, selectedColor)) &&
@@ -697,7 +725,7 @@ export const ProductDetailView: React.FC<ProductDetailViewProps> = ({
 
                   // Calculate how many of this specific size & color variant are already in cart
                   const szCartItem = cartItems.find((ci) => {
-                    const isProdMatch = ci.productId === product.id;
+                    const isProdMatch = ci.productId === product?.id;
                     const isColMatch = !selectedColor || isColorMatch(ci.selectedColor, selectedColor);
                     const isSzMatch = isSizeMatch(ci.selectedSize, sz.name) || (sz.rawName && isSizeMatch(ci.selectedSize, sz.rawName));
                     return isProdMatch && isColMatch && isSzMatch;
@@ -736,7 +764,7 @@ export const ProductDetailView: React.FC<ProductDetailViewProps> = ({
 
               {/* Transparent measurements box with Guide des tailles in top right & larger font size */}
               {/* {selectedSize && (() => {
-                const m = getMeasurementsForSize(selectedSize, product.variants);
+                const m = getMeasurementsForSize(selectedSize, product?.variants);
                 if (!m) return null;
                 return (
                   <div className="mt-3.5 p-3.5 sm:p-4 rounded-2xl bg-transparent border border-zinc-200 dark:border-zinc-800/80">

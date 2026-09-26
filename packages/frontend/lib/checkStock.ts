@@ -23,93 +23,95 @@ export interface CheckStockResult {
 
 /**
  * Checks real-time stock availability in the backend for all cart items.
+ * Loops through cart items and fetches /ProductVariants/:variantId to check if quantity is sufficient.
  */
-export async function checkCartStock(cartItems: CartItem[]): Promise<CheckStockResult> {
+export async function checkStock(cartItems: CartItem[]): Promise<CheckStockResult> {
   if (!cartItems || cartItems.length === 0) {
-    return {
-      isValid: true,
-      itemStatuses: {},
-      unavailableItems: [],
-      errors: [],
-    };
+    return { isValid: true, itemStatuses: {}, unavailableItems: [], errors: [] };
   }
-
-  // Group items by unique productId to minimize backend requests
-  const uniqueProductIds = Array.from(
-    new Set(cartItems.map((item) => Number(item.productId || item.product.id)))
-  );
-
-  const productDataMap = new Map<number, any>();
-
-  await Promise.all(
-    uniqueProductIds.map(async (pId) => {
-      try {
-        const response = await apiClient.get(`/products/${pId}`);
-        if (response.data) {
-          productDataMap.set(pId, response.data);
-        }
-      } catch (error) {
-        console.warn(`[checkStock] Unable to fetch real-time backend product for ID ${pId}:`, error);
-      }
-    })
-  );
 
   const itemStatuses: Record<string, StockItemStatus> = {};
   const unavailableItems: StockItemStatus[] = [];
   const errors: string[] = [];
 
   for (const item of cartItems) {
-    const pId = Number(item.productId || item.product.id);
-    const backendProduct = productDataMap.get(pId) || item.product;
-
+    const pId = Number(item.productId || item.product?.id);
     let availableStock = 0;
-    let foundVariantId: number | undefined = undefined;
+    let foundVariantId: number | undefined = item.variantId;
 
-    if (backendProduct?.variants && Array.isArray(backendProduct.variants) && backendProduct.variants.length > 0) {
-      // Find matching variant based on color and size
-      const variant = backendProduct.variants.find((v: any) => {
-        const specs = v.specifications || [];
-        const cVal = specs.find((s: any) =>
-          ["color", "couleur"].includes(
-            (typeof s.attribute === "string" ? s.attribute : s.attribute?.name || "").toLowerCase()
-          )
-        )?.value;
-        const sVal = specs.find((s: any) =>
-          ["size", "taille"].includes(
-            (typeof s.attribute === "string" ? s.attribute : s.attribute?.name || "").toLowerCase()
-          )
-        )?.value;
-
-        const matchesColor = !item.selectedColor || !cVal || cVal.trim().toLowerCase() === item.selectedColor.trim().toLowerCase();
-        const matchesSize = !item.selectedSize || !sVal || sVal.trim().toLowerCase() === item.selectedSize.trim().toLowerCase();
-        return matchesColor && matchesSize;
-      }) || backendProduct.variants[0];
-
-      if (variant) {
-        foundVariantId = variant.id;
-        availableStock = typeof variant.quantity === "number" ? variant.quantity : Number(variant.quantity || 0);
-      } else {
-        availableStock = typeof backendProduct.quantity === "number" ? backendProduct.quantity : Number(backendProduct.quantity || 0);
+    if (item.variantId) {
+      try {
+        const response = await apiClient.get(`/ProductVariants/${item.variantId}`);
+        const variantData = response.data?.data ?? response.data;
+        if (variantData) {
+          availableStock =
+            typeof variantData.quantity === "number"
+              ? variantData.quantity
+              : Number(variantData.quantity || 0);
+          console.log(
+            `[checkStock] Fetched /ProductVariants/${item.variantId}: availableStock = ${availableStock}`
+          );
+        }
+      } catch (error) {
+        console.warn(`[checkStock] Failed to fetch /ProductVariants/${item.variantId}:`, error);
+        // Fallback: try fetching product
+        try {
+          const prodResponse = await apiClient.get(`/products/${pId}`);
+          const prodData = prodResponse.data?.data ?? prodResponse.data;
+          const matchedVariant = prodData?.variants?.find(
+            (v: any) => Number(v.id) === Number(item.variantId)
+          );
+          if (matchedVariant) {
+            availableStock =
+              typeof matchedVariant.quantity === "number"
+                ? matchedVariant.quantity
+                : Number(matchedVariant.quantity || 0);
+          } else if (typeof prodData?.quantity === "number") {
+            availableStock = prodData.quantity;
+          }
+        } catch (e) {
+          console.warn(`[checkStock] Fallback product fetch failed for ${pId}:`, e);
+        }
       }
     } else {
-      availableStock = typeof backendProduct?.quantity === "number" ? backendProduct.quantity : Number(backendProduct?.quantity || 0);
+      // Fallback if no variantId in item: fetch /products/:pId
+      try {
+        const response = await apiClient.get(`/products/${pId}`);
+        const productData = response.data?.data ?? response.data;
+        if (productData) {
+          if (Array.isArray(productData.variants) && productData.variants.length > 0) {
+            const matched = productData.variants[0];
+            foundVariantId = matched?.id;
+            availableStock =
+              typeof matched?.quantity === "number"
+                ? matched.quantity
+                : Number(matched?.quantity || 0);
+          } else {
+            availableStock =
+              typeof productData.quantity === "number"
+                ? productData.quantity
+                : Number(productData.quantity || 0);
+          }
+        }
+      } catch (error) {
+        console.warn(`[checkStock] Failed to fetch /products/${pId}:`, error);
+      }
     }
 
-    const isAvailable = availableStock >= item.quantity && availableStock > 0;
-    let errorMsg: string | undefined = undefined;
-
-    const variantDetails = [item.selectedColor, item.selectedSize].filter(Boolean).join(" - ");
+    const isAvailable = availableStock > 0 && availableStock >= item.quantity;
+    let errorMsg: string | undefined;
+    const variantLabel = [item.selectedColor, item.selectedSize].filter(Boolean).join(" - ");
 
     if (availableStock <= 0) {
-      errorMsg = `L'article "${item.product.name}"${variantDetails ? ` (${variantDetails})` : ""} est en rupture de stock.`;
+      errorMsg = `"${item.product?.name || "Produit"}"${variantLabel ? ` (${variantLabel})` : ""} est en rupture de stock.`;
     } else if (item.quantity > availableStock) {
-      errorMsg = `Quantité insuffisante pour "${item.product.name}"${variantDetails ? ` (${variantDetails})` : ""}. Seulement ${availableStock} pièce(s) disponible(s) (demandé: ${item.quantity}).`;
+      errorMsg = `Quantité insuffisante pour "${item.product?.name || "Produit"}"${variantLabel ? ` (${variantLabel})` : ""}. Seulement ${availableStock} disponible(s) (demandé: ${item.quantity}).`;
     }
 
     const status: StockItemStatus = {
       itemId: item.id,
       productId: pId,
-      productName: item.product.name,
+      productName: item.product?.name || "Produit",
       variantId: foundVariantId,
       selectedColor: item.selectedColor,
       selectedSize: item.selectedSize,
@@ -134,3 +136,5 @@ export async function checkCartStock(cartItems: CartItem[]): Promise<CheckStockR
     errors,
   };
 }
+
+export const checkCartStock = checkStock;

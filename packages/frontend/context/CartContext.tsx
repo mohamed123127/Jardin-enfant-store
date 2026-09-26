@@ -6,6 +6,7 @@ import { StoreProduct } from "@/data/fakeProducts";
 export interface CartItem {
   id: string; // unique ID: `${productId}-${color}-${size}`
   productId: number;
+  variantId?: number; // backend product_variant id
   product: StoreProduct;
   selectedColor: string;
   selectedSize: string;
@@ -17,7 +18,7 @@ export interface CartItem {
 
 interface CartContextType {
   cartItems: CartItem[];
-  addItem: (product: StoreProduct, quantity?: number, color?: string, size?: string) => void;
+  addItem: (product: StoreProduct, quantity?: number, color?: string, size?: string, variantId?: number) => void;
   removeItem: (id: string) => void;
   updateQuantity: (id: string, quantity: number) => void;
   clearCart: () => void;
@@ -67,7 +68,8 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
     product: StoreProduct,
     quantity: number = 1,
     color?: string,
-    size?: string
+    size?: string,
+    variantId?: number
   ) => {
     const colorVal = color || (product.colors && product.colors[0]?.name) || "Lavande";
     const sizeVal = size || (product.sizes && product.sizes[0]?.name) || "2-3 ans";
@@ -96,6 +98,7 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
       const newItem: CartItem = {
         id: itemId,
         productId: product.id,
+        variantId,
         product,
         selectedColor: colorVal,
         selectedSize: sizeVal,

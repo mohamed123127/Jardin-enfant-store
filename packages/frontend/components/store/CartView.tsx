@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect, useCallback } from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
@@ -18,7 +18,7 @@ import {
 import { useCart } from "@/context/CartContext";
 import { FAKE_PRODUCTS } from "@/data/fakeProducts";
 import { useTranslations } from "next-intl";
-import { checkCartStock, StockItemStatus } from "@/lib/checkStock";
+import { checkStock, StockItemStatus } from "@/lib/checkStock";
 
 export const CartView: React.FC = () => {
   const t = useTranslations("cart");
@@ -36,7 +36,6 @@ export const CartView: React.FC = () => {
 
   const [toast, setToast] = useState<{ message: string; type: "success" | "error" } | null>(null);
   const [isCheckingStock, setIsCheckingStock] = useState(false);
-  const [stockStatuses, setStockStatuses] = useState<Record<string, StockItemStatus>>({});
   const [stockErrors, setStockErrors] = useState<StockItemStatus[]>([]);
 
   const showToast = (message: string, type: "success" | "error" = "success") => {
@@ -44,45 +43,24 @@ export const CartView: React.FC = () => {
     setTimeout(() => setToast(null), 4000);
   };
 
-  // Check stock on load or when cart items change
-  const verifyStock = useCallback(async () => {
-    if (cartItems.length === 0) {
-      setStockStatuses({});
-      setStockErrors([]);
-      return;
-    }
-    try {
-      const result = await checkCartStock(cartItems);
-      setStockStatuses(result.itemStatuses);
-      setStockErrors(result.unavailableItems);
-    } catch (err) {
-      console.warn("Stock verification error:", err);
-    }
-  }, [cartItems]);
-
-  useEffect(() => {
-    verifyStock();
-  }, [verifyStock]);
-
   // Handle Checkout Click
   const handleProceedToCheckout = async (e: React.MouseEvent) => {
+    // console.log(cartItems)
+
     e.preventDefault();
     if (cartItems.length === 0) return;
-
     setIsCheckingStock(true);
     try {
-      const result = await checkCartStock(cartItems);
-      setStockStatuses(result.itemStatuses);
+      const result = await checkStock(cartItems);
       setStockErrors(result.unavailableItems);
 
       if (!result.isValid) {
         setIsCheckingStock(false);
-        const firstError = result.errors[0] || "Certains articles de votre panier ne sont plus disponibles.";
-        showToast(firstError, "error");
+        showToast(result.errors[0] || "Certains articles de votre panier ne sont plus disponibles.", "error");
         return;
       }
 
-      // If all valid, navigate to checkout
+      // All stock valid — navigate to checkout
       router.push("/checkout");
     } catch (err) {
       console.error("Error during checkout stock check:", err);
@@ -116,11 +94,10 @@ export const CartView: React.FC = () => {
       {/* Toast Notification */}
       {toast && (
         <div
-          className={`fixed bottom-6 right-6 z-50 px-5 py-3.5 rounded-2xl shadow-2xl flex items-center gap-3 text-xs sm:text-sm font-bold animate-in slide-in-from-bottom-3 duration-200 ${
-            toast.type === "error"
-              ? "bg-rose-600 text-white border border-rose-500 shadow-rose-500/20"
-              : "bg-zinc-900 text-white border border-zinc-800"
-          }`}
+          className={`fixed bottom-6 right-6 z-50 px-5 py-3.5 rounded-2xl shadow-2xl flex items-center gap-3 text-xs sm:text-sm font-bold animate-in slide-in-from-bottom-3 duration-200 ${toast.type === "error"
+            ? "bg-rose-600 text-white border border-rose-500 shadow-rose-500/20"
+            : "bg-zinc-900 text-white border border-zinc-800"
+            }`}
         >
           {toast.type === "error" ? (
             <FiAlertTriangle className="w-5 h-5 text-amber-300 shrink-0" />
@@ -243,31 +220,21 @@ export const CartView: React.FC = () => {
                             {"  "}|{"  "}
                             {t("size")} <span className="text-zinc-600 dark:text-zinc-300">{item.selectedSize}</span>
                           </p>
-                          
-                          {/* Real-time Backend Stock Status */}
-                          {stockStatuses[item.id] ? (
-                            stockStatuses[item.id].availableStock <= 0 ? (
-                              <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-rose-50 dark:bg-rose-950/60 text-rose-600 dark:text-rose-400 text-xs font-extrabold border border-rose-200/60 dark:border-rose-900/50 animate-pulse">
+
+                          {/* Stock error shown only after checkout button is clicked */}
+                          {stockErrors.find(e => e.itemId === item.id) ? (
+                            stockErrors.find(e => e.itemId === item.id)!.availableStock <= 0 ? (
+                              <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-rose-50 dark:bg-rose-950/60 text-rose-600 dark:text-rose-400 text-xs font-extrabold border border-rose-200/60 dark:border-rose-900/50">
                                 <FiAlertCircle className="w-3.5 h-3.5 shrink-0" />
                                 <span>Rupture de stock</span>
                               </div>
-                            ) : item.quantity > stockStatuses[item.id].availableStock ? (
+                            ) : (
                               <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-amber-50 dark:bg-amber-950/60 text-amber-700 dark:text-amber-400 text-xs font-bold border border-amber-200/60 dark:border-amber-900/50">
                                 <FiAlertTriangle className="w-3.5 h-3.5 shrink-0" />
-                                <span>Seulement {stockStatuses[item.id].availableStock} en stock (demandé: {item.quantity})</span>
-                              </div>
-                            ) : (
-                              <div className="inline-flex items-center gap-1 text-emerald-600 dark:text-emerald-400 text-xs font-bold">
-                                <FiCheckCircle className="w-3.5 h-3.5 text-emerald-500 stroke-[2.5]" />
-                                <span>{t("inStock")} ({stockStatuses[item.id].availableStock} disponibles)</span>
+                                <span>Seulement {stockErrors.find(e => e.itemId === item.id)!.availableStock} disponibles</span>
                               </div>
                             )
-                          ) : (
-                            <div className="inline-flex items-center gap-1 text-emerald-600 dark:text-emerald-400 text-xs font-bold">
-                              <FiCheckCircle className="w-3.5 h-3.5 text-emerald-500 stroke-[2.5]" />
-                              <span>{t("inStock")}</span>
-                            </div>
-                          )}
+                          ) : null}
                         </div>
                       </div>
 
@@ -283,20 +250,11 @@ export const CartView: React.FC = () => {
                           >
                             −
                           </button>
-                          <span className={`w-8 text-center font-bold text-sm ${
-                            stockStatuses[item.id] && (stockStatuses[item.id].availableStock <= 0 || item.quantity > stockStatuses[item.id].availableStock)
-                              ? "text-rose-600 font-black"
-                              : "text-zinc-900 dark:text-white"
-                          }`}>
+                          <span className="w-8 text-center font-bold text-sm text-zinc-900 dark:text-white">
                             {item.quantity}
                           </span>
                           <button
                             onClick={() => {
-                              const maxStock = stockStatuses[item.id]?.availableStock;
-                              if (maxStock !== undefined && item.quantity >= maxStock) {
-                                showToast(`Stock maximum disponible atteint (${maxStock} pièces).`, "error");
-                                return;
-                              }
                               updateQuantity(item.id, item.quantity + 1);
                             }}
                             aria-label={t("increase")}

@@ -14,6 +14,7 @@ export default function ProductDetailWrapper({ productId }: ProductDetailWrapper
     <ProductDetailView
       productId={productId}
       backendProduct={backendProduct}
+      isLoading={isLoading}
     />
   );
 }

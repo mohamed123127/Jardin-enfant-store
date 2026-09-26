@@ -29,7 +29,7 @@ export const Header: React.FC<StoreHeaderProps> = ({ wishlistCount = 0 }) => {
 
   const NAV_LINKS = [
     { name: tNav("boutique"), href: "/store", icon: FiGrid },
-    { name: "Ajouter Produit", href: "/addProduct", icon: FiPlusCircle },
+    // { name: "Ajouter Produit", href: "/addProduct", icon: FiPlusCircle },
   ];
 
   return (
