@@ -25,7 +25,8 @@ import { useCart } from "@/context/CartContext";
 import { apiClient } from "@/api/client";
 import { purchase } from "@/lib/metaPixel";
 import { checkCartStock } from "@/lib/checkStock";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
+import { getColorLabel } from "@/data/colors";
 import {
   WILAYAS,
   getCommunesForWilaya,
@@ -98,6 +99,7 @@ function validateCheckoutForm(data: FormData, t: any): FormErrors {
 
 export const CheckoutView: React.FC = () => {
   const t = useTranslations("checkout");
+  const locale = useLocale();
   const router = useRouter();
   const { cartItems, cartCount, subtotal, clearCart } = useCart();
 
@@ -841,7 +843,7 @@ Date de la commande : ${orderDate}
                         {item.product.name}
                       </h4>
                       <p className="text-[11px] text-zinc-400">
-                        {item.selectedColor} | {item.selectedSize}
+                        {getColorLabel(item.selectedColor, locale)} | {item.selectedSize}
                       </p>
                       <div className="text-xs font-semibold text-zinc-500">
                         {t("qty")} <span className="font-bold text-zinc-900 dark:text-white">{item.quantity}</span>

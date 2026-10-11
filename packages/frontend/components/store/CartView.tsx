@@ -17,11 +17,13 @@ import {
 } from "react-icons/fi";
 import { useCart } from "@/context/CartContext";
 import { FAKE_PRODUCTS } from "@/data/fakeProducts";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
+import { getColorLabel } from "@/data/colors";
 import { checkStock, StockItemStatus } from "@/lib/checkStock";
 
 export const CartView: React.FC = () => {
   const t = useTranslations("cart");
+  const locale = useLocale();
   const router = useRouter();
   const {
     cartItems,
@@ -216,7 +218,7 @@ export const CartView: React.FC = () => {
                             {item.product.name}
                           </h3>
                           <p className="text-xs font-semibold text-zinc-400 dark:text-zinc-500">
-                            {t("color")} <span className="text-zinc-600 dark:text-zinc-300">{item.selectedColor}</span>
+                            {t("color")} <span className="text-zinc-600 dark:text-zinc-300">{getColorLabel(item.selectedColor, locale)}</span>
                             {"  "}|{"  "}
                             {t("size")} <span className="text-zinc-600 dark:text-zinc-300">{item.selectedSize}</span>
                           </p>

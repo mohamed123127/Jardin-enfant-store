@@ -35,7 +35,7 @@ export const Header: React.FC<StoreHeaderProps> = ({ wishlistCount = 0 }) => {
   return (
     <header className="sticky top-0 z-40 bg-white/95 dark:bg-zinc-900/95 backdrop-blur-md border-b border-zinc-100 dark:border-zinc-800 shadow-sm transition-colors duration-200">
       {/* Top Announcement Bar */}
-      <div className="bg-gradient-to-r from-amber-500 via-orange-500 to-rose-500 text-white text-xs py-2 px-4 text-center font-medium">
+      {/* <div className="bg-gradient-to-r from-amber-500 via-orange-500 to-rose-500 text-white text-xs py-2 px-4 text-center font-medium">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="hidden sm:flex items-center gap-4 text-[11px]">
             <span className="flex items-center gap-1">
@@ -46,7 +46,7 @@ export const Header: React.FC<StoreHeaderProps> = ({ wishlistCount = 0 }) => {
             <FiPhone className="w-3 h-3" /> {t("phone")}
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Main Navigation Bar */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 relative flex items-center justify-between">

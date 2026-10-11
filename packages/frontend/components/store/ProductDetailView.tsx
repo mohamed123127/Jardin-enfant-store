@@ -25,10 +25,11 @@ import {
 } from "react-icons/fi";
 import { FaHeart, FaStar } from "react-icons/fa";
 import { StoreProduct } from "@/data/fakeProducts";
-import { getColorHex } from "@/data/colors";
+import { COLOR_DICTIONARY, getColorHex, getColorLabel } from "@/data/colors";
+
 import { SizeGuideModal } from "@/components/store/SizeGuideModal";
 import { useCart } from "@/context/CartContext";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { addToCart, viewContent } from "@/lib/metaPixel";
 
 interface ProductDetailViewProps {
@@ -45,6 +46,7 @@ export const ProductDetailView: React.FC<ProductDetailViewProps> = ({
   const router = useRouter();
   const { cartItems, addItem } = useCart();
   const t = useTranslations("product");
+  const locale = useLocale();
 
   // Helper to extract attribute values from specifications
   const getSpecValue = (specs: any[] | undefined, attrNames: string[]): string | null => {
@@ -286,26 +288,14 @@ export const ProductDetailView: React.FC<ProductDetailViewProps> = ({
     if (product?.colors && product?.colors.length > 0) {
       return product?.colors;
     }
-    return [
-      { name: "Lavande", hex: "#c4b5fd", inStock: true },
-      { name: "Rose Poudré", hex: "#fbcfe8", inStock: true },
-      { name: "Beige Crème", hex: "#f5ebe0", inStock: true },
-      { name: "Vert Sauge", hex: "#a7c4bc", inStock: true },
-      { name: "Bleu Doux", hex: "#bfdbfe", inStock: true },
-    ];
+    return [];
   }, [product?.colors]);
 
   const availableSizes = useMemo(() => {
     if (product?.sizes && product?.sizes.length > 0) {
       return product?.sizes;
     }
-    return [
-      { name: "1-2 ans", inStock: false },
-      { name: "2-3 ans", inStock: true },
-      { name: "3-4 ans", inStock: false },
-      { name: "4-5 ans", inStock: true },
-      { name: "5-6 ans", inStock: true },
-    ];
+    return [];
   }, [product?.sizes]);
 
   const [selectedColor, setSelectedColor] = useState<string>("");
@@ -386,6 +376,7 @@ export const ProductDetailView: React.FC<ProductDetailViewProps> = ({
 
   // Handle color selection change with smart size fallback
   const handleSelectColor = (colorName: string) => {
+    console.log(colorName);
     setSelectedColor(colorName);
     if (product?.variants && product?.variants.length > 0) {
       const currentSizeVariant = product?.variants.find((v: any) => {
@@ -467,20 +458,21 @@ export const ProductDetailView: React.FC<ProductDetailViewProps> = ({
 
   // Cart operations
   const handleAddToCart = () => {
-    if (remainingStock <= 0) return;
-    const qtyToAdd = Math.min(quantity, remainingStock);
-    addItem(product, qtyToAdd, selectedColor, selectedSize, selectedVariant?.id);
-    setIsAdded(true);
-    showToast(`"${product?.name}" (${qtyToAdd}x, ${selectedSize}, ${selectedColor}) ajouté au panier !`);
-    addToCart({
-      id: product?.id,
-      name: product?.name,
-      price: Number(product?.sellingPrice),
-      quantity: quantity,
-    });
-    setTimeout(() => {
-      setIsAdded(false);
-    }, 2000);
+    console.log(selectedColor);
+    // if (remainingStock <= 0) return;
+    // const qtyToAdd = Math.min(quantity, remainingStock);
+    // addItem(product, qtyToAdd, selectedColor, selectedSize, selectedVariant?.id);
+    // setIsAdded(true);
+    // showToast(`"${product?.name}" (${qtyToAdd}x, ${selectedSize}, ${selectedColor}) ajouté au panier !`);
+    // addToCart({
+    //   id: product?.id,
+    //   name: product?.name,
+    //   price: Number(product?.sellingPrice),
+    //   quantity: quantity,
+    // });
+    // setTimeout(() => {
+    //   setIsAdded(false);
+    // }, 2000);
   };
 
   const handleBuyNow = () => {
@@ -675,25 +667,29 @@ export const ProductDetailView: React.FC<ProductDetailViewProps> = ({
             <div className="pt-2 border-t border-zinc-100 dark:border-zinc-800">
               <div className="flex items-center justify-between mb-2.5">
                 <span className="text-xs sm:text-sm font-bold text-zinc-900 dark:text-white">
-                  Couleur : <span className="font-normal text-zinc-600 dark:text-zinc-400">{selectedColor}</span>
+                  {t("color")} <span className="font-normal text-zinc-600 dark:text-zinc-400">{getColorLabel(selectedColor, locale)}</span>
                 </span>
               </div>
 
-              <div className="flex items-center gap-3">
+              <div className="flex flex-wrap items-center gap-2 sm:gap-2.5">
                 {availableColors.map((col) => {
                   const isSelected = isColorMatch(selectedColor, col.name) || (col.rawName && isColorMatch(selectedColor, col.rawName));
+                  const translatedName = getColorLabel(col.name, locale);
                   return (
                     <button
                       key={col.name}
                       onClick={() => handleSelectColor(col.name)}
-                      aria-label={`Sélectionner la couleur ${col.name}`}
-                      title={`${col.name}${col.inStock ? "" : " (Épuisé)"}`}
-                      className={`relative w-8 h-8 sm:w-9 sm:h-9 rounded-full transition-all duration-150 cursor-pointer ${isSelected
-                        ? "ring-2 ring-offset-2 ring-orange-500 scale-110 shadow-sm"
-                        : "border border-zinc-300 dark:border-zinc-700 hover:scale-105"
+                      aria-label={`${t("color")} ${translatedName}`}
+                      title={`${translatedName}${col.inStock ? "" : ` (${t("outOfStock")})`}`}
+                      className={`relative py-2 px-3.5 sm:px-4 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${isSelected
+                        ? "border-2 border-orange-500 text-orange-500 bg-orange-50/50 dark:bg-orange-950/30 shadow-sm"
+                        : col.inStock
+                          ? "border border-zinc-200 dark:border-zinc-700 bg-white dark:bg-zinc-800 text-zinc-700 dark:text-zinc-200 hover:border-zinc-300 dark:hover:border-zinc-600"
+                          : "border border-dashed border-rose-300 dark:border-rose-900/60 bg-rose-50/40 dark:bg-rose-950/30 text-zinc-400 dark:text-zinc-500 hover:border-rose-400 opacity-75"
                         }`}
-                      style={{ backgroundColor: col.hex }}
-                    />
+                    >
+                      <span>{translatedName}</span>
+                    </button>
                   );
                 })}
               </div>
