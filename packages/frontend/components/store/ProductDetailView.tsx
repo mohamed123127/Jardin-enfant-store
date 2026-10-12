@@ -458,21 +458,21 @@ export const ProductDetailView: React.FC<ProductDetailViewProps> = ({
 
   // Cart operations
   const handleAddToCart = () => {
-    console.log(selectedColor);
-    // if (remainingStock <= 0) return;
-    // const qtyToAdd = Math.min(quantity, remainingStock);
-    // addItem(product, qtyToAdd, selectedColor, selectedSize, selectedVariant?.id);
-    // setIsAdded(true);
-    // showToast(`"${product?.name}" (${qtyToAdd}x, ${selectedSize}, ${selectedColor}) ajouté au panier !`);
-    // addToCart({
-    //   id: product?.id,
-    //   name: product?.name,
-    //   price: Number(product?.sellingPrice),
-    //   quantity: quantity,
-    // });
-    // setTimeout(() => {
-    //   setIsAdded(false);
-    // }, 2000);
+    // console.log(selectedColor);
+    if (remainingStock <= 0) return;
+    const qtyToAdd = Math.min(quantity, remainingStock);
+    addItem(product, qtyToAdd, selectedColor, selectedSize, selectedVariant?.id);
+    setIsAdded(true);
+    showToast(`"${product?.name}" (${qtyToAdd}x, ${selectedSize}, ${selectedColor}) ajouté au panier !`);
+    addToCart({
+      id: product?.id,
+      name: product?.name,
+      price: Number(product?.sellingPrice),
+      quantity: quantity,
+    });
+    setTimeout(() => {
+      setIsAdded(false);
+    }, 2000);
   };
 
   const handleBuyNow = () => {
