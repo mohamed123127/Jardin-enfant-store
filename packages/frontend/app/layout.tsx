@@ -22,6 +22,23 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Jardin d'Enfants — Boutique",
   description: "Découvrez notre collection d'équipements, jouets et vêtements pour enfants.",
+  icons: {
+    icon: [
+      {
+        url: "/favicon-32x32.png",
+        sizes: "32x32",
+        type: "image/png",
+      },
+      {
+        url: "/favicon-16x16.png",
+        sizes: "16x16",
+        type: "image/png",
+      },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
+
+  manifest: "/site.webmanifest",
 };
 
 export default async function RootLayout({ children }: LayoutProps<"/">) {
@@ -39,7 +56,6 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
       <head>
         <meta name="description" content="Children cloth store" />
         <meta name="keywords" content="children cloth, store, clothing, fashion" />
-
         <Script id="meta-pixel" strategy="afterInteractive">
           {`
       !function(f,b,e,v,n,t,s)
