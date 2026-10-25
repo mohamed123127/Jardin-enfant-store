@@ -160,9 +160,9 @@ export default function StorePage() {
         });
     }, [searchQuery, selectedCategory, sortBy, onlyInStock, activeBadgeFilter]);
 
-    const state = useProducts<StoreProduct>();
+    const { filteredData, isLoading } = useProducts<StoreProduct>();
     const filteredProducts = [
-        ...state.filteredData,
+        ...filteredData,
         // ...filteredProducts1,
     ];
     return (
@@ -170,7 +170,18 @@ export default function StorePage() {
             {/* Main Content Area */}
             <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full flex-1">
                 {/* Product Grid */}
-                {filteredProducts.length > 0 ? (
+                {isLoading ? (
+                    /* Loading Spinner */
+                    <div className="flex flex-col items-center justify-center py-24">
+                        <div className="relative w-14 h-14">
+                            <div className="absolute inset-0 rounded-full border-4 border-amber-100 dark:border-amber-900/30" />
+                            <div className="absolute inset-0 rounded-full border-4 border-transparent border-t-amber-500 animate-spin" />
+                        </div>
+                        <p className="mt-4 text-sm font-medium text-zinc-400 dark:text-zinc-500 animate-pulse">
+                            Chargement des produits…
+                        </p>
+                    </div>
+                ) : filteredProducts.length > 0 ? (
                     <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                         {filteredProducts.map((product) => (
                             <ProductCard
