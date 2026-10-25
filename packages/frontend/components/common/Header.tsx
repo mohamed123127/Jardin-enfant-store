@@ -162,12 +162,6 @@ export const Header: React.FC<StoreHeaderProps> = ({ wishlistCount = 0 }) => {
           <div className="pt-2 border-t border-zinc-100 dark:border-zinc-800 px-2">
             <LanguageSwitcher />
           </div>
-
-          {/* Contact */}
-          <div className="pt-2 text-xs text-zinc-500 flex items-center justify-between px-2">
-            <span>{t("mobileContact")}</span>
-            <span className="text-emerald-600 dark:text-emerald-400 font-semibold">{t("support")}</span>
-          </div>
         </div>
       )}
     </header>
