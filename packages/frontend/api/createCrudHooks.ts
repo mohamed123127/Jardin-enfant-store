@@ -34,8 +34,9 @@ export function createCrudHooks<T extends { id: string | number }, TCreate = Par
             data: query.data?.data ?? [],
             meta: query.data?.meta ?? null,
             isLoading: query.isLoading,
+            isFetching: query.isFetching,
             error: query.error,
-        };
+        } as GetAllResponse<T> & { isFetching: boolean };
     }
 
     function useCount(
@@ -121,8 +122,9 @@ export function createCrudHooks<T extends { id: string | number }, TCreate = Par
             data: query.data?.data ?? [],
             meta: query.data?.meta ?? null,
             isLoading: query.isLoading,
+            isFetching: query.isFetching,
             error: query.error,
-        };
+        } as GetAllResponse<T> & { isFetching: boolean };
     }
 
     function useCreate(): CreateResponse<T> {

@@ -7,6 +7,7 @@ export type useProductsReturn<T> = {
     filteredData: T[];
     meta: PaginationMetaData;
     isLoading: boolean;
+    isFetching: boolean;
     error: any;
     filters: Filter<T>[];
     setFilters: Dispatch<SetStateAction<Filter<T>[]>>;
@@ -31,16 +32,17 @@ export function useProducts<T extends BaseEntityShape>(
     const limit = params?.limit ?? 12;
 
     // useSearch runs whenever filters or pagination change
-    const { data, meta, isLoading, error } = productsCrud.useSearch(
+    const { data, meta, isLoading, isFetching, error } = productsCrud.useSearch(
         filters,
         { page, limit },
         { placeholderData: keepPreviousData }
-    );
+    ) as any;
 
     return {
         filteredData: (data as T[]) ?? [],
         meta: meta as PaginationMetaData,
         isLoading,
+        isFetching: !!isFetching,
         error,
         filters,
         setFilters

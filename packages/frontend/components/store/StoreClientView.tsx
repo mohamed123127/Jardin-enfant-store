@@ -85,7 +85,7 @@ export function StoreClientView({
     };
 
     // React Query fetch with current page and limit
-    const { filteredData, meta, isLoading } = useProducts<StoreProduct>(undefined, {
+    const { filteredData, meta, isLoading, isFetching } = useProducts<StoreProduct>(undefined, {
         page,
         limit,
     });
@@ -114,12 +114,30 @@ export function StoreClientView({
 
     return (
         <div className="min-h-screen flex flex-col bg-zinc-50/70 dark:bg-zinc-950 font-sans text-zinc-900 dark:text-zinc-100">
+            {/* Background Re-fetch Floating Spinner Indicator */}
+            {isFetching && products.length > 0 && (
+                <div className="fixed top-20 right-6 z-40 flex items-center gap-2.5 px-4 py-2 rounded-2xl bg-white/95 dark:bg-zinc-900/95 backdrop-blur-md border border-zinc-200/80 dark:border-zinc-800 shadow-xl text-xs font-semibold text-zinc-800 dark:text-zinc-200 animate-in fade-in slide-in-from-top-2 duration-200">
+                    <div className="w-4 h-4 border-2 border-amber-500 border-t-transparent rounded-full animate-spin" />
+                    <span>Chargement des produits…</span>
+                </div>
+            )}
+
             {/* Main Content Area */}
             <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full flex-1">
-                {/* Product Grid */}
-                {products.length > 0 ? (
+                {/* Full Loading Spinner when products are not yet available */}
+                {isLoading && products.length === 0 ? (
+                    <div className="flex flex-col items-center justify-center py-28 sm:py-36">
+                        <div className="relative w-14 h-14">
+                            <div className="absolute inset-0 rounded-full border-4 border-amber-100 dark:border-amber-900/30" />
+                            <div className="absolute inset-0 rounded-full border-4 border-transparent border-t-amber-500 animate-spin" />
+                        </div>
+                        <p className="mt-4 text-sm font-medium text-zinc-500 dark:text-zinc-400 animate-pulse">
+                            Chargement des produits…
+                        </p>
+                    </div>
+                ) : products.length > 0 ? (
                     <>
-                        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                        <div className={`grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 transition-opacity duration-200 ${isFetching ? "opacity-60 pointer-events-none" : "opacity-100"}`}>
                             {products.map((product) => (
                                 <ProductCard
                                     key={product.id}
@@ -140,7 +158,7 @@ export function StoreClientView({
                             limit={limit}
                             onPageChange={handlePageChange}
                             onLimitChange={handleLimitChange}
-                            isLoading={isLoading}
+                            isLoading={isLoading || isFetching}
                         />
                     </>
                 ) : (
