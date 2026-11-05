@@ -34,9 +34,8 @@ export function createCrudHooks<T extends { id: string | number }, TCreate = Par
             data: query.data?.data ?? [],
             meta: query.data?.meta ?? null,
             isLoading: query.isLoading,
-            isFetching: query.isFetching,
             error: query.error,
-        } as GetAllResponse<T> & { isFetching: boolean };
+        };
     }
 
     function useCount(
@@ -115,6 +114,13 @@ export function createCrudHooks<T extends { id: string | number }, TCreate = Par
         const query = useQuery<SearchApiResponse<T>>({
             queryKey: [...keys.list(formattedPayload), page, limit],
             queryFn: () => api.search(formattedPayload, page, limit),
+            // Keep data fresh for 60 s to avoid redundant refetches on every mount
+            staleTime: 60 * 1000,
+            // Retain cached pages for 5 min after all subscribers unmount
+            gcTime: 5 * 60 * 1000,
+            // Don't re-fetch the listing just because the user switched tabs
+            refetchOnWindowFocus: false,
+            refetchOnReconnect: false,
             ...options,
         });
 
@@ -122,9 +128,8 @@ export function createCrudHooks<T extends { id: string | number }, TCreate = Par
             data: query.data?.data ?? [],
             meta: query.data?.meta ?? null,
             isLoading: query.isLoading,
-            isFetching: query.isFetching,
             error: query.error,
-        } as GetAllResponse<T> & { isFetching: boolean };
+        };
     }
 
     function useCreate(): CreateResponse<T> {

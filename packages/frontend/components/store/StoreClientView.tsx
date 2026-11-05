@@ -85,7 +85,7 @@ export function StoreClientView({
     };
 
     // React Query fetch with current page and limit
-    const { filteredData, meta, isLoading, isFetching } = useProducts<StoreProduct>(undefined, {
+    const { filteredData, meta, isLoading } = useProducts<StoreProduct>(undefined, {
         page,
         limit,
     });
@@ -112,42 +112,57 @@ export function StoreClientView({
     const totalPages = activeMeta?.totalPages ?? Math.max(1, Math.ceil(products.length / limit));
     const totalItems = activeMeta?.total ?? products.length;
 
+    // Spinner states — derived from products & isLoading
+    // isInitialLoading: truly nothing to show yet (no ISR data, no cached data)
+    const isInitialLoading = isLoading && products.length === 0;
+    // isPageSwitching: changing page while keepPreviousData keeps old products visible
+    const isPageSwitching = isLoading && products.length > 0;
+
     return (
         <div className="min-h-screen flex flex-col bg-zinc-50/70 dark:bg-zinc-950 font-sans text-zinc-900 dark:text-zinc-100">
-            {/* Background Re-fetch Floating Spinner Indicator */}
-            {isFetching && products.length > 0 && (
-                <div className="fixed top-20 right-6 z-40 flex items-center gap-2.5 px-4 py-2 rounded-2xl bg-white/95 dark:bg-zinc-900/95 backdrop-blur-md border border-zinc-200/80 dark:border-zinc-800 shadow-xl text-xs font-semibold text-zinc-800 dark:text-zinc-200 animate-in fade-in slide-in-from-top-2 duration-200">
-                    <div className="w-4 h-4 border-2 border-amber-500 border-t-transparent rounded-full animate-spin" />
-                    <span>Chargement des produits…</span>
-                </div>
-            )}
-
             {/* Main Content Area */}
             <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full flex-1">
-                {/* Full Loading Spinner when products are not yet available */}
-                {isLoading && products.length === 0 ? (
-                    <div className="flex flex-col items-center justify-center py-28 sm:py-36">
+                {/* ── Case 1: Full centred spinner (no products at all yet) ── */}
+                {isInitialLoading ? (
+                    <div className="flex flex-col items-center justify-center py-24">
                         <div className="relative w-14 h-14">
+                            {/* Track ring */}
                             <div className="absolute inset-0 rounded-full border-4 border-amber-100 dark:border-amber-900/30" />
+                            {/* Spinning arc */}
                             <div className="absolute inset-0 rounded-full border-4 border-transparent border-t-amber-500 animate-spin" />
                         </div>
-                        <p className="mt-4 text-sm font-medium text-zinc-500 dark:text-zinc-400 animate-pulse">
+                        <p className="mt-4 text-sm font-medium text-zinc-400 dark:text-zinc-500 animate-pulse">
                             Chargement des produits…
                         </p>
                     </div>
+
+                /* ── Case 2: Products visible (ISR or keepPreviousData) ── */
                 ) : products.length > 0 ? (
                     <>
-                        <div className={`grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 transition-opacity duration-200 ${isFetching ? "opacity-60 pointer-events-none" : "opacity-100"}`}>
-                            {products.map((product) => (
-                                <ProductCard
-                                    key={product.id}
-                                    product={product}
-                                    onAddToCart={(prod, qty) => handleAddToCart(prod, qty)}
-                                    onQuickView={(prod) => handleOpenQuickView(prod)}
-                                    onToggleWishlist={(prod) => handleToggleWishlist(prod)}
-                                    isWishlisted={wishlistIds.includes(product.id)}
-                                />
-                            ))}
+                        {/* Subtle inline indicator while switching pages */}
+                        {isPageSwitching && (
+                            <div className="flex justify-center mb-4">
+                                <div className="flex items-center gap-2 text-xs text-amber-600 dark:text-amber-400 font-medium">
+                                    <div className="w-3.5 h-3.5 rounded-full border-2 border-transparent border-t-amber-500 animate-spin" />
+                                    Chargement…
+                                </div>
+                            </div>
+                        )}
+
+                        {/* Grid — faded + non-interactive while switching pages */}
+                        <div className={`transition-opacity duration-200 ${isPageSwitching ? "opacity-50 pointer-events-none" : "opacity-100"}`}>
+                            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                                {products.map((product) => (
+                                    <ProductCard
+                                        key={product.id}
+                                        product={product}
+                                        onAddToCart={(prod, qty) => handleAddToCart(prod, qty)}
+                                        onQuickView={(prod) => handleOpenQuickView(prod)}
+                                        onToggleWishlist={(prod) => handleToggleWishlist(prod)}
+                                        isWishlisted={wishlistIds.includes(product.id)}
+                                    />
+                                ))}
+                            </div>
                         </div>
 
                         {/* Pagination Bar */}
@@ -158,11 +173,11 @@ export function StoreClientView({
                             limit={limit}
                             onPageChange={handlePageChange}
                             onLimitChange={handleLimitChange}
-                            isLoading={isLoading || isFetching}
+                            isLoading={isLoading}
                         />
                     </>
                 ) : (
-                    /* Empty State */
+                    /* ── Case 3: Empty state (fetch done, truly no products) ── */
                     <div className="flex flex-col items-center justify-center py-16 px-4 text-center bg-white dark:bg-zinc-900 rounded-3xl border border-zinc-100 dark:border-zinc-800 shadow-sm">
                         <div className="w-16 h-16 rounded-full bg-amber-100 dark:bg-amber-900/30 text-amber-500 flex items-center justify-center mb-4">
                             <FiShoppingBag className="w-8 h-8" />

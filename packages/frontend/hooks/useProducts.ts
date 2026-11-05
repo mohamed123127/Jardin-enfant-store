@@ -7,7 +7,6 @@ export type useProductsReturn<T> = {
     filteredData: T[];
     meta: PaginationMetaData;
     isLoading: boolean;
-    isFetching: boolean;
     error: any;
     filters: Filter<T>[];
     setFilters: Dispatch<SetStateAction<Filter<T>[]>>;
@@ -15,6 +14,8 @@ export type useProductsReturn<T> = {
 
 // Module-scoped — created once, not on every render
 const productsCrud = createCrudHooks<any>("products", "/products");
+// Separate module-scoped instance for single-product detail lookups
+const productDetailCrud = createCrudHooks<any>("products", "/products");
 
 export function useProducts<T extends BaseEntityShape>(
     defaultFilters?: Filter<T>[],
@@ -32,17 +33,16 @@ export function useProducts<T extends BaseEntityShape>(
     const limit = params?.limit ?? 12;
 
     // useSearch runs whenever filters or pagination change
-    const { data, meta, isLoading, isFetching, error } = productsCrud.useSearch(
+    const { data, meta, isLoading, error } = productsCrud.useSearch(
         filters,
         { page, limit },
         { placeholderData: keepPreviousData }
-    ) as any;
+    );
 
     return {
         filteredData: (data as T[]) ?? [],
         meta: meta as PaginationMetaData,
         isLoading,
-        isFetching: !!isFetching,
         error,
         filters,
         setFilters
@@ -53,8 +53,7 @@ export function useProduct<T extends BaseEntityShape>(
     id: string | number,
     options?: Partial<any>
 ) {
-    const entityCrud = createCrudHooks<T>("products", "/products");
-    return entityCrud.useDetail(id, {
+    return productDetailCrud.useDetail(id, {
         // Keep data fresh for 5 minutes; re-fetch only on explicit invalidation
         staleTime: 5 * 60 * 1000,
         // Keep the result in cache for 10 minutes after all subscribers unmount
