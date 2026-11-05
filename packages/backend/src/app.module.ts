@@ -42,6 +42,11 @@ import { UserMapper } from './modules/users/mappers/user.mapper';
 
         autoLoadEntities: true,
         synchronize: config.get('app.environment') !== 'production',
+
+        // In-memory query result cache (no extra infrastructure needed).
+        // Listing queries opt in by calling .cache(ms) on their QueryBuilder
+        // or passing cache: ms inside findAndCount options.
+        cache: true,
       }),
     }),
     ClsModule.forRoot({ // we use cls to store user info in context

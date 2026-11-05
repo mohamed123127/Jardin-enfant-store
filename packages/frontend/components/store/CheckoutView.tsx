@@ -21,6 +21,7 @@ import {
   FiInbox
 } from "react-icons/fi";
 import emailjs from "@emailjs/browser";
+import { useQueryClient } from "@tanstack/react-query";
 import { useCart } from "@/context/CartContext";
 import { apiClient } from "@/api/client";
 import { purchase } from "@/lib/metaPixel";
@@ -101,6 +102,7 @@ export const CheckoutView: React.FC = () => {
   const t = useTranslations("checkout");
   const locale = useLocale();
   const router = useRouter();
+  const queryClient = useQueryClient();
   const { cartItems, cartCount, subtotal, clearCart } = useCart();
 
   // Initial Wilaya: Alger (16) if available, otherwise first wilaya
@@ -447,6 +449,15 @@ Date de la commande : ${orderDate}
       });
     } catch (err) {
       console.error("Failed to save order to orders.json:", err);
+    }
+
+    // 7. Delete cached products data from React Query and refresh page data
+    try {
+      queryClient.removeQueries({ queryKey: ["products"] });
+      await queryClient.invalidateQueries({ queryKey: ["products"] });
+      router.refresh();
+    } catch (cacheErr) {
+      console.warn("React Query cache purge error:", cacheErr);
     }
 
     clearCart();

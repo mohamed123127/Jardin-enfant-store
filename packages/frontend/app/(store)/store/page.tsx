@@ -1,235 +1,61 @@
-"use client";
+// ISR: Next.js regenerates this page at most once every 60 s.
+// On the hosted site the first visitor gets an already-rendered HTML page
+// (no waiting for JS + hydration + API call), and the cache is kept warm
+// for every subsequent visitor within that window.
+export const revalidate = 60;
 
-import React, { useState, useMemo } from "react";
-import {
-    ProductCard
-} from "@/components/store/ProductCard";
-import {
-    QuickViewModal
-} from "@/components/store/QuickViewModal";
-import {
-    FAKE_PRODUCTS,
-    StoreProduct
-} from "@/data/fakeProducts";
-import {
-    FiFilter,
-    FiStar,
-    FiCheck,
-    FiPackage,
-    FiAward,
-    FiHeadphones,
-    FiTruck,
-    FiLayers,
-    FiShoppingBag,
-    FiChevronDown,
-    FiChevronUp,
-    FiSliders
-} from "react-icons/fi";
-import { useProducts } from "@/hooks/useProducts";
+import { StoreClientView } from "@/components/store/StoreClientView";
+import { StoreProduct } from "@/data/fakeProducts";
+import { PaginationMetaData } from "@aio/shared";
 
-const CATEGORIES = [
-    "Tous",
-    "Jeux Éducatifs",
-    "Mobilier & Rangement",
-    "Arts & Créativité",
-    "Éveil & Motricité",
-    "Livres & Musique",
-] as const;
+interface StorePageProps {
+    searchParams?: Promise<{
+        page?: string;
+        limit?: string;
+    }>;
+}
 
+/** Fetch the paginated product listing server-side so the page is pre-rendered with data. */
+async function fetchInitialProducts(page = 1, limit = 12): Promise<{
+    data: StoreProduct[];
+    meta: PaginationMetaData;
+}> {
+    try {
+        const apiUrl = process.env.NEXT_PUBLIC_API_URL;
+        if (!apiUrl) return { data: [], meta: null };
 
-import { useRouter } from "next/navigation";
-
-
-export default function StorePage() {
-    const router = useRouter();
-    const [searchQuery, setSearchQuery] = useState("");
-    const [selectedCategory, setSelectedCategory] = useState<string>("Tous");
-    const [sortBy, setSortBy] = useState<"popular" | "price-asc" | "price-desc" | "rating" | "discount">("popular");
-    const [onlyInStock, setOnlyInStock] = useState(false);
-    const [activeBadgeFilter, setActiveBadgeFilter] = useState<string>("Tous");
-    const [isMobileFiltersOpen, setIsMobileFiltersOpen] = useState(false);
-
-    // Modal & Cart & Wishlist state
-    const [quickViewProduct, setQuickViewProduct] = useState<StoreProduct | null>(null);
-    const [isQuickViewOpen, setIsQuickViewOpen] = useState(false);
-    const [cartItems, setCartItems] = useState<{ product: StoreProduct; quantity: number }[]>([]);
-    const [wishlistIds, setWishlistIds] = useState<number[]>([]);
-    const [toast, setToast] = useState<{ message: string; visible: boolean } | null>(null);
-
-    // Cart operations
-    const handleAddToCart = (product: StoreProduct, quantity: number = 1) => {
-        setCartItems((prev) => {
-            const existing = prev.find((item) => item.product.id === product.id);
-            if (existing) {
-                return prev.map((item) =>
-                    item.product.id === product.id
-                        ? { ...item, quantity: item.quantity + quantity }
-                        : item
-                );
-            }
-            return [...prev, { product, quantity }];
+        // GET is cacheable and parametrized by page and limit
+        const res = await fetch(`${apiUrl}products?page=${page}&limit=${limit}`, {
+            next: { revalidate },
         });
 
-        // Show toast
-        setToast({
-            message: `"${product.name.slice(0, 28)}..." (${quantity}x) ajouté au panier !`,
-            visible: true,
-        });
-        setTimeout(() => {
-            setToast(null);
-        }, 3000);
-    };
+        if (!res.ok) return { data: [], meta: null };
 
-    const handleToggleWishlist = (product: StoreProduct) => {
-        setWishlistIds((prev) => {
-            const exists = prev.includes(product.id);
-            if (exists) {
-                return prev.filter((id) => id !== product.id);
-            } else {
-                return [...prev, product.id];
-            }
-        });
-    };
+        const json = await res.json();
+        return {
+            data: (json.data as StoreProduct[]) ?? [],
+            meta: (json.meta as PaginationMetaData) ?? null,
+        };
+    } catch {
+        // If the backend is unreachable during build/revalidation, return an
+        // empty list so the page still renders — the client hook will retry.
+        return { data: [], meta: null };
+    }
+}
 
-    const handleOpenQuickView = (product: StoreProduct) => {
-        // console.log(product.id)
-        router.push(`/store/${product.id}`);
-    };
+export default async function StorePage({ searchParams }: StorePageProps) {
+    const resolvedParams = searchParams ? await searchParams : {};
+    const page = Math.max(1, Number(resolvedParams?.page) || 1);
+    const limit = Math.max(1, Math.min(100, Number(resolvedParams?.limit) || 12));
 
-    const handleCloseQuickView = () => {
-        setIsQuickViewOpen(false);
-    };
+    const { data: initialProducts, meta: initialMeta } = await fetchInitialProducts(page, limit);
 
-    const totalCartCount = cartItems.reduce((acc, item) => acc + item.quantity, 0);
-
-    // Filter and sort products
-    const filteredProducts1 = useMemo(() => {
-        return FAKE_PRODUCTS.filter((p) => {
-            // Search filter
-            if (searchQuery.trim()) {
-                const query = searchQuery.toLowerCase();
-                const matchesName = (p.name || "").toLowerCase().includes(query);
-                const matchesDesc = (p.description || "").toLowerCase().includes(query);
-                const matchesCategory = (p.category || "").toLowerCase().includes(query);
-                const matchesSku = (p.sku || "").toLowerCase().includes(query);
-                if (!matchesName && !matchesDesc && !matchesCategory && !matchesSku) {
-                    return false;
-                }
-            }
-
-            // Category filter
-            if (selectedCategory !== "Tous" && p.category !== selectedCategory) {
-                return false;
-            }
-
-            // Stock filter
-            if (onlyInStock && (p.quantity ?? 0) <= 0) {
-                return false;
-            }
-
-            // Badge filter
-            if (activeBadgeFilter === "Promo" && !p.discountedPrice) {
-                return false;
-            }
-            if (activeBadgeFilter === "Nouveautés" && p.badge !== "Nouveau") {
-                return false;
-            }
-            if (activeBadgeFilter === "Bestsellers" && p.badge !== "Bestseller") {
-                return false;
-            }
-
-            return true;
-        }).sort((a, b) => {
-            const priceA = Number(a.discountedPrice ?? a.sellingPrice ?? 0);
-            const priceB = Number(b.discountedPrice ?? b.sellingPrice ?? 0);
-
-            if (sortBy === "price-asc") return priceA - priceB;
-            if (sortBy === "price-desc") return priceB - priceA;
-            if (sortBy === "rating") return (b.rating ?? 0) - (a.rating ?? 0);
-            if (sortBy === "discount") {
-                const aSell = Number(a.sellingPrice || 0);
-                const aDisc = a.discountedPrice ? Number(a.discountedPrice) : aSell;
-                const bSell = Number(b.sellingPrice || 0);
-                const bDisc = b.discountedPrice ? Number(b.discountedPrice) : bSell;
-                const discA = aSell - aDisc;
-                const discB = bSell - bDisc;
-                return discB - discA;
-            }
-            // default: popular (reviewsCount)
-            return (b.reviewsCount ?? 0) - (a.reviewsCount ?? 0);
-        });
-    }, [searchQuery, selectedCategory, sortBy, onlyInStock, activeBadgeFilter]);
-
-    const { filteredData, isLoading } = useProducts<StoreProduct>();
-    const filteredProducts = [
-        ...filteredData,
-        // ...filteredProducts1,
-    ];
     return (
-        <div className="min-h-screen flex flex-col bg-zinc-50/70 dark:bg-zinc-950 font-sans text-zinc-900 dark:text-zinc-100">
-            {/* Main Content Area */}
-            <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full flex-1">
-                {/* Product Grid */}
-                {isLoading ? (
-                    /* Loading Spinner */
-                    <div className="flex flex-col items-center justify-center py-24">
-                        <div className="relative w-14 h-14">
-                            <div className="absolute inset-0 rounded-full border-4 border-amber-100 dark:border-amber-900/30" />
-                            <div className="absolute inset-0 rounded-full border-4 border-transparent border-t-amber-500 animate-spin" />
-                        </div>
-                        <p className="mt-4 text-sm font-medium text-zinc-400 dark:text-zinc-500 animate-pulse">
-                            Chargement des produits…
-                        </p>
-                    </div>
-                ) : filteredProducts.length > 0 ? (
-                    <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-                        {filteredProducts.map((product) => (
-                            <ProductCard
-                                key={product.id}
-                                product={product}
-                                onAddToCart={(prod, qty) => handleAddToCart(prod, qty)}
-                                onQuickView={(prod) => handleOpenQuickView(prod)}
-                                onToggleWishlist={(prod) => handleToggleWishlist(prod)}
-                                isWishlisted={wishlistIds.includes(product.id)}
-                            />
-                        ))}
-                    </div>
-                ) : (
-                    /* Empty State */
-                    <div className="flex flex-col items-center justify-center py-16 px-4 text-center bg-white dark:bg-zinc-900 rounded-3xl border border-zinc-100 dark:border-zinc-800 shadow-sm">
-                        <div className="w-16 h-16 rounded-full bg-amber-100 dark:bg-amber-900/30 text-amber-500 flex items-center justify-center mb-4">
-                            <FiShoppingBag className="w-8 h-8" />
-                        </div>
-                        <h3 className="text-lg font-bold text-zinc-800 dark:text-zinc-200 mb-1">
-                            Aucun produit trouvé
-                        </h3>
-                        <p className="text-sm text-zinc-500 max-w-sm mb-5">
-                            Essayez de modifier votre recherche ou de réinitialiser vos filtres de sélection.
-                        </p>
-                        <button
-                            onClick={() => {
-                                setSearchQuery("");
-                                setSelectedCategory("Tous");
-                                setActiveBadgeFilter("Tous");
-                                setOnlyInStock(false);
-                            }}
-                            className="px-5 py-2.5 rounded-2xl bg-amber-500 hover:bg-amber-600 text-white font-bold text-xs shadow-md transition-colors"
-                        >
-                            Réinitialiser tous les filtres
-                        </button>
-                    </div>
-                )}
-            </main>
-
-            {/* Toast Notification */}
-            {toast && (
-                <div className="fixed bottom-6 right-6 z-50 flex items-center gap-3 bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 px-5 py-3.5 rounded-2xl shadow-2xl animate-in slide-in-from-bottom-5 duration-300">
-                    <div className="w-6 h-6 rounded-full bg-emerald-500 text-white flex items-center justify-center shrink-0">
-                        <FiCheck className="w-3.5 h-3.5 stroke-[3]" />
-                    </div>
-                    <span className="text-xs font-semibold">{toast.message}</span>
-                </div>
-            )}
-        </div>
+        <StoreClientView
+            initialProducts={initialProducts}
+            initialMeta={initialMeta}
+            initialPage={page}
+            initialLimit={limit}
+        />
     );
 }

@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
+import { revalidatePath } from "next/cache";
 
 function getOrdersFilePath(): string {
   const currentDir = process.cwd();
@@ -57,6 +58,26 @@ export async function POST(req: Request) {
     orders.unshift(orderData);
 
     fs.writeFileSync(filePath, JSON.stringify(orders, null, 2), "utf-8");
+
+    // 1. Purge Next.js server-side ISR page cache
+    try {
+      revalidatePath("/store");
+      revalidatePath("/(store)/store");
+      revalidatePath("/store/[id]", "page");
+      revalidatePath("/");
+    } catch (revalidateErr) {
+      console.warn("ISR cache revalidation warning:", revalidateErr);
+    }
+
+    // 2. Clear backend TypeORM query cache
+    const apiUrl = process.env.NEXT_PUBLIC_API_URL;
+    if (apiUrl) {
+      try {
+        await fetch(`${apiUrl}products/clear-cache`, { method: "POST" });
+      } catch (backendCacheErr) {
+        console.warn("Backend cache purge warning:", backendCacheErr);
+      }
+    }
 
     return NextResponse.json({ success: true, order: orderData });
   } catch (error) {

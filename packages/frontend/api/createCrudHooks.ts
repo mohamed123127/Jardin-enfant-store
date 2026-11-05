@@ -18,11 +18,15 @@ export function createCrudHooks<T extends { id: string | number }, TCreate = Par
     const keys = createQueryKeys(entity);
 
     function useList(
+        params?: { page?: number; limit?: number },
         options?: Partial<UseQueryOptions<GetAllApiResponse<T>>>
     ): GetAllResponse<T> {
+        const page = params?.page ?? 1;
+        const limit = params?.limit ?? 12;
+
         const query = useQuery<GetAllApiResponse<T>>({
-            queryKey: keys.lists(),
-            queryFn: api.getAll,
+            queryKey: [...keys.lists(), page, limit],
+            queryFn: () => api.getAll(page, limit),
             ...options,
         });
 
@@ -105,7 +109,7 @@ export function createCrudHooks<T extends { id: string | number }, TCreate = Par
             filters: formattedFilters,
         };
         const page = params?.page ?? 1;
-        const limit = params?.limit ?? 100;
+        const limit = params?.limit ?? 12;
 
         const query = useQuery<SearchApiResponse<T>>({
             queryKey: [...keys.list(formattedPayload), page, limit],

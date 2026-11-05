@@ -1,0 +1,86 @@
+[
+  {
+    "orderId": "ORD-722094",
+    "date": "5 novembre 2026",
+    "customer": {
+      "fullName": "Mohamed Louahchi",
+      "phone": "0775349115",
+      "wilaya": "20 - Saïda",
+      "commune": "Saïda",
+      "address": "Beb el oued, alger",
+      "agencyName": "Agence de Saïda [Yalidine]",
+      "agencyAddress": "cité Riadh (à coté de la mosquée Riadh)",
+      "deliveryType": "home",
+      "notes": ""
+    },
+    "items": [
+      {
+        "name": "Ensemble 3 pièces Craavf",
+        "color": "Noir",
+        "size": "1-2 ans",
+        "quantity": 1,
+        "price": 4200,
+        "image": "https://res.cloudinary.com/dpmow9eng/image/upload/v1790185420/photo_5881961917104985432_y_c6devi.jpg"
+      }
+    ],
+    "subtotal": 4200,
+    "shippingFee": 750,
+    "totalPrice": 4950
+  },
+  {
+    "orderId": "ORD-133461",
+    "date": "5 novembre 2026",
+    "customer": {
+      "fullName": "Mohamed Louahchi",
+      "phone": "0775349115",
+      "wilaya": "16 - Alger",
+      "commune": "Aïn Benian",
+      "address": "Beb el oued, alger",
+      "agencyName": "Agence de Aïn Benian [Guepex]",
+      "agencyAddress": "19 Route Al-Jamilah, Division Kargon, Aïn Benian, Alger",
+      "deliveryType": "home",
+      "notes": ""
+    },
+    "items": [
+      {
+        "name": "Ensemble 3 pièces Craavf",
+        "color": "Vert",
+        "size": "5-6 ans",
+        "quantity": 1,
+        "price": 4200,
+        "image": "https://res.cloudinary.com/dpmow9eng/image/upload/v1790185420/photo_5881961917104985432_y_c6devi.jpg"
+      }
+    ],
+    "subtotal": 4200,
+    "shippingFee": 500,
+    "totalPrice": 4700
+  },
+  {
+    "orderId": "ORD-611982",
+    "date": "5 novembre 2026",
+    "customer": {
+      "fullName": "Mohamed Louahchi",
+      "phone": "0775349115",
+      "wilaya": "16 - Alger",
+      "commune": "Aïn Benian",
+      "address": "Beb el oued, alger",
+      "agencyName": "Agence de Aïn Benian [Guepex]",
+      "agencyAddress": "19 Route Al-Jamilah, Division Kargon, Aïn Benian, Alger",
+      "deliveryType": "home",
+      "notes": ""
+    },
+    "items": [
+      {
+        "name": "Ensemble 3 pièces Craavf",
+        "color": "Vert",
+        "size": "3-4 ans",
+        "quantity": 1,
+        "price": 4200,
+        "image": "https://res.cloudinary.com/dpmow9eng/image/upload/v1790185420/photo_5881961917104985432_y_c6devi.jpg"
+      }
+    ],
+    "subtotal": 4200,
+    "shippingFee": 500,
+    "totalPrice": 4700
+  }
+]

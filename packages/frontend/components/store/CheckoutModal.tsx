@@ -14,6 +14,7 @@ import {
   FiAlertTriangle
 } from "react-icons/fi";
 import { useCart } from "@/context/CartContext";
+import { useQueryClient } from "@tanstack/react-query";
 import { initiateCheckout, purchase } from "@/lib/metaPixel";
 import { checkCartStock } from "@/lib/checkStock";
 
@@ -42,6 +43,7 @@ const WILAYAS = [
 ];
 
 export const CheckoutModal: React.FC<CheckoutModalProps> = ({ isOpen, onClose }) => {
+  const queryClient = useQueryClient();
   const { cartItems, cartCount, subtotal, shippingFee, totalPrice, clearCart } = useCart();
 
   const [fullName, setFullName] = useState("");
@@ -147,6 +149,14 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ isOpen, onClose })
       });
     } catch (err) {
       console.error("Failed to save order to orders.json:", err);
+    }
+
+    // Delete cached products data from React Query
+    try {
+      queryClient.removeQueries({ queryKey: ["products"] });
+      await queryClient.invalidateQueries({ queryKey: ["products"] });
+    } catch (cacheErr) {
+      console.warn("React Query cache purge error:", cacheErr);
     }
 
     setTimeout(() => {

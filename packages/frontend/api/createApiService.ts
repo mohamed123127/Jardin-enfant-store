@@ -12,8 +12,8 @@ export function createApiService<T, TCreate = Partial<T>, TUpdate = Partial<T>>(
     const { baseUrl } = config;
 
     return {
-        getAll: async (): Promise<GetAllApiResponse<T>> => {
-            const { data } = await apiClient.get<GetAllApiResponse<T>>(baseUrl + "?limit=25");
+        getAll: async (page: number = 1, limit: number = 12): Promise<GetAllApiResponse<T>> => {
+            const { data } = await apiClient.get<GetAllApiResponse<T>>(`${baseUrl}?page=${page}&limit=${limit}`);
             // console.log(data);
             if (!data.success) {
                 throw new Error(data.message);
@@ -30,15 +30,7 @@ export function createApiService<T, TCreate = Partial<T>, TUpdate = Partial<T>>(
         },
 
         getById: async (id: string | number): Promise<GetByIdApiResponse<T>> => {
-            const { data } = await apiClient.get<GetByIdApiResponse<T>>(`${baseUrl}/${id}`, {
-                headers: {
-                    'Cache-Control': 'no-cache, no-store, must-revalidate',
-                    'Pragma': 'no-cache',
-                },
-                params: {
-                    _t: Date.now(),
-                },
-            });
+            const { data } = await apiClient.get<GetByIdApiResponse<T>>(`${baseUrl}/${id}`);
             if (!data.success) {
                 throw new Error(data.message);
             }

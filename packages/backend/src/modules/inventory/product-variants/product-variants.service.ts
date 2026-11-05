@@ -33,6 +33,24 @@ export class ProductVariantsService extends BaseCrudService<ProductVariantEntity
         await assertExists(this.productsService, entity.productId, "Product");
     }
 
+    override async create(dto: CreateProductVariantDto): Promise<ProductVariantEntity> {
+        const res = await super.create(dto);
+        await this.productsService.clearCache();
+        return res;
+    }
+
+    override async update(id: number, dto: UpdateProductVariantDto): Promise<ProductVariantEntity> {
+        const res = await super.update(id, dto);
+        await this.productsService.clearCache();
+        return res;
+    }
+
+    override async remove(id: number) {
+        const res = await super.remove(id);
+        await this.productsService.clearCache();
+        return res;
+    }
+
     /**
      * Atomically decreases the stock quantity of a variant to prevent race conditions.
      */
@@ -62,6 +80,9 @@ export class ProductVariantsService extends BaseCrudService<ProductVariantEntity
                 `Cannot decrease quantity by ${amount}. Insufficient stock (Available: ${variant.quantity}).`
             );
         }
+
+        // Clear products query cache so listings reflect updated stock immediately
+        await this.productsService.clearCache();
 
         return await this.findOne(id);
     }
